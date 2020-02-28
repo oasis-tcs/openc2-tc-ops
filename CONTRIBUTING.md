@@ -2,8 +2,7 @@
 
 **Who may Contribute?** Contributors to [this repository](https://github.com/oasis-tcs/openc2-tc-ops/) must be 
 [Members](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2017-05-26#dMember) of the
-[OpenC2 TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2) for any substantive contributions.  
-Anyone wishing to [participate](https://www.oasis-open.org/org/faq#committee-participation) in the TC's technical activity is 
+[OpenC2 TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2) for any substantive contributions. Anyone wishing to [participate](https://www.oasis-open.org/org/faq#committee-participation) in the TC's technical activity is 
 invited to [join](https://www.oasis-open.org/committees/join) as a TC Member. *Member* in this context means any TC role or 
 office other than OASIS TC Observer, per the [TC Process](https://www.oasis-open.org/policies-guidelines/tc-process#membership). 
 
