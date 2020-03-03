@@ -17,8 +17,14 @@ an OASIS TC, has three sub-committees:
 
 * __What is the TC's process for creating work products?__
 
-* __What are the TC and Subcommittee meeting schedules?__
+* __What are the TC and Subcommittee meeting schedules?__ The current meeting schedule is as follows:
+  * TC meetings are normally the 3rd Wednesday of the month, with two sessions: one at 11:00 AM and one at 9:00 PM US Easter time.
+  * Language SC meetings are held the first Monday of each month at 1:00 PM US Eastern time.
+  * Actuator Profile SC meetings are held the second and forth Tuesday of each month at 1:00 PM US Eastern time.
+  * Implementation Considerations SC meetings are held the first Wednesday of each month at 2:00 PM US Eastern time.
 
+All meetings are nominally scheduled for 1 hour duration, and are conducted using [Lucid Meetings](https://www.lucidmeetings.com/).
+  
 * __Is there an OpenC2 API?__ No. OpenC2 is a language for command and control, not an interface specification.
 
 * __How does OpenC2 relate to...__
