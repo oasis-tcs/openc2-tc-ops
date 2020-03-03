@@ -6,8 +6,9 @@ OASIS TC GitHub repositories, as described in [GitHub Repositories for OASIS TC 
 
 ## Description
 
-This repository is for documentation associated with TC operations and information
-sharing such as FAQs, lists of links to related work, and norms for developing and approving TC work products. Given the intent of the repo, we are making all co-chairs maintainers.
+This repository is for documentation associated with Openc2 TC operations and information
+sharing such as FAQs, lists of links to related work, and norms for developing and approving 
+TC work products. Given the intent of the repo, we are making all co-chairs maintainers.
 
 ## Contributions
 
@@ -17,10 +18,7 @@ As stated in this repository's [CONTRIBUTING](https://github.com/oasis-tcs/openc
 
 Please see the [LICENSE](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/LICENSE.md) file for description of the license terms and OASIS policies applicable to the TC's work in this GitHub project. Content in this repository is intended to be part of the OpenC2 TC's permanent record of activity, visible and freely available for all to use, subject to applicable OASIS policies, as presented in the repository [LICENSE](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/LICENSE.md). 
 
-## Further Description of this Repository
-
-*Any narrative content may be provided here by the TC, for example, if the Members wish to provide an extended statement of purpose.*
 
 ## Contact
 
-Please send questions or comments about [OASIS TC GitHub repositories](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work) to the [OASIS TC Administrator](mailto:tc-admin@oasis-open.org).  For questions about content in this repository, please contact the TC Chair or Co-Chairs as listed on the the OpenC2 TC's [home page](https://www.oasis-open.org/committees/openc2/).
+Please send questions or comments about [OASIS TC GitHub repositories](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work) to the [OASIS TC Administrator](mailto:tc-admin@oasis-open.org).  For questions about content in this repository, please contact the TC Co-Chairs or Secretary as listed on the the OpenC2 TC's [home page](https://www.oasis-open.org/committees/openc2/).
