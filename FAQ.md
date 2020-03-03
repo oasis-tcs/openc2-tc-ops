@@ -40,9 +40,12 @@ and are conducted using [Lucid Meetings](https://www.lucidmeetings.com/). The cu
   expressed in XML, JSON, and YAML. These formats provide machine-readable representations of control catalogs, 
   control baselines, system security plans, and assessment plans and results. OSCAL development is being managed 
   in a [GitHub repository](https://github.com/usnistgov/OSCAL).
-  * _IEP?_
-  * _Turbina?_
-  * _OpenDDS?_
-  * _ONAP?_
-  * _SCAP?_
+  * _[FIRST Information Exchange Policy (IEP)](https://www.first.org/iep/)?_ IEP is a framework that Computer 
+  Security Incident Response Teams (CSIRT), security communities, organizations, and vendors may consider 
+  implementing to support their information sharing and information exchange initiatives.
+  * _[Turbinia](https://github.com/google/turbinia)?_ Turbinia is an open-source framework from Google for deploying, managing, and running distributed forensic workloads. 
+  * _[OpenDDS](https://opendds.org/)?_ OpenDDS is an open source C++ implementation of the Object Management Group (OMG) [Data Distribution Service (DDS)](https://www.omg.org/spec/DDS/About-DDS/), a Data-Centric Publish-Subscribe (DCPS) model for distributed application communication and integration.
+  * _[Open Network Automation Platform (ONAP)](https://www.onap.org/)?_
+  * _[Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol)?_
+  * _Business Process Modeling Notation (BPMN)_?
 
