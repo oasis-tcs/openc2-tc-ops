@@ -20,14 +20,15 @@ an OASIS TC, has three sub-committees:
 
 * __What are the TC and Subcommittee meeting schedules?__
 
-* __Is there an OpenC2 API?__
+* __Is there an OpenC2 API?__ No. OpenC2 is a language for command and control, not an interface specification.
 
-* __What is OpenC2's relationship to...__
+* __How does OpenC2 relate to...__
   * _STIX COA?_
   * _MISP?_
   * _OpenDXL?_
   * _the [Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)?_
   * _the [Open Cybersecurity Alliance's OpenDXL Ontology](https://opencybersecurityalliance.github.io/opendxl-ontology/)?_
+  * _the [Open Connectivity Foundation](https://openconnectivity.org/)?_
   * _OSCAL?_
   * _IEP?_
   * _Turbina?_
