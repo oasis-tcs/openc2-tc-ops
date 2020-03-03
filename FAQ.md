@@ -23,12 +23,17 @@ an OASIS TC, has three sub-committees:
 
 * __How does OpenC2 relate to...__
   * _STIX COA?_
-  * _MISP?_
+  * _[MISP](https://www.misp-project.org/features.html)?_ MISP originally stood for 
+  Malware Information Sharing Platform but it has evolved to "Open Source Threat 
+  Intelligence Platform & Open Standards For Threat Information Sharing" according to its homepage.
   * _OpenDXL?_
   * _the [Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)?_
   * _the [Open Cybersecurity Alliance's OpenDXL Ontology](https://opencybersecurityalliance.github.io/opendxl-ontology/)?_
   * _the [Open Connectivity Foundation](https://openconnectivity.org/)?_
-  * _OSCAL?_
+  * _[Open Security Controls Assessment Language (OSCAL)](https://pages.nist.gov/OSCAL/)?_ OSCAL is a set of formats 
+  expressed in XML, JSON, and YAML. These formats provide machine-readable representations of control catalogs, 
+  control baselines, system security plans, and assessment plans and results. OSCAL development is being managed 
+  in a [GitHub repository](https://github.com/usnistgov/OSCAL).
   * _IEP?_
   * _Turbina?_
   * _OpenDDS?_
