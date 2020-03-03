@@ -8,13 +8,12 @@ recently announced
 
 * __How is the OpenC2 TC organized?__ The [OpenC2 Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2), 
 an OASIS TC, has three sub-committees:
-  * [Language](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2-lang): responsible for the 
+  * [Language](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2-lang): Responsible for the 
   development, maintenance, and resolution of comments to the OpenC2 language documentation, including the 
   language specification documents, use cases, glossary, etc.
-  * [Actuator Profiles](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2-actuator):  
-  Defining actuator profiles, the mapping and description of OpenC2 elements applicable to specific cyber defense functions.
+  * [Actuator Profiles](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2-actuator): Defining actuator profiles, the mapping and description of OpenC2 elements applicable to specific cyber defense functions.
   * [Implementation Considerations](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2-imple): 
-  Providing guidance for implementation aspects such as message transport and information assurance.
+  Provides guidance for implementation aspects such as message transport and information assurance.
 
 * __What is the TC's process for creating work products?__
 
