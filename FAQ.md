@@ -28,11 +28,14 @@ and are conducted using [Lucid Meetings](https://www.lucidmeetings.com/). The cu
 * __Is there an OpenC2 API?__ No. OpenC2 is a language for command and control, not an interface specification.
 
 * __How does OpenC2 relate to...__
+  * _the [OASIS Collaborative Automated Course of Action Operations (CACAO) for Cyber Security TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cacao)?_ CACAO's goal is defining the standard for implementing course of action 
+  playbooks for cybersecurity operations.
   * _STIX COA?_
   * _[MISP](https://www.misp-project.org/features.html)?_ MISP originally stood for 
   Malware Information Sharing Platform but it has evolved to "Open Source Threat 
   Intelligence Platform & Open Standards For Threat Information Sharing" according to its homepage.
-  * _OpenDXL?_
+  * _[OpenDXL](https://www.opendxl.com/)?_ an initiative to create adaptive systems of interconnected 
+  services that communicate and share information for real-time, accurate security decisions and actions.
   * _the [Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)?_
   * _the [Open Cybersecurity Alliance's OpenDXL Ontology](https://opencybersecurityalliance.github.io/opendxl-ontology/)?_
   * _the [Open Connectivity Foundation](https://openconnectivity.org/)?_
