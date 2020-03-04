@@ -8,7 +8,7 @@ OASIS TC GitHub repositories, as described in [GitHub Repositories for OASIS TC 
 
 This repository is for documentation associated with Openc2 TC operations and information
 sharing such as FAQs, lists of links to related work, and norms for developing and approving 
-TC work products. Given the intent of the repo, we are making all co-chairs maintainers.
+TC work products. Given the intent of the repo, all TC and SC co-chairs are maintainers.
 
 ## Contributions
 
