@@ -25,7 +25,7 @@ and are conducted using [Lucid Meetings](https://www.lucidmeetings.com/). The cu
   * Implementation Considerations SC meetings are held the first Wednesday of each month at 2:00 PM US Eastern time.
 
  
-* __Is there an OpenC2 API?__ No. OpenC2 is a language for command and control, not an interface specification.
+* __Is there an OpenC2 API?__ Yes.  A network API can be considered a contract that says if a client sends a request to a server in a specified format, the server will always return a response in a specified format or initiate a defined action.  The OpenC2 Language Specification and Actuator Profiles together define the request and response content and expected actions, and a Transfer Specification defines the communication-related portions of the "specified format".
 
 * __How does OpenC2 relate to...__
   * _the [OASIS Collaborative Automated Course of Action Operations (CACAO) for Cyber Security TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cacao)?_ CACAO's goal is defining the standard for implementing course of action 
