@@ -3,8 +3,7 @@
 * __What is OpenC2?__ A standardized language for the command and control of technologies that provide or support cyber defenses.
 
 * __What similar efforts exist?__ There are some similarities between OpenC2 and the 
-recently announced 
-[Open Cybersecurity Alliance's OpenDXL Ontology](https://opencybersecurityalliance.github.io/opendxl-ontology/)
+recently announced [Open Cybersecurity Alliance's OpenDXL Ontology](https://opencybersecurityalliance.github.io/opendxl-ontology/). OpenDXL is a cybersecurity messaging format for use with the OpenDXL messaging bus. However, OpenC2 is transport agnostic allowing for granular implementations to various operational environments.
 
 * __How is the OpenC2 TC organized?__ The [OpenC2 Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2), 
 an OASIS TC, has three sub-committees:
@@ -28,9 +27,8 @@ and are conducted using [Lucid Meetings](https://www.lucidmeetings.com/). The cu
 * __Is there an OpenC2 API?__ Yes.  A network API can be considered a contract that says if a client sends a request to a server in a specified format, the server will always return a response in a specified format or initiate a defined action.  The OpenC2 Language Specification and Actuator Profiles together define the request and response content and expected actions, and a Transfer Specification defines the communication-related portions of the "specified format".
 
 * __How does OpenC2 relate to...__
-  * _the [OASIS Collaborative Automated Course of Action Operations (CACAO) for Cyber Security TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cacao)?_ CACAO's goal is defining the standard for implementing course of action 
-  playbooks for cybersecurity operations.
-  * _STIX COA?_
+  * _the [OASIS Collaborative Automated Course of Action Operations (CACAO) for Cyber Security TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cacao)?_ CACAO's goal is defining the standard for creating machine-readable course of action playbooks for cybersecurity operations. CACAO will have the ability of integrating different languages for controlling components that are part of cyber defense ecosystems, thus, OpenC2 is a candidate.
+  * _STIX COA?_ Structured Threat Information Expression (STIX™) is a language and serialization format used to exchange cyber threat intelligence (CTI). One of the STIX Domain Objects (SDOs), Course of Action, has the ability to capture structured/automated courses of action. OpenC2 can be utilized to populate STIX COA SDOs for sharing automated courses of action for the purpose of responding to cyber incidents in cyber-relevant time.
   * _[MISP](https://www.misp-project.org/features.html)?_ MISP originally stood for 
   Malware Information Sharing Platform but it has evolved to "Open Source Threat 
   Intelligence Platform & Open Standards For Threat Information Sharing" according to its homepage.
