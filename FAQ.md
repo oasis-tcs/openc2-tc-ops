@@ -24,7 +24,7 @@ and are conducted using [Lucid Meetings](https://www.lucidmeetings.com/). The cu
   * Implementation Considerations SC meetings are held the first Wednesday of each month at 2:00 PM US Eastern time.
 
  
-* __Is there an OpenC2 API?__ Yes.  A network API can be considered a contract that says if a client sends a request to a server in a specified format, the server will always return a response in a specified format or initiate a defined action.  The OpenC2 Language Specification and Actuator Profiles together define the request and response content and expected actions, and a Transfer Specification defines the communication-related portions of the "specified format".
+* __Is there an OpenC2 API?__ The OpenC2 Language Specification and Actuator Profiles taken together define the request and response message content and expected actions, and a Transfer Specification defines the communications method. The exchange of OpenC2 command and response messages using the [HTTPS Transfer Specification](https://docs.oasis-open.org/openc2/open-impl-https/v1.0/open-impl-https-v1.0.html) can be considered a Remote Procedure Call (RPC)-style Web API.  OpenC2 does not have a Web API defined in terms of Representational State Transfer (REST).
 
 * __How does OpenC2 relate to...__
   * _the [OASIS Collaborative Automated Course of Action Operations (CACAO) for Cyber Security TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cacao)?_ CACAO's goal is defining the standard for creating machine-readable course of action playbooks for cybersecurity operations. CACAO will have the ability of integrating different languages for controlling components that are part of cyber defense ecosystems, thus, OpenC2 is a candidate.
