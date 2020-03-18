@@ -11,8 +11,8 @@ Welcome to the OASIS OpenC2 Technical Committee (TC). As TC Secretary, I'd like 
 * We conduct TC and SC meetings using [Lucid Meetings](https://www.lucidmeetings.com). 
 As the OASIS Kavi system is the system of record for TC activities, you'll receive 
 two invitations for any meeting _series_: one from Kavi, one from Lucid. 
-  * Our monthly TC meetings have a daytime (US 11:00am Eastern) and evening 
-  (US 9:00pm Eastern) session on the third Wednesday of each month. Attendance 
+  * Our monthly TC meetings have a daytime (US 11:00 AM Eastern) and evening 
+  (US 9:00 PM Eastern) session on the third Wednesday of each month. Attendance 
   at either session (which you should record in Kavi) constitutes attendance 
   for that month's meeting. 
   * If you opt to join any SCs you will then receive invitations for those 
