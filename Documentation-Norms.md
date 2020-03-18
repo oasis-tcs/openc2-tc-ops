@@ -1,5 +1,7 @@
 # 1 Foreword
 
+> To-Do:  Create and insert the TOC with pandoc
+
 > To-Do:  Need to fix the figure inclusions
 
 > To-Do:  Need to clean up the end matter related to exporting GDocs to MD
