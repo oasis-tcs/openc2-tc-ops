@@ -17,9 +17,9 @@ two invitations for any meeting _series_: one from Kavi, one from Lucid.
   for that month's meeting. 
   * If you opt to join any SCs you will then receive invitations for those 
   meetings as well. The current routine SC meeting schedule is as follows:
-    * Language SC meetings: 1st Monday of the month at 1:00 PM US Easter time
-    * Implementation Consideration SC meetings: 1st Wednesday of the month at 2:00 PM US Eastern Time
-    * Actuator Profiles SC meetings:  2nd and 4th Tuesday of the month at 1:00 PM US Eastern Time
+    * Language SC: 1st Monday of the month at 1:00 PM US Easter time
+    * Implementation Consideration SC: 1st Wednesday of the month at 2:00 PM US Eastern Time
+    * Actuator Profiles SC:  2nd and 4th Tuesday of the month at 1:00 PM US Eastern Time
   * The entire meeting schedule will be visible on your 
   Lucid dashboard once you've been added to the OpenC2 "room".
   
