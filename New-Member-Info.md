@@ -16,13 +16,18 @@ two invitations for any meeting _series_: one from Kavi, one from Lucid.
   at either session (which you should record in Kavi) constitutes attendance 
   for that month's meeting. 
   * If you opt to join any SCs you will then receive invitations for those 
-  meetings as well. 
+  meetings as well. The current routine SC meeting schedule is as follows:
+    * Language SC meetings: 1st Monday of the month at 1:00 PM US Easter time
+    * Implementation Consideration SC meetings: 1st Wednesday of the month at 2:00 PM US Eastern Time
+    * Actuator Profiles SC meetings:  2nd and 4th Tuesday of the month at 1:00 PM US Eastern Time
   * The entire meeting schedule will be visible on your 
   Lucid dashboard once you've been added to the OpenC2 "room".
   
   
-* In joining our TC you’re automatically subscribed to the TC email list. 
-We also do much of our communications in our [Slack community](https://openc2-community.slack.com). 
+* TC & SC Communications:
+  * In joining our TC you’re automatically subscribed to the TC email list. 
+  * If you join any SCs, you'll also be added to that SC's mail list. 
+  * We also do much of our communications in our [Slack community](https://openc2-community.slack.com). 
 You'll receive an invitation for that as well.
 
 * At present most of our work product development is happening on GitHub, 
