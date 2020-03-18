@@ -3,7 +3,9 @@
 
 Welcome to the OASIS OpenC2 Technical Committee (TC). As TC Secretary, I'd like to give you some basics about our TC operations:
 
-* An overview of the TC, including our subcommittees (SCs) and standing rules can be found at 
+* An overview of the TC, including our 
+[subcommittees (SCs)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2#subcommittees) and 
+[standing rules](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2#other) can be found at 
 [our home page at OASIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2)
 
 * We conduct TC and SC meetings using [Lucid Meetings](https://www.lucidmeetings.com). 
