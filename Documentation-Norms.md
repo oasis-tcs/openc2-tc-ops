@@ -135,6 +135,8 @@ formats and re-importing those files.
 
 > To-Do:  Determine if table formatting needs improvement
 
+> To-Do:  Polish introductory text in Annex C
+
 > To-Do:  Remaining step-by-step instruction items that need to be finished
 > * C.9 Approve Pull Request
 > * C.10 Create Working Draft (WD)
