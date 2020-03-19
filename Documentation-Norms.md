@@ -42,8 +42,6 @@ The document will gradually be honed to a more polished form, but will likely al
         -   [4.3.1 Request Template](#431-request-template)
         -   [4.3.2 Request Repository](#432-request-repository)
         -   [4.3.3 Configure Repository](#433-configure-repository)
-        -   [Figure 1: Work Product Repository Branching
-            Concept](#figure-1-work-product-repository-branching-concept)
             -   [4.3.3.1 README.md Content
                 Update](#4331-readmemd-content-update)
             -   [4.3.3.2 Create and Populate
@@ -58,8 +56,6 @@ The document will gradually be honed to a more polished form, but will likely al
     Software](#annex-a-links-to-useful-software)
 -   [Annex B: Getting Comfortable with
     GitHub](#annex-b-getting-comfortable-with-github)
-    -   [Figure 2: Relationships Among GitHub
-        Repositories](#figure-2-relationships-among-github-repositories)
 -   [Annex C: GitHub- / Markdown-Based
     Process](#annex-c-github---markdown-based-process)
     -   [C.1 Procedures](#c1-procedures)
@@ -91,18 +87,16 @@ The document will gradually be honed to a more polished form, but will likely al
 -   [Annex D: Markdown Formatting
     Conventions](#annex-d-markdown-formatting-conventions)
     -   [D.1 Headings](#d1-headings)
--   [This is a Level 1 heading](#this-is-a-level-1-heading)
-    -   [This is a Level 2 heading](#this-is-a-level-2-heading)
     -   [D.2 Emphasis: Bold and Italic
         Text](#d2-emphasis-bold-and-italic-text)
-    -   [**8.3 Hyperlinks and Section
-        Cross-links**](#83-hyperlinks-and-section-cross-links)
+    -   [D.3 Hyperlinks and Section
+        Cross-links](#d3-hyperlinks-and-section-cross-links)
     -   [D.4 Images](#d4-images)
     -   [D.5 Figure and Table numbering](#d5-figure-and-table-numbering)
     -   [D.6 Code Examples](#d6-code-examples)
     -   [D.7 Editor\'s Notes](#d7-editors-notes)
-    -   [**8.8 Ordered and Unordered
-        Lists**](#88-ordered-and-unordered-lists)
+    -   [D.8 Ordered and Unordered
+        Lists](#d8-ordered-and-unordered-lists)
     -   [D.9 Tables](#d9-tables)
     -   [D.10 \"short lines\"](#d10-short-lines)
     -   [D.11 Graphics](#d11-graphics)
@@ -120,6 +114,9 @@ The document will gradually be honed to a more polished form, but will likely al
     -   [**9.5 Markdown Considerations During
         Publishing**](#95-markdown-considerations-during-publishing)
 
+# Figures
+ - [Figure 1: Work Product Repository Branching Concept](#figure-1-work-product-repository-branching-concept)
+ -   [Figure 2: Relationships Among GitHub Repositories](#figure-2-relationships-among-github-repositories)
 
 * * *
 # To-Do List
@@ -995,7 +992,7 @@ __This will also be bold__
 _You **can** combine them_
 ```
 
-## **8.3 Hyperlinks and Section Cross-links**
+## D.3 Hyperlinks and Section Cross-links
 
 A hyperlink in a GFM document is entered as follows:  `[text to display](link)`.  A simple example would be 
 
@@ -1068,7 +1065,7 @@ During the development of a document there is often a need for the editor to pro
 ```
 > This text will be rendered as a block quote.
 
-## **8.8 Ordered and Unordered Lists**
+## D.8 Ordered and Unordered Lists
 
 Lists entries are identified by a leading character to signal that it's a list item. An asterisk (*) is used for unordered list items, and a number with a period (1.) for ordered list items. Nesting / hierarchy is shown by indenting subordinate list entries.  Examples:
 
@@ -1214,7 +1211,7 @@ Jason Romano: For the most part, you won't have to worry about the hash marks, b
 
 Using PS+ to apply heading format to Annexes and their subsections will result in something like this:
 
-# 8 Annex A: blah blah blah
+# Annex A: blah blah blah
 
 ## 8.1 A.1 blah blah blah
 
