@@ -59,31 +59,31 @@ The document will gradually be honed to a more polished form, but will likely al
 -   [Annex C: GitHub- / Markdown-Based
     Process](#annex-c-github---markdown-based-process)
     -   [C.1 Procedures](#c1-procedures)
-        -   [C.1.1 Create OASIS \"release\"
-            Branch](#c11-create-oasis-release-branch)
-        -   [C.1.2 Create OASIS \"working\"
-            Branch](#c12-create-oasis-working-branch)
-        -   [C.1.3 Fork OASIS Repository](#c13-fork-oasis-repository)
-        -   [C.1.4 Clone Local Repository from Personal
-            Fork](#c14-clone-local-repository-from-personal-fork)
-        -   [C.1.5 Create \"feature\" Branch in Local
-            Repository](#c15-create-feature-branch-in-local-repository)
-        -   [C.1.6 Commit Changes to Local \"feature\"
-            Branch](#c16-commit-changes-to-local-feature-branch)
-        -   [C.1.7 Push Local Changes from \"feature\" Branch to
+        -   [C.1 Create OASIS \"release\"
+            Branch](#c1-create-oasis-release-branch)
+        -   [C.2 Create OASIS \"working\"
+            Branch](#c2-create-oasis-working-branch)
+        -   [C.3 Fork OASIS Repository](#c3-fork-oasis-repository)
+        -   [C.4 Clone Local Repository from Personal
+            Fork](#c4-clone-local-repository-from-personal-fork)
+        -   [C.5 Create \"feature\" Branch in Local
+            Repository](#c5-create-feature-branch-in-local-repository)
+        -   [C.6 Commit Changes to Local \"feature\"
+            Branch](#c6-commit-changes-to-local-feature-branch)
+        -   [C.7 Push Local Changes from \"feature\" Branch to
             Personal
-            Fork](#c17-push-local-changes-from-feature-branch-to-personal-fork)
-        -   [C.1.8 Create Pull Request to OASIS
-            Repository](#c18-create-pull-request-to-oasis-repository)
-        -   [C.1.9 Create Committee Specification
-            (CS)](#c19-create-committee-specification-cs)
-        -   [C.1.10 Update \"release\" Branch in the OASIS Repo from
+            Fork](#c7-push-local-changes-from-feature-branch-to-personal-fork)
+        -   [C.8 Create Pull Request to OASIS
+            Repository](#c8-create-pull-request-to-oasis-repository)
+        -   [C.9 Create Committee Specification
+            (CS)](#c9-create-committee-specification-cs)
+        -   [C.10 Update \"release\" Branch in the OASIS Repo from
             \"master\"
-            Branch](#c110-update-release-branch-in-the-oasis-repo-from-master-branch)
-        -   [C.1.11 Update \"working\" Branch in the OASIS Repo from
+            Branch](#c10-update-release-branch-in-the-oasis-repo-from-master-branch)
+        -   [C.11 Update \"working\" Branch in the OASIS Repo from
             \"release\"
-            Branch](#c111-update-working-branch-in-the-oasis-repo-from-release-branch)
-        -   [C.1.12 \*\*](#c112-)
+            Branch](#c11-update-working-branch-in-the-oasis-repo-from-release-branch)
+        -   [C.1.12 TBD](#c12-tbd)
 -   [Annex D: Markdown Formatting
     Conventions](#annex-d-markdown-formatting-conventions)
     -   [D.1 Headings](#d1-headings)
@@ -508,9 +508,9 @@ of the PR from upstream to fork shows up as the fork being a commit ahead, and
 creating a new fork --> upstream PR just perpetuates the problem. So deleting
 and recreating the fork may still be a cleaner approach.
 
-# Annex C: GitHub- / Markdown-Based Process
+# Annex C: GitHub- / Markdown-Based Process & Procedures
 
-## C.1 Procedures
+> This section is currently incomplete
 
 "feature branches" are normally worked in forks of the "working" branch. They can be related to official Issues or just new features that someone wants to be considered. To consider the feature, a Pull Request is created against the "working" branch of the "upstream" repository
 
@@ -557,7 +557,7 @@ Same with CS…
 * Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch
 (do this if pull request have been approved to the "working" branch of the OASIS Repo)
 
-### C.1.1 Create OASIS "release" Branch
+## C.1 Create OASIS "release" Branch
 
 **From GitHub OASIS Repo**
 
@@ -567,7 +567,7 @@ Same with CS…
 
 * Click the link to "Create Branch: release from 'master'"
 
-### C.1.2 Create OASIS "working" Branch
+## C.2 Create OASIS "working" Branch
 
 **From GitHub OASIS Repo**
 
@@ -577,7 +577,7 @@ Same with CS…
 
 * Click the link to "Create Branch: working from 'release'"
 
-### C.1.3 Fork OASIS Repository
+## C.3 Fork OASIS Repository
 
 This will create a copy of the OASIS repository into your personal GitHub account.
 
@@ -587,7 +587,7 @@ This will create a copy of the OASIS repository into your personal GitHub accoun
 
 * The Branch Infobar will display: "This branch is even with oasis-tcs:master."
 
-### C.1.4 Clone Local Repository from Personal Fork
+## C.4 Clone Local Repository from Personal Fork
 
 This will create a copy of your personal forked repository into your local computer. 
 
@@ -638,7 +638,7 @@ oasis   https://github.com/oasis-tcs/<repo-name>.git (push)
 ```
 
 
-### C.1.5 Create "feature" Branch in Local Repository
+## C.5 Create "feature" Branch in Local Repository
 
 **From Local Command Line**
 
@@ -664,7 +664,7 @@ $ git checkout -b <new-feature>
 $ git push --set-upstream fork <new-feature>
 ```
 
-### C.1.6 Commit Changes to Local "feature" Branch
+## C.6 Commit Changes to Local "feature" Branch
 
 After changes have been made to the files in the "feature" branch, the changes should be committed.
 
@@ -686,7 +686,7 @@ $ git commit -m "add message"
 ```
 
 
-### C.1.7 Push Local Changes from "feature" Branch to Personal Fork
+## C.7 Push Local Changes from "feature" Branch to Personal Fork
 
 **From Local Command Line**
 
@@ -697,7 +697,7 @@ $ git push
 ```
 
 
-### C.1.8 Create Pull Request to OASIS Repository
+## C.8 Create Pull Request to OASIS Repository
 
 **From Personal Forked Repo**
 
@@ -709,7 +709,7 @@ $ git push
 
 * Click the green "Create pull request" button.
 
-### C.1.9 Create Committee Specification (CS)
+## C.9 Create Committee Specification (CS)
 
 **From Local Command Line**
 
@@ -800,7 +800,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:master."
 
-### C.1.10 Update "release" Branch in the OASIS Repo from "master" Branch
+## C.10 Update "release" Branch in the OASIS Repo from "master" Branch
 
 **From Local Command Line**
 
@@ -871,7 +871,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:release."
 
-### C.1.11 Update "working" Branch in the OASIS Repo from "release" Branch
+## C.11 Update "working" Branch in the OASIS Repo from "release" Branch
 
 **From Local Command Line**
 
@@ -933,7 +933,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:working."
 
-### C.1.12 **
+## C.12 TBD
 
 After creating the CS in the "master" branch and applying the CS down to the "release" and "working" branches, the Git Log from the "working" branch should look similar to the following:
 
