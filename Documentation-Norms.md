@@ -391,7 +391,13 @@ Editors should remember to update the TOC within the Markdown file prior to decl
 
 `pandoc -f gfm --toc --toc-depth=5 -s -o <outfile> <infile>`
 
-where `<infile>` and `<outfile>` are markdown files; the TOC will be added to the `<outfile>` at the beginning of the file, and the editors should manually move it to the proper place in the document.
+where `<infile>` and `<outfile>` are markdown files; 
+the TOC will be added to the `<outfile>` at the beginning 
+of the file, and the editors should manually move it to 
+the proper place in the document. There may be other 
+clean-up required of the TOC (e.g., extraneous headings); 
+the editor should review it carefully and confirm that 
+all internal document links work properly.
 
 The essential contents of the WD package are
 
