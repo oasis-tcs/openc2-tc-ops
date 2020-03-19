@@ -24,6 +24,8 @@ The document will gradually be honed to a more polished form, but will likely al
 # Table of Contents
 
 -   [1 Foreword](#1-foreword)
+-   [Table of Contents](#table-of-contents)
+-   [Figures](#figures)
 -   [To-Do List](#to-do-list)
 -   [2 OASIS Guidance for Editors](#2-oasis-guidance-for-editors)
 -   [3 Work Product Development
@@ -56,52 +58,55 @@ The document will gradually be honed to a more polished form, but will likely al
     Software](#annex-a-links-to-useful-software)
 -   [Annex B: Getting Comfortable with
     GitHub](#annex-b-getting-comfortable-with-github)
--   [Annex C: GitHub- / Markdown-Based
-    Process](#annex-c-github---markdown-based-process)
-    -   [C.1 Procedures](#c1-procedures)
-        -   [C.1.1 Create OASIS \"release\"
-            Branch](#c11-create-oasis-release-branch)
-        -   [C.1.2 Create OASIS \"working\"
-            Branch](#c12-create-oasis-working-branch)
-        -   [C.1.3 Fork OASIS Repository](#c13-fork-oasis-repository)
-        -   [C.1.4 Clone Local Repository from Personal
-            Fork](#c14-clone-local-repository-from-personal-fork)
-        -   [C.1.5 Create \"feature\" Branch in Local
-            Repository](#c15-create-feature-branch-in-local-repository)
-        -   [C.1.6 Commit Changes to Local \"feature\"
-            Branch](#c16-commit-changes-to-local-feature-branch)
-        -   [C.1.7 Push Local Changes from \"feature\" Branch to
-            Personal
-            Fork](#c17-push-local-changes-from-feature-branch-to-personal-fork)
-        -   [C.1.8 Create Pull Request to OASIS
-            Repository](#c18-create-pull-request-to-oasis-repository)
-        -   [C.1.9 Create Committee Specification
-            (CS)](#c19-create-committee-specification-cs)
-        -   [C.1.10 Update \"release\" Branch in the OASIS Repo from
-            \"master\"
-            Branch](#c110-update-release-branch-in-the-oasis-repo-from-master-branch)
-        -   [C.1.11 Update \"working\" Branch in the OASIS Repo from
-            \"release\"
-            Branch](#c111-update-working-branch-in-the-oasis-repo-from-release-branch)
-        -   [C.1.12 \*\*](#c112-)
+-   [Annex C: GitHub- / Markdown-Based Process &
+    Procedures](#annex-c-github---markdown-based-process--procedures)
+    -   [C.1 Create OASIS \"release\"
+        Branch](#c1-create-oasis-release-branch)
+    -   [C.2 Create OASIS \"working\"
+        Branch](#c2-create-oasis-working-branch)
+    -   [C.3 Fork OASIS Repository](#c3-fork-oasis-repository)
+    -   [C.4 Clone Local Repository from Personal
+        Fork](#c4-clone-local-repository-from-personal-fork)
+    -   [C.5 Create \"feature\" Branch in Local
+        Repository](#c5-create-feature-branch-in-local-repository)
+    -   [C.6 Commit Changes to Local \"feature\"
+        Branch](#c6-commit-changes-to-local-feature-branch)
+    -   [C.7 Push Local Changes from \"feature\" Branch to Personal
+        Fork](#c7-push-local-changes-from-feature-branch-to-personal-fork)
+    -   [C.8 Create Pull Request to OASIS
+        Repository](#c8-create-pull-request-to-oasis-repository)
+    -   [C.9 Approve Pull Request (TBD)](#c9-approve-pull-request-tbd)
+    -   [C.10 Create Working Draft (WD)
+        (TBD)](#c10-create-working-draft-wd-tbd)
+    -   [C.11 Create Committee Specification Draft (CSD)
+        (TBD)](#c11-create-committee-specification-draft-csd-tbd)
+    -   [C.12 Create Public Review Draft (CSPRD)
+        (TBD)](#c12-create-public-review-draft-csprd-tbd)
+    -   [C.13 Create Committee Specification (CS)
+        (TBD)](#c13-create-committee-specification-cs-tbd)
+    -   [C.14 Update \"release\" Branch in the OASIS Repo from
+        \"master\"
+        Branch](#c14-update-release-branch-in-the-oasis-repo-from-master-branch)
+    -   [C.15 Update \"working\" Branch in the OASIS Repo from
+        \"release\"
+        Branch](#c15-update-working-branch-in-the-oasis-repo-from-release-branch)
+    -   [C.16 Update \"working\" Branch in the Personal Fork with OASIS
+        Repo \"working\" Branch
+        (TBD)](#c16-update-working-branch-in-the-personal-fork-with-oasis-repo-working-branch-tbd)
 -   [Annex D: Markdown Formatting
     Conventions](#annex-d-markdown-formatting-conventions)
     -   [D.1 Headings](#d1-headings)
-    -   [D.2 Emphasis: Bold and Italic
-        Text](#d2-emphasis-bold-and-italic-text)
-    -   [D.3 Hyperlinks and Section
-        Cross-links](#d3-hyperlinks-and-section-cross-links)
+    -   [D.2 Emphasis: Bold and Italic Text](#d2-emphasis-bold-and-italic-text)
+    -   [D.3 Hyperlinks and Section Cross-links](#d3-hyperlinks-and-section-cross-links)
     -   [D.4 Images](#d4-images)
     -   [D.5 Figure and Table numbering](#d5-figure-and-table-numbering)
     -   [D.6 Code Examples](#d6-code-examples)
     -   [D.7 Editor\'s Notes](#d7-editors-notes)
-    -   [D.8 Ordered and Unordered
-        Lists](#d8-ordered-and-unordered-lists)
+    -   [D.8 Ordered and Unordered Lists](#d8-ordered-and-unordered-lists)
     -   [D.9 Tables](#d9-tables)
     -   [D.10 \"short lines\"](#d10-short-lines)
     -   [D.11 Graphics](#d11-graphics)
-    -   [D.12 Table of Contents
-        Creation](#d12-table-of-contents-creation)
+    -   [D.12 Table of Contents Creation](#d12-table-of-contents-creation)
 -   [Annex E: Google Document Formatting Standards
     (Legacy)](#annex-e-google-document-formatting-standards-legacy)
     -   [E.1 Section Numbering](#e1-section-numbering)
@@ -109,10 +114,11 @@ The document will gradually be honed to a more polished form, but will likely al
     -   [E.3 Acknowledgement Sections](#e3-acknowledgement-sections)
     -   [E.4 Hash Marks for Markdown
         Headings](#e4-hash-marks-for-markdown-headings)
--   [8 Annex A: blah blah blah](#8-annex-a-blah-blah-blah)
+-   [Annex A: blah blah blah](#annex-a-blah-blah-blah)
     -   [8.1 A.1 blah blah blah](#81-a1-blah-blah-blah)
     -   [**9.5 Markdown Considerations During
         Publishing**](#95-markdown-considerations-during-publishing)
+
 
 # Figures
  - [Figure 1: Work Product Repository Branching Concept](#figure-1-work-product-repository-branching-concept)
@@ -120,8 +126,6 @@ The document will gradually be honed to a more polished form, but will likely al
 
 * * *
 # To-Do List
-
-> To-Do:  Use pandoc TOC links to fix internal cross-reference links
 
 > To-Do:  Need to clean up (or possibly remove) the end matter 
 related to exporting GDocs to MD
@@ -219,7 +223,7 @@ The next section and the Annexes provide detailed information about these steps.
 
 # 4 OpenC2 TC Work Product Development Process
 
-As of December 2018, the OpenC2 TC shifted to focus on [GitHub](https://help.github.com/en/github) as our primary tool for the development of work products and has adopted [Markdown](https://en.wikipedia.org/wiki/Markdown) (MD) as our preferred authoritative format for work products (AKA documents).   If you’re completely unfamiliar with GitHub, [Annex B](#heading=h.nh1pa1b1zbd) provides an introduction and links to other helpful information sources.
+As of December 2018, the OpenC2 TC shifted to focus on [GitHub](https://help.github.com/en/github) as our primary tool for the development of work products and has adopted [Markdown](https://en.wikipedia.org/wiki/Markdown) (MD) as our preferred authoritative format for work products (AKA documents).   If you’re completely unfamiliar with GitHub, [Annex B](#annex-b-getting-comfortable-with-github) provides an introduction and links to other helpful information sources.
 
 (NOTE:  The use of Google Docs as an initial development platform for work products remains available as an option; a script is available to export Google Docs to Markdown and can be used when the editor(s) is ready to shift to GitHub to mature the document.)
 
@@ -245,17 +249,20 @@ Once the need for a work product is established, the next step in creating a new
 
 Since the TC name (i.e., "openc2") is already included in the URLs and GitHub repo names that OASIS assigns there is no need to include "openc2" or "oc2" in the shorthand name for the product (a lesson learned since the TC's first work products were named). A useful convention is to include the document type, so the following patterns are recommended (NOTE:  The initial actuator profile for stateless packet filtering and transfer specification for HTTPS do not follow these patterns, but the patterns are recommended for new specifications. If a new type of document is needed, the co-chairs of the associated subcommittee should be involved in determining the naming pattern for the new document type.):
 
-* Actuator profiles:  `ap-(function shorthand)`
-* Transfer specifications:  `transf-(<)protocol shorthand)`
+* Actuator profiles:  `ap-<function shorthand>`
+* Transfer specifications:  `transf-<protocol shorthand>`
 
 As an example, an actuator profile for anti-virus might have the shorthand of "ap-av", leading to:
 
 * Repo name:  oasis-tcs / openc2-**ap-av**
 * Document URL:  docs.oasis-open.org/openc2/**ap-av**/v1.0/**ap-av**-v1.0.html
 
-The OASIS TC Administration team will enforce the shorthand name originally attached to a product when creating OASIS-published versions (e.g., committee specification drafts [CSDs]). 
+The OASIS TC Administration team will enforce the shorthand 
+name originally attached to a product when creating 
+OASIS-published versions (e.g., committee specification drafts [CSDs]). 
 
-Here are some example names from current committee work; the last two apply the naming conventions described above:
+Here are some example names from current committee work; 
+the last two apply the naming conventions described above:
 
 |  Document | Shorthand Name | Repo Name (openc2-...) |
 | ---|:--:|:--:|
@@ -375,7 +382,19 @@ Developing a document on GitHub requires the editor to develop a level of comfor
 * Authoring a document using [Github-Flavored](https://en.wikipedia.org/wiki/Markdown#GFM) [Markdown](https://en.wikipedia.org/wiki/Markdown) for formatting
 * Using GitHub / Git procedures for version control
 
-Document creation using GitHub is inherently text-based. It is possible for an editor to do all of their work entirely within GitHub, but for many it may be more comfortable and/or convenient to create a local copy of the repository to enable use of preferred text editors, working offline, etc. [Annex A]() provides suggestions for useful software. [Annex B](#heading=h.nh1pa1b1zbd) provides an overview of establishing an environment with a related set of repositories to enable working in this manner and a link to an excellent explainer; other resources can readily be found by searching on-line. TC members are also happy to share their GitHub knowledge, and GitHub provides an extensive [help](https://help.github.com/en) library.
+Document creation using GitHub is inherently text-based. 
+It is possible for an editor to do all of their work 
+entirely within GitHub, but for many it may be more 
+comfortable and/or convenient to create a local copy 
+of the repository to enable use of preferred text editors, 
+working offline, etc. [Annex A](#annex-a-links-to-useful-software) 
+provides suggestions for useful software. [Annex B](#annex-b-getting-comfortable-with-github) 
+provides an overview of establishing an environment with 
+a related set of repositories to enable working in this 
+manner and a link to an excellent explainer; other resources 
+can readily be found by searching on-line. TC members are 
+also happy to share their GitHub knowledge, and GitHub 
+provides an extensive [help](https://help.github.com/en) library.
 
 ### 4.4.1 Creating & Posting a Working Draft
 
@@ -383,7 +402,7 @@ A frequent occurrence in developing a work product is the posting of a "Working 
 
 The editor uses GitHub to [create a release](https://help.github.com/en/articles/creating-releases), and assigns it an appropriate identification tag, typically identifying the target version and the WD revision number (e.g., v1.0_WD05). GitHub creates an easily downloadable ZIP file containing the contents of the selected branch of the repository at the time of the release's creation. That ZIP file is the basis for the WD package.
 
-Editors should remember to update the TOC within the Markdown file prior to declaring a release to create a WD. [pandoc](#heading=h.3thaqqn5mf6z), a document conversion tool can be used to create the TOC in a local file, as follows:
+Editors should remember to update the TOC within the Markdown file prior to declaring a release to create a WD. [pandoc](#annex-a-links-to-useful-software), a document conversion tool can be used to create the TOC in a local file, as follows:
 
 `pandoc -f gfm --toc --toc-depth=5 -s -o <outfile> <infile>`
 
@@ -495,9 +514,9 @@ of the PR from upstream to fork shows up as the fork being a commit ahead, and
 creating a new fork --> upstream PR just perpetuates the problem. So deleting
 and recreating the fork may still be a cleaner approach.
 
-# Annex C: GitHub- / Markdown-Based Process
+# Annex C: GitHub- / Markdown-Based Process & Procedures
 
-## C.1 Procedures
+> This section is currently incomplete
 
 "feature branches" are normally worked in forks of the "working" branch. They can be related to official Issues or just new features that someone wants to be considered. To consider the feature, a Pull Request is created against the "working" branch of the "upstream" repository
 
@@ -544,7 +563,7 @@ Same with CS…
 * Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch
 (do this if pull request have been approved to the "working" branch of the OASIS Repo)
 
-### C.1.1 Create OASIS "release" Branch
+## C.1 Create OASIS "release" Branch
 
 **From GitHub OASIS Repo**
 
@@ -554,7 +573,7 @@ Same with CS…
 
 * Click the link to "Create Branch: release from 'master'"
 
-### C.1.2 Create OASIS "working" Branch
+## C.2 Create OASIS "working" Branch
 
 **From GitHub OASIS Repo**
 
@@ -564,7 +583,7 @@ Same with CS…
 
 * Click the link to "Create Branch: working from 'release'"
 
-### C.1.3 Fork OASIS Repository
+## C.3 Fork OASIS Repository
 
 This will create a copy of the OASIS repository into your personal GitHub account.
 
@@ -574,7 +593,7 @@ This will create a copy of the OASIS repository into your personal GitHub accoun
 
 * The Branch Infobar will display: "This branch is even with oasis-tcs:master."
 
-### C.1.4 Clone Local Repository from Personal Fork
+## C.4 Clone Local Repository from Personal Fork
 
 This will create a copy of your personal forked repository into your local computer. 
 
@@ -625,7 +644,7 @@ oasis   https://github.com/oasis-tcs/<repo-name>.git (push)
 ```
 
 
-### C.1.5 Create "feature" Branch in Local Repository
+## C.5 Create "feature" Branch in Local Repository
 
 **From Local Command Line**
 
@@ -651,7 +670,7 @@ $ git checkout -b <new-feature>
 $ git push --set-upstream fork <new-feature>
 ```
 
-### C.1.6 Commit Changes to Local "feature" Branch
+## C.6 Commit Changes to Local "feature" Branch
 
 After changes have been made to the files in the "feature" branch, the changes should be committed.
 
@@ -673,7 +692,7 @@ $ git commit -m "add message"
 ```
 
 
-### C.1.7 Push Local Changes from "feature" Branch to Personal Fork
+## C.7 Push Local Changes from "feature" Branch to Personal Fork
 
 **From Local Command Line**
 
@@ -684,7 +703,7 @@ $ git push
 ```
 
 
-### C.1.8 Create Pull Request to OASIS Repository
+## C.8 Create Pull Request to OASIS Repository
 
 **From Personal Forked Repo**
 
@@ -696,7 +715,20 @@ $ git push
 
 * Click the green "Create pull request" button.
 
-### C.1.9 Create Committee Specification (CS)
+## C.9 Approve Pull Request (TBD)
+TBSL
+
+## C.10 Create Working Draft (WD) (TBD)
+TBSL
+
+## C.11 Create Committee Specification Draft (CSD) (TBD)
+TBSL
+
+## C.12 Create Public Review Draft (CSPRD) (TBD)
+TBSL
+
+## C.13 Create Committee Specification (CS) (TBD)
+TBSL
 
 **From Local Command Line**
 
@@ -787,7 +819,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:master."
 
-### C.1.10 Update "release" Branch in the OASIS Repo from "master" Branch
+## C.14 Update "release" Branch in the OASIS Repo from "master" Branch
 
 **From Local Command Line**
 
@@ -858,7 +890,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:release."
 
-### C.1.11 Update "working" Branch in the OASIS Repo from "release" Branch
+## C.15 Update "working" Branch in the OASIS Repo from "release" Branch
 
 **From Local Command Line**
 
@@ -920,7 +952,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:working."
 
-### C.1.12 **
+## C.16 Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch (TBD)
 
 After creating the CS in the "master" branch and applying the CS down to the "release" and "working" branches, the Git Log from the "working" branch should look similar to the following:
 
