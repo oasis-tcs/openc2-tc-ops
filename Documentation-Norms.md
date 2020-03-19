@@ -2,16 +2,29 @@
 
 > To-Do:  Create and insert the TOC with pandoc
 
+> To-Do:  Use pandoc TOC links to fix internal cross-reference links
+
 > To-Do:  Need to fix the figure inclusions
 
-> To-Do:  Need to clean up the end matter related to exporting GDocs to MD
+> To-Do:  Need to clean up (or possibly remove) the end matter 
+related to exporting GDocs to MD
 
-> To-Do:  Get the  new name for Draw.IO and update the list of useful software accordingly
+> To-Do:  Get the  new name for Draw.IO and update the 
+list of useful software accordingly. Add some words 
+about exporting Draw.IO to other formats and re-importing those files.
 
 > To-Do:  Determine if table formatting needs improvement
 
-> To-Do:  Capture from GDoc which of the Annex C items still need step-by-step 
-instructions; Jason hadn't quite finished that.
+> To-Do:  Remaining step-by-step instruction items that need to be finished
+> * Approve Pull Request
+> * Create Working Draft (WD)
+> * Create Committee Specification Draft (CSD)
+> * Create Public Review Draft (CSPRD)
+> * Update "working" Branch in the Personal Fork with OASIS Repo 
+"working" Branch (do this if pull request have been approved to 
+the "working" branch of the OASIS Repo)
+
+> To-Do:  Review comments on the GDoc to identify other to-do items and/or capture as GH issues
 
 This document provides informal, internal guidance for work product editors in the [OASIS](https://www.oasis-open.org/) [OpenC2 Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2) (TC).  It captures the working processes and norms being used by the OpenC2 TC in the development of OpenC2 standards under OASIS auspices. OpenC2 standards include the language specification, actuator profiles, transfer specifications, etc., as well as other supporting [work products](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkProduct) (the OASIS term for what a TC produces).
 
