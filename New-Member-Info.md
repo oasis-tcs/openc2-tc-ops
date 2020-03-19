@@ -20,6 +20,7 @@ two invitations for any meeting _series_: one from Kavi, one from Lucid.
     * Language SC: 1st Monday of the month at 1:00 PM US Easter time
     * Implementation Consideration SC: 1st Wednesday of the month at 2:00 PM US Eastern Time
     * Actuator Profiles SC:  2nd and 4th Tuesday of the month at 1:00 PM US Eastern Time
+  * In OASIS Kavi, all meetings are scheduled on the TC calendar; we don't use the SC calendars
   * The entire meeting schedule will be visible on your 
   Lucid dashboard once you've been added to the OpenC2 "room".
   
