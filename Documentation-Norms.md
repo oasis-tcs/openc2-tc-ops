@@ -136,11 +136,11 @@ formats and re-importing those files.
 > To-Do:  Determine if table formatting needs improvement
 
 > To-Do:  Remaining step-by-step instruction items that need to be finished
-> * Approve Pull Request
-> * Create Working Draft (WD)
-> * Create Committee Specification Draft (CSD)
-> * Create Public Review Draft (CSPRD)
-> * Update "working" Branch in the Personal Fork with OASIS Repo 
+> * C.9 Approve Pull Request
+> * C.10 Create Working Draft (WD)
+> * C.11 Create Committee Specification Draft (CSD)
+> * C.12 Create Public Review Draft (CSPRD)
+> * C.16 Update "working" Branch in the Personal Fork with OASIS Repo 
 "working" Branch (do this if pull request have been approved to 
 the "working" branch of the OASIS Repo)
 
