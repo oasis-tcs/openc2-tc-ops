@@ -96,23 +96,17 @@ The document will gradually be honed to a more polished form, but will likely al
 -   [Annex D: Markdown Formatting
     Conventions](#annex-d-markdown-formatting-conventions)
     -   [D.1 Headings](#d1-headings)
--   [This is a Level 1 heading](#this-is-a-level-1-heading)
-    -   [This is a Level 2 heading](#this-is-a-level-2-heading)
-    -   [D.2 Emphasis: Bold and Italic
-        Text](#d2-emphasis-bold-and-italic-text)
-    -   [D.3 Hyperlinks and Section
-        Cross-links](#d3-hyperlinks-and-section-cross-links)
+    -   [D.2 Emphasis: Bold and Italic Text](#d2-emphasis-bold-and-italic-text)
+    -   [D.3 Hyperlinks and Section Cross-links](#d3-hyperlinks-and-section-cross-links)
     -   [D.4 Images](#d4-images)
     -   [D.5 Figure and Table numbering](#d5-figure-and-table-numbering)
     -   [D.6 Code Examples](#d6-code-examples)
     -   [D.7 Editor\'s Notes](#d7-editors-notes)
-    -   [D.8 Ordered and Unordered
-        Lists](#d8-ordered-and-unordered-lists)
+    -   [D.8 Ordered and Unordered Lists](#d8-ordered-and-unordered-lists)
     -   [D.9 Tables](#d9-tables)
     -   [D.10 \"short lines\"](#d10-short-lines)
     -   [D.11 Graphics](#d11-graphics)
-    -   [D.12 Table of Contents
-        Creation](#d12-table-of-contents-creation)
+    -   [D.12 Table of Contents Creation](#d12-table-of-contents-creation)
 -   [Annex E: Google Document Formatting Standards
     (Legacy)](#annex-e-google-document-formatting-standards-legacy)
     -   [E.1 Section Numbering](#e1-section-numbering)
