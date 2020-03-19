@@ -42,8 +42,6 @@ The document will gradually be honed to a more polished form, but will likely al
         -   [4.3.1 Request Template](#431-request-template)
         -   [4.3.2 Request Repository](#432-request-repository)
         -   [4.3.3 Configure Repository](#433-configure-repository)
-        -   [Figure 1: Work Product Repository Branching
-            Concept](#figure-1-work-product-repository-branching-concept)
             -   [4.3.3.1 README.md Content
                 Update](#4331-readmemd-content-update)
             -   [4.3.3.2 Create and Populate
@@ -58,8 +56,6 @@ The document will gradually be honed to a more polished form, but will likely al
     Software](#annex-a-links-to-useful-software)
 -   [Annex B: Getting Comfortable with
     GitHub](#annex-b-getting-comfortable-with-github)
-    -   [Figure 2: Relationships Among GitHub
-        Repositories](#figure-2-relationships-among-github-repositories)
 -   [Annex C: GitHub- / Markdown-Based
     Process](#annex-c-github---markdown-based-process)
     -   [C.1 Procedures](#c1-procedures)
@@ -91,18 +87,16 @@ The document will gradually be honed to a more polished form, but will likely al
 -   [Annex D: Markdown Formatting
     Conventions](#annex-d-markdown-formatting-conventions)
     -   [D.1 Headings](#d1-headings)
--   [This is a Level 1 heading](#this-is-a-level-1-heading)
-    -   [This is a Level 2 heading](#this-is-a-level-2-heading)
     -   [D.2 Emphasis: Bold and Italic
         Text](#d2-emphasis-bold-and-italic-text)
-    -   [**8.3 Hyperlinks and Section
-        Cross-links**](#83-hyperlinks-and-section-cross-links)
+    -   [D.3 Hyperlinks and Section
+        Cross-links](#d3-hyperlinks-and-section-cross-links)
     -   [D.4 Images](#d4-images)
     -   [D.5 Figure and Table numbering](#d5-figure-and-table-numbering)
     -   [D.6 Code Examples](#d6-code-examples)
     -   [D.7 Editor\'s Notes](#d7-editors-notes)
-    -   [**8.8 Ordered and Unordered
-        Lists**](#88-ordered-and-unordered-lists)
+    -   [D.8 Ordered and Unordered
+        Lists](#d8-ordered-and-unordered-lists)
     -   [D.9 Tables](#d9-tables)
     -   [D.10 \"short lines\"](#d10-short-lines)
     -   [D.11 Graphics](#d11-graphics)
@@ -120,6 +114,9 @@ The document will gradually be honed to a more polished form, but will likely al
     -   [**9.5 Markdown Considerations During
         Publishing**](#95-markdown-considerations-during-publishing)
 
+# Figures
+ - [Figure 1: Work Product Repository Branching Concept](#figure-1-work-product-repository-branching-concept)
+ -   [Figure 2: Relationships Among GitHub Repositories](#figure-2-relationships-among-github-repositories)
 
 * * *
 # To-Do List
@@ -129,9 +126,8 @@ The document will gradually be honed to a more polished form, but will likely al
 > To-Do:  Need to clean up (or possibly remove) the end matter 
 related to exporting GDocs to MD
 
-> To-Do:  Get the  new name for Draw.IO and update the 
-list of useful software accordingly. Add some words 
-about exporting Draw.IO to other formats and re-importing those files.
+> To-Do:  Add some words about exporting Diagrams.net to other 
+formats and re-importing those files.
 
 > To-Do:  Determine if table formatting needs improvement
 
@@ -337,19 +333,31 @@ These files must remain when the starter document contents from the ZIP file are
 
 * The OASIS default includes a section labeled "Further Description of this Repository" where the editors can add information
 
-* An explanation of the branching convention being used, and where to find the most current version of the work product should be added; here is suggested text in markdown forma:
+* An explanation of the branching convention being used, and where to find the most current version of the work product should be added; here is suggested text in markdown format:
 
 * * *
 
 ```
 This repository is organized with three branches:
 
- * The *_Working_* branch contains work product material that is actively being developed, and subject to potentially frequent and significant change. Contributors to the work product should target their inputs to the Working branch.
+ * The *_Working_* branch contains work product 
+ material that is actively being developed, and 
+ subject to potentially frequent and significant 
+ change. Contributors to the work product should 
+ target their inputs to the Working branch.
 
- * The *_Releases_* branch contains incremental releases (i.e., Working Drafts) of the work product. The current contents of the Working branch are merged into the Releases branch to create a working WD. 
+ * The *_Releases_* branch contains incremental 
+ releases (i.e., Working Drafts [WDs]) of the work 
+ product. The current contents of the Working 
+ branch are merged into the Releases branch to 
+ create a WD. 
 
- * The *_Master_* branch contains TC-approved [Committee Specification](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeSpec) (CS) and [OASIS Standard](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dOASISstandard) versions of the work product. Until the first CS is approved, the Master branch will not contain a complete version of the work product.
- ```
+ * The *_Master_* branch contains TC-approved 
+[Committee Specification](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeSpec) (CS) or [OASIS Standard](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dOASISstandard) 
+versions of the work product. Until the first CS 
+is approved, the Master branch will not contain 
+a complete version of the work product.
+```
  
  * * *
 
@@ -379,7 +387,13 @@ Editors should remember to update the TOC within the Markdown file prior to decl
 
 `pandoc -f gfm --toc --toc-depth=5 -s -o <outfile> <infile>`
 
-where `<infile>` and `<outfile>` are markdown files; the TOC will be added to the `<outfile>` at the beginning of the file, and the editors should manually move it to the proper place in the document.
+where `<infile>` and `<outfile>` are markdown files; 
+the TOC will be added to the `<outfile>` at the beginning 
+of the file, and the editors should manually move it to 
+the proper place in the document. There may be other 
+clean-up required of the TOC (e.g., extraneous headings); 
+the editor should review it carefully and confirm that 
+all internal document links work properly.
 
 The essential contents of the WD package are
 
@@ -438,9 +452,12 @@ The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/pol
 
 * **pandoc**: This utility is a Swiss Army Knife of marked-up file conversions, and is also useful for creating tables of contents for Markdown files.  -- [https://pandoc.org/](https://pandoc.org/) 
 
-* **Draw.io**:  an open source drawing tool (similar to Visio / Gliffy / LucidChart)  -- [https://draw.io](https://draw.io)  (NOTE: Draw.io is being renamed)
+* **[Diagrams.net](https://app.diagrams.net/) (was Draw.io)**:  an open source drawing tool (similar to Visio / Gliffy / LucidChart)  -- [https://draw.io](https://draw.io).  (NOTE: In a February 2020 [blog post](https://www.diagrams.net/blog/move-diagrams-net) it was announced that Draw.io is being renamed to diagrams.net. The new home page  is [www.diagrams.net](https://www.diagrams.net/). For now, draw.io redirects to diagrams.net.)
 
 * **Microsoft Visual Studio Code**:  powerful free text editor that integrates easily with Git / GitHub. With appropriate extensions you can get a side-by-side view of raw and rendered Markdown while editing. MS VSC is based on the [Electron platform](https://www.electronjs.org/) so it is available for Windows, Mac, and Linux -- [https://code.visualstudio.com/](https://code.visualstudio.com/) 
+
+* **[Tables Generator](http://www.tablesgenerator.com/markdown_tables)**:  a website that will generate a template for a table in a variety of formats 
+including Markdown, HTML, and others.
 
 # Annex B: Getting Comfortable with GitHub
 
@@ -975,7 +992,7 @@ __This will also be bold__
 _You **can** combine them_
 ```
 
-## **8.3 Hyperlinks and Section Cross-links**
+## D.3 Hyperlinks and Section Cross-links
 
 A hyperlink in a GFM document is entered as follows:  `[text to display](link)`.  A simple example would be 
 
@@ -1048,7 +1065,7 @@ During the development of a document there is often a need for the editor to pro
 ```
 > This text will be rendered as a block quote.
 
-## **8.8 Ordered and Unordered Lists**
+## D.8 Ordered and Unordered Lists
 
 Lists entries are identified by a leading character to signal that it's a list item. An asterisk (*) is used for unordered list items, and a number with a period (1.) for ordered list items. Nesting / hierarchy is shown by indenting subordinate list entries.  Examples:
 
@@ -1194,7 +1211,7 @@ Jason Romano: For the most part, you won't have to worry about the hash marks, b
 
 Using PS+ to apply heading format to Annexes and their subsections will result in something like this:
 
-# 8 Annex A: blah blah blah
+# Annex A: blah blah blah
 
 ## 8.1 A.1 blah blah blah
 
