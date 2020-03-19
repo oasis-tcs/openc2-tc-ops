@@ -337,19 +337,31 @@ These files must remain when the starter document contents from the ZIP file are
 
 * The OASIS default includes a section labeled "Further Description of this Repository" where the editors can add information
 
-* An explanation of the branching convention being used, and where to find the most current version of the work product should be added; here is suggested text in markdown forma:
+* An explanation of the branching convention being used, and where to find the most current version of the work product should be added; here is suggested text in markdown format:
 
 * * *
 
 ```
 This repository is organized with three branches:
 
- * The *_Working_* branch contains work product material that is actively being developed, and subject to potentially frequent and significant change. Contributors to the work product should target their inputs to the Working branch.
+ * The *_Working_* branch contains work product 
+ material that is actively being developed, and 
+ subject to potentially frequent and significant 
+ change. Contributors to the work product should 
+ target their inputs to the Working branch.
 
- * The *_Releases_* branch contains incremental releases (i.e., Working Drafts) of the work product. The current contents of the Working branch are merged into the Releases branch to create a working WD. 
+ * The *_Releases_* branch contains incremental 
+ releases (i.e., Working Drafts [WDs]) of the work 
+ product. The current contents of the Working 
+ branch are merged into the Releases branch to 
+ create a WD. 
 
- * The *_Master_* branch contains TC-approved [Committee Specification](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeSpec) (CS) and [OASIS Standard](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dOASISstandard) versions of the work product. Until the first CS is approved, the Master branch will not contain a complete version of the work product.
- ```
+ * The *_Master_* branch contains TC-approved 
+[Committee Specification](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeSpec) (CS) or [OASIS Standard](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dOASISstandard) 
+versions of the work product. Until the first CS 
+is approved, the Master branch will not contain 
+a complete version of the work product.
+```
  
  * * *
 
