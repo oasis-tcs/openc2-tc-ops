@@ -121,8 +121,6 @@ The document will gradually be honed to a more polished form, but will likely al
 * * *
 # To-Do List
 
-> To-Do:  Use pandoc TOC links to fix internal cross-reference links
-
 > To-Do:  Need to clean up (or possibly remove) the end matter 
 related to exporting GDocs to MD
 
@@ -219,7 +217,7 @@ The next section and the Annexes provide detailed information about these steps.
 
 # 4 OpenC2 TC Work Product Development Process
 
-As of December 2018, the OpenC2 TC shifted to focus on [GitHub](https://help.github.com/en/github) as our primary tool for the development of work products and has adopted [Markdown](https://en.wikipedia.org/wiki/Markdown) (MD) as our preferred authoritative format for work products (AKA documents).   If you’re completely unfamiliar with GitHub, [Annex B](#heading=h.nh1pa1b1zbd) provides an introduction and links to other helpful information sources.
+As of December 2018, the OpenC2 TC shifted to focus on [GitHub](https://help.github.com/en/github) as our primary tool for the development of work products and has adopted [Markdown](https://en.wikipedia.org/wiki/Markdown) (MD) as our preferred authoritative format for work products (AKA documents).   If you’re completely unfamiliar with GitHub, [Annex B](#annex-b-getting-comfortable-with-github) provides an introduction and links to other helpful information sources.
 
 (NOTE:  The use of Google Docs as an initial development platform for work products remains available as an option; a script is available to export Google Docs to Markdown and can be used when the editor(s) is ready to shift to GitHub to mature the document.)
 
@@ -378,7 +376,19 @@ Developing a document on GitHub requires the editor to develop a level of comfor
 * Authoring a document using [Github-Flavored](https://en.wikipedia.org/wiki/Markdown#GFM) [Markdown](https://en.wikipedia.org/wiki/Markdown) for formatting
 * Using GitHub / Git procedures for version control
 
-Document creation using GitHub is inherently text-based. It is possible for an editor to do all of their work entirely within GitHub, but for many it may be more comfortable and/or convenient to create a local copy of the repository to enable use of preferred text editors, working offline, etc. [Annex A]() provides suggestions for useful software. [Annex B](#heading=h.nh1pa1b1zbd) provides an overview of establishing an environment with a related set of repositories to enable working in this manner and a link to an excellent explainer; other resources can readily be found by searching on-line. TC members are also happy to share their GitHub knowledge, and GitHub provides an extensive [help](https://help.github.com/en) library.
+Document creation using GitHub is inherently text-based. 
+It is possible for an editor to do all of their work 
+entirely within GitHub, but for many it may be more 
+comfortable and/or convenient to create a local copy 
+of the repository to enable use of preferred text editors, 
+working offline, etc. [Annex A](#annex-a-links-to-useful-software) 
+provides suggestions for useful software. [Annex B](#annex-b-getting-comfortable-with-github) 
+provides an overview of establishing an environment with 
+a related set of repositories to enable working in this 
+manner and a link to an excellent explainer; other resources 
+can readily be found by searching on-line. TC members are 
+also happy to share their GitHub knowledge, and GitHub 
+provides an extensive [help](https://help.github.com/en) library.
 
 ### 4.4.1 Creating & Posting a Working Draft
 
@@ -386,7 +396,7 @@ A frequent occurrence in developing a work product is the posting of a "Working 
 
 The editor uses GitHub to [create a release](https://help.github.com/en/articles/creating-releases), and assigns it an appropriate identification tag, typically identifying the target version and the WD revision number (e.g., v1.0_WD05). GitHub creates an easily downloadable ZIP file containing the contents of the selected branch of the repository at the time of the release's creation. That ZIP file is the basis for the WD package.
 
-Editors should remember to update the TOC within the Markdown file prior to declaring a release to create a WD. [pandoc](#heading=h.3thaqqn5mf6z), a document conversion tool can be used to create the TOC in a local file, as follows:
+Editors should remember to update the TOC within the Markdown file prior to declaring a release to create a WD. [pandoc](#annex-a-links-to-useful-software), a document conversion tool can be used to create the TOC in a local file, as follows:
 
 `pandoc -f gfm --toc --toc-depth=5 -s -o <outfile> <infile>`
 
