@@ -709,7 +709,20 @@ $ git push
 
 * Click the green "Create pull request" button.
 
-## C.9 Create Committee Specification (CS)
+## C.9 Approve Pull Request (TBD)
+TBSL
+
+## C.10 Create Working Draft (WD) (TBD)
+TBSL
+
+## C.11 Create Committee Specification Draft (CSD) (TBD)
+TBSL
+
+## C.12 Create Public Review Draft (CSPRD) (TBD)
+TBSL
+
+## C.13 Create Committee Specification (CS) (TBD)
+TBSL
 
 **From Local Command Line**
 
@@ -800,7 +813,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:master."
 
-## C.10 Update "release" Branch in the OASIS Repo from "master" Branch
+## C.14 Update "release" Branch in the OASIS Repo from "master" Branch
 
 **From Local Command Line**
 
@@ -871,7 +884,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:release."
 
-## C.11 Update "working" Branch in the OASIS Repo from "release" Branch
+## C.15 Update "working" Branch in the OASIS Repo from "release" Branch
 
 **From Local Command Line**
 
@@ -933,7 +946,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:working."
 
-## C.12 TBD
+## C.16 Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch (TBD)
 
 After creating the CS in the "master" branch and applying the CS down to the "release" and "working" branches, the Git Log from the "working" branch should look similar to the following:
 
