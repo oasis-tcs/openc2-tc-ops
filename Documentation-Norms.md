@@ -371,6 +371,12 @@ GitHub has no obvious mechanism to update a fork repo with changes from the upst
 
 An easier approach, and one that’s useful if you have a fork on GitHub but aren’t doing local editing with Git, is to apply the [method described here](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser) to create a pull request from the upstream repo to the fork.
 
+> NOTE: experimenting with that method, it seems to create something of a
+loop condition between the fork and the upstream repo, where the commit
+of the PR from upstream to fork shows up as the fork being a commit ahead, and
+creating a new fork --> upstream PR just perpetuates the problem. So deleting
+and recreating the fork may still be a cleaner approach.
+
 # Annex C: GitHub- / Markdown-Based Process
 
 ## C.1 Procedures
