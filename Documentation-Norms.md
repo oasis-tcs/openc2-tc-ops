@@ -24,6 +24,8 @@ The document will gradually be honed to a more polished form, but will likely al
 # Table of Contents
 
 -   [1 Foreword](#1-foreword)
+-   [Table of Contents](#table-of-contents)
+-   [Figures](#figures)
 -   [To-Do List](#to-do-list)
 -   [2 OASIS Guidance for Editors](#2-oasis-guidance-for-editors)
 -   [3 Work Product Development
@@ -56,37 +58,46 @@ The document will gradually be honed to a more polished form, but will likely al
     Software](#annex-a-links-to-useful-software)
 -   [Annex B: Getting Comfortable with
     GitHub](#annex-b-getting-comfortable-with-github)
--   [Annex C: GitHub- / Markdown-Based
-    Process](#annex-c-github---markdown-based-process)
-    -   [C.1 Procedures](#c1-procedures)
-        -   [C.1 Create OASIS \"release\"
-            Branch](#c1-create-oasis-release-branch)
-        -   [C.2 Create OASIS \"working\"
-            Branch](#c2-create-oasis-working-branch)
-        -   [C.3 Fork OASIS Repository](#c3-fork-oasis-repository)
-        -   [C.4 Clone Local Repository from Personal
-            Fork](#c4-clone-local-repository-from-personal-fork)
-        -   [C.5 Create \"feature\" Branch in Local
-            Repository](#c5-create-feature-branch-in-local-repository)
-        -   [C.6 Commit Changes to Local \"feature\"
-            Branch](#c6-commit-changes-to-local-feature-branch)
-        -   [C.7 Push Local Changes from \"feature\" Branch to
-            Personal
-            Fork](#c7-push-local-changes-from-feature-branch-to-personal-fork)
-        -   [C.8 Create Pull Request to OASIS
-            Repository](#c8-create-pull-request-to-oasis-repository)
-        -   [C.9 Create Committee Specification
-            (CS)](#c9-create-committee-specification-cs)
-        -   [C.10 Update \"release\" Branch in the OASIS Repo from
-            \"master\"
-            Branch](#c10-update-release-branch-in-the-oasis-repo-from-master-branch)
-        -   [C.11 Update \"working\" Branch in the OASIS Repo from
-            \"release\"
-            Branch](#c11-update-working-branch-in-the-oasis-repo-from-release-branch)
-        -   [C.1.12 TBD](#c12-tbd)
+-   [Annex C: GitHub- / Markdown-Based Process &
+    Procedures](#annex-c-github---markdown-based-process--procedures)
+    -   [C.1 Create OASIS \"release\"
+        Branch](#c1-create-oasis-release-branch)
+    -   [C.2 Create OASIS \"working\"
+        Branch](#c2-create-oasis-working-branch)
+    -   [C.3 Fork OASIS Repository](#c3-fork-oasis-repository)
+    -   [C.4 Clone Local Repository from Personal
+        Fork](#c4-clone-local-repository-from-personal-fork)
+    -   [C.5 Create \"feature\" Branch in Local
+        Repository](#c5-create-feature-branch-in-local-repository)
+    -   [C.6 Commit Changes to Local \"feature\"
+        Branch](#c6-commit-changes-to-local-feature-branch)
+    -   [C.7 Push Local Changes from \"feature\" Branch to Personal
+        Fork](#c7-push-local-changes-from-feature-branch-to-personal-fork)
+    -   [C.8 Create Pull Request to OASIS
+        Repository](#c8-create-pull-request-to-oasis-repository)
+    -   [C.9 Approve Pull Request (TBD)](#c9-approve-pull-request-tbd)
+    -   [C.10 Create Working Draft (WD)
+        (TBD)](#c10-create-working-draft-wd-tbd)
+    -   [C.11 Create Committee Specification Draft (CSD)
+        (TBD)](#c11-create-committee-specification-draft-csd-tbd)
+    -   [C.12 Create Public Review Draft (CSPRD)
+        (TBD)](#c12-create-public-review-draft-csprd-tbd)
+    -   [C.13 Create Committee Specification (CS)
+        (TBD)](#c13-create-committee-specification-cs-tbd)
+    -   [C.14 Update \"release\" Branch in the OASIS Repo from
+        \"master\"
+        Branch](#c14-update-release-branch-in-the-oasis-repo-from-master-branch)
+    -   [C.15 Update \"working\" Branch in the OASIS Repo from
+        \"release\"
+        Branch](#c15-update-working-branch-in-the-oasis-repo-from-release-branch)
+    -   [C.16 Update \"working\" Branch in the Personal Fork with OASIS
+        Repo \"working\" Branch
+        (TBD)](#c16-update-working-branch-in-the-personal-fork-with-oasis-repo-working-branch-tbd)
 -   [Annex D: Markdown Formatting
     Conventions](#annex-d-markdown-formatting-conventions)
     -   [D.1 Headings](#d1-headings)
+-   [This is a Level 1 heading](#this-is-a-level-1-heading)
+    -   [This is a Level 2 heading](#this-is-a-level-2-heading)
     -   [D.2 Emphasis: Bold and Italic
         Text](#d2-emphasis-bold-and-italic-text)
     -   [D.3 Hyperlinks and Section
@@ -109,10 +120,11 @@ The document will gradually be honed to a more polished form, but will likely al
     -   [E.3 Acknowledgement Sections](#e3-acknowledgement-sections)
     -   [E.4 Hash Marks for Markdown
         Headings](#e4-hash-marks-for-markdown-headings)
--   [8 Annex A: blah blah blah](#8-annex-a-blah-blah-blah)
+-   [Annex A: blah blah blah](#annex-a-blah-blah-blah)
     -   [8.1 A.1 blah blah blah](#81-a1-blah-blah-blah)
     -   [**9.5 Markdown Considerations During
         Publishing**](#95-markdown-considerations-during-publishing)
+
 
 # Figures
  - [Figure 1: Work Product Repository Branching Concept](#figure-1-work-product-repository-branching-concept)
