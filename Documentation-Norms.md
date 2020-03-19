@@ -4,8 +4,6 @@
 
 > To-Do:  Use pandoc TOC links to fix internal cross-reference links
 
-> To-Do:  Need to fix the figure inclusions
-
 > To-Do:  Need to clean up (or possibly remove) the end matter 
 related to exporting GDocs to MD
 
@@ -222,7 +220,8 @@ The following branching scheme has been worked out to facilitate the configurati
 
 * The *Master* branch contains TC approved CS and OASIS Standard versions of the work product. Until the first CS is approved, the Master branch will not contain a complete version of the work product.
 
-![image alt text](image_0.png)
+![Work Product Repo Branching Concept](images/versioning-concept.png)
+### Figure 1: Work Product Repository Branching Concept
 
 * [Diagram Source](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
 
@@ -351,7 +350,11 @@ For those unfamiliar with using GitHub and Git, [this article](https://hackernoo
 
 If you're unfamiliar with the use of Git and GitHub for version control, the terminology and process can be a little bit hard to grasp. The articles linked above can definitely help.  The following diagram illustrates the process of connecting GitHub repos and a local Git repo to work on products.  The process steps are listed below the diagram, with links to the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary) for definitions of key terminology.
 
-![image alt text](image_1.png)
+![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
+#### Figure 2: Relationships Among GitHub Repositories
+
+* [Image Source](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
+
 
 1. GitHub: A Project Owner creates a [repository](https://help.github.com/en/github/getting-started-with-github/github-glossary#repository) ("repo") for the document. This the "master" version of the document, and the repo is the "[Upstream](https://help.github.com/en/github/getting-started-with-github/github-glossary#upstream) Repo". In the case of OpenC2 TC work products, these repos are created and managed by OASIS TC Administration, with one or more TC members established as maintainers for the repo.
 
