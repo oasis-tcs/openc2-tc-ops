@@ -130,9 +130,6 @@ The document will gradually be honed to a more polished form, but will likely al
 > To-Do:  Need to clean up (or possibly remove) the end matter 
 related to exporting GDocs to MD
 
-> To-Do:  Add some words about exporting Diagrams.net to other 
-formats and re-importing those files.
-
 > To-Do:  Determine if table formatting needs improvement
 
 > To-Do:  Polish introductory text in Annex C
@@ -473,7 +470,14 @@ The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/pol
 
 * **pandoc**: This utility is a Swiss Army Knife of marked-up file conversions, and is also useful for creating tables of contents for Markdown files.  -- [https://pandoc.org/](https://pandoc.org/) 
 
-* **[Diagrams.net](https://app.diagrams.net/) (was Draw.io)**:  an open source drawing tool (similar to Visio / Gliffy / LucidChart)  -- [https://draw.io](https://draw.io).  (NOTE: In a February 2020 [blog post](https://www.diagrams.net/blog/move-diagrams-net) it was announced that Draw.io is being renamed to diagrams.net. The new home page  is [www.diagrams.net](https://www.diagrams.net/). For now, draw.io redirects to diagrams.net.)
+* **[Diagrams.net](https://app.diagrams.net/) (was Draw.io)**: 
+an open source drawing tool (similar to Visio / Gliffy / LucidChart). 
+It's a a free, online diagram editor and viewer with a wide variety of 
+shapes, icons, connector and templates. It can also 
+import and export numerous file formats, albeit with 
+some limitations.
+
+    NOTE: In a February 2020 [blog post](https://www.diagrams.net/blog/move-diagrams-net) it was announced that Draw.io is being renamed to diagrams.net. The new home page  is [www.diagrams.net](https://www.diagrams.net/). For now, draw.io redirects to diagrams.net.)
 
 * **Microsoft Visual Studio Code**:  powerful free text editor that integrates easily with Git / GitHub. With appropriate extensions you can get a side-by-side view of raw and rendered Markdown while editing. MS VSC is based on the [Electron platform](https://www.electronjs.org/) so it is available for Windows, Mac, and Linux -- [https://code.visualstudio.com/](https://code.visualstudio.com/) 
 
