@@ -130,9 +130,6 @@ The document will gradually be honed to a more polished form, but will likely al
 > To-Do:  Need to clean up (or possibly remove) the end matter 
 related to exporting GDocs to MD
 
-> To-Do:  Add some words about exporting Diagrams.net to other 
-formats and re-importing those files.
-
 > To-Do:  Determine if table formatting needs improvement
 
 > To-Do:  Polish introductory text in Annex C
