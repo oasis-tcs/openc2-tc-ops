@@ -35,4 +35,5 @@ capture some useful details regarding the meeting scheduling process.
 
 We're a big "room" by Lucid standards, some actions take a little time for processing. Some processing happens in the background (e.g., invitation email generation and sending), but not all (e.g., adding people to a meeting series). Occasionally you may get a "504 Gateway Time-out" error on the latter; if that happens backtrack to the meeting page (`meet.lucidmeetings.com/meeting/xxxxxx`) to continue. Confirm that the people have been added (they usually have).
 
+### Example Meeting Scheduling Matrix
 ![Example Scheduling Grid](/images/scheduling-grid.jpg)
