@@ -19,6 +19,8 @@ An overview of how the OpenC2 TC conducts its operations; useful for both new an
 * [Documentation-Norms.md](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/Documentation-Norms.md) -- 
 An information document for work product editors, including the TC's use 
 of markdown and GitHub for developing and managing those work products.
+Also includes information about choosing work products names and shorthands,
+branch management strategy for work product GitHub repos, and other helpful info.
 * [Meeting-Scheduling.md](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/Meeting-Scheduling.md) -- 
 notes about the meeting scheduling process, 
 for reference by co-chairs and the TC secretary
