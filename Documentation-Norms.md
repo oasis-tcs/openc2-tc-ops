@@ -486,7 +486,7 @@ including Markdown, HTML, and others.
 
 # Annex B: Getting Comfortable with GitHub
 
-For those unfamiliar with using GitHub and Git, [this article](https://hackernoon.com/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a) provides a helpful (albeit colorfully presented and highly opinionated) explanation of the concepts and processes (feel free to skip the introductory <Rant> and jump to the GitHub-oriented meat [search for "What is a repository?"]).  Another good introduction is [this article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) from someone who isn’t primarily a programmer.
+For those unfamiliar with using GitHub and Git, [this article](https://medium.com/hackernoon/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a) provides a helpful (albeit colorfully presented and highly opinionated) explanation of the concepts and processes (feel free to skip the introductory <Rant> and jump to the GitHub-oriented meat [search for "What is a repository?"]).  Another good introduction is [this article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) from someone who isn’t primarily a programmer.
 
 If you're unfamiliar with the use of Git and GitHub for version control, the terminology and process can be a little bit hard to grasp. The articles linked above can definitely help.  The following diagram illustrates the process of connecting GitHub repos and a local Git repo to work on products.  The process steps are listed below the diagram, with links to the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary) for definitions of key terminology.
 
