@@ -323,7 +323,9 @@ The following branching scheme has been worked out to facilitate the configurati
 ![Work Product Repo Branching Concept](images/versioning-concept.png)
 ### Figure 1: Work Product Repository Branching Concept
 
-* [Diagram Source](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
+Note that this branching strategy is intended for the _work product_ managed in the repo. There may be reasons to make changes directly to the Master branch, such as to update the information in the repo's README.md file.
+
+* [Diagram Source (Original Google Draw File)](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
 
 #### 4.3.3.1 README.md Content Update
 
