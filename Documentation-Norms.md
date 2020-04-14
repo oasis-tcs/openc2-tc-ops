@@ -294,7 +294,7 @@ Both the template / starter document and a GitHub repo are requested using forms
 
 * Request a TC GitHub version control instance be created
 
-The editors of the work product should also be named as the maintainers of the GitHub repository, so every editor needs a GitHub account. Document editors should also be familiar with the OASIS guidance on using [GitHub Repositories for OASIS TC Members' Chartered Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work). In particular, the repo maintainers must enforce that contributions to the work product are only from TC members and that the Intellectual Property policy under which the TC operates is enforced. 
+The editors of the work product should also be named as the maintainers of the GitHub repository, so every editor needs a GitHub account. Document editors must be familiar with the OASIS guidance on using [GitHub Repositories for OASIS TC Members' Chartered Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work). In particular, the repo maintainers must enforce that contributions to the work product are only from TC members and that the Intellectual Property policy under which the TC operates is enforced.
 
 In response to the request for a template / starter document, TC Admin will send a message to the TC mail list with an attached ZIP file containing:
 
