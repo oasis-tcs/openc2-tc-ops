@@ -114,10 +114,8 @@ The document will gradually be honed to a more polished form, but will likely al
     -   [E.3 Acknowledgement Sections](#e3-acknowledgement-sections)
     -   [E.4 Hash Marks for Markdown
         Headings](#e4-hash-marks-for-markdown-headings)
--   [Annex A: blah blah blah](#annex-a-blah-blah-blah)
-    -   [8.1 A.1 blah blah blah](#81-a1-blah-blah-blah)
-    -   [**9.5 Markdown Considerations During
-        Publishing**](#95-markdown-considerations-during-publishing)
+    -   [E.5 Markdown Considerations During
+        Publishing](#E5-markdown-considerations-during-publishing)
 
 
 # Figures
