@@ -1261,13 +1261,8 @@ Jason Romano: For the most part, you won't have to worry about the hash marks, b
 
 Using PS+ to apply heading format to Annexes and their subsections will result in something like this:
 
-# Annex A: blah blah blah
 
-## 8.1 A.1 blah blah blah
-
-After conversion to MD, HTML, etc., the editor should remove the numbering inserted by PS+.  The editor should also remove the hash marks from the HTML version.
-
-## **9.5 Markdown Considerations During Publishing**
+## E.5 Markdown Considerations During Publishing
 
 **TBSL:** inspecting the Google Doc to Markdown export results, some of the key points are here:
 
