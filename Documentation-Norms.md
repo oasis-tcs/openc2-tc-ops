@@ -488,9 +488,17 @@ including Markdown, HTML, and others.
 
 # Annex B: Getting Comfortable with GitHub
 
-For those unfamiliar with using GitHub and Git, [this article](https://medium.com/hackernoon/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a) provides a helpful (albeit colorfully presented and highly opinionated) explanation of the concepts and processes (feel free to skip the introductory <Rant> and jump to the GitHub-oriented meat [search for "What is a repository?"]).  Another good introduction is [this article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) from someone who isn’t primarily a programmer.
+For those unfamiliar with using GitHub and Git, [this article](https://medium.com/hackernoon/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a) provides a helpful 
+(albeit colorfully presented and highly opinionated) explanation of the concepts and processes 
+(feel free to skip the introductory <Rant> and jump to the GitHub-oriented meat 
+[search for "What is a repository?"]).  Another good introduction is [this article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) from someone who isn’t primarily a programmer.
 
-If you're unfamiliar with the use of Git and GitHub for version control, the terminology and process can be a little bit hard to grasp. The articles linked above can definitely help.  The following diagram illustrates the process of connecting GitHub repos and a local Git repo to work on products.  The process steps are listed below the diagram, with links to the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary) for definitions of key terminology.
+If you're unfamiliar with the use of Git and GitHub for version control, the terminology 
+and process can be a little bit hard to grasp. The articles linked above can definitely help.  
+The following diagram illustrates the process of connecting GitHub repos and a local Git 
+repo to work on products.  The process steps are listed below the diagram, with links 
+to the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary) 
+for definitions of key terminology.
 
 ![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
 #### Figure 2: Relationships Among GitHub Repositories
@@ -501,6 +509,8 @@ If you're unfamiliar with the use of Git and GitHub for version control, the ter
 1. GitHub: A Project Owner creates a [repository](https://help.github.com/en/github/getting-started-with-github/github-glossary#repository) ("repo") for the document. This the "master" version of the document, and the repo is the "[Upstream](https://help.github.com/en/github/getting-started-with-github/github-glossary#upstream) Repo". In the case of OpenC2 TC work products, these repos are created and managed by OASIS TC Administration, with one or more TC members established as maintainers for the repo.
 
 2. GitHub: A Contributor creates a [forked copy](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork) of the Upstream Repo in their own GitHub account. This repo will contain a copy of the document as it existed in the Upstream Repo at the time the fork was created. The contributor can work purely in this document on the web, or create a local [Git](https://help.github.com/en/github/getting-started-with-github/github-glossary#git) repo (step #3) where they can, for example, edit with their favorite text editor or Git-/GitHub-aware tool set.
+
+> NOTE: The default names in the [GitHub documentation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork) for the repos described in Steps 1 and 2 here are "upstream" for the "OASIS" repo, and "origin" for the "Fork" repo. The instructions in [C.4](#c4-clone-local-repository-from-personal-fork) describe using `git` commands to establish the "OASIS" and "Fork" names used here.
 
 3. Local: A Contributor "[clones](https://help.github.com/en/github/getting-started-with-github/github-glossary#clone)" their GitHub fork of the document to a Git environment on their local system.
 
