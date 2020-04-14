@@ -1169,7 +1169,7 @@ GFM offers additional flexibility in formatting tables, the details are describe
 
 ## D.10 "short lines"
 
-When GitHub displays a diff, it's doing a line-by-line comparison, and recall the tool was created for software version control. Lines of code are typically short. In a document, if a paragraph is one very long line, it's much harder for GitHub to easily display the line-in / line-out changes, so he thinks it's better to break the text into shorter lines to make changes more visible. 
+When GitHub displays a diff, it's doing a line-by-line comparison, and recall the tool was created for software version control. Lines of code are typically short. In a document, if a paragraph is one very long line, it's much harder for GitHub to easily display the line-in / line-out changes, so it's helpful to break the text into shorter lines to make changes more visible. 
 
 ## D.11 Graphics
 
