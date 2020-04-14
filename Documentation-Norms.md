@@ -114,10 +114,8 @@ The document will gradually be honed to a more polished form, but will likely al
     -   [E.3 Acknowledgement Sections](#e3-acknowledgement-sections)
     -   [E.4 Hash Marks for Markdown
         Headings](#e4-hash-marks-for-markdown-headings)
--   [Annex A: blah blah blah](#annex-a-blah-blah-blah)
-    -   [8.1 A.1 blah blah blah](#81-a1-blah-blah-blah)
-    -   [**9.5 Markdown Considerations During
-        Publishing**](#95-markdown-considerations-during-publishing)
+    -   [E.5 Markdown Considerations During
+        Publishing](#E5-markdown-considerations-during-publishing)
 
 
 # Figures
@@ -294,7 +292,7 @@ Both the template / starter document and a GitHub repo are requested using forms
 
 * Request a TC GitHub version control instance be created
 
-The editors of the work product should also be named as the maintainers of the GitHub repository, so every editor needs a GitHub account. OASIS also requires maintainers to sign their ICLA ([Individual Contributor License Agreement](https://www.oasis-open.org/resources/open-repositories/cla/individual-cla)) to confirm that the maintainer agrees to the license governing the work. Document editors should also be familiar with the OASIS guidance on using [GitHub Repositories for OASIS TC Members' Chartered Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work). In particular, the repo maintainers must enforce that contributions to the work product are only from TC members and that the Intellectual Property policy under which the TC operates is enforced. 
+The editors of the work product should also be named as the maintainers of the GitHub repository, so every editor needs a GitHub account. Document editors must be familiar with the OASIS guidance on using [GitHub Repositories for OASIS TC Members' Chartered Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work). In particular, the repo maintainers must enforce that contributions to the work product are only from TC members and that the Intellectual Property policy under which the TC operates is enforced.
 
 In response to the request for a template / starter document, TC Admin will send a message to the TC mail list with an attached ZIP file containing:
 
@@ -488,9 +486,17 @@ including Markdown, HTML, and others.
 
 # Annex B: Getting Comfortable with GitHub
 
-For those unfamiliar with using GitHub and Git, [this article](https://medium.com/hackernoon/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a) provides a helpful (albeit colorfully presented and highly opinionated) explanation of the concepts and processes (feel free to skip the introductory <Rant> and jump to the GitHub-oriented meat [search for "What is a repository?"]).  Another good introduction is [this article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) from someone who isn’t primarily a programmer.
+For those unfamiliar with using GitHub and Git, [this article](https://medium.com/hackernoon/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a) provides a helpful 
+(albeit colorfully presented and highly opinionated) explanation of the concepts and processes 
+(feel free to skip the introductory <Rant> and jump to the GitHub-oriented meat 
+[search for "What is a repository?"]).  Another good introduction is [this article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) from someone who isn’t primarily a programmer.
 
-If you're unfamiliar with the use of Git and GitHub for version control, the terminology and process can be a little bit hard to grasp. The articles linked above can definitely help.  The following diagram illustrates the process of connecting GitHub repos and a local Git repo to work on products.  The process steps are listed below the diagram, with links to the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary) for definitions of key terminology.
+If you're unfamiliar with the use of Git and GitHub for version control, the terminology 
+and process can be a little bit hard to grasp. The articles linked above can definitely help.  
+The following diagram illustrates the process of connecting GitHub repos and a local Git 
+repo to work on products.  The process steps are listed below the diagram, with links 
+to the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary) 
+for definitions of key terminology.
 
 ![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
 #### Figure 2: Relationships Among GitHub Repositories
@@ -501,6 +507,8 @@ If you're unfamiliar with the use of Git and GitHub for version control, the ter
 1. GitHub: A Project Owner creates a [repository](https://help.github.com/en/github/getting-started-with-github/github-glossary#repository) ("repo") for the document. This the "master" version of the document, and the repo is the "[Upstream](https://help.github.com/en/github/getting-started-with-github/github-glossary#upstream) Repo". In the case of OpenC2 TC work products, these repos are created and managed by OASIS TC Administration, with one or more TC members established as maintainers for the repo.
 
 2. GitHub: A Contributor creates a [forked copy](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork) of the Upstream Repo in their own GitHub account. This repo will contain a copy of the document as it existed in the Upstream Repo at the time the fork was created. The contributor can work purely in this document on the web, or create a local [Git](https://help.github.com/en/github/getting-started-with-github/github-glossary#git) repo (step #3) where they can, for example, edit with their favorite text editor or Git-/GitHub-aware tool set.
+
+> NOTE: The default names in the [GitHub documentation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork) for the repos described in Steps 1 and 2 here are "upstream" for the "OASIS" repo, and "origin" for the "Fork" repo. The instructions in [C.4](#c4-clone-local-repository-from-personal-fork) describe using `git` commands to establish the "OASIS" and "Fork" names used here.
 
 3. Local: A Contributor "[clones](https://help.github.com/en/github/getting-started-with-github/github-glossary#clone)" their GitHub fork of the document to a Git environment on their local system.
 
@@ -1161,7 +1169,7 @@ GFM offers additional flexibility in formatting tables, the details are describe
 
 ## D.10 "short lines"
 
-When GitHub displays a diff, it's doing a line-by-line comparison, and recall the tool was created for software version control. Lines of code are typically short. In a document, if a paragraph is one very long line, it's much harder for GitHub to easily display the line-in / line-out changes, so he thinks it's better to break the text into shorter lines to make changes more visible. 
+When GitHub displays a diff, it's doing a line-by-line comparison, and recall the tool was created for software version control. Lines of code are typically short. In a document, if a paragraph is one very long line, it's much harder for GitHub to easily display the line-in / line-out changes, so it's helpful to break the text into shorter lines to make changes more visible. 
 
 ## D.11 Graphics
 
@@ -1251,13 +1259,8 @@ Jason Romano: For the most part, you won't have to worry about the hash marks, b
 
 Using PS+ to apply heading format to Annexes and their subsections will result in something like this:
 
-# Annex A: blah blah blah
 
-## 8.1 A.1 blah blah blah
-
-After conversion to MD, HTML, etc., the editor should remove the numbering inserted by PS+.  The editor should also remove the hash marks from the HTML version.
-
-## **9.5 Markdown Considerations During Publishing**
+## E.5 Markdown Considerations During Publishing
 
 **TBSL:** inspecting the Google Doc to Markdown export results, some of the key points are here:
 
