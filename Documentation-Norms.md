@@ -316,12 +316,12 @@ The following branching scheme has been worked out to facilitate the configurati
 
 * The *Releases* branch contains incremental releases of the work product, identified as "Working Drafts", as described in Section 3.2 above. When the editors wish to release a WD, the current contents of the Working branch are merged into the Releases branch, a release is created, and the release files are uploaded to OASIS. Working drafts may or may not receive TC approval as CSDs. 
 
-* The *Master* branch contains TC approved CS and OASIS Standard versions of the work product. Until the first CS is approved, the Master branch will not contain a complete version of the work product.
+* The *Master* branch contains TC approved CS and OASIS Standard versions of the work product. The Master branch is initially populated with the starter document template supplied by OASIS. Until the first CS is approved, the Master branch will only contain the template rather than a complete version of the work product.
 
 ![Work Product Repo Branching Concept](images/versioning-concept.png)
 ### Figure 1: Work Product Repository Branching Concept
 
-Note that this branching strategy is intended for the _work product_ managed in the repo. There may be reasons to make changes directly to the Master branch, such as to update the information in the repo's README.md file.
+The diagram assumes a Committee Specification has been approved (the v1.0 document) and work is proceeding on a future version (the v1.1 document). Note that this branching strategy is intended for the _work product_ managed in the repo. There may be reasons to make changes directly to the Master branch, such as to update the information in the repo's README.md file.
 
 * [Diagram Source (Original Google Draw File)](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
 
