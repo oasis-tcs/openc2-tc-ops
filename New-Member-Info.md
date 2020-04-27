@@ -48,6 +48,4 @@ Please feel free to contact me if you have any questions or concerns.
 
 #### David Lemire, OpenC2 TC Secretary
 
-Email:  dave.lemire@g2-inc.com
-
-Email (effective 1 April 2020):  david.lemire@hii-tsd.com
+Email:  david.lemire@hii-tsd.com
