@@ -119,8 +119,10 @@ The document will gradually be honed to a more polished form, but will likely al
 
 
 # Figures
- - [Figure 1: Work Product Repository Branching Concept](#figure-1-work-product-repository-branching-concept)
- -   [Figure 2: Relationships Among GitHub Repositories](#figure-2-relationships-among-github-repositories)
+ - [Figure 1: New Work Product
+   Launch](#figure-1-new-work-product-launch)
+  - [Figure 2: Work Product Repository Branching Concept](#figure-2-work-product-repository-branching-concept)
+ -   [Figure 3: Relationships Among GitHub Repositories](#figure-3-relationships-among-github-repositories)
 
 * * *
 # To-Do List
@@ -588,7 +590,7 @@ to the [GitHub glossary](https://help.github.com/en/github/getting-started-with-
 for definitions of key terminology.
 
 ![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
-#### Figure 2: Relationships Among GitHub Repositories
+#### Figure 3: Relationships Among GitHub Repositories
 
 * [Image Source](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
 
