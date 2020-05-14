@@ -397,28 +397,97 @@ provides an extensive [help](https://help.github.com/en) library.
 
 ### 4.4.1 Creating & Posting a Working Draft
 
-A frequent occurrence in developing a work product is the posting of a "Working Draft" version to OASIS. This must be done, in particular, any time a ballot is to be held to approve a document as a Committee Specification Draft (CSD), which happens periodically during our "agile" document development process. The GitHub [Releases](https://help.github.com/en/articles/managing-releases-in-a-repository) feature is used to identify a WD within GitHub and to help create the WD package for upload to Kavi.
+A frequent occurrence in developing a work product is the
+posting of a "Working Draft" (WD) version to OASIS. This must be
+done, in particular, any time a ballot is to be held to
+approve a document as a Committee Specification Draft (CSD),
+which happens periodically during our "agile" document
+development process. The GitHub
+[Releases](https://help.github.com/en/articles/managing-releases-in-a-repository)
+feature is used to tag a WD within GitHub and to help
+create the WD package for upload to Kavi. With the branching
+strategy used by the OpenC2 TC, the creation of a WD is a
+three-step process:
 
-The editor uses GitHub to [create a release](https://help.github.com/en/articles/creating-releases), and assigns it an appropriate identification tag, typically identifying the target version and the WD revision number (e.g., v1.0_WD05). GitHub creates an easily downloadable ZIP file containing the contents of the selected branch of the repository at the time of the release's creation. That ZIP file is the basis for the WD package.
+1. In the `working` branch,  refresh the document's table of
+   contents and ensure the document title page is updated to
+   reflect the WD number and date.
+1. Create a pull request from the `working` to the `release`
+   branch to update `release` to reflect the current content.
+1. Use the GH Releases feature to create the release package.
 
-Editors should remember to update the TOC within the Markdown file prior to declaring a release to create a WD. [pandoc](#annex-a-links-to-useful-software), a document conversion tool can be used to create the TOC in a local file, as follows:
+#### 4.4.1.1 Document Updates for WD
+As final preparation to create a WD, editors should
+* update the WD sequence number and date
+information on the title page so that they are current, and
+* update the TOC within the Markdown file prior to declaring a release to create a WD. 
+
+[pandoc](#annex-a-links-to-useful-software) is a flexible
+document conversion tool that can the TOC
+in a local file, as follows:
 
 `pandoc -f gfm --toc --toc-depth=5 -s -o <outfile> <infile>`
 
-where `<infile>` and `<outfile>` are markdown files; 
-the TOC will be added to the `<outfile>` at the beginning 
-of the file, and the editors should manually move it to 
-the proper place in the document. There may be other 
-clean-up required of the TOC (e.g., extraneous headings); 
-the editor should review it carefully and confirm that 
-all internal document links work properly.
+where `<infile>` and `<outfile>` are markdown files. 
+
+The TOC will be added to the `<outfile>` at the beginning of
+the file, and the editors must manually move it to the
+proper place in the document. There may be other clean-up
+required of the TOC (e.g., extraneous headings); the editor
+should review it carefully, delete unwanted content, and
+confirm that all internal document links work properly.
+
+#### 4.4.1.2 Update the Release Branch
+
+The GitHub [Pull
+Request](https://help.github.com/en/github/getting-started-with-github/github-glossary#pull-request)
+(PR) mechanism is used to update the `release` branch to
+match the content of the `working` branch. To create this PR
+the editor uses the following procedure:
+1. Load the repository in the browser.
+1. Use the branch selector to change to the `working`
+   branch. GitHub should indicate the `working` branch is
+   some number of commits ahead of the `master` branch. 
+1. Click the **New pull request** button next to the branch
+   selector. GitHub will create the PR, which by default
+   will target the `master` branch as the destination to
+   apply the changes. 
+1. Click the **base:master** button and select the `release`
+   branch as the target for the PR. 
+1. Click the green **Create pull request** button. GitHub will
+   create the PR.  
+1. Once GitHub has confirmed that the PR can be merged,
+   click the green **Merge pull request** button then the
+   **Confirm merge** button to update the `release` branch to
+   align with the `working` branch.
+
+#### 4.4.1.3 Create GH Release and Upload to OASIS
+
+> The editor should ensure that they create the release
+package based on the `release` branch.
+
+The editor uses GitHub to [create a
+release](https://help.github.com/en/articles/creating-releases),
+and assigns it an appropriate identification tag, typically
+identifying the target version and the WD revision number
+(e.g., v1.0_WD05). GitHub creates a ZIP
+file containing the contents of the selected branch of the
+repository at the time of the release's creation. That ZIP
+file is the basis for the WD package.
 
 The essential contents of the WD package are
 
 * the Markdown file for the document, and 
 * any image files, which should be in the /images folder. 
 
-The editor has the option to create and include an HTML file; this can be done using pandoc and the CSS files supplied by OASIS in the template / starter document package. While the HTML file is optional, creating one is helpful in that the HTML is an easily-readable rendered version of the markdown file that can be reviewed in a browser for quality control purposes. pandoc comes into play again here to create the HTML file:
+The editor has the option to create and include an HTML
+file; this can be done using pandoc and the CSS files
+supplied by OASIS in the template / starter document
+package. While the HTML file is optional, creating one can
+be helpful in that the HTML is an easily-readable rendered
+version of the markdown file that can be reviewed in a
+browser for quality control purposes. pandoc comes into play
+again here to create the HTML file:
 
 `pandoc -f gfm -t html <filename>.md -c styles/markdown-styles-v1.7.css -s -o <filename>.html --metadata title="Title of Specification Version X.Y"`
 
