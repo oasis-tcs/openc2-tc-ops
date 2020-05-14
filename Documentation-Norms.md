@@ -272,7 +272,16 @@ the last two apply the naming conventions described above:
 
 ## 4.3 Establish Development Environment
 
-The development environment for a work product includes the starter document template from OASIS and the work product's repo, along with other forks of the repo and tools the editors find useful.
+The development environment for a work product includes the
+starter document template from OASIS and the work product's
+repo, along with other forks of the repo and tools the
+editors find useful. The process for establishing and initializing the
+development environment is illustrated in the figure below.
+The process utilizes the GitHub repository branching concept
+further described in [section 4.3.3](#433-configure-repository)
+
+![Work Product Launch](images/work-product-launch.png)
+### Figure 1: New Work Product Launch
 
 ### 4.3.1 Request Template
 
@@ -319,9 +328,19 @@ The following branching scheme has been worked out to facilitate the configurati
 * The *Master* branch contains TC approved CS and OASIS Standard versions of the work product. The Master branch is initially populated with the starter document template supplied by OASIS. Until the first CS is approved, the Master branch will only contain the template rather than a complete version of the work product.
 
 ![Work Product Repo Branching Concept](images/versioning-concept.png)
-### Figure 1: Work Product Repository Branching Concept
+### Figure 2: Work Product Repository Branching Concept
 
-The diagram assumes a Committee Specification has been approved (the v1.0 document) and work is proceeding on a future version (the v1.1 document). Note that this branching strategy is intended for the _work product_ managed in the repo. There may be reasons to make changes directly to the Master branch, such as to update the information in the repo's README.md file.
+The diagram assumes a Committee Specification has been
+approved (the v1.0 document) and work is proceeding on a
+future version (the v1.1 document). For a new work product
+the `master` branch would be populated with the
+OASIS-supplied template, and then the `release` and
+'working` branches created so that the template is available
+in the `working` branch as the starting point.  Note that this
+branching strategy is intended for the _work product_
+managed in the repo. There may be reasons to make changes
+directly to the Master branch, such as to update the
+information in the repo's README.md file.
 
 * [Diagram Source (Original Google Draw File)](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
 
