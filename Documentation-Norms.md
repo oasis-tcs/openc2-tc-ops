@@ -335,12 +335,13 @@ approved (the v1.0 document) and work is proceeding on a
 future version (the v1.1 document). For a new work product
 the `master` branch would be populated with the
 OASIS-supplied template, and then the `release` and
-'working` branches created so that the template is available
-in the `working` branch as the starting point.  Note that this
-branching strategy is intended for the _work product_
-managed in the repo. There may be reasons to make changes
-directly to the Master branch, such as to update the
-information in the repo's README.md file.
+`working` branches created in succession so that the
+template is available in the `working` branch as the
+starting point.  Note that this branching strategy is
+intended for the _work product_ managed in the repo. There
+may be reasons to make changes directly to the Master
+branch, such as to update the information in the repo's
+README.md file.
 
 * [Diagram Source (Original Google Draw File)](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
 
