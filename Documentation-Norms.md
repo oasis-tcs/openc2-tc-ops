@@ -733,7 +733,7 @@ Same with CS…
 
 * Click the link to "Create Branch: working from 'master'"
 
-## C.3 Fork OASIS Repository
+## C.2 Fork OASIS Repository
 
 This will create a copy of the OASIS repository into your personal GitHub account.
 
@@ -743,7 +743,7 @@ This will create a copy of the OASIS repository into your personal GitHub accoun
 
 * The Branch Infobar will display: "This branch is even with oasis-tcs:master."
 
-## C.4 Clone Local Repository from Personal Fork
+## C.3 Clone Local Repository from Personal Fork
 
 This will create a copy of your personal forked repository into your local computer. 
 
@@ -794,7 +794,7 @@ oasis   https://github.com/oasis-tcs/<repo-name>.git (push)
 ```
 
 
-## C.5 Create "feature" Branch in Local Repository
+## C.4 Create "feature" Branch in Local Repository
 
 **From Local Command Line**
 
@@ -820,7 +820,7 @@ $ git checkout -b <new-feature>
 $ git push --set-upstream fork <new-feature>
 ```
 
-## C.6 Commit Changes to Local "feature" Branch
+## C.5 Commit Changes to Local "feature" Branch
 
 After changes have been made to the files in the "feature" branch, the changes should be committed.
 
@@ -842,7 +842,7 @@ $ git commit -m "add message"
 ```
 
 
-## C.7 Push Local Changes from "feature" Branch to Personal Fork
+## C.6 Push Local Changes from "feature" Branch to Personal Fork
 
 **From Local Command Line**
 
@@ -853,7 +853,7 @@ $ git push
 ```
 
 
-## C.8 Create Pull Request to OASIS Repository
+## C.7 Create Pull Request to OASIS Repository
 
 **From Personal Forked Repo**
 
@@ -865,19 +865,19 @@ $ git push
 
 * Click the green "Create pull request" button.
 
-## C.9 Approve Pull Request (TBD)
+## C.8 Approve Pull Request (TBD)
 TBSL
 
-## C.10 Create Working Draft (WD) (TBD)
+## C.9 Create Working Draft (WD) (TBD)
 TBSL
 
-## C.11 Create Committee Specification Draft (CSD) (TBD)
+## C.10 Create Committee Specification Draft (CSD) (TBD)
 TBSL
 
-## C.12 Create Public Review Draft (CSPRD) (TBD)
+## C.11 Create Public Review Draft (CSPRD) (TBD)
 TBSL
 
-## C.13 Create Committee Specification (CS) (TBD)
+## C.12 Create Committee Specification (CS) (TBD)
 TBSL
 
 **From Local Command Line**
@@ -888,12 +888,6 @@ TBSL
 $ git checkout master
 ```
 
-
-* Merge the changes from the "release" branch.
-
-```
-$ git merge release
-```
 
 
 * Copy the published files into the "master" branch.
@@ -969,78 +963,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:master."
 
-## C.14 Update "release" Branch in the OASIS Repo from "master" Branch
-
-**From Local Command Line**
-
-* Checkout the "release" branch.
-
-```
-$ git checkout release
-```
-
-
-* Merge the changes from the "master" branch into the "release" branch
-
-```
-$ git merge master
-```
-
-
-* Remove the HTML and PDF files from the "release" branch
-
-```
-$ git rm <filename>.html
-$ git rm <filename>.pdf
-$ git rm -r styles/
-$ git commit -am "remove HTML and PDF files"
-```
-
-* Push the changes to the Personal Forked Repo
-```
-$ git push
-```
-
-**From Personal Forked Repo**
-
-* Click the green "Compare & pull request" button.
-
-**From OASIS Repo**
-
-* Verify that the base repository is the OASIS repo and the base branch is "release"
-
-* Set the pull request title and comments, as necessary.
-
-* Click the green "Create pull request" button.
-
-* Click the green "Merge pull request" button.
-
-* Click the green "Confirm merge" button.
-
-**From Local Command Line**
-
-* Fetch and merge the changes from the OASIS repo.
-
-```
-$ git fetch oasis
-$ git merge oasis/release
-```
-
-
-* Push these changes back into your "fork" repo.
-
-```
-$ git push
-```
-
-
-**From Personal Forked Repo**
-
-* Refresh the page for the "release" branch of the Forked repo.
-
-* Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:release."
-
-## C.15 Update "working" Branch in the OASIS Repo from "release" Branch
+## C.13 Update "working" Branch in the OASIS Repo from "master" Branch
 
 **From Local Command Line**
 
@@ -1050,10 +973,10 @@ $ git push
 $ git checkout working
 ```
 
-* Merge the changes from the "release" branch into the "working" branch
+* Merge the changes from the "master" branch into the "working" branch
 
 ```
-$ git merge release
+$ git merge master
 ```
 
 * Push the changes to the Personal Forked Repo
@@ -1102,7 +1025,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:working."
 
-## C.16 Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch (TBD)
+## C.14 Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch (TBD)
 
 After creating the CS in the "master" branch and applying the CS down to the "release" and "working" branches, the Git Log from the "working" branch should look similar to the following:
 
