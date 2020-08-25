@@ -1172,7 +1172,7 @@ A hyperlink in a GFM document is entered as follows:  `[text to display](link)`.
 ```
 which produces [this links to Google](https://www.google.com).
 
-Cross-links to a section header within a document use the same hyperlink structure with a specific format for the `(<)link)` portion. An example:  
+Cross-links to a section header within a document use the same hyperlink structure with a specific format for the `(link)` portion. An example:  
 
 ```
 [3.2.2 HTTP Usage](#322-http-usage). 
