@@ -316,11 +316,20 @@ the last two apply the naming conventions described above:
 
 The development environment for a work product includes the
 starter document template from OASIS and the work product's
-repo, along with forks of the repo created by contributors and tools the
-editors find useful. The process for establishing and initializing the
-development environment is illustrated in the figure below.
-The process utilizes the GitHub repository branching concept
-further described in [section 4.3.3](#433-configure-repository)
+repo, along with forks of the repo created by contributors
+and tools the editors find useful. The process for
+establishing and initializing the development environment is
+illustrated in the figure below and described in the
+following sections. The process utilizes the GitHub
+repository branching concept further described in [section
+4.3.3](#433-configure-repository)
+
+> The OpenC2 TC is aware of and endorses the movement away
+> from the use of `master` as the name of the repository's
+> default branch. The TC intends to rename the default
+> branches of its existing work product repositories once
+> [GitHub makes tools available to simplify the
+> process](https://github.com/github/renaming).
 
 ![Work Product Launch](images/work-product-launch.png)
 ### Figure 1: New Work Product Launch
