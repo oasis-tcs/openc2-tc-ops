@@ -361,29 +361,41 @@ When requesting a repository (AKA "TC GitHub version control instance") for a wo
 
 ### 4.3.3 Configure Repository
 
-The following branching scheme has been worked out to facilitate the configuration control of work products developed by the OpenC2 TC. The three branches in the repo are intended to organize the work as follows:
+The following branching scheme has been worked out to
+facilitate the configuration control of work products
+developed by the OpenC2 TC. The two branches in the
+repo are intended to organize the work as follows:
 
-* The *Working* branch contains the newest content for the work product, material that is actively being developed, and subject to potentially frequent and significant change. Contributors to the work product should target their inputs to the Working branch.
+* The *Working* branch contains the newest content for the
+  work product, material that is actively being developed,
+  and subject to potentially frequent and significant
+  change. Contributors to the work product should target
+  their inputs to the Working branch. Working Draft (WD)
+  versions of the work product are identified using the
+  GitHub Release feature, and the WD content is uploaded to
+  the TC's document store at OASIS .
 
-* The *Releases* branch contains incremental releases of the work product, identified as "Working Drafts", as described in Section 3.2 above. When the editors wish to release a WD, the current contents of the Working branch are merged into the Releases branch, a release is created, and the release files are uploaded to OASIS. Working drafts may or may not receive TC approval as CSDs. 
-
-* The *Master* branch contains TC approved CS and OASIS Standard versions of the work product. The Master branch is initially populated with the starter document template supplied by OASIS. Until the first CS is approved, the Master branch will only contain the template rather than a complete version of the work product.
+* The *Master* branch contains TC approved CS and OASIS
+  Standard versions of the work product. The Master branch
+  is initially populated with the starter document template
+  supplied by OASIS. Until the first CS is approved, the
+  Master branch will only contain the template rather than a
+  complete version of the work product.
 
 ![Work Product Repo Branching Concept](images/versioning-concept.png)
 ### Figure 2: Work Product Repository Branching Concept
 
-The diagram assumes a Committee Specification has been
-approved (the v1.0 document) and work is proceeding on a
-future version (the v1.1 document). For a new work product
-the `master` branch would be populated with the
-OASIS-supplied template, and then the `release` and
-`working` branches created in succession so that the
-template is available in the `working` branch as the
-starting point.  Note that this branching strategy is
-intended for the _work product_ managed in the repo. There
-may be reasons to make changes directly to the Master
-branch, such as to update the information in the repo's
-README.md file.
+Figure 2 assumes a Committee Specification has
+been approved (the v1.0 document) and work is proceeding on
+a future version (the v1.1 document). For a new work
+product, as shown in Figure 1, above, the `master` branch
+would be populated with the OASIS-supplied template, and
+then the `working` branches created so that the template is
+available in the `working` branch as the starting point.
+Note that this branching strategy is intended for the _work
+product_ managed in the repo. There may be reasons to make
+changes directly to the Master branch, such as to update the
+information in the repo's README.md file.
 
 * [Diagram Source (Original Google Draw File)](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
 
@@ -414,13 +426,7 @@ This repository is organized with three branches:
  change. Contributors to the work product should 
  target their inputs to the Working branch.
 
- * The *_Releases_* branch contains incremental 
- releases (i.e., Working Drafts [WDs]) of the work 
- product. The current contents of the Working 
- branch are merged into the Releases branch to 
- create a WD. 
-
- * The *_Master_* branch contains TC-approved 
+  * The *_Master_* branch contains TC-approved 
 [Committee Specification](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeSpec) (CS) or [OASIS Standard](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dOASISstandard) 
 versions of the work product. Until the first CS 
 is approved, the Master branch will not contain 
@@ -432,9 +438,26 @@ a complete version of the work product.
 
 #### 4.3.3.2 Create and Populate Branches
 
-When the repo is available the maintainers should populate the Master branch with the starter document received from TC Administration (including the subdirectories and supporting files), then create a Releases branch from the Master branch, and a Working branch from the Releases branch. Activity to develop the product then proceeds as described above. The Master branch will only have the initial template until a CS is approved, at which point the maintainers populate it with the current CS version. Each time a new CS is approved the Master branch is updated.
+When the repo is available the maintainers should populate
+the `master` branch with the starter document received from TC
+Administration (including the subdirectories and supporting
+files), then create a `working` branch from the `master`
+branch. Activity to develop the product then proceeds as
+described above. The Master branch will only have the
+initial template until a CS is approved, at which point the
+maintainers populate it with the current CS version. Each
+time a new CS is approved the Master branch is updated.
 
-Work-in-progress will always be handled in the "working" branch, and checkpointed to the releases branch as Working Drafts (WDs) are declared and Committee Specification Drafts (CSDs) are approved.
+Work-in-progress is always handled in the `working` branch,
+using the standard GitHub mechanisms of forking the work
+product repository and creating pull requests (PRs) with
+contributions. When Working Drafts (WDs) are declared, the
+GitHub Release feature is used to created the WD package for
+upload to OASIS.  If a WD is approved as a Committee
+Specification Draft (CSD) the editors should edit the
+Release description to (i) record that the WD was approved
+and the CSD version, and (ii) add a link to the published
+CDS at OASIS.
 
 ## 4.4 Incremental Development
 
