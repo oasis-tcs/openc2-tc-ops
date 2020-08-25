@@ -1187,7 +1187,7 @@ The text to display is the same as with any other link, but the (link) portion h
 
 * the section name in lower case with all spaces replaced with hyphens. 
 
-When using pandoc to create a TOC (as described below), all of the TOC entries are automatically created using this format so that the TOC is a collection of links to the document's sections. We've noticed that pandoc's TOC creation doesn't always correctly handle heading that contain characters like ampersands (&) and forward and back slashes, so a quality control check of the links it produces is worthwhile.
+When using pandoc to create a TOC (as described below), all of the TOC entries are automatically created using this format so that the TOC is a collection of links to the document's sections. We've noticed that pandoc's TOC creation doesn't always correctly handle headings that contain characters like ampersands (&) and forward and back slashes, so a quality control check of the links it produces is important.
 
 ## D.4 Images
 
