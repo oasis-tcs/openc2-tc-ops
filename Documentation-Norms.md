@@ -1,3 +1,5 @@
+# Documentation Norms for the OpenC2 Technical Committee
+
 # 1 Foreword
 
 This document provides informal, internal guidance for work product editors in the [OASIS](https://www.oasis-open.org/) [OpenC2 Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2) (TC).  It captures the working processes and norms being used by the OpenC2 TC in the development of OpenC2 standards under OASIS auspices. OpenC2 standards include the language specification, actuator profiles, transfer specifications, etc., as well as other supporting [work products](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkProduct) (the OASIS term for what a TC produces).
@@ -8,7 +10,7 @@ This document provides informal, internal guidance for work product editors in t
 
 * Helping to find consensus positions and providing text that gets the TC to agreement
 
-* Bringing up unresolved issues at TC meetings, suggesting resolutions and incorporating approved text as appropriate
+* Bringing up unresolved issues at TC meetings, suggesting resolutions, and incorporating approved text as appropriate
 
 * Preparing documents for review, coordinating with TC Administration, and presenting the document to the Technical Committee for approval for a public review
 
@@ -24,7 +26,6 @@ The document will gradually be honed to a more polished form, but will likely al
 # Table of Contents
 
 -   [1 Foreword](#1-foreword)
--   [Table of Contents](#table-of-contents)
 -   [Figures](#figures)
 -   [To-Do List](#to-do-list)
 -   [2 OASIS Guidance for Editors](#2-oasis-guidance-for-editors)
@@ -134,7 +135,9 @@ related to exporting GDocs to MD
 
 > To-Do:  Polish introductory text in Annex C
 
-> To-Do:  Remaining step-by-step instruction items that need to be finished
+> To-Do:  Remaining step-by-step instruction items that need
+> to be finished (these section numbers are out of date due
+> edits describing the simplified branching strategy)
 > * C.9 Approve Pull Request
 > * C.10 Create Working Draft (WD)
 > * C.11 Create Committee Specification Draft (CSD)
@@ -142,8 +145,6 @@ related to exporting GDocs to MD
 > * C.16 Update "working" Branch in the Personal Fork with OASIS Repo 
 "working" Branch (do this if pull request have been approved to 
 the "working" branch of the OASIS Repo)
-
-> To-Do:  Review comments on the GDoc to identify other to-do items and/or capture as GH issues
 
 * * *
 
@@ -195,7 +196,6 @@ The OpenC2 Language Specification is the foundation of a family of documents tha
 * Actuator Profiles
 * Transfer Specifications
 * Schemas
-* Others
 
 Documents of similar type (e.g., actuator profiles) within the family logically have similar content and organization, so familiarity with previously created OpenC2 specifications is helpful when developing a new work product. 
 
@@ -236,7 +236,7 @@ GitHub offers many useful features to support our process, including rich versio
 
 * **TC Open Repos:**  These are established by the TC to capture the development of (primarily) software related to the TC's objectives. 
 
-This document is focused on the use of TC Product Repos to develop TC work products (e.g., specifications, committee notes).
+This document is focused on the use of **TC Product Repos** to develop TC work products (e.g., specifications, committee notes).
 
 ## 4.1 Identify Work Product Need
 
@@ -245,10 +245,10 @@ OpenC2 TC has been delegated to the three subcommittees. Any
 member can propose a work product, typically by presenting
 their idea to the relevant subcommittee. Consensus in the
 subcommittee is sufficient to initiate the creation of a
-work product. The work will then need a name and an abstract
-in order to submit the request for a starter document
-(naming and starter document requests are discussed in the
-next section)
+work product. The work product will then need a name and an
+abstract in order to submit the request for a starter
+document (naming and starter document requests are discussed
+in the next section)
 
 ## 4.2 Assign Work Product Name
 
@@ -329,10 +329,15 @@ repository branching concept further described in [section
 > default branch. The TC intends to rename the default
 > branches of its existing work product repositories once
 > [GitHub makes tools available to simplify the
-> process](https://github.com/github/renaming).
+> process](https://github.com/github/renaming). This
+> document presently uses `master` so that it aligns with
+> the current content of the TC's GitHub repos.
 
 ![Work Product Launch](images/work-product-launch.png)
 ### Figure 1: New Work Product Launch
+
+> [Figure 1 Source (Google Draw File)](https://docs.google.com/drawings/d/18EszEURok-tgb9RaqxAPp-duivpc9waHnK27Fd0J-4s/edit)
+
 
 ### 4.3.1 Request Template
 
@@ -346,11 +351,13 @@ Once a new work product is identified and a product name selected, the next step
 
 Requesting a template / starter document creates *no* obligation for the TC or the editor(s) that the work product will be completed.
 
-Both the template / starter document and a GitHub repo are requested using forms on the [TC Admin Requests](https://www.oasis-open.org/resources/tc-admin-requests) page. Any TC member may place the requests, but typically this will be handled by some one of the document editor(s), the SC co-chairs, or the TC Secretary. Editors who are uncertain how to proceed should request assistance from the Secretary. Submitting a TC Admin request requires login with the submitter's OASIS Kavi credentials. The relevant forms on the TC Admin Requests page are (NOTE:  Links to Individual request forms are not provided here to allow for future changes by TC Admin. Use the TC Admin Requests link above to get to the list of forms.):
+Both the template / starter document and a GitHub repo are requested using forms on the [TC Admin Requests](https://www.oasis-open.org/resources/tc-admin-requests) page. Any TC member may place the requests, but typically this will be handled by some one of the document editor(s), the SC co-chairs, or the TC Secretary. Editors who are uncertain how to proceed should request assistance from the Secretary. Submitting a TC Admin request requires login with the submitter's OASIS Kavi credentials. The relevant forms on the TC Admin Requests page are:
 
 * Request a template / starter document (use the notes section of the request form to request Markdown-formatted starter document)
 
 * Request a TC GitHub version control instance be created
+
+> NOTE:  Links to Individual request forms are not provided here to allow for future changes by TC Admin. Use the TC Admin Requests link above to get to the list of forms.
 
 The editors of the work product should also be named as the maintainers of the GitHub repository, so every editor needs a GitHub account. Document editors must be familiar with the OASIS guidance on using [GitHub Repositories for OASIS TC Members' Chartered Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work). In particular, the repo maintainers must enforce that contributions to the work product are only from TC members and that the Intellectual Property policy under which the TC operates is enforced.
 
@@ -384,7 +391,7 @@ repo are intended to organize the work as follows:
   GitHub Release feature, and the WD content is uploaded to
   the TC's document store at OASIS .
 
-* The *Master* branch contains TC approved CS and OASIS
+* The *Master* branch contains TC-approved CS and OASIS
   Standard versions of the work product. The Master branch
   is initially populated with the starter document template
   supplied by OASIS. Until the first CS is approved, the
@@ -394,19 +401,20 @@ repo are intended to organize the work as follows:
 ![Work Product Repo Branching Concept](images/versioning-concept.png)
 ### Figure 2: Work Product Repository Branching Concept
 
-Figure 2 assumes a Committee Specification has
-been approved (the v1.0 document) and work is proceeding on
-a future version (the v1.1 document). For a new work
-product, as shown in Figure 1, above, the `master` branch
-would be populated with the OASIS-supplied template, and
-then the `working` branches created so that the template is
-available in the `working` branch as the starting point.
-Note that this branching strategy is intended for the _work
-product_ managed in the repo. There may be reasons to make
-changes directly to the Master branch, such as to update the
-information in the repo's README.md file.
+> [Figure 2 Source (Google Draw File)](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
 
-* [Diagram Source (Original Google Draw File)](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
+Figure 2 assumes a Committee Specification has been approved
+(the v1.0 document) and work is proceeding on a future
+version (the v1.1 document). For a new work product, as
+shown in Figure 1, above, the `master` branch would be
+populated with the OASIS-supplied template, and then the
+`working` branch created from the `master` so that the
+template is available in the `working` branch as the
+starting point. Note that this branching strategy is
+intended for the _work product_ managed in the repo. There
+may be reasons to make changes directly to the `master`
+branch, such as to update the information in the repo's
+README.md file.
 
 #### 4.3.3.1 README.md Content Update
 
@@ -427,7 +435,7 @@ These files must remain when the starter document contents from the ZIP file are
 * * *
 
 ```
-This repository is organized with three branches:
+This repository is organized with two branches:
 
  * The *_Working_* branch contains work product 
  material that is actively being developed, and 
@@ -440,6 +448,12 @@ This repository is organized with three branches:
 versions of the work product. Until the first CS 
 is approved, the Master branch will not contain 
 a complete version of the work product.
+
+  * Releases in this repository correspond to 
+  Working Draft versions that have been uploaded 
+  to OASIS, including Working Draft versions 
+  that have been approved as Committee Specification 
+  Drafts (CSDs).
 ```
  
  * * *
@@ -452,10 +466,10 @@ the `master` branch with the starter document received from TC
 Administration (including the subdirectories and supporting
 files), then create a `working` branch from the `master`
 branch. Activity to develop the product then proceeds as
-described above. The Master branch will only have the
+described above. The `master` branch will only have the
 initial template until a CS is approved, at which point the
 maintainers populate it with the current CS version. Each
-time a new CS is approved the Master branch is updated.
+time a new CS is approved the `master` branch is updated.
 
 Work-in-progress is always handled in the `working` branch,
 using the standard GitHub mechanisms of forking the work
@@ -466,7 +480,8 @@ upload to OASIS.  If a WD is approved as a Committee
 Specification Draft (CSD) the editors should edit the
 Release description to (i) record that the WD was approved
 and the CSD version, and (ii) add a link to the published
-CDS at OASIS.
+CDS at OASIS. A link to the approval ballot can also be
+added to the release description.
 
 ## 4.4 Incremental Development
 
@@ -554,7 +569,10 @@ package. While the HTML file is optional, creating one can
 be helpful in that the HTML version provides an
 easily-readable rendered version of the markdown file that
 can be reviewed in a browser for quality control purposes.
-`pandoc` comes into play again here to create the HTML file:
+`pandoc` comes into play again here to create the HTML file.
+With the `working` branch checked out and the directory
+containing the work product markdown file as the current
+directory, the following command will create the HTML file:
 
 `pandoc -f gfm -t html <filename>.md -c styles/markdown-styles-v1.7.css -s -o <filename>.html --metadata title="Title of Specification Version X.Y"`
 
@@ -570,9 +588,27 @@ An essential part of the OASIS standards development process is public review of
 
 Disposition of comments can include any of (i) altering a document to address a comment, (ii) deferring a comment to future work (e.g., a later version of the document), or (iii) determining that no change is required. The OASIS requirement is to provide an artifact, posted to the TC's mail list, that records the TC disposition decisions.  If no comments are received during a public review, an email recording that result is sent to the TC mail list as the artifact.
 
-The OpenC2 TC is handling public review with a hybrid approach of a Comment Resolution Matrix (CRM) captured in a Google Sheet to maintain an overall record of comment disposition, along with the use of GitHub issues in the associated document repo to capture the details of how each comment is addressed. The CRM connects the original comment emails in the public archives of the TC and comment mail lists with the GitHub issues and, if appropriate, pull requests where the details of comment disposition are recorded. When the process is complete, the CRM is exported to a PDF that is sent to the TC mail list as the definitive public artifact recording the outcomes.
+The OpenC2 TC is handling public review with a hybrid
+approach of a Comment Resolution Matrix (CRM) captured in a
+Google Sheet to maintain an overall record of comment
+disposition, along with the use of GitHub issues in the
+associated work product  repo to capture the details of how each
+comment is addressed. The CRM connects the original comment
+emails in the public archives of the TC and comment mail
+lists with the GitHub issues and, if appropriate, pull
+requests where the details of comment disposition are
+recorded. When the process is complete, the CRM is exported
+to a PDF that is sent to the TC mail list as the definitive
+public artifact recording the outcomes.
 
-The OpenC2 TC has a [CRM template](https://docs.google.com/spreadsheets/d/1Kk6FOIHCs4M8KsLzSywwnsrMbarpIVM2m0T2ZC7h0zc/edit#gid=0) in the `admin > template` folder on our Google Drive. Editors handling public review comments should make a copy of the template, rename it appropriately, and move it to the folder for the SC associated with the document.  The CRM template columns are as follows:
+The OpenC2 TC has a [CRM
+template](https://docs.google.com/spreadsheets/d/1Kk6FOIHCs4M8KsLzSywwnsrMbarpIVM2m0T2ZC7h0zc/edit#gid=0)
+in the `admin > template` folder on our [Google
+Drive](https://drive.google.com/drive/folders/0ByY7rMsnC7rrY1JEMlBLckNXTG8).
+Editors handling public review comments should make a copy
+of the template, rename it appropriately, and move it to the
+folder for the SC associated with the document.  The CRM
+template columns are as follows:
 
 |  Column | Usage |
 | :----: | ---- |
@@ -600,7 +636,7 @@ Examine the issue labels in existing work product repos for additional examples.
 
 ## 4.6 CS Approval & Publication
 
-The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#committeeSpec) of the TC Procedures. Once a public review has been completed without material changes to the document, TC can request OASIS TC Administration conduct a [Special Majority Vote](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dSpecialMajority) to approve the document as a CS. Once the CS is approved, TC Administration will create the CS version of the document in multiple formats, and publish an announcement on the OASIS home page. The work product maintainers should upload the CS versions of the product to the repository’s Master branch, with correspondent relevant updates to the readme.MD file.
+The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#committeeSpec) of the TC Procedures. Once a public review has been completed without material changes to the document, TC can request OASIS TC Administration conduct a [Special Majority Vote](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dSpecialMajority) to approve the document as a CS. Once the CS is approved, TC Administration will create the CS version of the document in multiple formats, and publish an announcement on the OASIS home page. The work product maintainers should upload the CS versions of the product to the repository’s `master` branch, with correspondent relevant updates to the README.md file.
 
 # Annex A: Links to Useful Software
 
