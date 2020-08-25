@@ -483,22 +483,21 @@ provides an extensive [help](https://help.github.com/en) library.
 ### 4.4.1 Creating & Posting a Working Draft
 
 A frequent occurrence in developing a work product is the
-posting of a "Working Draft" (WD) version to OASIS. This must be
-done, in particular, any time a ballot is to be held to
-approve a document as a Committee Specification Draft (CSD),
-which happens periodically during our "agile" document
-development process. The GitHub
+posting of a "Working Draft" (WD) version to OASIS. This
+must be done, in particular, any time a ballot is to be held
+to approve a document as a Committee Specification Draft
+(CSD), which happens periodically during our "agile"
+document development process. The GitHub
 [Releases](https://help.github.com/en/articles/managing-releases-in-a-repository)
-feature is used to tag a WD within GitHub and to help
-create the WD package for upload to Kavi. With the branching
-strategy used by the OpenC2 TC, the creation of a WD is a
-three-step process:
+feature is used to tag a WD within GitHub and to help create
+the WD package for upload to OASIS. The creation of a WD is
+a two-step process:
 
 1. In the `working` branch,  refresh the document's table of
-   contents and ensure the document title page is updated to
-   reflect the WD number and date.
-1. Create a pull request from the `working` to the `release`
-   branch to update `release` to reflect the current content.
+   contents (see next section) and ensure the document title
+   page is updated to reflect the correct WD number and
+   date.
+
 1. Use the GH Releases feature to create the release package.
 
 #### 4.4.1.1 Document Updates for WD
@@ -508,19 +507,20 @@ information on the title page so that they are current, and
 * update the TOC within the Markdown file prior to declaring a release to create a WD. 
 
 [pandoc](#annex-a-links-to-useful-software) is a flexible
-document conversion tool that can the TOC
+document conversion tool that can created the TOC
 in a local file, as follows:
 
 `pandoc -f gfm --toc --toc-depth=5 -s -o <outfile> <infile>`
 
-where `<infile>` and `<outfile>` are markdown files. 
-
-The TOC will be added to the `<outfile>` at the beginning of
-the file, and the editors must manually move it to the
-proper place in the document. There may be other clean-up
-required of the TOC (e.g., extraneous headings); the editor
-should review it carefully, delete unwanted content, and
-confirm that all internal document links work properly.
+where `<infile>` and `<outfile>` are markdown files. The
+`<infile>` is the markdown file from GitHub containing the
+working draft content.  The TOC will be added to the
+`<outfile>` at the beginning of the file, and the editors
+must manually move it to the proper place in the document.
+There may be other clean-up required of the TOC (e.g.,
+extraneous headings); the editor should review it carefully,
+delete unwanted content, and confirm that all internal
+document links work properly.
 
 #### 4.4.1.2 Update the Release Branch
 
