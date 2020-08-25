@@ -316,7 +316,7 @@ the last two apply the naming conventions described above:
 
 The development environment for a work product includes the
 starter document template from OASIS and the work product's
-repo, along with other forks of the repo and tools the
+repo, along with forks of the repo created by contributors and tools the
 editors find useful. The process for establishing and initializing the
 development environment is illustrated in the figure below.
 The process utilizes the GitHub repository branching concept
