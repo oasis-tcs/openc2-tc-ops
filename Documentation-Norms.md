@@ -524,17 +524,14 @@ document links work properly.
 
 #### 4.4.1.2 Create GH Release and Upload to OASIS
 
-> The editor should ensure that they create the release
-package based on the `release` branch.
-
 The editor uses GitHub to [create a
 release](https://help.github.com/en/articles/creating-releases),
 and assigns it an appropriate identification tag, typically
 identifying the target version and the WD revision number
-(e.g., v1.0_WD05). GitHub creates a ZIP
-file containing the contents of the selected branch of the
-repository at the time of the release's creation. That ZIP
-file is the basis for the WD package.
+(e.g., v1.0_WD05). GitHub creates a ZIP file containing the
+contents of the selected branch of the repository at the
+time of the release's creation. That ZIP file is the basis
+for the WD package.
 
 The essential contents of the WD package are
 
@@ -542,17 +539,19 @@ The essential contents of the WD package are
 * any image files, which should be in the /images folder. 
 
 The editor has the option to create and include an HTML
-file; this can be done using pandoc and the CSS files
+file; this can be done using `pandoc` and the CSS files
 supplied by OASIS in the template / starter document
 package. While the HTML file is optional, creating one can
-be helpful in that the HTML is an easily-readable rendered
-version of the markdown file that can be reviewed in a
-browser for quality control purposes. pandoc comes into play
-again here to create the HTML file:
+be helpful in that the HTML version provides an
+easily-readable rendered version of the markdown file that
+can be reviewed in a browser for quality control purposes.
+`pandoc` comes into play again here to create the HTML file:
 
 `pandoc -f gfm -t html <filename>.md -c styles/markdown-styles-v1.7.css -s -o <filename>.html --metadata title="Title of Specification Version X.Y"`
 
-The editor should remove extraneous material from the ZIP file (e.g., the image sources in the /src folder) prior to uploading the ZIP file to OASIS as a WD.
+The editor should remove extraneous material from the ZIP
+file (e.g., the image sources in the /src folder) prior to
+uploading the ZIP file to OASIS as a WD.
 
 ## 4.5 Public Review Comment Handling
 
