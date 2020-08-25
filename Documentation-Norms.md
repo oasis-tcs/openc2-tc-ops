@@ -674,17 +674,23 @@ and recreating the fork may still be a cleaner approach.
 
 "feature branches" are normally worked in forks of the "working" branch. They can be related to official Issues or just new features that someone wants to be considered. To consider the feature, a Pull Request is created against the "working" branch of the "upstream" repository
 
-Committees can publish Working Drafts to the TC documents on OASIS. The current commit of the "working" branch is tagged.
+Committees can publish Working Drafts to the TC documents on
+OASIS. The current commit of the "working" branch is tagged
+as a GitHub Release.
 
-The TC can vote to approve a Working Draft as a Committee Specification Draft. Once approved by the TC, the "working" branch can be merged into the "release" branch. OASIS may make some edits to the files before publishing. These edits will be incorporated directly into the "release" branch (files will be overwritten). Once the "release" branch represents the officially published CSD, it is tagged. All changes made to the "release" branch are then merged back into the "working" branch.
+The TC can vote to approve a Working Draft as a Committee
+Specification Draft. Once approved by the TC, the Release
+description can be edited to record the approval and link to
+the published version of the CSD at OASIS. Work product
+editors should compare the front matter of the
+OASIS-published CSD to the version in their `working` branch
+and make any appropriate updates to the working version.
 
 Same with CSPRD…
 
 Same with CS…
 
 (Assumption: Start with template in "master" branch.)
-
-* Create OASIS "release" Branch
 
 * Create OASIS "working" Branch
 
@@ -717,25 +723,15 @@ Same with CS…
 * Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch
 (do this if pull request have been approved to the "working" branch of the OASIS Repo)
 
-## C.1 Create OASIS "release" Branch
+## C.1 Create OASIS "working" Branch
 
 **From GitHub OASIS Repo**
 
 * From the "master" branch, click on the "Branch" drop-down button.
 
-* Type the branch name, "release" into the text box.
-
-* Click the link to "Create Branch: release from 'master'"
-
-## C.2 Create OASIS "working" Branch
-
-**From GitHub OASIS Repo**
-
-* From the "release" branch, click on the "Branch" drop-down button.
-
 * Type the branch name, "working", into the text box.
 
-* Click the link to "Create Branch: working from 'release'"
+* Click the link to "Create Branch: working from 'master'"
 
 ## C.3 Fork OASIS Repository
 
