@@ -522,31 +522,7 @@ extraneous headings); the editor should review it carefully,
 delete unwanted content, and confirm that all internal
 document links work properly.
 
-#### 4.4.1.2 Update the Release Branch
-
-The GitHub [Pull
-Request](https://help.github.com/en/github/getting-started-with-github/github-glossary#pull-request)
-(PR) mechanism is used to update the `release` branch to
-match the content of the `working` branch. To create this PR
-the editor uses the following procedure:
-1. Load the repository in the browser.
-1. Use the branch selector to change to the `working`
-   branch. GitHub should indicate the `working` branch is
-   some number of commits ahead of the `master` branch. 
-1. Click the **New pull request** button next to the branch
-   selector. GitHub will create the PR, which by default
-   will target the `master` branch as the destination to
-   apply the changes. 
-1. Click the **base:master** button and select the `release`
-   branch as the target for the PR. 
-1. Click the green **Create pull request** button. GitHub will
-   create the PR.  
-1. Once GitHub has confirmed that the PR can be merged,
-   click the green **Merge pull request** button then the
-   **Confirm merge** button to update the `release` branch to
-   align with the `working` branch.
-
-#### 4.4.1.3 Create GH Release and Upload to OASIS
+#### 4.4.1.2 Create GH Release and Upload to OASIS
 
 > The editor should ensure that they create the release
 package based on the `release` branch.
