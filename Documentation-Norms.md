@@ -240,7 +240,15 @@ This document is focused on the use of TC Product Repos to develop TC work produ
 
 ## 4.1 Identify Work Product Need
 
-TBSL
+The work of identifying and developing work products in the
+OpenC2 TC has been delegated to the three subcommittees. Any
+member can propose a work product, typically by presenting
+their idea to the relevant subcommittee. Consensus in the
+subcommittee is sufficient to initiate the creation of a
+work product. The work will then need a name and an abstract
+in order to submit the request for a starter document
+(naming and starter document requests are discussed in the
+next section)
 
 ## 4.2 Assign Work Product Name
 
