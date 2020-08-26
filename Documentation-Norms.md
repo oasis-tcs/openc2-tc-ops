@@ -26,7 +26,6 @@ The document will gradually be honed to a more polished form, but will likely al
 # Table of Contents
 
 [1 Foreword](#1-foreword)
--   [Table of Contents](#table-of-contents)
 -   [Figures](#figures)
 -   [To-Do List](#to-do-list)
 -   [2 OASIS Guidance for Editors](#2-oasis-guidance-for-editors)
@@ -43,12 +42,10 @@ The document will gradually be honed to a more polished form, but will likely al
     -   [4.2 Assign Work Product Name](#42-assign-work-product-name)
     -   [4.3 Establish Development
         Environment](#43-establish-development-environment)
-        -   [Figure 1: New Work Product
             Launch](#figure-1-new-work-product-launch)
         -   [4.3.1 Request Template](#431-request-template)
         -   [4.3.2 Request Repository](#432-request-repository)
         -   [4.3.3 Configure Repository](#433-configure-repository)
-        -   [Figure 2: Work Product Repository Branching
             Concept](#figure-2-work-product-repository-branching-concept)
             -   [4.3.3.1 README.md Content
                 Update](#4331-readmemd-content-update)
@@ -68,7 +65,6 @@ The document will gradually be honed to a more polished form, but will likely al
     Software](#appendix-a-links-to-useful-software)
 -   [Appendix B: Getting Comfortable with
     GitHub](#appendix-b-getting-comfortable-with-github)
-    -   [Figure 3: Relationships Among GitHub
         Repositories](#figure-3-relationships-among-github-repositories)
 -   [Appendix C: GitHub- / Markdown-Based Process &
     Procedures](#appendix-c-github---markdown-based-process--procedures)
@@ -103,8 +99,6 @@ The document will gradually be honed to a more polished form, but will likely al
 -   [Appendix D: Markdown Formatting
     Conventions](#appendix-d-markdown-formatting-conventions)
     -   [D.1 Headings](#d1-headings)
--   [This is a Level 1 heading](#this-is-a-level-1-heading)
-    -   [This is a Level 2 heading](#this-is-a-level-2-heading)
     -   [D.2 Emphasis: Bold and Italic
         Text](#d2-emphasis-bold-and-italic-text)
     -   [D.3 Hyperlinks and Section
@@ -345,8 +339,9 @@ repository branching concept further described in [section
 > document presently uses `master` so that it aligns with
 > the current content of the TC's GitHub repos.
 
-![Work Product Launch](images/work-product-launch.png)
 ### Figure 1: New Work Product Launch
+
+![Work Product Launch](images/work-product-launch.png)
 
 > [Figure 1 Source (Google Draw File)](https://docs.google.com/drawings/d/18EszEURok-tgb9RaqxAPp-duivpc9waHnK27Fd0J-4s/edit)
 
@@ -410,8 +405,9 @@ repo are intended to organize the work as follows:
   Master branch will only contain the template rather than a
   complete version of the work product.
 
-![Work Product Repo Branching Concept](images/versioning-concept.png)
 ### Figure 2: Work Product Repository Branching Concept
+
+![Work Product Repo Branching Concept](images/versioning-concept.png)
 
 > [Figure 2 Source (Google Draw File)](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
 
@@ -684,8 +680,9 @@ repo to work on products.  The process steps are listed below the diagram, with 
 to the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary) 
 for definitions of key terminology.
 
-![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
 #### Figure 3: Relationships Among GitHub Repositories
+
+![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
 
 * [Image Source](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
 
@@ -1292,7 +1289,7 @@ For images created and stored purely in web-based tools (e.g., Google Draw), cre
 
 Some suggestions for image editing / creation tools:
 
-* Draw.IO, [a free, on-line diagramming tool](https://about.draw.io/) similar to Visio / Gliffy / LucidChart; 
+* Diagrams.net, [a free, on-line diagramming tool](https://www.diagrams.net/) similar to Visio / Gliffy / LucidChart; 
 
 * Gravit Designer, "full featured" [vector editor](https://www.designer.io/en/), has free and pro versions
 
