@@ -133,7 +133,8 @@ related to exporting GDocs to MD
 
 > To-Do:  Determine if table formatting needs improvement
 
-> To-Do:  Polish introductory text in Annex C
+> To-Do:  Polish introductory text in Appendix C (or delete
+> that appendix)
 
 > To-Do:  Remaining step-by-step instruction items that need
 > to be finished (these section numbers are out of date due
@@ -218,7 +219,7 @@ The overall sequence for development of a work product, as currently performed w
 * Conduct Public Review (Cycle)
 * CS Approval & Publication
 
-The next section and the Annexes provide detailed information about these steps.
+The next section and the Appendices provide detailed information about these steps.
 
 # 4 OpenC2 TC Work Product Development Process
 
@@ -638,7 +639,7 @@ Examine the issue labels in existing work product repos for additional examples.
 
 The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#committeeSpec) of the TC Procedures. Once a public review has been completed without material changes to the document, TC can request OASIS TC Administration conduct a [Special Majority Vote](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dSpecialMajority) to approve the document as a CS. Once the CS is approved, TC Administration will create the CS version of the document in multiple formats, and publish an announcement on the OASIS home page. The work product maintainers should upload the CS versions of the product to the repository’s `master` branch, with correspondent relevant updates to the README.md file.
 
-# Annex A: Links to Useful Software
+# Appendix A: Links to Useful Software
 
 * **Git**: open source version control software. Required to create and manage local repositories for local / offline editing -- [https://git-scm.com/](https://git-scm.com/)
 
@@ -658,7 +659,7 @@ some limitations.
 * **[Tables Generator](http://www.tablesgenerator.com/markdown_tables)**:  a website that will generate a template for a table in a variety of formats 
 including Markdown, HTML, and others.
 
-# Annex B: Getting Comfortable with GitHub
+# Appendix B: Getting Comfortable with GitHub
 
 For those unfamiliar with using GitHub and Git, [this article](https://medium.com/hackernoon/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a) provides a helpful 
 (albeit colorfully presented and highly opinionated) explanation of the concepts and processes 
@@ -704,7 +705,7 @@ of the PR from upstream to fork shows up as the fork being a commit ahead, and
 creating a new fork --> upstream PR just perpetuates the problem. So deleting
 and recreating the fork may still be a cleaner approach.
 
-# Annex C: GitHub- / Markdown-Based Process & Procedures
+# Appendix C: GitHub- / Markdown-Based Process & Procedures
 
 > This section is currently incomplete
 
@@ -1076,7 +1077,7 @@ $ git log --oneline -n 10
 0df24dd0 sync to OASIS-published files, v1.0-cs01
 ```
 
-# Annex D: Markdown Formatting Conventions
+# Appendix D: Markdown Formatting Conventions
 
 Markdown is text-oriented and intended to be both easily readable in its raw form, and easily rendered into HTML or other more visually pleasing forms. GitHub provides some guides for using GitHub-Flavored Markdown (GFM):
 
@@ -1308,9 +1309,20 @@ The TOC will be created at the very beginning of the output file.  Heading to ap
 
 When generating a new working draft (WD) for posting to OASIS, it is prudent to generate a current TOC, clean it up, and replace any previous TOC with the current version
 
-# Annex E: Google Document Formatting Standards (Legacy)
+# Appendix E: Google Document Formatting Standards (Legacy)
 
-While the OpenC2 TC is no longer primarily using Google Documents to collaboratively develop documents, that process was used successfully for some time, and a script is available to export a Google Document to Markdown (specifically GitHub-Flavored Markdown [GMF]) to create the authoritative version for final TC approval and publication.  This Annex preserves the TC’s best practices for initially developing work products using Google Docs.  Former TC member Jason Romano created the [script for exporting Google Docs](https://github.com/romanojd/gdoc-markdown-converter).  
+While the OpenC2 TC is no longer primarily using Google
+Documents to collaboratively develop documents, that process
+was used successfully for some time, and a script is
+available to export a Google Document to Markdown
+(specifically GitHub-Flavored Markdown [GMF]) to create the
+authoritative version for final TC approval and publication.
+This appendix preserves the TC’s best practices for
+initially developing work products using Google Docs.
+Former TC member Jason Romano created the [script for
+exporting Google
+Docs](https://github.com/romanojd/gdoc-markdown-converter).
+
 
 A Google Docs add-on called Paragraph Styles+ (PS+) is very useful to manage decimal outline numbering when developing work products in Google Documents. With the shift to using GFM for creating the TC’s authoritative versions, the visual formatting aspects of PS+ are no longer relevant, but its utility for renumbering remains helpful.
 
