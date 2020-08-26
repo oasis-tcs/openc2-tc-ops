@@ -25,7 +25,8 @@ The document will gradually be honed to a more polished form, but will likely al
 
 # Table of Contents
 
--   [1 Foreword](#1-foreword)
+[1 Foreword](#1-foreword)
+-   [Table of Contents](#table-of-contents)
 -   [Figures](#figures)
 -   [To-Do List](#to-do-list)
 -   [2 OASIS Guidance for Editors](#2-oasis-guidance-for-editors)
@@ -42,9 +43,13 @@ The document will gradually be honed to a more polished form, but will likely al
     -   [4.2 Assign Work Product Name](#42-assign-work-product-name)
     -   [4.3 Establish Development
         Environment](#43-establish-development-environment)
+        -   [Figure 1: New Work Product
+            Launch](#figure-1-new-work-product-launch)
         -   [4.3.1 Request Template](#431-request-template)
         -   [4.3.2 Request Repository](#432-request-repository)
         -   [4.3.3 Configure Repository](#433-configure-repository)
+        -   [Figure 2: Work Product Repository Branching
+            Concept](#figure-2-work-product-repository-branching-concept)
             -   [4.3.3.1 README.md Content
                 Update](#4331-readmemd-content-update)
             -   [4.3.3.2 Create and Populate
@@ -52,72 +57,78 @@ The document will gradually be honed to a more polished form, but will likely al
     -   [4.4 Incremental Development](#44-incremental-development)
         -   [4.4.1 Creating & Posting a Working
             Draft](#441-creating--posting-a-working-draft)
+            -   [4.4.1.1 Document Updates for
+                WD](#4411-document-updates-for-wd)
+            -   [4.4.1.2 Create GH Release and Upload to
+                OASIS](#4412-create-gh-release-and-upload-to-oasis)
     -   [4.5 Public Review Comment
         Handling](#45-public-review-comment-handling)
     -   [4.6 CS Approval & Publication](#46-cs-approval--publication)
--   [Annex A: Links to Useful
-    Software](#annex-a-links-to-useful-software)
--   [Annex B: Getting Comfortable with
-    GitHub](#annex-b-getting-comfortable-with-github)
--   [Annex C: GitHub- / Markdown-Based Process &
-    Procedures](#annex-c-github---markdown-based-process--procedures)
-    -   [C.1 Create OASIS \"release\"
-        Branch](#c1-create-oasis-release-branch)
-    -   [C.2 Create OASIS \"working\"
-        Branch](#c2-create-oasis-working-branch)
-    -   [C.3 Fork OASIS Repository](#c3-fork-oasis-repository)
-    -   [C.4 Clone Local Repository from Personal
-        Fork](#c4-clone-local-repository-from-personal-fork)
-    -   [C.5 Create \"feature\" Branch in Local
-        Repository](#c5-create-feature-branch-in-local-repository)
-    -   [C.6 Commit Changes to Local \"feature\"
-        Branch](#c6-commit-changes-to-local-feature-branch)
-    -   [C.7 Push Local Changes from \"feature\" Branch to Personal
-        Fork](#c7-push-local-changes-from-feature-branch-to-personal-fork)
-    -   [C.8 Create Pull Request to OASIS
-        Repository](#c8-create-pull-request-to-oasis-repository)
-    -   [C.9 Approve Pull Request (TBD)](#c9-approve-pull-request-tbd)
-    -   [C.10 Create Working Draft (WD)
-        (TBD)](#c10-create-working-draft-wd-tbd)
-    -   [C.11 Create Committee Specification Draft (CSD)
-        (TBD)](#c11-create-committee-specification-draft-csd-tbd)
-    -   [C.12 Create Public Review Draft (CSPRD)
-        (TBD)](#c12-create-public-review-draft-csprd-tbd)
-    -   [C.13 Create Committee Specification (CS)
-        (TBD)](#c13-create-committee-specification-cs-tbd)
-    -   [C.14 Update \"release\" Branch in the OASIS Repo from
+-   [Appendix A: Links to Useful
+    Software](#appendix-a-links-to-useful-software)
+-   [Appendix B: Getting Comfortable with
+    GitHub](#appendix-b-getting-comfortable-with-github)
+    -   [Figure 3: Relationships Among GitHub
+        Repositories](#figure-3-relationships-among-github-repositories)
+-   [Appendix C: GitHub- / Markdown-Based Process &
+    Procedures](#appendix-c-github---markdown-based-process--procedures)
+    -   [C.1 Create OASIS \"working\"
+        Branch](#c1-create-oasis-working-branch)
+    -   [C.2 Fork OASIS Repository](#c2-fork-oasis-repository)
+    -   [C.3 Clone Local Repository from Personal
+        Fork](#c3-clone-local-repository-from-personal-fork)
+    -   [C.4 Create \"feature\" Branch in Local
+        Repository](#c4-create-feature-branch-in-local-repository)
+    -   [C.5 Commit Changes to Local \"feature\"
+        Branch](#c5-commit-changes-to-local-feature-branch)
+    -   [C.6 Push Local Changes from \"feature\" Branch to Personal
+        Fork](#c6-push-local-changes-from-feature-branch-to-personal-fork)
+    -   [C.7 Create Pull Request to OASIS
+        Repository](#c7-create-pull-request-to-oasis-repository)
+    -   [C.8 Approve Pull Request (TBD)](#c8-approve-pull-request-tbd)
+    -   [C.9 Create Working Draft (WD)
+        (TBD)](#c9-create-working-draft-wd-tbd)
+    -   [C.10 Create Committee Specification Draft (CSD)
+        (TBD)](#c10-create-committee-specification-draft-csd-tbd)
+    -   [C.11 Create Public Review Draft (CSPRD)
+        (TBD)](#c11-create-public-review-draft-csprd-tbd)
+    -   [C.12 Create Committee Specification (CS)
+        (TBD)](#c12-create-committee-specification-cs-tbd)
+    -   [C.13 Update \"working\" Branch in the OASIS Repo from
         \"master\"
-        Branch](#c14-update-release-branch-in-the-oasis-repo-from-master-branch)
-    -   [C.15 Update \"working\" Branch in the OASIS Repo from
-        \"release\"
-        Branch](#c15-update-working-branch-in-the-oasis-repo-from-release-branch)
-    -   [C.16 Update \"working\" Branch in the Personal Fork with OASIS
+        Branch](#c13-update-working-branch-in-the-oasis-repo-from-master-branch)
+    -   [C.14 Update \"working\" Branch in the Personal Fork with OASIS
         Repo \"working\" Branch
-        (TBD)](#c16-update-working-branch-in-the-personal-fork-with-oasis-repo-working-branch-tbd)
--   [Annex D: Markdown Formatting
-    Conventions](#annex-d-markdown-formatting-conventions)
+        (TBD)](#c14-update-working-branch-in-the-personal-fork-with-oasis-repo-working-branch-tbd)
+-   [Appendix D: Markdown Formatting
+    Conventions](#appendix-d-markdown-formatting-conventions)
     -   [D.1 Headings](#d1-headings)
-    -   [D.2 Emphasis: Bold and Italic Text](#d2-emphasis-bold-and-italic-text)
-    -   [D.3 Hyperlinks and Section Cross-links](#d3-hyperlinks-and-section-cross-links)
+-   [This is a Level 1 heading](#this-is-a-level-1-heading)
+    -   [This is a Level 2 heading](#this-is-a-level-2-heading)
+    -   [D.2 Emphasis: Bold and Italic
+        Text](#d2-emphasis-bold-and-italic-text)
+    -   [D.3 Hyperlinks and Section
+        Cross-links](#d3-hyperlinks-and-section-cross-links)
     -   [D.4 Images](#d4-images)
     -   [D.5 Figure and Table numbering](#d5-figure-and-table-numbering)
     -   [D.6 Code Examples](#d6-code-examples)
     -   [D.7 Editor\'s Notes](#d7-editors-notes)
-    -   [D.8 Ordered and Unordered Lists](#d8-ordered-and-unordered-lists)
+    -   [D.8 Ordered and Unordered
+        Lists](#d8-ordered-and-unordered-lists)
     -   [D.9 Tables](#d9-tables)
     -   [D.10 \"short lines\"](#d10-short-lines)
     -   [D.11 Graphics](#d11-graphics)
-    -   [D.12 Table of Contents Creation](#d12-table-of-contents-creation)
--   [Annex E: Google Document Formatting Standards
-    (Legacy)](#annex-e-google-document-formatting-standards-legacy)
+    -   [D.12 Table of Contents
+        Creation](#d12-table-of-contents-creation)
+-   [Appendix E: Google Document Formatting Standards
+    (Legacy)](#appendix-e-google-document-formatting-standards-legacy)
     -   [E.1 Section Numbering](#e1-section-numbering)
     -   [E.2 Figure & Table Numbering](#e2-figure--table-numbering)
     -   [E.3 Acknowledgement Sections](#e3-acknowledgement-sections)
     -   [E.4 Hash Marks for Markdown
         Headings](#e4-hash-marks-for-markdown-headings)
     -   [E.5 Markdown Considerations During
-        Publishing](#E5-markdown-considerations-during-publishing)
-
+        Publishing](#e5-markdown-considerations-during-publishing)
 
 # Figures
  - [Figure 1: New Work Product
