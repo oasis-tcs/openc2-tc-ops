@@ -670,7 +670,7 @@ The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/pol
   Gliffy / LucidChart). It's a free, online diagram editor
   and viewer with a wide variety of shapes, icons, connector
   and templates. It can also import and export numerous file
-  formats, albeit with some limitations.
+  formats, albeit with some limitations. -- [https://app.diagrams.net/](https://app.diagrams.net/)
 
   > NOTE: In a February 2020 [blog
   > post](https://www.diagrams.net/blog/move-diagrams-net)
@@ -687,7 +687,7 @@ The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/pol
   This is a really useful resource for creating the
   structure of a table in Markdown, since doing that
   manually can be rather tedious.  You an also populate
-  table content along with structure.
+  table content along with structure. -- [http://www.tablesgenerator.com/markdown_tables](http://www.tablesgenerator.com/markdown_tables)
 
 # Appendix B: Getting Comfortable with GitHub
 
