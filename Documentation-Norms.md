@@ -1,3 +1,5 @@
+# Documentation Norms for the OpenC2 Technical Committee
+
 # 1 Foreword
 
 This document provides informal, internal guidance for work product editors in the [OASIS](https://www.oasis-open.org/) [OpenC2 Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2) (TC).  It captures the working processes and norms being used by the OpenC2 TC in the development of OpenC2 standards under OASIS auspices. OpenC2 standards include the language specification, actuator profiles, transfer specifications, etc., as well as other supporting [work products](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkProduct) (the OASIS term for what a TC produces).
@@ -8,7 +10,7 @@ This document provides informal, internal guidance for work product editors in t
 
 * Helping to find consensus positions and providing text that gets the TC to agreement
 
-* Bringing up unresolved issues at TC meetings, suggesting resolutions and incorporating approved text as appropriate
+* Bringing up unresolved issues at TC meetings, suggesting resolutions, and incorporating approved text as appropriate
 
 * Preparing documents for review, coordinating with TC Administration, and presenting the document to the Technical Committee for approval for a public review
 
@@ -23,8 +25,7 @@ The document will gradually be honed to a more polished form, but will likely al
 
 # Table of Contents
 
--   [1 Foreword](#1-foreword)
--   [Table of Contents](#table-of-contents)
+[1 Foreword](#1-foreword)
 -   [Figures](#figures)
 -   [To-Do List](#to-do-list)
 -   [2 OASIS Guidance for Editors](#2-oasis-guidance-for-editors)
@@ -41,9 +42,11 @@ The document will gradually be honed to a more polished form, but will likely al
     -   [4.2 Assign Work Product Name](#42-assign-work-product-name)
     -   [4.3 Establish Development
         Environment](#43-establish-development-environment)
+            Launch](#figure-1-new-work-product-launch)
         -   [4.3.1 Request Template](#431-request-template)
         -   [4.3.2 Request Repository](#432-request-repository)
         -   [4.3.3 Configure Repository](#433-configure-repository)
+            Concept](#figure-2-work-product-repository-branching-concept)
             -   [4.3.3.1 README.md Content
                 Update](#4331-readmemd-content-update)
             -   [4.3.3.2 Create and Populate
@@ -51,72 +54,75 @@ The document will gradually be honed to a more polished form, but will likely al
     -   [4.4 Incremental Development](#44-incremental-development)
         -   [4.4.1 Creating & Posting a Working
             Draft](#441-creating--posting-a-working-draft)
+            -   [4.4.1.1 Document Updates for
+                WD](#4411-document-updates-for-wd)
+            -   [4.4.1.2 Create GH Release and Upload to
+                OASIS](#4412-create-gh-release-and-upload-to-oasis)
     -   [4.5 Public Review Comment
         Handling](#45-public-review-comment-handling)
     -   [4.6 CS Approval & Publication](#46-cs-approval--publication)
--   [Annex A: Links to Useful
-    Software](#annex-a-links-to-useful-software)
--   [Annex B: Getting Comfortable with
-    GitHub](#annex-b-getting-comfortable-with-github)
--   [Annex C: GitHub- / Markdown-Based Process &
-    Procedures](#annex-c-github---markdown-based-process--procedures)
-    -   [C.1 Create OASIS \"release\"
-        Branch](#c1-create-oasis-release-branch)
-    -   [C.2 Create OASIS \"working\"
-        Branch](#c2-create-oasis-working-branch)
-    -   [C.3 Fork OASIS Repository](#c3-fork-oasis-repository)
-    -   [C.4 Clone Local Repository from Personal
-        Fork](#c4-clone-local-repository-from-personal-fork)
-    -   [C.5 Create \"feature\" Branch in Local
-        Repository](#c5-create-feature-branch-in-local-repository)
-    -   [C.6 Commit Changes to Local \"feature\"
-        Branch](#c6-commit-changes-to-local-feature-branch)
-    -   [C.7 Push Local Changes from \"feature\" Branch to Personal
-        Fork](#c7-push-local-changes-from-feature-branch-to-personal-fork)
-    -   [C.8 Create Pull Request to OASIS
-        Repository](#c8-create-pull-request-to-oasis-repository)
-    -   [C.9 Approve Pull Request (TBD)](#c9-approve-pull-request-tbd)
-    -   [C.10 Create Working Draft (WD)
-        (TBD)](#c10-create-working-draft-wd-tbd)
-    -   [C.11 Create Committee Specification Draft (CSD)
-        (TBD)](#c11-create-committee-specification-draft-csd-tbd)
-    -   [C.12 Create Public Review Draft (CSPRD)
-        (TBD)](#c12-create-public-review-draft-csprd-tbd)
-    -   [C.13 Create Committee Specification (CS)
-        (TBD)](#c13-create-committee-specification-cs-tbd)
-    -   [C.14 Update \"release\" Branch in the OASIS Repo from
+-   [Appendix A: Links to Useful
+    Software](#appendix-a-links-to-useful-software)
+-   [Appendix B: Getting Comfortable with
+    GitHub](#appendix-b-getting-comfortable-with-github)
+        Repositories](#figure-3-relationships-among-github-repositories)
+-   [Appendix C: GitHub- / Markdown-Based Process &
+    Procedures](#appendix-c-github---markdown-based-process--procedures)
+    -   [C.1 Create OASIS \"working\"
+        Branch](#c1-create-oasis-working-branch)
+    -   [C.2 Fork OASIS Repository](#c2-fork-oasis-repository)
+    -   [C.3 Clone Local Repository from Personal
+        Fork](#c3-clone-local-repository-from-personal-fork)
+    -   [C.4 Create \"feature\" Branch in Local
+        Repository](#c4-create-feature-branch-in-local-repository)
+    -   [C.5 Commit Changes to Local \"feature\"
+        Branch](#c5-commit-changes-to-local-feature-branch)
+    -   [C.6 Push Local Changes from \"feature\" Branch to Personal
+        Fork](#c6-push-local-changes-from-feature-branch-to-personal-fork)
+    -   [C.7 Create Pull Request to OASIS
+        Repository](#c7-create-pull-request-to-oasis-repository)
+    -   [C.8 Approve Pull Request (TBD)](#c8-approve-pull-request-tbd)
+    -   [C.9 Create Working Draft (WD)
+        (TBD)](#c9-create-working-draft-wd-tbd)
+    -   [C.10 Create Committee Specification Draft (CSD)
+        (TBD)](#c10-create-committee-specification-draft-csd-tbd)
+    -   [C.11 Create Public Review Draft (CSPRD)
+        (TBD)](#c11-create-public-review-draft-csprd-tbd)
+    -   [C.12 Create Committee Specification (CS)
+        (TBD)](#c12-create-committee-specification-cs-tbd)
+    -   [C.13 Update \"working\" Branch in the OASIS Repo from
         \"master\"
-        Branch](#c14-update-release-branch-in-the-oasis-repo-from-master-branch)
-    -   [C.15 Update \"working\" Branch in the OASIS Repo from
-        \"release\"
-        Branch](#c15-update-working-branch-in-the-oasis-repo-from-release-branch)
-    -   [C.16 Update \"working\" Branch in the Personal Fork with OASIS
+        Branch](#c13-update-working-branch-in-the-oasis-repo-from-master-branch)
+    -   [C.14 Update \"working\" Branch in the Personal Fork with OASIS
         Repo \"working\" Branch
-        (TBD)](#c16-update-working-branch-in-the-personal-fork-with-oasis-repo-working-branch-tbd)
--   [Annex D: Markdown Formatting
-    Conventions](#annex-d-markdown-formatting-conventions)
+        (TBD)](#c14-update-working-branch-in-the-personal-fork-with-oasis-repo-working-branch-tbd)
+-   [Appendix D: Markdown Formatting
+    Conventions](#appendix-d-markdown-formatting-conventions)
     -   [D.1 Headings](#d1-headings)
-    -   [D.2 Emphasis: Bold and Italic Text](#d2-emphasis-bold-and-italic-text)
-    -   [D.3 Hyperlinks and Section Cross-links](#d3-hyperlinks-and-section-cross-links)
+    -   [D.2 Emphasis: Bold and Italic
+        Text](#d2-emphasis-bold-and-italic-text)
+    -   [D.3 Hyperlinks and Section
+        Cross-links](#d3-hyperlinks-and-section-cross-links)
     -   [D.4 Images](#d4-images)
     -   [D.5 Figure and Table numbering](#d5-figure-and-table-numbering)
     -   [D.6 Code Examples](#d6-code-examples)
     -   [D.7 Editor\'s Notes](#d7-editors-notes)
-    -   [D.8 Ordered and Unordered Lists](#d8-ordered-and-unordered-lists)
+    -   [D.8 Ordered and Unordered
+        Lists](#d8-ordered-and-unordered-lists)
     -   [D.9 Tables](#d9-tables)
     -   [D.10 \"short lines\"](#d10-short-lines)
     -   [D.11 Graphics](#d11-graphics)
-    -   [D.12 Table of Contents Creation](#d12-table-of-contents-creation)
--   [Annex E: Google Document Formatting Standards
-    (Legacy)](#annex-e-google-document-formatting-standards-legacy)
+    -   [D.12 Table of Contents
+        Creation](#d12-table-of-contents-creation)
+-   [Appendix E: Google Document Formatting Standards
+    (Legacy)](#appendix-e-google-document-formatting-standards-legacy)
     -   [E.1 Section Numbering](#e1-section-numbering)
     -   [E.2 Figure & Table Numbering](#e2-figure--table-numbering)
     -   [E.3 Acknowledgement Sections](#e3-acknowledgement-sections)
     -   [E.4 Hash Marks for Markdown
         Headings](#e4-hash-marks-for-markdown-headings)
     -   [E.5 Markdown Considerations During
-        Publishing](#E5-markdown-considerations-during-publishing)
-
+        Publishing](#e5-markdown-considerations-during-publishing)
 
 # Figures
  - [Figure 1: New Work Product
@@ -132,9 +138,12 @@ related to exporting GDocs to MD
 
 > To-Do:  Determine if table formatting needs improvement
 
-> To-Do:  Polish introductory text in Annex C
+> To-Do:  Polish introductory text in Appendix C (or delete
+> that appendix)
 
-> To-Do:  Remaining step-by-step instruction items that need to be finished
+> To-Do:  Remaining step-by-step instruction items that need
+> to be finished (these section numbers are out of date due
+> edits describing the simplified branching strategy)
 > * C.9 Approve Pull Request
 > * C.10 Create Working Draft (WD)
 > * C.11 Create Committee Specification Draft (CSD)
@@ -142,8 +151,6 @@ related to exporting GDocs to MD
 > * C.16 Update "working" Branch in the Personal Fork with OASIS Repo 
 "working" Branch (do this if pull request have been approved to 
 the "working" branch of the OASIS Repo)
-
-> To-Do:  Review comments on the GDoc to identify other to-do items and/or capture as GH issues
 
 * * *
 
@@ -195,7 +202,6 @@ The OpenC2 Language Specification is the foundation of a family of documents tha
 * Actuator Profiles
 * Transfer Specifications
 * Schemas
-* Others
 
 Documents of similar type (e.g., actuator profiles) within the family logically have similar content and organization, so familiarity with previously created OpenC2 specifications is helpful when developing a new work product. 
 
@@ -218,7 +224,7 @@ The overall sequence for development of a work product, as currently performed w
 * Conduct Public Review (Cycle)
 * CS Approval & Publication
 
-The next section and the Annexes provide detailed information about these steps.
+The next section and the Appendices provide detailed information about these steps.
 
 # 4 OpenC2 TC Work Product Development Process
 
@@ -236,11 +242,19 @@ GitHub offers many useful features to support our process, including rich versio
 
 * **TC Open Repos:**  These are established by the TC to capture the development of (primarily) software related to the TC's objectives. 
 
-This document is focused on the use of TC Product Repos to develop TC work products (e.g., specifications, committee notes).
+This document is focused on the use of **TC Product Repos** to develop TC work products (e.g., specifications, committee notes).
 
 ## 4.1 Identify Work Product Need
 
-TBSL
+The work of identifying and developing work products in the
+OpenC2 TC has been delegated to the three subcommittees. Any
+member can propose a work product, typically by presenting
+their idea to the relevant subcommittee. Consensus in the
+subcommittee is sufficient to initiate the creation of a
+work product. The work product will then need a name and an
+abstract in order to submit the request for a starter
+document (naming and starter document requests are discussed
+in the next section)
 
 ## 4.2 Assign Work Product Name
 
@@ -308,14 +322,29 @@ the last two apply the naming conventions described above:
 
 The development environment for a work product includes the
 starter document template from OASIS and the work product's
-repo, along with other forks of the repo and tools the
-editors find useful. The process for establishing and initializing the
-development environment is illustrated in the figure below.
-The process utilizes the GitHub repository branching concept
-further described in [section 4.3.3](#433-configure-repository)
+repo, along with forks of the repo created by contributors
+and tools the editors find useful. The process for
+establishing and initializing the development environment is
+illustrated in the figure below and described in the
+following sections. The process utilizes the GitHub
+repository branching concept further described in [section
+4.3.3](#433-configure-repository)
+
+> The OpenC2 TC is aware of and endorses the movement away
+> from the use of `master` as the name of the repository's
+> default branch. The TC intends to rename the default
+> branches of its existing work product repositories once
+> [GitHub makes tools available to simplify the
+> process](https://github.com/github/renaming). This
+> document presently uses `master` so that it aligns with
+> the current content of the TC's GitHub repos.
+
+### Figure 1: New Work Product Launch
 
 ![Work Product Launch](images/work-product-launch.png)
-### Figure 1: New Work Product Launch
+
+> [Figure 1 Source (Google Draw File)](https://docs.google.com/drawings/d/18EszEURok-tgb9RaqxAPp-duivpc9waHnK27Fd0J-4s/edit)
+
 
 ### 4.3.1 Request Template
 
@@ -329,11 +358,13 @@ Once a new work product is identified and a product name selected, the next step
 
 Requesting a template / starter document creates *no* obligation for the TC or the editor(s) that the work product will be completed.
 
-Both the template / starter document and a GitHub repo are requested using forms on the [TC Admin Requests](https://www.oasis-open.org/resources/tc-admin-requests) page. Any TC member may place the requests, but typically this will be handled by some one of the document editor(s), the SC co-chairs, or the TC Secretary. Editors who are uncertain how to proceed should request assistance from the Secretary. Submitting a TC Admin request requires login with the submitter's OASIS Kavi credentials. The relevant forms on the TC Admin Requests page are (NOTE:  Links to Individual request forms are not provided here to allow for future changes by TC Admin. Use the TC Admin Requests link above to get to the list of forms.):
+Both the template / starter document and a GitHub repo are requested using forms on the [TC Admin Requests](https://www.oasis-open.org/resources/tc-admin-requests) page. Any TC member may place the requests, but typically this will be handled by some one of the document editor(s), the SC co-chairs, or the TC Secretary. Editors who are uncertain how to proceed should request assistance from the Secretary. Submitting a TC Admin request requires login with the submitter's OASIS Kavi credentials. The relevant forms on the TC Admin Requests page are:
 
 * Request a template / starter document (use the notes section of the request form to request Markdown-formatted starter document)
 
 * Request a TC GitHub version control instance be created
+
+> NOTE:  Links to Individual request forms are not provided here to allow for future changes by TC Admin. Use the TC Admin Requests link above to get to the list of forms.
 
 The editors of the work product should also be named as the maintainers of the GitHub repository, so every editor needs a GitHub account. Document editors must be familiar with the OASIS guidance on using [GitHub Repositories for OASIS TC Members' Chartered Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work). In particular, the repo maintainers must enforce that contributions to the work product are only from TC members and that the Intellectual Property policy under which the TC operates is enforced.
 
@@ -353,31 +384,45 @@ When requesting a repository (AKA "TC GitHub version control instance") for a wo
 
 ### 4.3.3 Configure Repository
 
-The following branching scheme has been worked out to facilitate the configuration control of work products developed by the OpenC2 TC. The three branches in the repo are intended to organize the work as follows:
+The following branching scheme has been worked out to
+facilitate the configuration control of work products
+developed by the OpenC2 TC. The two branches in the
+repo are intended to organize the work as follows:
 
-* The *Working* branch contains the newest content for the work product, material that is actively being developed, and subject to potentially frequent and significant change. Contributors to the work product should target their inputs to the Working branch.
+* The *Working* branch contains the newest content for the
+  work product, material that is actively being developed,
+  and subject to potentially frequent and significant
+  change. Contributors to the work product should target
+  their inputs to the Working branch. Working Draft (WD)
+  versions of the work product are identified using the
+  GitHub Release feature, and the WD content is uploaded to
+  the TC's document store at OASIS .
 
-* The *Releases* branch contains incremental releases of the work product, identified as "Working Drafts", as described in Section 3.2 above. When the editors wish to release a WD, the current contents of the Working branch are merged into the Releases branch, a release is created, and the release files are uploaded to OASIS. Working drafts may or may not receive TC approval as CSDs. 
+* The *Master* branch contains TC-approved CS and OASIS
+  Standard versions of the work product. The Master branch
+  is initially populated with the starter document template
+  supplied by OASIS. Until the first CS is approved, the
+  Master branch will only contain the template rather than a
+  complete version of the work product.
 
-* The *Master* branch contains TC approved CS and OASIS Standard versions of the work product. The Master branch is initially populated with the starter document template supplied by OASIS. Until the first CS is approved, the Master branch will only contain the template rather than a complete version of the work product.
-
-![Work Product Repo Branching Concept](images/versioning-concept.png)
 ### Figure 2: Work Product Repository Branching Concept
 
-The diagram assumes a Committee Specification has been
-approved (the v1.0 document) and work is proceeding on a
-future version (the v1.1 document). For a new work product
-the `master` branch would be populated with the
-OASIS-supplied template, and then the `release` and
-`working` branches created in succession so that the
+![Work Product Repo Branching Concept](images/versioning-concept.png)
+
+> [Figure 2 Source (Google Draw File)](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
+
+Figure 2 assumes a Committee Specification has been approved
+(the v1.0 document) and work is proceeding on a future
+version (the v1.1 document). For a new work product, as
+shown in Figure 1, above, the `master` branch would be
+populated with the OASIS-supplied template, and then the
+`working` branch created from the `master` so that the
 template is available in the `working` branch as the
-starting point.  Note that this branching strategy is
+starting point. Note that this branching strategy is
 intended for the _work product_ managed in the repo. There
-may be reasons to make changes directly to the Master
+may be reasons to make changes directly to the `master`
 branch, such as to update the information in the repo's
 README.md file.
-
-* [Diagram Source (Original Google Draw File)](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
 
 #### 4.3.3.1 README.md Content Update
 
@@ -398,7 +443,7 @@ These files must remain when the starter document contents from the ZIP file are
 * * *
 
 ```
-This repository is organized with three branches:
+This repository is organized with two branches:
 
  * The *_Working_* branch contains work product 
  material that is actively being developed, and 
@@ -406,17 +451,17 @@ This repository is organized with three branches:
  change. Contributors to the work product should 
  target their inputs to the Working branch.
 
- * The *_Releases_* branch contains incremental 
- releases (i.e., Working Drafts [WDs]) of the work 
- product. The current contents of the Working 
- branch are merged into the Releases branch to 
- create a WD. 
-
- * The *_Master_* branch contains TC-approved 
+  * The *_Master_* branch contains TC-approved 
 [Committee Specification](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeSpec) (CS) or [OASIS Standard](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dOASISstandard) 
 versions of the work product. Until the first CS 
 is approved, the Master branch will not contain 
 a complete version of the work product.
+
+  * Releases in this repository correspond to 
+  Working Draft versions that have been uploaded 
+  to OASIS, including Working Draft versions 
+  that have been approved as Committee Specification 
+  Drafts (CSDs).
 ```
  
  * * *
@@ -424,9 +469,27 @@ a complete version of the work product.
 
 #### 4.3.3.2 Create and Populate Branches
 
-When the repo is available the maintainers should populate the Master branch with the starter document received from TC Administration (including the subdirectories and supporting files), then create a Releases branch from the Master branch, and a Working branch from the Releases branch. Activity to develop the product then proceeds as described above. The Master branch will only have the initial template until a CS is approved, at which point the maintainers populate it with the current CS version. Each time a new CS is approved the Master branch is updated.
+When the repo is available the maintainers should populate
+the `master` branch with the starter document received from TC
+Administration (including the subdirectories and supporting
+files), then create a `working` branch from the `master`
+branch. Activity to develop the product then proceeds as
+described above. The `master` branch will only have the
+initial template until a CS is approved, at which point the
+maintainers populate it with the current CS version. Each
+time a new CS is approved the `master` branch is updated.
 
-Work-in-progress will always be handled in the "working" branch, and checkpointed to the releases branch as Working Drafts (WDs) are declared and Committee Specification Drafts (CSDs) are approved.
+Work-in-progress is always handled in the `working` branch,
+using the standard GitHub mechanisms of forking the work
+product repository and creating pull requests (PRs) with
+contributions. When Working Drafts (WDs) are declared, the
+GitHub Release feature is used to created the WD package for
+upload to OASIS.  If a WD is approved as a Committee
+Specification Draft (CSD) the editors should edit the
+Release description to (i) record that the WD was approved
+and the CSD version, and (ii) add a link to the published
+CDS at OASIS. A link to the approval ballot can also be
+added to the release description.
 
 ## 4.4 Incremental Development
 
@@ -452,22 +515,21 @@ provides an extensive [help](https://help.github.com/en) library.
 ### 4.4.1 Creating & Posting a Working Draft
 
 A frequent occurrence in developing a work product is the
-posting of a "Working Draft" (WD) version to OASIS. This must be
-done, in particular, any time a ballot is to be held to
-approve a document as a Committee Specification Draft (CSD),
-which happens periodically during our "agile" document
-development process. The GitHub
+posting of a "Working Draft" (WD) version to OASIS. This
+must be done, in particular, any time a ballot is to be held
+to approve a document as a Committee Specification Draft
+(CSD), which happens periodically during our "agile"
+document development process. The GitHub
 [Releases](https://help.github.com/en/articles/managing-releases-in-a-repository)
-feature is used to tag a WD within GitHub and to help
-create the WD package for upload to Kavi. With the branching
-strategy used by the OpenC2 TC, the creation of a WD is a
-three-step process:
+feature is used to tag a WD within GitHub and to help create
+the WD package for upload to OASIS. The creation of a WD is
+a two-step process:
 
 1. In the `working` branch,  refresh the document's table of
-   contents and ensure the document title page is updated to
-   reflect the WD number and date.
-1. Create a pull request from the `working` to the `release`
-   branch to update `release` to reflect the current content.
+   contents (see next section) and ensure the document title
+   page is updated to reflect the correct WD number and
+   date.
+
 1. Use the GH Releases feature to create the release package.
 
 #### 4.4.1.1 Document Updates for WD
@@ -477,57 +539,31 @@ information on the title page so that they are current, and
 * update the TOC within the Markdown file prior to declaring a release to create a WD. 
 
 [pandoc](#annex-a-links-to-useful-software) is a flexible
-document conversion tool that can the TOC
+document conversion tool that can created the TOC
 in a local file, as follows:
 
 `pandoc -f gfm --toc --toc-depth=5 -s -o <outfile> <infile>`
 
-where `<infile>` and `<outfile>` are markdown files. 
+where `<infile>` and `<outfile>` are markdown files. The
+`<infile>` is the markdown file from GitHub containing the
+working draft content.  The TOC will be added to the
+`<outfile>` at the beginning of the file, and the editors
+must manually move it to the proper place in the document.
+There may be other clean-up required of the TOC (e.g.,
+extraneous headings); the editor should review it carefully,
+delete unwanted content, and confirm that all internal
+document links work properly.
 
-The TOC will be added to the `<outfile>` at the beginning of
-the file, and the editors must manually move it to the
-proper place in the document. There may be other clean-up
-required of the TOC (e.g., extraneous headings); the editor
-should review it carefully, delete unwanted content, and
-confirm that all internal document links work properly.
-
-#### 4.4.1.2 Update the Release Branch
-
-The GitHub [Pull
-Request](https://help.github.com/en/github/getting-started-with-github/github-glossary#pull-request)
-(PR) mechanism is used to update the `release` branch to
-match the content of the `working` branch. To create this PR
-the editor uses the following procedure:
-1. Load the repository in the browser.
-1. Use the branch selector to change to the `working`
-   branch. GitHub should indicate the `working` branch is
-   some number of commits ahead of the `master` branch. 
-1. Click the **New pull request** button next to the branch
-   selector. GitHub will create the PR, which by default
-   will target the `master` branch as the destination to
-   apply the changes. 
-1. Click the **base:master** button and select the `release`
-   branch as the target for the PR. 
-1. Click the green **Create pull request** button. GitHub will
-   create the PR.  
-1. Once GitHub has confirmed that the PR can be merged,
-   click the green **Merge pull request** button then the
-   **Confirm merge** button to update the `release` branch to
-   align with the `working` branch.
-
-#### 4.4.1.3 Create GH Release and Upload to OASIS
-
-> The editor should ensure that they create the release
-package based on the `release` branch.
+#### 4.4.1.2 Create GH Release and Upload to OASIS
 
 The editor uses GitHub to [create a
 release](https://help.github.com/en/articles/creating-releases),
 and assigns it an appropriate identification tag, typically
 identifying the target version and the WD revision number
-(e.g., v1.0_WD05). GitHub creates a ZIP
-file containing the contents of the selected branch of the
-repository at the time of the release's creation. That ZIP
-file is the basis for the WD package.
+(e.g., v1.0_WD05). GitHub creates a ZIP file containing the
+contents of the selected branch of the repository at the
+time of the release's creation. That ZIP file is the basis
+for the WD package.
 
 The essential contents of the WD package are
 
@@ -535,17 +571,22 @@ The essential contents of the WD package are
 * any image files, which should be in the /images folder. 
 
 The editor has the option to create and include an HTML
-file; this can be done using pandoc and the CSS files
+file; this can be done using `pandoc` and the CSS files
 supplied by OASIS in the template / starter document
 package. While the HTML file is optional, creating one can
-be helpful in that the HTML is an easily-readable rendered
-version of the markdown file that can be reviewed in a
-browser for quality control purposes. pandoc comes into play
-again here to create the HTML file:
+be helpful in that the HTML version provides an
+easily-readable rendered version of the markdown file that
+can be reviewed in a browser for quality control purposes.
+`pandoc` comes into play again here to create the HTML file.
+With the `working` branch checked out and the directory
+containing the work product markdown file as the current
+directory, the following command will create the HTML file:
 
 `pandoc -f gfm -t html <filename>.md -c styles/markdown-styles-v1.7.css -s -o <filename>.html --metadata title="Title of Specification Version X.Y"`
 
-The editor should remove extraneous material from the ZIP file (e.g., the image sources in the /src folder) prior to uploading the ZIP file to OASIS as a WD.
+The editor should remove extraneous material from the ZIP
+file (e.g., the image sources in the /src folder) prior to
+uploading the ZIP file to OASIS as a WD.
 
 ## 4.5 Public Review Comment Handling
 
@@ -555,9 +596,27 @@ An essential part of the OASIS standards development process is public review of
 
 Disposition of comments can include any of (i) altering a document to address a comment, (ii) deferring a comment to future work (e.g., a later version of the document), or (iii) determining that no change is required. The OASIS requirement is to provide an artifact, posted to the TC's mail list, that records the TC disposition decisions.  If no comments are received during a public review, an email recording that result is sent to the TC mail list as the artifact.
 
-The OpenC2 TC is handling public review with a hybrid approach of a Comment Resolution Matrix (CRM) captured in a Google Sheet to maintain an overall record of comment disposition, along with the use of GitHub issues in the associated document repo to capture the details of how each comment is addressed. The CRM connects the original comment emails in the public archives of the TC and comment mail lists with the GitHub issues and, if appropriate, pull requests where the details of comment disposition are recorded. When the process is complete, the CRM is exported to a PDF that is sent to the TC mail list as the definitive public artifact recording the outcomes.
+The OpenC2 TC is handling public review with a hybrid
+approach of a Comment Resolution Matrix (CRM) captured in a
+Google Sheet to maintain an overall record of comment
+disposition, along with the use of GitHub issues in the
+associated work product  repo to capture the details of how each
+comment is addressed. The CRM connects the original comment
+emails in the public archives of the TC and comment mail
+lists with the GitHub issues and, if appropriate, pull
+requests where the details of comment disposition are
+recorded. When the process is complete, the CRM is exported
+to a PDF that is sent to the TC mail list as the definitive
+public artifact recording the outcomes.
 
-The OpenC2 TC has a [CRM template](https://docs.google.com/spreadsheets/d/1Kk6FOIHCs4M8KsLzSywwnsrMbarpIVM2m0T2ZC7h0zc/edit#gid=0) in the `admin > template` folder on our Google Drive. Editors handling public review comments should make a copy of the template, rename it appropriately, and move it to the folder for the SC associated with the document.  The CRM template columns are as follows:
+The OpenC2 TC has a [CRM
+template](https://docs.google.com/spreadsheets/d/1Kk6FOIHCs4M8KsLzSywwnsrMbarpIVM2m0T2ZC7h0zc/edit#gid=0)
+in the `admin > template` folder on our [Google
+Drive](https://drive.google.com/drive/folders/0ByY7rMsnC7rrY1JEMlBLckNXTG8).
+Editors handling public review comments should make a copy
+of the template, rename it appropriately, and move it to the
+folder for the SC associated with the document.  The CRM
+template columns are as follows:
 
 |  Column | Usage |
 | :----: | ---- |
@@ -585,29 +644,52 @@ Examine the issue labels in existing work product repos for additional examples.
 
 ## 4.6 CS Approval & Publication
 
-The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#committeeSpec) of the TC Procedures. Once a public review has been completed without material changes to the document, TC can request OASIS TC Administration conduct a [Special Majority Vote](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dSpecialMajority) to approve the document as a CS. Once the CS is approved, TC Administration will create the CS version of the document in multiple formats, and publish an announcement on the OASIS home page. The work product maintainers should upload the CS versions of the product to the repository’s Master branch, with correspondent relevant updates to the readme.MD file.
+The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#committeeSpec) of the TC Procedures. Once a public review has been completed without material changes to the document, TC can request OASIS TC Administration conduct a [Special Majority Vote](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dSpecialMajority) to approve the document as a CS. Once the CS is approved, TC Administration will create the CS version of the document in multiple formats, and publish an announcement on the OASIS home page. The work product maintainers should upload the CS versions of the product to the repository’s `master` branch, with correspondent relevant updates to the README.md file.
 
-# Annex A: Links to Useful Software
+# Appendix A: Links to Useful Software
 
-* **Git**: open source version control software. Required to create and manage local repositories for local / offline editing -- [https://git-scm.com/](https://git-scm.com/)
+* **Git**: open source version control software. Required to
+  create and manage local repositories for local / offline
+  editing -- [https://git-scm.com/](https://git-scm.com/)
 
-* **pandoc**: This utility is a Swiss Army Knife of marked-up file conversions, and is also useful for creating tables of contents for Markdown files.  -- [https://pandoc.org/](https://pandoc.org/) 
+* **pandoc**: This utility is a Swiss Army Knife of
+  marked-up file conversions, and is also useful for
+  creating tables of contents for Markdown files.  --
+  [https://pandoc.org/](https://pandoc.org/) 
 
-* **[Diagrams.net](https://app.diagrams.net/) (was Draw.io)**: 
-an open source drawing tool (similar to Visio / Gliffy / LucidChart). 
-It's a a free, online diagram editor and viewer with a wide variety of 
-shapes, icons, connector and templates. It can also 
-import and export numerous file formats, albeit with 
-some limitations.
+* **Microsoft Visual Studio Code**:  powerful free text
+  editor that integrates easily with Git / GitHub. With
+  appropriate extensions you can get a side-by-side view of
+  raw and rendered Markdown while editing. MS VSC is based
+  on the [Electron platform](https://www.electronjs.org/) so
+  it is available for Windows, Mac, and Linux --
+  [https://code.visualstudio.com/](https://code.visualstudio.com/)
+  
+* **[Diagrams.net](https://app.diagrams.net/)** (was
+  Draw.io): an open source drawing tool (similar to Visio /
+  Gliffy / LucidChart). It's a free, online diagram editor
+  and viewer with a wide variety of shapes, icons, connector
+  and templates. It can also import and export numerous file
+  formats, albeit with some limitations. -- [https://app.diagrams.net/](https://app.diagrams.net/)
 
-    NOTE: In a February 2020 [blog post](https://www.diagrams.net/blog/move-diagrams-net) it was announced that Draw.io is being renamed to diagrams.net. The new home page  is [www.diagrams.net](https://www.diagrams.net/). For now, draw.io redirects to diagrams.net.)
+  > NOTE: In a February 2020 [blog
+  > post](https://www.diagrams.net/blog/move-diagrams-net)
+  > it was announced that Draw.io is being renamed to
+  > diagrams.net. The new home page is
+  > [www.diagrams.net](https://www.diagrams.net/). For now,
+  > draw.io redirects to diagrams.net.)
 
-* **Microsoft Visual Studio Code**:  powerful free text editor that integrates easily with Git / GitHub. With appropriate extensions you can get a side-by-side view of raw and rendered Markdown while editing. MS VSC is based on the [Electron platform](https://www.electronjs.org/) so it is available for Windows, Mac, and Linux -- [https://code.visualstudio.com/](https://code.visualstudio.com/) 
 
-* **[Tables Generator](http://www.tablesgenerator.com/markdown_tables)**:  a website that will generate a template for a table in a variety of formats 
-including Markdown, HTML, and others.
+* **[Tables
+  Generator](http://www.tablesgenerator.com/markdown_tables)**:
+  a website that will generate a template for a table in a
+  variety of formats including Markdown, HTML, and others.
+  This is a really useful resource for creating the
+  structure of a table in Markdown, since doing that
+  manually can be rather tedious.  You an also populate
+  table content along with structure. -- [http://www.tablesgenerator.com/markdown_tables](http://www.tablesgenerator.com/markdown_tables)
 
-# Annex B: Getting Comfortable with GitHub
+# Appendix B: Getting Comfortable with GitHub
 
 For those unfamiliar with using GitHub and Git, [this article](https://medium.com/hackernoon/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a) provides a helpful 
 (albeit colorfully presented and highly opinionated) explanation of the concepts and processes 
@@ -621,17 +703,18 @@ repo to work on products.  The process steps are listed below the diagram, with 
 to the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary) 
 for definitions of key terminology.
 
-![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
 #### Figure 3: Relationships Among GitHub Repositories
 
-* [Image Source](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
+![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
+
+> [Figure 3 Source (Google Draw File)](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
 
 
 1. GitHub: A Project Owner creates a [repository](https://help.github.com/en/github/getting-started-with-github/github-glossary#repository) ("repo") for the document. This the "master" version of the document, and the repo is the "[Upstream](https://help.github.com/en/github/getting-started-with-github/github-glossary#upstream) Repo". In the case of OpenC2 TC work products, these repos are created and managed by OASIS TC Administration, with one or more TC members established as maintainers for the repo.
 
 2. GitHub: A Contributor creates a [forked copy](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork) of the Upstream Repo in their own GitHub account. This repo will contain a copy of the document as it existed in the Upstream Repo at the time the fork was created. The contributor can work purely in this document on the web, or create a local [Git](https://help.github.com/en/github/getting-started-with-github/github-glossary#git) repo (step #3) where they can, for example, edit with their favorite text editor or Git-/GitHub-aware tool set.
 
-> NOTE: The default names in the [GitHub documentation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork) for the repos described in Steps 1 and 2 here are "upstream" for the "OASIS" repo, and "origin" for the "Fork" repo. The instructions in [C.4](#c4-clone-local-repository-from-personal-fork) describe using `git` commands to establish the "OASIS" and "Fork" names used here.
+> NOTE: The default names in the [GitHub documentation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork) for the repos described in Steps 1 and 2 here are "upstream" for the "OASIS" repo, and "origin" for the "Fork" repo. The instructions in [C.3](#c3-clone-local-repository-from-personal-fork) describe using `git` commands to establish the "OASIS" and "Fork" names used here.
 
 3. Local: A Contributor "[clones](https://help.github.com/en/github/getting-started-with-github/github-glossary#clone)" their GitHub fork of the document to a Git environment on their local system.
 
@@ -653,23 +736,29 @@ of the PR from upstream to fork shows up as the fork being a commit ahead, and
 creating a new fork --> upstream PR just perpetuates the problem. So deleting
 and recreating the fork may still be a cleaner approach.
 
-# Annex C: GitHub- / Markdown-Based Process & Procedures
+# Appendix C: GitHub- / Markdown-Based Process & Procedures
 
 > This section is currently incomplete
 
 "feature branches" are normally worked in forks of the "working" branch. They can be related to official Issues or just new features that someone wants to be considered. To consider the feature, a Pull Request is created against the "working" branch of the "upstream" repository
 
-Committees can publish Working Drafts to the TC documents on OASIS. The current commit of the "working" branch is tagged.
+Committees can publish Working Drafts to the TC documents on
+OASIS. The current commit of the "working" branch is tagged
+as a GitHub Release.
 
-The TC can vote to approve a Working Draft as a Committee Specification Draft. Once approved by the TC, the "working" branch can be merged into the "release" branch. OASIS may make some edits to the files before publishing. These edits will be incorporated directly into the "release" branch (files will be overwritten). Once the "release" branch represents the officially published CSD, it is tagged. All changes made to the "release" branch are then merged back into the "working" branch.
+The TC can vote to approve a Working Draft as a Committee
+Specification Draft. Once approved by the TC, the Release
+description can be edited to record the approval and link to
+the published version of the CSD at OASIS. Work product
+editors should compare the front matter of the
+OASIS-published CSD to the version in their `working` branch
+and make any appropriate updates to the working version.
 
 Same with CSPRD…
 
 Same with CS…
 
 (Assumption: Start with template in "master" branch.)
-
-* Create OASIS "release" Branch
 
 * Create OASIS "working" Branch
 
@@ -702,27 +791,17 @@ Same with CS…
 * Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch
 (do this if pull request have been approved to the "working" branch of the OASIS Repo)
 
-## C.1 Create OASIS "release" Branch
+## C.1 Create OASIS "working" Branch
 
 **From GitHub OASIS Repo**
 
 * From the "master" branch, click on the "Branch" drop-down button.
 
-* Type the branch name, "release" into the text box.
-
-* Click the link to "Create Branch: release from 'master'"
-
-## C.2 Create OASIS "working" Branch
-
-**From GitHub OASIS Repo**
-
-* From the "release" branch, click on the "Branch" drop-down button.
-
 * Type the branch name, "working", into the text box.
 
-* Click the link to "Create Branch: working from 'release'"
+* Click the link to "Create Branch: working from 'master'"
 
-## C.3 Fork OASIS Repository
+## C.2 Fork OASIS Repository
 
 This will create a copy of the OASIS repository into your personal GitHub account.
 
@@ -732,7 +811,7 @@ This will create a copy of the OASIS repository into your personal GitHub accoun
 
 * The Branch Infobar will display: "This branch is even with oasis-tcs:master."
 
-## C.4 Clone Local Repository from Personal Fork
+## C.3 Clone Local Repository from Personal Fork
 
 This will create a copy of your personal forked repository into your local computer. 
 
@@ -783,7 +862,7 @@ oasis   https://github.com/oasis-tcs/<repo-name>.git (push)
 ```
 
 
-## C.5 Create "feature" Branch in Local Repository
+## C.4 Create "feature" Branch in Local Repository
 
 **From Local Command Line**
 
@@ -809,7 +888,7 @@ $ git checkout -b <new-feature>
 $ git push --set-upstream fork <new-feature>
 ```
 
-## C.6 Commit Changes to Local "feature" Branch
+## C.5 Commit Changes to Local "feature" Branch
 
 After changes have been made to the files in the "feature" branch, the changes should be committed.
 
@@ -831,7 +910,7 @@ $ git commit -m "add message"
 ```
 
 
-## C.7 Push Local Changes from "feature" Branch to Personal Fork
+## C.6 Push Local Changes from "feature" Branch to Personal Fork
 
 **From Local Command Line**
 
@@ -842,7 +921,7 @@ $ git push
 ```
 
 
-## C.8 Create Pull Request to OASIS Repository
+## C.7 Create Pull Request to OASIS Repository
 
 **From Personal Forked Repo**
 
@@ -854,19 +933,19 @@ $ git push
 
 * Click the green "Create pull request" button.
 
-## C.9 Approve Pull Request (TBD)
+## C.8 Approve Pull Request (TBD)
 TBSL
 
-## C.10 Create Working Draft (WD) (TBD)
+## C.9 Create Working Draft (WD) (TBD)
 TBSL
 
-## C.11 Create Committee Specification Draft (CSD) (TBD)
+## C.10 Create Committee Specification Draft (CSD) (TBD)
 TBSL
 
-## C.12 Create Public Review Draft (CSPRD) (TBD)
+## C.11 Create Public Review Draft (CSPRD) (TBD)
 TBSL
 
-## C.13 Create Committee Specification (CS) (TBD)
+## C.12 Create Committee Specification (CS) (TBD)
 TBSL
 
 **From Local Command Line**
@@ -877,12 +956,6 @@ TBSL
 $ git checkout master
 ```
 
-
-* Merge the changes from the "release" branch.
-
-```
-$ git merge release
-```
 
 
 * Copy the published files into the "master" branch.
@@ -958,78 +1031,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:master."
 
-## C.14 Update "release" Branch in the OASIS Repo from "master" Branch
-
-**From Local Command Line**
-
-* Checkout the "release" branch.
-
-```
-$ git checkout release
-```
-
-
-* Merge the changes from the "master" branch into the "release" branch
-
-```
-$ git merge master
-```
-
-
-* Remove the HTML and PDF files from the "release" branch
-
-```
-$ git rm <filename>.html
-$ git rm <filename>.pdf
-$ git rm -r styles/
-$ git commit -am "remove HTML and PDF files"
-```
-
-* Push the changes to the Personal Forked Repo
-```
-$ git push
-```
-
-**From Personal Forked Repo**
-
-* Click the green "Compare & pull request" button.
-
-**From OASIS Repo**
-
-* Verify that the base repository is the OASIS repo and the base branch is "release"
-
-* Set the pull request title and comments, as necessary.
-
-* Click the green "Create pull request" button.
-
-* Click the green "Merge pull request" button.
-
-* Click the green "Confirm merge" button.
-
-**From Local Command Line**
-
-* Fetch and merge the changes from the OASIS repo.
-
-```
-$ git fetch oasis
-$ git merge oasis/release
-```
-
-
-* Push these changes back into your "fork" repo.
-
-```
-$ git push
-```
-
-
-**From Personal Forked Repo**
-
-* Refresh the page for the "release" branch of the Forked repo.
-
-* Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:release."
-
-## C.15 Update "working" Branch in the OASIS Repo from "release" Branch
+## C.13 Update "working" Branch in the OASIS Repo from "master" Branch
 
 **From Local Command Line**
 
@@ -1039,10 +1041,10 @@ $ git push
 $ git checkout working
 ```
 
-* Merge the changes from the "release" branch into the "working" branch
+* Merge the changes from the "master" branch into the "working" branch
 
 ```
-$ git merge release
+$ git merge master
 ```
 
 * Push the changes to the Personal Forked Repo
@@ -1091,7 +1093,7 @@ $ git push
 
 * Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:working."
 
-## C.16 Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch (TBD)
+## C.14 Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch (TBD)
 
 After creating the CS in the "master" branch and applying the CS down to the "release" and "working" branches, the Git Log from the "working" branch should look similar to the following:
 
@@ -1106,7 +1108,7 @@ $ git log --oneline -n 10
 0df24dd0 sync to OASIS-published files, v1.0-cs01
 ```
 
-# Annex D: Markdown Formatting Conventions
+# Appendix D: Markdown Formatting Conventions
 
 Markdown is text-oriented and intended to be both easily readable in its raw form, and easily rendered into HTML or other more visually pleasing forms. GitHub provides some guides for using GitHub-Flavored Markdown (GFM):
 
@@ -1172,7 +1174,7 @@ A hyperlink in a GFM document is entered as follows:  `[text to display](link)`.
 ```
 which produces [this links to Google](https://www.google.com).
 
-Cross-links to a section header within a document use the same hyperlink structure with a specific format for the `(<)link)` portion. An example:  
+Cross-links to a section header within a document use the same hyperlink structure with a specific format for the `(link)` portion. An example:  
 
 ```
 [3.2.2 HTTP Usage](#322-http-usage). 
@@ -1187,7 +1189,7 @@ The text to display is the same as with any other link, but the (link) portion h
 
 * the section name in lower case with all spaces replaced with hyphens. 
 
-When using pandoc to create a TOC (as described below), all of the TOC entries are automatically created using this format so that the TOC is a collection of links to the document's sections. We've noticed that pandoc's TOC creation doesn't always correctly handle heading that contain characters like ampersands (&) and forward and back slashes, so a quality control check of the links it produces is worthwhile.
+When using pandoc to create a TOC (as described below), all of the TOC entries are automatically created using this format so that the TOC is a collection of links to the document's sections. We've noticed that pandoc's TOC creation doesn't always correctly handle headings that contain characters like ampersands (&) and forward and back slashes, so a quality control check of the links it produces is important.
 
 ## D.4 Images
 
@@ -1310,7 +1312,7 @@ For images created and stored purely in web-based tools (e.g., Google Draw), cre
 
 Some suggestions for image editing / creation tools:
 
-* Draw.IO, [a free, on-line diagramming tool](https://about.draw.io/) similar to Visio / Gliffy / LucidChart; 
+* Diagrams.net, [a free, on-line diagramming tool](https://www.diagrams.net/) similar to Visio / Gliffy / LucidChart; 
 
 * Gravit Designer, "full featured" [vector editor](https://www.designer.io/en/), has free and pro versions
 
@@ -1338,9 +1340,20 @@ The TOC will be created at the very beginning of the output file.  Heading to ap
 
 When generating a new working draft (WD) for posting to OASIS, it is prudent to generate a current TOC, clean it up, and replace any previous TOC with the current version
 
-# Annex E: Google Document Formatting Standards (Legacy)
+# Appendix E: Google Document Formatting Standards (Legacy)
 
-While the OpenC2 TC is no longer primarily using Google Documents to collaboratively develop documents, that process was used successfully for some time, and a script is available to export a Google Document to Markdown (specifically GitHub-Flavored Markdown [GMF]) to create the authoritative version for final TC approval and publication.  This Annex preserves the TC’s best practices for initially developing work products using Google Docs.  Former TC member Jason Romano created the [script for exporting Google Docs](https://github.com/romanojd/gdoc-markdown-converter).  
+While the OpenC2 TC is no longer primarily using Google
+Documents to collaboratively develop documents, that process
+was used successfully for some time, and a script is
+available to export a Google Document to Markdown
+(specifically GitHub-Flavored Markdown [GMF]) to create the
+authoritative version for final TC approval and publication.
+This appendix preserves the TC’s best practices for
+initially developing work products using Google Docs.
+Former TC member Jason Romano created the [script for
+exporting Google
+Docs](https://github.com/romanojd/gdoc-markdown-converter).
+
 
 A Google Docs add-on called Paragraph Styles+ (PS+) is very useful to manage decimal outline numbering when developing work products in Google Documents. With the shift to using GFM for creating the TC’s authoritative versions, the visual formatting aspects of PS+ are no longer relevant, but its utility for renumbering remains helpful.
 
