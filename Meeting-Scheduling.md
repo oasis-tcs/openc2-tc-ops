@@ -12,7 +12,7 @@ capture some useful details regarding the meeting scheduling process.
   * Scheduling meeting series generates a flurry of calendar invitation emails. Consider sending a "warning order" email to the TC mail list so that members aren't surprised.
   * Consider creating a matrix so you can check off each meeting series as it's scheduled (example at the end of this note) to keep track.
   * SC meetings that occur twice per month require scheduling a series for each session (e.g., 2nd Tuesday, 4th Tuesday are scheduled as two separate series)
-* The co-chairs have a weekly tag-up (Thursdays at 3:00 PM
+* The co-chairs have a weekly tag-up (Thursdays at 10:00 AM
   Eastern) that is  only scheduled in Lucid
 * The person who schedules a  meeting in Lucid is automatically a facilitator, others need to have their role change to facilitator.
   * TC co-chairs, all SC co-chairs and Secretary are
