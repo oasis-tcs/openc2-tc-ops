@@ -20,7 +20,9 @@ capture some useful details regarding the meeting scheduling process.
   * SC co-chairs, TC co-chairs, and secretary are facilitators for all SC meetings.
 * Use the _Monthly / Same Day of Week_ repeat schedule for TC and SC meetings (to get, e.g., first Tuesday of month)
 * Uncheck the box to receive emails for RSVPs in Lucid if you don't want to get flooded.
-* Only Facilitators and Participants can raise hands in Lucid, so set people's roles accordingly.
+* Only Facilitators and Participants can raise hands in Lucid, so set people's roles accordingly. Our convention has been:
+  * TC meetings: TC co-chairs and all SC co-chairs are facilitators (enables SC co-chairs to input agenda for SC reports)
+  * TC meetings: SC co-chairs for that meeting and TC co-chairs are facilitators
 * Need to use "Edit series attendees" in Lucid to change attendee information for an entire meeting series if you later want to add people or adjust roles
   * Click on the meeting in your Dashboard / Calendar
   * Click on the Attendees tab
