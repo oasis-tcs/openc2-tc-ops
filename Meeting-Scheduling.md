@@ -23,6 +23,7 @@ capture some useful details regarding the meeting scheduling process.
 * Only Facilitators and Participants can raise hands in Lucid, so set people's roles accordingly. Our convention has been:
   * TC meetings: TC co-chairs and all SC co-chairs are facilitators (enables SC co-chairs to input agenda for SC reports)
   * TC meetings: SC co-chairs for that meeting and TC co-chairs are facilitators
+  * Lucid Meetings roles are explained [here](http://support.lucidmeetings.com/support/solutions/articles/16000013446-roles-and-permissions-who-can-do-what-in-lucid)
 * Need to use "Edit series attendees" in Lucid to change attendee information for an entire meeting series if you later want to add people or adjust roles
   * Click on the meeting in your Dashboard / Calendar
   * Click on the Attendees tab
