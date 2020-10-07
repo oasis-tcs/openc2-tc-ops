@@ -5,6 +5,9 @@ OASIS TC operations. The OpenC2 TC uses
 [Lucid Meetings](https://meet.lucidmeetings.com/) 
 to conduct TC and SC meetings. The following notes 
 capture some useful details regarding the meeting scheduling process. 
+The Lucid Meetings [Fundamentals: Start Here](http://support.lucidmeetings.com/support/solutions/folders/16000049332)
+page provides an introduction to how things are 
+organized in Lucid.
 
 * This arrangement requires TC and SC meetings to be
   scheduled in both Kavi & Lucid
