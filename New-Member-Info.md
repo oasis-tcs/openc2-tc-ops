@@ -8,6 +8,8 @@ Welcome to the OASIS OpenC2 Technical Committee (TC). As TC Secretary, I'd like 
 [standing rules](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2#other) can be found at 
 [our home page at OASIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2)
 
+* General information about OpenC2 can be found at [OpenC2.org](https://openc2.org/)
+
 * We conduct TC and SC meetings using [Lucid Meetings](https://www.lucidmeetings.com). 
 As the OASIS Kavi system is the system of record for TC activities, you'll receive 
 two invitations for any meeting _series_: one from Kavi, one from Lucid. We schedule
