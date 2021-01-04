@@ -10,16 +10,18 @@ Welcome to the OASIS OpenC2 Technical Committee (TC). As TC Secretary, I'd like 
 
 * We conduct TC and SC meetings using [Lucid Meetings](https://www.lucidmeetings.com). 
 As the OASIS Kavi system is the system of record for TC activities, you'll receive 
-two invitations for any meeting _series_: one from Kavi, one from Lucid. 
+two invitations for any meeting _series_: one from Kavi, one from Lucid. We schedule
+our meetings in 6-month blocks, so when we schedule a new block there's a passle of email.
   * Our monthly TC meetings have a daytime (US 11:00 AM Eastern) and evening 
   (US 9:00 PM Eastern) session on the third Wednesday of each month. Attendance 
   at either session (which you should record in Kavi) constitutes attendance 
-  for that month's meeting. 
+  for that month's meeting. We treat these two sessions as a single meeting
+  for purposes of attendance, meeting minutes, motions voted, etc.
   * If you opt to join any SCs you will then receive invitations for those 
   meetings as well. The current routine SC meeting schedule is as follows:
-    * Language SC: 1st Monday of the month at 1:00 PM US Easter time
-    * Implementation Consideration SC: 1st Wednesday of the month at 2:00 PM US Eastern Time
-    * Actuator Profiles SC:  2nd and 4th Tuesday of the month at 1:00 PM US Eastern Time
+    * Language SC: 1st Wednesday of the month at 11:00 AM US Easter time
+    * Implementation Consideration SC: 1st Tuesday of the month at 11:00 AM US Eastern Time
+    * Actuator Profiles SC:  2nd and 4th Wednesdays of the month at 11:00 AM US Eastern Time
   * In OASIS Kavi, all meetings are scheduled on the TC calendar; we don't use the SC calendars
   * The entire meeting schedule will be visible on your 
   Lucid dashboard once you've been added to the OpenC2 "room".
