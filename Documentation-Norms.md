@@ -2,7 +2,7 @@
 
 # 1 Foreword
 
-This document provides informal, internal guidance for work product editors in the [OASIS](https://www.oasis-open.org/) [OpenC2 Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2) (TC).  It captures the working processes and norms being used by the OpenC2 TC in the development of OpenC2 standards under OASIS auspices. OpenC2 standards include the language specification, actuator profiles, transfer specifications, etc., as well as other supporting [work products](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkProduct) (the OASIS term for what a TC produces).
+This document provides informal, internal guidance for [work product](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dWorkProduct) editors in the [OASIS](https://www.oasis-open.org/) [OpenC2 Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2) (TC).  It captures the working processes and norms being used by the OpenC2 TC in the development of OpenC2 standards under OASIS auspices. OpenC2 standards include the language specification, actuator profiles, transfer specifications, etc., as well as other supporting [work products](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkProduct) (the OASIS term for what a TC produces).
 
 **What is an "Editor"?**  Excerpting from the OASIS Editor’s Manual (see Section 2), a work product editor is responsible for:
 
@@ -18,7 +18,7 @@ This document provides informal, internal guidance for work product editors in t
 
 The guide says "It’s safe to say that the role of editor is likely to be the most intensive job of any in the Technical Committee. In return, however, you will find your name on the front page of the published work, you will exert the greatest influence over the form and substance of the finished document, and you will be in the best position to develop relationships with other experts and thought leaders in the TC."
 
-The document will gradually be honed to a more polished form, but will likely always be something of a "work in progress".
+These *Documentation Norms* will gradually be honed to a more polished form, but will likely always be something of a "work in progress".
 
 * * *
 
@@ -230,9 +230,9 @@ The next section and the Appendices provide detailed information about these ste
 
 As of December 2018, the OpenC2 TC shifted to focus on [GitHub](https://help.github.com/en/github) as our primary tool for the development of work products and has adopted [Markdown](https://en.wikipedia.org/wiki/Markdown) (MD) as our preferred authoritative format for work products (AKA documents).   If you’re completely unfamiliar with GitHub, [Annex B](#annex-b-getting-comfortable-with-github) provides an introduction and links to other helpful information sources.
 
-(NOTE:  The use of Google Docs as an initial development platform for work products remains available as an option; a script is available to export Google Docs to Markdown and can be used when the editor(s) is ready to shift to GitHub to mature the document.)
+(NOTE:  The use of Google Docs as an initial development platform for work products remains available as an option; a script is available to export Google Docs to Markdown and can be used when the editor(s) is ready to shift to GitHub to mature the document. All TC member should have access to the TC's Google Drive space.)
 
-Markdown is a text-based language that uses a simple formatting syntax to make editing easy, the Markdown source very readable, and the processed output nicely formatted. Since OASIS uses GitHub repositories for version control, the OpenC2 TC is specifically using [GitHub Flavored Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-) (often shortened as GFM), the dialect of Markdown that is currently supported for user content on GitHub.com and GitHub Enterprise.
+Markdown is a text-based language that uses a simple formatting syntax to make editing easy, the Markdown source very readable, and the processed output nicely formatted. Since OASIS uses GitHub repositories for version control, the OpenC2 TC is specifically using [GitHub-Flavored Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-) (often shortened as GFM), the dialect of Markdown that is currently supported for user content on GitHub.com and GitHub Enterprise.
 
 GitHub offers many useful features to support our process, including rich version control features, issue capture and discussion, easy editing of text-based formats, and ready availability of free and open-source tools to support a variety of working preferences. There are three types of GitHub repositories in use by the OpenC2 TC:
 
