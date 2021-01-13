@@ -360,7 +360,7 @@ Once a new work product is identified and a product name selected, the next step
 
 Requesting a template / starter document creates *no* obligation for the TC or the editor(s) that the work product will be completed.
 
-Both the template / starter document and a GitHub repo are requested using forms on the [TC Admin Requests](https://www.oasis-open.org/resources/tc-admin-requests) page. Any TC member may place the requests, but typically this will be handled by some one of the document editor(s), the SC co-chairs, or the TC Secretary. Editors who are uncertain how to proceed should request assistance from the Secretary. Submitting a TC Admin request requires login with the submitter's OASIS Kavi credentials. The relevant forms on the TC Admin Requests page are:
+Both the template / starter document and a GitHub repo are requested using forms on the [TC Admin Requests](https://www.oasis-open.org/resources/tc-admin-requests) page. Any TC member may place the requests, but typically this will be handled by some one of: the document editor(s), the SC co-chairs, or the TC Secretary. Editors who are uncertain how to proceed should request assistance from the Secretary. Submitting a TC Admin request requires login with the submitter's OASIS Kavi credentials. The relevant forms on the TC Admin Requests page are:
 
 * Request a template / starter document (use the notes section of the request form to request Markdown-formatted starter document)
 
@@ -368,7 +368,7 @@ Both the template / starter document and a GitHub repo are requested using forms
 
 > NOTE:  Links to Individual request forms are not provided here to allow for future changes by TC Admin. Use the TC Admin Requests link above to get to the list of forms.
 
-The editors of the work product should also be named as the maintainers of the GitHub repository, so every editor needs a GitHub account. Document editors must be familiar with the OASIS guidance on using [GitHub Repositories for OASIS TC Members' Chartered Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work). In particular, the repo maintainers must enforce that contributions to the work product are only from TC members and that the Intellectual Property policy under which the TC operates is enforced.
+The editors of the work product should also be named as the maintainers of the GitHub repository, so every editor needs a [GitHub](https://www.github.com) account. Document editors must be familiar with the OASIS guidance on using [GitHub Repositories for OASIS TC Members' Chartered Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work). In particular, the repo maintainers must enforce that contributions to the work product are only from TC members and that the Intellectual Property policy under which the TC operates is enforced.
 
 In response to the request for a template / starter document, TC Admin will send a message to the TC mail list with an attached ZIP file containing:
 
@@ -400,7 +400,7 @@ repo are intended to organize the work as follows:
   GitHub Release feature, and the WD content is uploaded to
   the TC's document store at OASIS .
 
-* The *Master* branch contains TC-approved CS and OASIS
+* The *Master* (default) branch contains TC-approved CS and OASIS
   Standard versions of the work product. The Master branch
   is initially populated with the starter document template
   supplied by OASIS. Until the first CS is approved, the
@@ -481,7 +481,7 @@ initial template until a CS is approved, at which point the
 maintainers populate it with the current CS version. Each
 time a new CS is approved the `master` branch is updated.
 
-Work-in-progress is always handled in the `working` branch,
+Work in progress is always handled in the `working` branch,
 using the standard GitHub mechanisms of forking the work
 product repository and creating pull requests (PRs) with
 contributions. When Working Drafts (WDs) are declared, the
