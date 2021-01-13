@@ -337,7 +337,9 @@ repository branching concept further described in [section
 > [GitHub makes tools available to simplify the
 > process](https://github.com/github/renaming). This
 > document presently uses `master` so that it aligns with
-> the current content of the TC's GitHub repos.
+> the current content of the TC's GitHub repos. The TC's intent is to switch to using 
+> * **published** -- default branch, contains only OASIS-published content (i.e., Committee Specifications, OASIS Standards)
+> * **working** -- active branch for creation and editing of work products
 
 ### Figure 1: New Work Product Launch
 
