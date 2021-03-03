@@ -30,7 +30,7 @@ organized in Lucid.
   * Click on the meeting in your Dashboard / Calendar
   * Click on the Attendees tab
   * Select "(Edit series attendees)" in the space above the table of attendees
-* THe entire TC membership is invited to both TC and working meetings
+* The entire TC membership is invited to all TC and working meetings
 
 
 **For efficient scheduling in Lucid:**
