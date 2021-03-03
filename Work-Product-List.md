@@ -16,4 +16,4 @@
 | [https](https://github.com/oasis-tcs/openc2-transf-http) | HTTPS Transfer Specification | [CS01](https://docs.oasis-open.org/openc2/open-impl-https/v1.0/open-impl-https-v1.0.html) | David Lemire<br>Joe Brule | David Lemire<br>Joe Brule |
 | [http](https://github.com/oasis-tcs/openc2-transf-http) | HTTP Transfer Specification | | David Lemire<br>Duncan Sparrell | David Lemire<br>Duncan Sparrell |
 | [mqtt](https://github.com/oasis-tcs/openc2-transf-mqtt) | MQTT Transfer Specification | | David Lemire<br>Joe Brule | David Lemire<br>Joe Brule |
-| [odxl](https://github.com/oasis-tcs/openc2-transf-odxl) | OpenDXL Transfer Specification | | Duncan Sparrell<br>Scott MacGregor| David Lemire<br>Duncan Sparrell<br>Joe Brule |
+| [odxl](https://github.com/oasis-tcs/openc2-transf-odxl) | OpenDXL Transfer Specification | | Duncan Sparrell<br>_Scott MacGregor_ | David Lemire<br>Duncan Sparrell<br>Joe Brule |
