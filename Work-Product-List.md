@@ -1,6 +1,6 @@
 # OpenC2 TC Work Products
 
-| Shorthand | Title | Recent | Editors | Repo Writers |
+| Repository | Title | Recent | Editors | Repo Writers |
 |:---:|:----:|:-----:|:----:|:-----:|
 | [oc2ls](https://github.com/oasis-tcs/openc2-oc2ls) | Language Specification | [CS02](https://docs.oasis-open.org/openc2/oc2ls/v1.0/oc2ls-v1.0.html) | Toby Considine<br>Duncan Sparrell<br>Jason Romano | Toby Considine<br>Duncan Sparrell<br>Drew Varner |
 | [oc2arch](https://github.com/oasis-tcs/oc2arch) | Architecture Specification | | Duncan Sparrell<br>Dan Johnson | Duncan Sparrell<br>Toby Considine<br>Joe Brule<br>David Lemire |
