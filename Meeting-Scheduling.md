@@ -18,7 +18,7 @@ organized in Lucid.
   * The monthly TC meeting's mornning and evening sessions likewire require scheduling a series for each session
 * The person who schedules a  meeting in Lucid is automatically a facilitator, others need to have their role changed to facilitator.
   * TC co-chairs and the secretary are facilitators for monthly TC meetings.
-  * TC co-chairs, and the secretary are facilitators for all working meetings. Work product editors can be added as facilitators for working meetings at the discretion of the co-chairs and secretary
+  * TC co-chairs, and the secretary are facilitators for all working meetings. Work product editors will be specified as presenters for their work items in the working meeting agendas
 * Use the _Monthly / Same Day of Week_ repeat schedule for meetings (to get, e.g., first Tuesday of month)
 * Uncheck the box to receive emails for RSVPs in Lucid if you don't want to get flooded.
 * Only Facilitators and Participants can raise hands in Lucid, so set people's roles accordingly. Our convention has been:
