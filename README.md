@@ -13,7 +13,7 @@ are maintainers.
 
 This repository includes the following information:
 
-* [New-Member-Info.md](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/New-Member-Info.md)
+* [General-Member-Info.md](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/General-Member-Info.md)
   -- An overview of how the OpenC2 TC conducts its operations;
   useful for both new and existing members
 * [Documentation-Norms.md](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/Documentation-Norms.md)
