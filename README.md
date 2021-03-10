@@ -6,8 +6,8 @@
 This repository is for documentation associated with Openc2 TC
 operations and information sharing such as FAQs, lists of links
 to related work, and norms for developing and approving TC work
-products. Given the intent of the repo, all TC and SC co-chairs
-are maintainers.
+products. Given the intent of the repo, both TC co-chairs and the
+secretary are maintainers.
 
 ## What's Here?
 
