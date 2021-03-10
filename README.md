@@ -13,21 +13,23 @@ are maintainers.
 
 This repository includes the following information:
 
-* [General-Member-Info.md](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/General-Member-Info.md)
+* [General-Member-Info.md](General-Member-Info.md)
   -- An overview of how the OpenC2 TC conducts its operations;
   useful for both new and existing members
-* [Documentation-Norms.md](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/Documentation-Norms.md)
+* [Documentation-Norms.md](Documentation-Norms.md)
   -- An information document for work product editors, including
   the TC's use of markdown and GitHub for developing and managing
   those work products. Also includes information about choosing
   work products names and shorthands, branch management strategy
   for work product GitHub repos, and other helpful info.
-* [Meeting-Scheduling.md](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/Meeting-Scheduling.md)
+* [Work-Product-List.md](Work-Product-List.md) -- a list of the TC's on-going work products with status, editor names, links to repositories and recent versions
+* [Working-Meeting-Process.md](Working-Meeting-Process.md) -- a description of the new (as of March 2021) process for planning and conducting working meetings to advance the development of work products in the OpenC2 TC
+* [Meeting-Scheduling.md](Meeting-Scheduling.md)
   -- notes about the meeting scheduling process, for reference by
   co-chairs and the TC secretary
-* [FAQ.md](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/FAQ.md)
+* [FAQ.md](FAQ.md)
   -- An OpenC2 Frequently Asked Questions list
-* [Other-OpenC2-Work.md](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/Other-OpenC2-Work.md)
+* [Other-OpenC2-Work.md](Other-OpenC2-Work.md)
   -- a listing of OpenC2 implementation efforts known to the TC
   outside of those maintained in [open repositories sponsored by
   the
