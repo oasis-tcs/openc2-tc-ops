@@ -15,7 +15,7 @@ operations:
 
 ### Meeting Schedules
 
-* We conduct TC and working meetings using [Lucid
+We conduct TC and working meetings using [Lucid
   Meetings](https://www.lucidmeetings.com). As the OASIS Kavi
   system is the system of record for TC activities, you'll
   receive two invitations for each meeting _series_: one from
@@ -40,7 +40,7 @@ operations:
     The 1st, 2nd, and 4th Wednesdays of each month are used for
     working meeting to discuss topics related to TC work products
     and other technical matters. If there are five Wednesdays in a month, there is no meeting on the 5th Wednesday.
-  * In OASIS Kavi, all meetings are scheduled on the TC calendar
+  * In OASIS Kavi, all meetings are scheduled on the TC calendar (We've eliminated our subcommittees, but they still exist in the system. We no longer use the SC calendards or email lists.)
   * The entire meeting schedule will be visible on your Lucid
     dashboard and calendar once you've been added to the OpenC2
     "room".
@@ -55,7 +55,7 @@ You'll receive an invitation for that as well.
 
 * At present all of our work product development is happening on
   [GitHub](https://github.com/), and there is also a collection
-  of open repositories there with OpenC2 implementations. 
+  of open repositories there with OpenC2 implementations. Links:
   * [Work product repos](https://github.com/oasis-tcs?utf8=%E2%9C%93&q=openc2&type=&language=): specifications and related documents
   * [Open repos](https://github.com/oasis-open?utf8=%E2%9C%93&q=openc2-&type=&language=): software contributions
 * The TC's [Documentation Norms](Documentation-Norms.md) provides
