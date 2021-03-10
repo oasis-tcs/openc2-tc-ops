@@ -15,8 +15,8 @@ organized in Lucid.
   * Scheduling meeting series generates a flurry of calendar invitation emails. Consider sending a "warning order" email to the TC mail list so that members aren't surprised.
   * Consider creating a matrix so you can check off each meeting series as it's scheduled (example at the end of this note) to keep track.
   * Working meetings (which occur three times per month) require scheduling a series for each session (e.g., 1st Wednesday, 2nd Wednesday, 4th Wednesday are scheduled as three separate series)
-  * The monthly TC meeting's mornning and evening sessions likewire require scheduling a series for each session
-* The person who schedules a  meeting in Lucid is automatically a facilitator, others need to have their role changed to facilitator.
+  * The monthly TC meeting's morning and evening sessions likewise require scheduling a series for each session
+* The person who schedules a meeting in Lucid is automatically a facilitator, others need to have their role changed to facilitator.
   * TC co-chairs and the secretary are facilitators for monthly TC meetings.
   * TC co-chairs, and the secretary are facilitators for all working meetings. Work product editors will be specified as presenters for their work items in the working meeting agendas
 * Use the _Monthly / Same Day of Week_ repeat schedule for meetings (to get, e.g., first Tuesday of month)
@@ -54,4 +54,6 @@ the Lucid Meetings support system, and has been very pleased
 with the quality of their support. 
 
 ### Example Meeting Scheduling Matrix
+> NOTE: requires update for working meetings in place of SC meetings
+> 
 ![Example Scheduling Grid](/images/scheduling-grid.jpg)
