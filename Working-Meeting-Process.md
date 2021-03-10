@@ -1,7 +1,16 @@
 # Working Meeting Process
 #### Information for TC members about planning and conducting working meetings.
 
-As explained in the [General Member Information](New-Member-Info.md) document, the TC conducts three working meetings on the 1st, 2nd, and 4th Wednesdays of each month at 11:00 am Eastern time. This document describes the norms for planning, conducting, and recording the results of working meetings. Working meetings primarly focus on advancing the TC's work products, which are listed in [this document](Work-Product-List.md).
+As explained in the [General Member
+Information](General-Member-Info.md) document, the TC conducts
+three working meetings on the 1st, 2nd, and 4th Wednesdays of
+each month at 11:00 am Eastern time. This document describes the
+norms for planning, conducting, and recording the results of
+working meetings. Working meetings primarily focus on advancing
+the TC's work products, which are listed in [this
+document](Work-Product-List.md).
+
+## Standing Agenda Format
 
 The agenda for working meetings, generally, is:
 
@@ -10,41 +19,77 @@ The agenda for working meetings, generally, is:
     *	Record attendance
     *	Link to work products page
     *	Review & approve agenda
+
 2.	**Pull Requests for Agreement** 
-    *	List an PR’s ready to go in order they were distributed (i.e., older goes first, incentive to get in early)
-    *	Simple ‘Any Objection or discussion?’  on each PR 
-        *	if none, merge the PR. 
+    *   List any PRs that are ready to go in the order they were
+        distributed (i.e., older goes first, incentive to get in
+        early)
+    *   Simple "Any objection or discussion?" on each PR 
+        *	if none, merge the PR
         *	If any discussion, change PR to draft and defer to item 3 on agenda
+
 3.	**Draft Pull Requests for Discussion** 
-    *	List an PR’s ready to go in order they were distributed (i.e., older goes first, incentive to get in early) with deferred from item 2 last
-    *	Time bound discussion depending on number to be discussed and amount of agenda time allocated to remaining agenda items
-    *	Intent is to (1) alert everyone to proposed changes and (2) reach consensus on issues that arise. 
-    * Defer resolution to email, later agenda items, and *ad hoc* meetings if can’t resolve in timeslot
-    *	If draft PR is something discussed before and no new changes, it can be skipped until changes made and/or consensus reached
+    *   List an PRs for discussion in the order they were
+        distributed (i.e., older goes first, incentive to get in
+        early), adding deferred PRs from item 2 last
+    *   Time-bound discussion depending on number to be discussed
+        and amount of agenda time allocated to remaining agenda
+        items
+    *   Intent is to (1) alert everyone to proposed changes and
+        (2) reach consensus on issues that arise
+    *   Defer resolution to email, later agenda items, and *ad
+        hoc* meetings if can’t resolve in timeslot
+    *   If draft PR is something discussed before and has no new
+        changes, it can be skipped until changes have been made
+        and/or consensus reached
+
 4.	**Special Topics** 
-    *	Dedicated agenda time (with time bound) on a topic that was requested prior to meeting and added to agenda. In some meetings this might be 30 min dedicated to resolving some particularly thorny issue. Is other meetings, it might be skipped entirely.
+    *   Dedicated agenda time (time bound) on a topic that was
+        requested prior to meeting and added to agenda. In some
+        meetings this might be 30 min dedicated to resolving some
+        particularly thorny issue. Is other meetings, it might be
+        skipped entirely.
+
 5.	**Work Product Status/Next Steps** 
-    *	List all work products, in different order each meeting
-    *	Time bound discussion per work product on what is happening and what needs to happen to get work product into either agenda items 2 or 3
+    *   List all work products, in different order each meeting
+        (see structure below)
+    *   Time bound discussion per work product on what is
+        happening and what needs to happen to get work product
+        into either agenda items 2 or 3
+
 6.	**Any Other Business**
 
 
+## Agenda Coordination
  
-Agendas are coordinated via a combination of 
- 1) discussion on the TC mail list where work product editors and the TC co-chairs and secretary can coordinate which work products need discussion time at a particular working meeting, and 
- 1) editing of the agenda in Lucid Meetings to capture the plans for a particular discussion. 
+Agendas are coordinated via a combination of: 
+ 1) discussion on the TC mail list, where work product editors
+    and the TC co-chairs and secretary can coordinate which work
+    products need discussion time at a particular working
+    meeting, and 
+ 1) editing of the agenda in Lucid Meetings to capture the plans
+    for a particular discussion. 
 
-All TC members are encouraged to raise other agenda topics as needed. We also have an #Agenda channel in Slack (NOTE: to be created) where anyone interested in meeting planning can chime in. 
+All TC members are encouraged to raise other agenda topics as
+needed. We also have an #Agenda channel in Slack (NOTE: to be
+created) where anyone interested in meeting planning can chime
+in. 
 
-An editor for each work product to be discussed will be made the Presenter in Lucid Meetings for the agenda section for their work product to enable the editor to directly edit that portion of the agenda. The template for a work product discussion agenda is:
+An editor for each work product to be discussed will be made the
+Presenter in Lucid Meetings for the agenda section for their work
+product to enable the editor to directly edit that portion of the
+agenda. The template for a work product discussion agenda is:
  * Editors:  editor 1, editor 2
- * Link for the work product GitHub repository
+ * Link to the work product GitHub repository
  * Brief status summary: ... (with any relevant links)
  * GitHub issues and/or pull requests (PRs) up for discussion
  * Next steps: what's needed to progress toward Committee Specification (or OASIS Standard)
 
+## Recording Outcomes
 
-
-
-
-The outcome of the discussion should be captured primarily using GitHub mechanisms, through updates to issues and PRs. Action items can be captured in Lucid Meetings. Work product editors are also encouraged to send a brief summary of meeting results to the TC mailing list to keep TC members apprised of progress.
+The outcome of working meeting discussions should be captured
+primarily using GitHub mechanisms, through updates to issues and
+PRs. Action items can be captured in Lucid Meetings. Work product
+editors are also encouraged to send a brief summary of meeting
+results to the TC mailing list to keep TC members apprised of
+progress.
