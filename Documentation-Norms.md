@@ -4,6 +4,8 @@
 
 This document provides informal, internal guidance for [work product](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dWorkProduct) editors in the [OASIS](https://www.oasis-open.org/) [OpenC2 Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2) (TC).  It captures the working processes and norms being used by the OpenC2 TC in the development of OpenC2 standards under OASIS auspices. OpenC2 standards include the language specification, actuator profiles, transfer specifications, etc., as well as other supporting [work products](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkProduct) (the OASIS term for what a TC produces).
 
+**What is a "Work Product"?** Work Product is the official OASIS term for the materials (e.g. narrative documents, schemas, sample code) created by a TC in fulfillment of its charter.
+
 **What is an "Editor"?**  Excerpting from the OASIS Editor’s Manual (see Section 2), a work product editor is responsible for:
 
 * Creating and maintaining documents that reflect the consensus of the TC and incorporating agreed-upon changes clearly and unambiguously
