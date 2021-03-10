@@ -1,4 +1,4 @@
-# Secretary's Welcome Message
+# General Member Information
 #### Information for TC members about the OpenC2 TC's operating routine.
 
 Welcome to the OASIS OpenC2 [Technical Committee
