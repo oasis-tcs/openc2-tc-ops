@@ -2,7 +2,9 @@
 
 # 1 Foreword
 
-This document provides informal, internal guidance for work product editors in the [OASIS](https://www.oasis-open.org/) [OpenC2 Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2) (TC).  It captures the working processes and norms being used by the OpenC2 TC in the development of OpenC2 standards under OASIS auspices. OpenC2 standards include the language specification, actuator profiles, transfer specifications, etc., as well as other supporting [work products](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkProduct) (the OASIS term for what a TC produces).
+This document provides informal, internal guidance for [work product](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dWorkProduct) editors in the [OASIS](https://www.oasis-open.org/) [OpenC2 Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2) (TC).  It captures the working processes and norms being used by the OpenC2 TC in the development of OpenC2 standards under OASIS auspices. OpenC2 standards include the language specification, actuator profiles, transfer specifications, etc., as well as other supporting [work products](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkProduct) (the OASIS term for what a TC produces).
+
+**What is a "Work Product"?** Work Product is the official OASIS term for the materials (e.g. narrative documents, schemas, sample code) created by a TC in fulfillment of its charter.
 
 **What is an "Editor"?**  Excerpting from the OASIS Editor’s Manual (see Section 2), a work product editor is responsible for:
 
@@ -18,7 +20,7 @@ This document provides informal, internal guidance for work product editors in t
 
 The guide says "It’s safe to say that the role of editor is likely to be the most intensive job of any in the Technical Committee. In return, however, you will find your name on the front page of the published work, you will exert the greatest influence over the form and substance of the finished document, and you will be in the best position to develop relationships with other experts and thought leaders in the TC."
 
-The document will gradually be honed to a more polished form, but will likely always be something of a "work in progress".
+These *Documentation Norms* will gradually be honed to a more polished form, but will likely always be something of a "work in progress".
 
 * * *
 
@@ -199,17 +201,18 @@ The OpenC2 Language Specification is the foundation of a family of documents tha
 
 * Language Specification
 * Architecture Specification (pending)
-* Actuator Profiles
+* Actuator Profiles (APs)
 * Transfer Specifications
+* Supplementary documents
 * Schemas
 
 Documents of similar type (e.g., actuator profiles) within the family logically have similar content and organization, so familiarity with previously created OpenC2 specifications is helpful when developing a new work product. 
 
 ## 3.2 "Agile" document development concept
 
-The OpenC2 TC has been using a development process inspired by agile software development concepts. Under this process, document editors work with the members of the applicable subcommittee to incrementally develop and gain consensus regarding the content of a work product. This process includes moderately frequent publication of [Working Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkingDraft) (WDs) that are then presented to the OpenC2 TC for approval as [Committee Specification Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeDraft) (CSDs). Approval of a CSD formalizes and documents TC consensus on the material from that increment of development.
+The OpenC2 TC has been using a development process inspired by agile software development concepts. Under this process, document editors work with the members of the TC to incrementally develop and gain consensus regarding the content of a work product. This process includes moderately frequent publication of [Working Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkingDraft) (WDs) that are then presented to the OpenC2 TC for approval as [Committee Specification Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeDraft) (CSDs). Approval of a CSD formalizes and documents TC consensus on the material from that increment of development.
 
-Once the editors and SC agree that a work product is complete and mature, the remainder of its review and approval are governed by the OASIS TC Process for public review, approval as a Committee Specification, and eventual approval as an OASIS Standard (following additional public review). Sections [2.6](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#publicReview) through [2.8](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#OASISstandard) of the [TC Process document](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26) describe those aspects of work product development.
+Once the editors and TC members agree that a work product is complete and mature, the remainder of its review and approval are governed by the OASIS TC Process for public review, approval as a Committee Specification, and eventual approval as an OASIS Standard (following additional public review). Sections [2.6](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#publicReview) through [2.8](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#OASISstandard) of the [TC Process document](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26) describe those aspects of work product development.
 
 ## 3.3 Work Product Development Sequence
 
@@ -230,13 +233,13 @@ The next section and the Appendices provide detailed information about these ste
 
 As of December 2018, the OpenC2 TC shifted to focus on [GitHub](https://help.github.com/en/github) as our primary tool for the development of work products and has adopted [Markdown](https://en.wikipedia.org/wiki/Markdown) (MD) as our preferred authoritative format for work products (AKA documents).   If you’re completely unfamiliar with GitHub, [Annex B](#annex-b-getting-comfortable-with-github) provides an introduction and links to other helpful information sources.
 
-(NOTE:  The use of Google Docs as an initial development platform for work products remains available as an option; a script is available to export Google Docs to Markdown and can be used when the editor(s) is ready to shift to GitHub to mature the document.)
+(NOTE:  The use of Google Docs as an initial development platform for work products remains available as an option; a script is available to export Google Docs to Markdown and can be used when the editor(s) is ready to shift to GitHub to mature the document. All TC member should have access to the TC's Google Drive space.)
 
-Markdown is a text-based language that uses a simple formatting syntax to make editing easy, the Markdown source very readable, and the processed output nicely formatted. Since OASIS uses GitHub repositories for version control, the OpenC2 TC is specifically using [GitHub Flavored Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-) (often shortened as GFM), the dialect of Markdown that is currently supported for user content on GitHub.com and GitHub Enterprise.
+Markdown is a text-based language that uses a simple formatting syntax to make editing easy, the Markdown source very readable, and the processed output nicely formatted. Since OASIS uses GitHub repositories for version control, the OpenC2 TC is specifically using [GitHub-Flavored Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-) (often shortened as GFM), the dialect of Markdown that is currently supported for user content on GitHub.com and GitHub Enterprise.
 
 GitHub offers many useful features to support our process, including rich version control features, issue capture and discussion, easy editing of text-based formats, and ready availability of free and open-source tools to support a variety of working preferences. There are three types of GitHub repositories in use by the OpenC2 TC:
 
-* **TC Product Repos:** For each TC-sponsored work product, OASIS TC Administration creates a GitHub repository (AKA "repo"), and assigns the editor(s) of the document as "maintainers". Maintainers have the privilege to [commit](https://help.github.com/en/github/getting-started-with-github/github-glossary#commit) changes to the repository's contents, be those changes their own work or contributions from other TC members. Typically the maintainers of a TC work product repo will be the editors of the product plus the current co-chairs of the subcommittee under whose auspices the work product is developed.
+* **TC Product Repos:** For each TC-sponsored work product, OASIS TC Administration creates a GitHub repository (AKA "repo"), and assigns the editor(s) of the document as "maintainers". Maintainers have the privilege to [commit](https://help.github.com/en/github/getting-started-with-github/github-glossary#commit) changes to the repository's contents, be those changes their own work or contributions from other TC members. Typically the maintainers of a TC work product repo will be the editors of the product. Other maintainers may be identified if there is a need.
 
 * **TC Working Repos:** In addition to repos specific to individual work products, the TC has other repos to support its efforts, such as the capture of [use cases](https://github.com/oasis-tcs/openc2-usecases), and a repository to support development of [custom actuator profiles](https://github.com/oasis-tcs/openc2-cap) (which may eventually turn into TC work products and receive individual repos).
 
@@ -246,30 +249,25 @@ This document is focused on the use of **TC Product Repos** to develop TC work p
 
 ## 4.1 Identify Work Product Need
 
-The work of identifying and developing work products in the
-OpenC2 TC has been delegated to the three subcommittees. Any
-member can propose a work product, typically by presenting
-their idea to the relevant subcommittee. Consensus in the
-subcommittee is sufficient to initiate the creation of a
-work product. The work product will then need a name and an
-abstract in order to submit the request for a starter
-document (naming and starter document requests are discussed
-in the next section)
+Any TC member can propose a work product, typically by presenting
+their idea to the TC membership (e.g., at a monthly meeting). The
+work product will then need a name and an abstract in order to
+submit the request for a starter document (naming and starter
+document requests are discussed in the next section).
 
 ## 4.2 Assign Work Product Name
 
-Once the need for a work product is established, the next
-step in creating a new work product is to name the document
-and create a shorthand for it. Give some thought to the
-product name when requesting a starter document, as that
-name will live on essentially forever. Consultation with the
-associated SC co-chairs is recommended, as well as
-familiarity with the _[OASIS Naming
+Once the need for a work product is established, the next step in
+creating a new work product is to name the document and create a
+shorthand for it. Give some thought to the product name when
+requesting a starter document, as that name will live on
+essentially forever. Consultation with the TC co-chairs and
+secretary is recommended, as well as familiarity with the _[OASIS
+Naming
 Directives](http://docs.oasis-open.org/specGuidelines/ndr/namingDirectives.html)_.
 Consultation with the OASIS TC Administration team is also
-helpful, as they can assist with applying the naming
-directives and help avoid collisions with the names of other
-OASIS products.
+helpful, as they can assist with applying the naming directives
+and help avoid collisions with the names of other OASIS products.
 
 The TC's work products can be broken into over-arching
 documents (e.g., Language Specification, Architecture Specification) that
@@ -295,7 +293,12 @@ Since the TC name (i.e., "openc2") is already included in the URLs and GitHub re
 * Actuator profiles:  `ap-<function shorthand>`
 * Transfer specifications:  `transf-<protocol shorthand>`
 
-> NOTE:  The initial actuator profile for stateless packet filtering and transfer specification for HTTPS do not follow these patterns, but the patterns are recommended for new specifications. If a new type of document is needed, the co-chairs of the associated subcommittee should be involved in determining the naming pattern for the new document type.
+> NOTE:  The initial actuator profile for stateless packet
+> filtering and transfer specification for HTTPS do not follow
+> these patterns, but the patterns are recommended for new
+> specifications. If a new type of document is needed, the TC
+> co-chairs and secretary can assist in determining the naming
+> pattern for the new document type.
 
 As an example, an actuator profile for anti-virus might have the shorthand of "ap-av", leading to:
 
@@ -337,7 +340,9 @@ repository branching concept further described in [section
 > [GitHub makes tools available to simplify the
 > process](https://github.com/github/renaming). This
 > document presently uses `master` so that it aligns with
-> the current content of the TC's GitHub repos.
+> the current content of the TC's GitHub repos. The TC's intent is to switch to using 
+> * **published** -- default branch, contains only OASIS-published content (i.e., Committee Specifications, OASIS Standards)
+> * **working** -- active branch for creation and editing of work products
 
 ### Figure 1: New Work Product Launch
 
@@ -358,7 +363,7 @@ Once a new work product is identified and a product name selected, the next step
 
 Requesting a template / starter document creates *no* obligation for the TC or the editor(s) that the work product will be completed.
 
-Both the template / starter document and a GitHub repo are requested using forms on the [TC Admin Requests](https://www.oasis-open.org/resources/tc-admin-requests) page. Any TC member may place the requests, but typically this will be handled by some one of the document editor(s), the SC co-chairs, or the TC Secretary. Editors who are uncertain how to proceed should request assistance from the Secretary. Submitting a TC Admin request requires login with the submitter's OASIS Kavi credentials. The relevant forms on the TC Admin Requests page are:
+Both the template / starter document and a GitHub repo are requested using forms on the [TC Admin Requests](https://www.oasis-open.org/resources/tc-admin-requests) page. Any TC member may place the requests, but typically this will be handled by some one of: the document editor(s), the TC co-chairs, or the TC Secretary. Editors who are uncertain how to proceed should request assistance from the Secretary. Submitting a TC Admin request requires login with the submitter's OASIS Kavi credentials. The relevant forms on the TC Admin Requests page are:
 
 * Request a template / starter document (use the notes section of the request form to request Markdown-formatted starter document)
 
@@ -366,7 +371,7 @@ Both the template / starter document and a GitHub repo are requested using forms
 
 > NOTE:  Links to Individual request forms are not provided here to allow for future changes by TC Admin. Use the TC Admin Requests link above to get to the list of forms.
 
-The editors of the work product should also be named as the maintainers of the GitHub repository, so every editor needs a GitHub account. Document editors must be familiar with the OASIS guidance on using [GitHub Repositories for OASIS TC Members' Chartered Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work). In particular, the repo maintainers must enforce that contributions to the work product are only from TC members and that the Intellectual Property policy under which the TC operates is enforced.
+The editors of the work product should also be named as the maintainers of the GitHub repository, so every editor needs a [GitHub](https://www.github.com) account. Document editors must be familiar with the OASIS guidance on using [GitHub Repositories for OASIS TC Members' Chartered Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work). In particular, the repo maintainers must enforce that contributions to the work product are only from TC members and that the Intellectual Property policy under which the TC operates is enforced.
 
 In response to the request for a template / starter document, TC Admin will send a message to the TC mail list with an attached ZIP file containing:
 
@@ -398,7 +403,7 @@ repo are intended to organize the work as follows:
   GitHub Release feature, and the WD content is uploaded to
   the TC's document store at OASIS .
 
-* The *Master* branch contains TC-approved CS and OASIS
+* The *Master* (default) branch contains TC-approved CS and OASIS
   Standard versions of the work product. The Master branch
   is initially populated with the starter document template
   supplied by OASIS. Until the first CS is approved, the
@@ -479,7 +484,7 @@ initial template until a CS is approved, at which point the
 maintainers populate it with the current CS version. Each
 time a new CS is approved the `master` branch is updated.
 
-Work-in-progress is always handled in the `working` branch,
+Work in progress is always handled in the `working` branch,
 using the standard GitHub mechanisms of forking the work
 product repository and creating pull requests (PRs) with
 contributions. When Working Drafts (WDs) are declared, the
@@ -613,10 +618,9 @@ The OpenC2 TC has a [CRM
 template](https://docs.google.com/spreadsheets/d/1Kk6FOIHCs4M8KsLzSywwnsrMbarpIVM2m0T2ZC7h0zc/edit#gid=0)
 in the `admin > template` folder on our [Google
 Drive](https://drive.google.com/drive/folders/0ByY7rMsnC7rrY1JEMlBLckNXTG8).
-Editors handling public review comments should make a copy
-of the template, rename it appropriately, and move it to the
-folder for the SC associated with the document.  The CRM
-template columns are as follows:
+Editors handling public review comments should make a copy of the
+template, rename it appropriately, and use it for tracking
+comment adjudication.  The CRM template columns are as follows:
 
 |  Column | Usage |
 | :----: | ---- |
@@ -629,7 +633,7 @@ template columns are as follows:
 |  GitHub Issue Link | Web link to the GitHub issue where the comment will be discussed and disposition recorded. |
 |  Resolution Summary | A brief summation of the disposition (e.g., "ACCEPTED: added language …", DEFERRED to later version). Having this summary in the CRM is important so that the permanent artifact in the OASIS archive meets the requirement to "post … the disposition of each comment", without need to refer to other sources. |
 |  GitHub Change Link | Web link to the GitHub pull request where the specific document changes related to the comment, if any, are identified. |
-|  Material? | Editor's / SC's assessment of whether any changes made to address the comment represent material changes to the work product. Material changes made to a document as a result of a public review require that the updated document undergo a subsequent public review. |
+|  Material? | Editor's assessment of whether any changes made to address the comment represent material changes to the work product. Material changes made to a document as a result of a public review require that the updated document undergo a subsequent public review. |
 
 
 Our editors have found it useful to employ GitHub's [labels](https://help.github.com/en/articles/about-labels) feature when organizing issues from public review comments for discussion. Labels can be used to identify:
