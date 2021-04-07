@@ -353,6 +353,8 @@ repository branching concept further described in [section
 
 ### 4.3.1 Request Template
 
+> NOTE: OASIS changed their document formats in late 2020; an overview of the new structure for a specification is provided for reference in [Document Template 2020](./Document-Template-2020.md). The starter document provided by OASIS contains much more complete guidance than the overview.
+
 Once a new work product is identified and a product name selected, the next step in the process is to request a template / starter document from OASIS. For a markdown-formatted product, a companion request is made for a GitHub repo in the TC's space (i.e., [oasis-TCs / openc2-...](https://github.com/oasis-tcs?utf8=✓&q=openc2&type=&language=)). While it might seem reasonable to launch a new work product by cloning an existing TC product, following the OASIS process has several advantages:
 
 * Encourages the TC and the editor(s) to think through naming the work product appropriately
