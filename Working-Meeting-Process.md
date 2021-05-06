@@ -24,21 +24,24 @@ The agenda for working meetings, generally, is:
     *   List any PRs that are ready to go in the order they were
         distributed (i.e., older goes first, incentive to get in
         early)
+        * **Format:  list PRs directly on this agenda page, no sub-pages**
     *   Simple "Any objection or discussion?" on each PR 
         *	if none, merge the PR
         *	If any discussion, change PR to draft and defer to item 3 on agenda
 
 3.	**Draft Pull Requests for Discussion** 
-    *   List an PRs for discussion in the order they were
+    *   List any PRs for discussion in the order they were
         distributed (i.e., older goes first, incentive to get in
         early), adding deferred PRs from item 2 last
+        * **Format: List PRs on this page, create sub-agenda item (i.e., 3.1, 3.2, ...) with detailed information for discussion**
     *   Time-bound discussion depending on number to be discussed
         and amount of agenda time allocated to remaining agenda
         items
-    *   Intent is to (1) alert everyone to proposed changes and
-        (2) reach consensus on issues that arise
-    *   Defer resolution to email, later agenda items, and *ad
-        hoc* meetings if can’t resolve in timeslot
+    *   Intent is to 
+        *   (1) alert everyone to proposed changes and
+        *   (2) reach consensus on issues that arise
+    *   Defer resolution to email, Slack, later agenda items, and *ad
+        hoc* meetings if concerns can’t resolve in timeslot
     *   If draft PR is something discussed before and has no new
         changes, it can be skipped until changes have been made
         and/or consensus reached
@@ -49,6 +52,7 @@ The agenda for working meetings, generally, is:
         meetings this might be 30 min dedicated to resolving some
         particularly thorny issue. Is other meetings, it might be
         skipped entirely.
+        * **Format: List PRs on this page, create sub-agenda item (i.e., 3.1, 3.2, ...) with detailed information for discussion**
 
 5.	**Work Product Status/Next Steps** 
     *   List all work products, in different order each meeting
@@ -71,14 +75,14 @@ Agendas are coordinated via a combination of:
     for a particular discussion. 
 
 All TC members are encouraged to raise other agenda topics as
-needed. We also have an #Agenda channel in Slack (NOTE: to be
-created) where anyone interested in meeting planning can chime
-in. 
+needed. We also have an #editors channel in Slack where anyone
+interested in meeting planning can chime in. 
 
-An editor for each work product to be discussed will be made the
-Presenter in Lucid Meetings for the agenda section for their work
-product to enable the editor to directly edit that portion of the
-agenda. The template for a work product discussion agenda is:
+The Lucid Meetings settings for the working meetings permit
+anyone invited to edit the agenda. This enables the editors for a
+work product to directly edit portions  of the agenda relevant to
+their items. The template for a work product discussion agenda
+is:
  * Editors:  editor 1, editor 2
  * Link to the work product GitHub repository
  * Brief status summary: ... (with any relevant links)
