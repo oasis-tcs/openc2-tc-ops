@@ -416,7 +416,7 @@ repo are intended to organize the work as follows:
 
 ![Work Product Repo Branching Concept](images/versioning-concept.png)
 
-> [Figure 2 Source (Google Draw File)](https://docs.google.com/drawings/d/1cJDmBxwaSZnGhqCZqz2O5XaXuxOIU3XMP5caE9o_Gzo/edit)
+> [Figure 2 Source (Google Draw File)](https://docs.google.com/drawings/d/1k6-Sl9Ge4X0pQcF1jOFgG3Ognf514NuAWVVTBB8g7-k/edit)
 
 Figure 2 assumes a Committee Specification has been approved
 (the v1.0 document) and work is proceeding on a future
