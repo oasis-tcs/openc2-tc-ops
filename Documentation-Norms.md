@@ -343,6 +343,8 @@ repository branching concept further described in [section
 > the current content of the TC's GitHub repos. The TC's intent is to switch to using 
 > * **published** -- default branch, contains only OASIS-published content (i.e., Committee Specifications, OASIS Standards)
 > * **working** -- active branch for creation and editing of work products
+> 
+> This document reflects that intent.
 
 ### Figure 1: New Work Product Launch
 
@@ -423,13 +425,13 @@ repo are intended to organize the work as follows:
 Figure 2 assumes a Committee Specification has been approved
 (the v1.0 document) and work is proceeding on a future
 version (the v1.1 document). For a new work product, as
-shown in Figure 1, above, the `master` branch would be
+shown in Figure 1, above, the `published` branch would be
 populated with the OASIS-supplied template, and then the
-`working` branch created from the `master` so that the
+`working` branch created from the `published` so that the
 template is available in the `working` branch as the
 starting point. Note that this branching strategy is
 intended for the _work product_ managed in the repo. There
-may be reasons to make changes directly to the `master`
+may be reasons to make changes directly to the `published`
 branch, such as to update the information in the repo's
 README.md file.
 
@@ -460,10 +462,10 @@ This repository is organized with two branches:
  change. Contributors to the work product should 
  target their inputs to the Working branch.
 
-  * The *_Master_* branch contains TC-approved 
+  * The *Published_* branch contains TC-approved 
 [Committee Specification](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeSpec) (CS) or [OASIS Standard](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dOASISstandard) 
 versions of the work product. Until the first CS 
-is approved, the Master branch will not contain 
+is approved, the Published branch will not contain 
 a complete version of the work product.
 
   * Releases in this repository correspond to 
@@ -479,14 +481,14 @@ a complete version of the work product.
 #### 4.3.3.2 Create and Populate Branches
 
 When the repo is available the maintainers should populate
-the `master` branch with the starter document received from TC
+the `published` branch with the starter document received from TC
 Administration (including the subdirectories and supporting
-files), then create a `working` branch from the `master`
+files), then create a `working` branch from the `published`
 branch. Activity to develop the product then proceeds as
-described above. The `master` branch will only have the
+described above. The `published` branch will only have the
 initial template until a CS is approved, at which point the
 maintainers populate it with the current CS version. Each
-time a new CS is approved the `master` branch is updated.
+time a new CS is approved the `published` branch is updated.
 
 Work in progress is always handled in the `working` branch,
 using the standard GitHub mechanisms of forking the work
@@ -652,7 +654,7 @@ Examine the issue labels in existing work product repos for additional examples.
 
 ## 4.6 CS Approval & Publication
 
-The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#committeeSpec) of the TC Procedures. Once a public review has been completed without material changes to the document, TC can request OASIS TC Administration conduct a [Special Majority Vote](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dSpecialMajority) to approve the document as a CS. Once the CS is approved, TC Administration will create the CS version of the document in multiple formats, and publish an announcement on the OASIS home page. The work product maintainers should upload the CS versions of the product to the repository’s `master` branch, with correspondent relevant updates to the README.md file.
+The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#committeeSpec) of the TC Procedures. Once a public review has been completed without material changes to the document, TC can request OASIS TC Administration conduct a [Special Majority Vote](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dSpecialMajority) to approve the document as a CS. Once the CS is approved, TC Administration will create the CS version of the document in multiple formats, and publish an announcement on the OASIS home page. The work product maintainers should upload the CS versions of the product to the repository’s `published` branch, with correspondent relevant updates to the README.md file.
 
 # Appendix A: Links to Useful Software
 
@@ -718,7 +720,7 @@ for definitions of key terminology.
 > [Figure 3 Source (Google Draw File)](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
 
 
-1. GitHub: A Project Owner creates a [repository](https://help.github.com/en/github/getting-started-with-github/github-glossary#repository) ("repo") for the document. This the "master" version of the document, and the repo is the "[Upstream](https://help.github.com/en/github/getting-started-with-github/github-glossary#upstream) Repo". In the case of OpenC2 TC work products, these repos are created and managed by OASIS TC Administration, with one or more TC members established as maintainers for the repo.
+1. GitHub: A Project Owner creates a [repository](https://help.github.com/en/github/getting-started-with-github/github-glossary#repository) ("repo") for the document. This the "primary" version of the document, and its repo is the "[Upstream](https://help.github.com/en/github/getting-started-with-github/github-glossary#upstream) Repo". In the case of OpenC2 TC work products, these repos are created and managed by OASIS TC Administration, with one or more TC members established as maintainers for the repo.
 
 2. GitHub: A Contributor creates a [forked copy](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork) of the Upstream Repo in their own GitHub account. This repo will contain a copy of the document as it existed in the Upstream Repo at the time the fork was created. The contributor can work purely in this document on the web, or create a local [Git](https://help.github.com/en/github/getting-started-with-github/github-glossary#git) repo (step #3) where they can, for example, edit with their favorite text editor or Git-/GitHub-aware tool set.
 
@@ -728,9 +730,9 @@ for definitions of key terminology.
 
 4. Local: The Contributor can edit document content and create additional content, including graphics and other files in their local environment.  Git is used on the local machine command line to update the local repo to reflect new and modified content.
 
-5. Local: When the Contributor wishes to submit material to change the master document, they use the Git "[push](https://help.github.com/en/github/getting-started-with-github/github-glossary#push)" command (local command line) (NOTE:  Some local editing tools, such as the Microsoft Visual Studio Code editor, have built-in support for pushing changes to GitHub, eliminating the need to use the command line.) to replicate their content to their fork repo. This updates the fork repo to match the local repo.
+5. Local: When the Contributor wishes to submit material to change the primary document, they use the Git "[push](https://help.github.com/en/github/getting-started-with-github/github-glossary#push)" command (local command line) (NOTE:  Some local editing tools, such as the Microsoft Visual Studio Code editor, have built-in support for pushing changes to GitHub, eliminating the need to use the command line.) to replicate their content to their fork repo. This updates the fork repo to match the local repo.
 
-6. GitHub: The Contributor creates a [Pull Request](https://help.github.com/en/github/getting-started-with-github/github-glossary#pull-request) (PR) from their GitHub fork repo back to the upstream repo to contribute their proposed changes to the master document. Pull requests can target the master branch of the upstream repo or any other chosen [branch](https://help.github.com/en/github/getting-started-with-github/github-glossary#branch) (e.g., the "working" branch being used to accumulate changes toward a future version of a document).
+6. GitHub: The Contributor creates a [Pull Request](https://help.github.com/en/github/getting-started-with-github/github-glossary#pull-request) (PR) from their GitHub fork repo back to the upstream repo to contribute their proposed changes to the primary document. Pull requests can target the default branch of the upstream repo (`main` is the standard default branch on GitHub) or any other chosen [branch](https://help.github.com/en/github/getting-started-with-github/github-glossary#branch) (e.g., the "working" branch being used to accumulate changes toward a future version of a document).
 
 7. GitHub: The Project Owner can accept a Pull Request to merge the Contributor's material into the specified branch of the upstream repo. This modifies the upstream document by incorporating the Contributor's additions and deletions. GitHub offers the Project Owner the option to edit the contribution before merging the pull request.
 
@@ -766,7 +768,7 @@ Same with CSPRD…
 
 Same with CS…
 
-(Assumption: Start with template in "master" branch.)
+(Assumption: Start with template in "published" branch.)
 
 * Create OASIS "working" Branch
 
@@ -792,9 +794,7 @@ Same with CS…
 
 * Create Committee Specification (CS)
 
-* Update "release" Branch in the OASIS Repo from "master" Branch
-
-* Update "working" Branch in the OASIS Repo from "release" Branch
+* Update "working" Branch in the OASIS Repo from "release" Branch to reflect changes made by OASIS TCADMIN when publishing the specification
 
 * Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch
 (do this if pull request have been approved to the "working" branch of the OASIS Repo)
@@ -803,11 +803,11 @@ Same with CS…
 
 **From GitHub OASIS Repo**
 
-* From the "master" branch, click on the "Branch" drop-down button.
+* From the "published" branch, click on the "Branch" drop-down button.
 
 * Type the branch name, "working", into the text box.
 
-* Click the link to "Create Branch: working from 'master'"
+* Click the link to "Create Branch: working from 'published'"
 
 ## C.2 Fork OASIS Repository
 
@@ -817,7 +817,7 @@ This will create a copy of the OASIS repository into your personal GitHub accoun
 
 * Click on the "Fork" button in the upper-right corner of the "Code" page.
 
-* The Branch Infobar will display: "This branch is even with oasis-tcs:master."
+* The Branch Infobar will display: "This branch is even with oasis-tcs:published."
 
 ## C.3 Clone Local Repository from Personal Fork
 
@@ -958,19 +958,19 @@ TBSL
 
 **From Local Command Line**
 
-* Checkout the "master" branch.
+* Checkout the "published" branch.
 
 ```
-$ git checkout master
+$ git checkout published
 ```
 
 
 
-* Copy the published files into the "master" branch.
+* Copy the published files into the "published" branch.
 
 * Make any other updates, as necessary
 
-* Commit the changes to the "master" branch
+* Commit the changes to the "published" branch
 
 ```
 $ git add .
@@ -991,7 +991,7 @@ $ git push
 
 **From OASIS Repo**
 
-* Select the "master" base branch of the "oasis" repo.
+* Select the "published" base branch of the "oasis" repo.
 
 * Click the green "Create pull request" button.
 
@@ -1003,7 +1003,7 @@ $ git push
 
 * Click the green "Confirm merge" button.
 
-* View the "Code" page of the "master" branch
+* View the "Code" page of the "published" branch
 
 * Click the "releases" link
 
@@ -1011,7 +1011,7 @@ $ git push
 
 * Set the "Tag version" and "Release title", per convention
 
-* Ensure that the release "Target" is "master".
+* Ensure that the release "Target" is "published".
 
 * Click the green "Publish release" button
 
@@ -1022,7 +1022,7 @@ $ git push
 
 ```
 $ git fetch oasis
-$ git merge oasis/master
+$ git merge oasis/published
 ```
 
 
@@ -1035,11 +1035,11 @@ $ git push
 
 **From Personal Forked Repo**
 
-* Refresh the page for the "master" branch of the Forked repo.
+* Refresh the page for the "published" branch of the Forked repo.
 
-* Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:master."
+* Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:published."
 
-## C.13 Update "working" Branch in the OASIS Repo from "master" Branch
+## C.13 Update "working" Branch in the OASIS Repo from "published" Branch
 
 **From Local Command Line**
 
@@ -1049,10 +1049,10 @@ $ git push
 $ git checkout working
 ```
 
-* Merge the changes from the "master" branch into the "working" branch
+* Merge the changes from the "published" branch into the "working" branch
 
 ```
-$ git merge master
+$ git merge published
 ```
 
 * Push the changes to the Personal Forked Repo
@@ -1103,15 +1103,15 @@ $ git push
 
 ## C.14 Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch (TBD)
 
-After creating the CS in the "master" branch and applying the CS down to the "release" and "working" branches, the Git Log from the "working" branch should look similar to the following:
+After creating the CS in the "published" branch and applying the CS to the  "working" branches, the Git Log from the "working" branch should look similar to the following:
 
 ```
 $ git checkout working
 $ git log --oneline -n 10
-3fb479b7 (HEAD -> working, oasis/working, fork/working) Merge pull request #104 from romanojd/working
-9a82a752 (oasis/release, fork/release, release) Merge pull request #103 from romanojd/release
+3fb479b7 (HEAD -> working, oasis/working, fork/working) Merge pull request #104 from ghuserid/working
+9a82a752 (oasis/release, fork/release, release) Merge pull request #103 from ghuserid/release
 690245de remove HTML and PDF files
-4392cf27 (tag: v1.0-cs01, oasis/master, fork/master, fork/HEAD, master) Merge pull request #102 from romanojd/master
+4392cf27 (tag: v1.0-cs01, oasis/published, fork/published, fork/HEAD, published) Merge pull request #102 from ghuserid/published
 06828efd update readme
 0df24dd0 sync to OASIS-published files, v1.0-cs01
 ```
