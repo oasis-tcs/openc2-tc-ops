@@ -350,7 +350,7 @@ repository branching concept further described in [section
 
 ![Work Product Launch](images/work-product-launch.png)
 
-> [Figure 1 Source (Google Draw File)](https://docs.google.com/drawings/d/18EszEURok-tgb9RaqxAPp-duivpc9waHnK27Fd0J-4s/edit)
+> [Figure 1 Source (Google Draw File)](https://docs.google.com/drawings/d/1x_KHAzdUPmzdNpz00zOxjnwLN5dLIFPpIBNbp9oltxg/edit)
 
 
 ### 4.3.1 Request Template
