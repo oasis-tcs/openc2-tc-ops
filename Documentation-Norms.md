@@ -405,12 +405,14 @@ repo are intended to organize the work as follows:
   GitHub Release feature, and the WD content is uploaded to
   the TC's document store at OASIS .
 
-* The *Master* (default) branch contains TC-approved CS and OASIS
-  Standard versions of the work product. The Master branch
+* The *Published* (default) branch contains TC-approved CS and OASIS
+  Standard versions of the work product. The Published branch
   is initially populated with the starter document template
   supplied by OASIS. Until the first CS is approved, the
-  Master branch will only contain the template rather than a
+  Published branch will only contain the template rather than a
   complete version of the work product.
+
+> NOTE: as of May 2020, renaming default branches from Main / Master to Published is work in progress.
 
 ### Figure 2: Work Product Repository Branching Concept
 
