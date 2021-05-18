@@ -794,7 +794,7 @@ Same with CS…
 
 * Create Committee Specification (CS)
 
-* Update "working" Branch in the OASIS Repo from "release" Branch to reflect changes made by OASIS TCADMIN when publishing the specification
+* Update "working" Branch in the OASIS Repo from "published" Branch to reflect changes made by OASIS TCADMIN when publishing the specification
 
 * Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch
 (do this if pull request have been approved to the "working" branch of the OASIS Repo)
@@ -1109,7 +1109,6 @@ After creating the CS in the "published" branch and applying the CS to the  "wor
 $ git checkout working
 $ git log --oneline -n 10
 3fb479b7 (HEAD -> working, oasis/working, fork/working) Merge pull request #104 from ghuserid/working
-9a82a752 (oasis/release, fork/release, release) Merge pull request #103 from ghuserid/release
 690245de remove HTML and PDF files
 4392cf27 (tag: v1.0-cs01, oasis/published, fork/published, fork/HEAD, published) Merge pull request #102 from ghuserid/published
 06828efd update readme
