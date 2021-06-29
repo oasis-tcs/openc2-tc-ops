@@ -2,9 +2,8 @@
 #### Information for TC members about the OpenC2 TC's operating routine.
 
 Welcome to the OASIS OpenC2 [Technical Committee
-(TC)](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dTechnicalCommittee).
-As TC Secretary, I'd like to give you some basics about our TC
-operations:
+(TC)](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dTechnicalCommittee). This brief document provides some basics about our how our TC
+operates:
 
 * An overview of the TC, including our [standing
   rules](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2#other),
@@ -39,8 +38,8 @@ We conduct TC and working meetings using [Lucid
   * (_As of April 2021 we have a new standing meeting schedule_).
     The 1st, 2nd, and 4th Wednesdays of each month are used for
     working meeting to discuss topics related to TC work products
-    and other technical matters. If there are five Wednesdays in a month, there is no meeting on the 5th Wednesday.
-  * In OASIS Kavi, all meetings are scheduled on the TC calendar (We've eliminated our subcommittees, but they still exist in the system. We no longer use the SC calendards or email lists.)
+    and other technical matters. If there are five Wednesdays in a month, there is usually no meeting on the 5th Wednesday.
+  * In OASIS Kavi, all meetings are scheduled on the TC calendar (We've eliminated our subcommittees, but they still exist in the system. We no longer use the SC calendars or email lists.)
   * The entire meeting schedule will be visible on your Lucid
     dashboard and calendar once you've been added to the OpenC2
     "room".
