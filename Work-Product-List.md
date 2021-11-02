@@ -6,7 +6,8 @@
 |:---:|:----:|:-----:|:----:|:-----:|
 | [oc2ls](https://github.com/oasis-tcs/openc2-oc2ls) | Language Specification | [CS02](https://docs.oasis-open.org/openc2/oc2ls/v1.0/oc2ls-v1.0.html) | Toby Considine<br>Duncan Sparrell<br>_Jason Romano_ | Toby Considine<br>Duncan Sparrell<br>Drew Varner |
 | [oc2arch](https://github.com/oasis-tcs/oc2arch) | Architecture Specification | | Duncan Sparrell<br>Dan Johnson | Duncan Sparrell<br>Toby Considine<br>Joe Brule<br>David Lemire |
-| [jadn](https://github.com/oasis-tcs/openc2-jadn) | JSON Abstract Data Notation | | David Kemp | David Kemp<br>Duncan Sparrell<br>Joe Brule |
+| [jadn](https://github.com/oasis-tcs/openc2-jadn) | JSON Abstract Data Notation | [CS01](https://docs.oasis-open.org/openc2/jadn/v1.0/cs01/jadn-v1.0-cs01.html) | David Kemp | David Kemp<br>Duncan Sparrell<br>Joe Brule |
+| [jadn-im](https://github.com/oasis-tcs/openc2-jadn-im) | Information Modeling with JADN (CN) | | David Kemp | David Kemp<br>Dan Johnson |
 | [slpf](https://github.com/oasis-tcs/openc2-apsc-stateless-packet-filter) | Stateless Packet Filter | [CS01](https://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.html) | Joe Brule<br>Duncan Sparrell<br>Alex Everett | David Kemp<br>Alex Everett<br>Duncan Sparrell<br>Joe Brule |
 | [sbom](https://github.com/oasis-tcs/openc2-ap-sbom) | Software Bill of Materials | | Duncan Sparrell | Duncan Sparrell<br>Alex Everett<br>David Kemp |
 | [sfpf](https://github.com/oasis-tcs/openc2-ap-sfpf) | Stateful Packet Filter | | Alex Everett<br>Vasileios Mavroeidis | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis |
