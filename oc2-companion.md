@@ -42,13 +42,13 @@ Before jumping in to a lot of text, it will help to see the basic format of Requ
 
 **Example Message Headers in HTTP**
 ```
-Content-type: application/openc2-cmd+json;version=1.0
+Content-type: application/openc2+json;version=1.0
 ```
 
  
 # OpenC2 Structure
 
-In the above examples, notice how they're all qualified with *... in JSON* or *...in HTTP*? Why is that? Why not just say "Example Request" or "Message Header" without the qualification?
+In the above examples, notice how they're all qualified with *"... in JSON"* or *"...in HTTP"*? Why is that? Why not just say "Example Request" or "Message Header" without the qualification?
 
 Well, this is both the POWER and the BARRIER-TO-ENTRY of OpenC2.
 
