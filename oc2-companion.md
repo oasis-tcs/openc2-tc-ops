@@ -246,7 +246,7 @@ some hints on how to actually implement this." That's why there
 are a lot of examples in JSON, but with asterisks saying "This
 section is non-normative".
 
-For the simplicaty and to actually implement something, for this
+For the simplicity and to actually implement something, for this
 discussion let's assume OpenC2 messages are always JSON.
 
 
