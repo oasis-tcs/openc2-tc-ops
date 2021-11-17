@@ -1,8 +1,11 @@
 # OpenC2 Companion Guide (10 min read)
-You've read *most of* the OpenC2 specs. Maybe you've written a
-quick Consumer to try out. Or maybe you've done none of those
-things, but you're curious about [Open Command and Control
-(OpenC2)](https://openc2.org/index.html). What next?
+
+So, you're curious about [Open Command and Control
+(OpenC2)](https://openc2.org/index.html). You've read *most of*
+the [OpenC2
+specs](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2#technical).
+Maybe you've written a quick Consumer to try out. Or maybe you've
+done none of those things, but are still curious. What next?
 
 Here is an informal guide to the nitty-gritty of OpenC2.
 
