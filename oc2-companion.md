@@ -389,7 +389,7 @@ following:
 
 In this analogy, the laptop is a Consumer, and the stickers
 advertise the Actuator Profiles it implements. 
-* The **Windows sticker** advertises an interface you are
+* The **Windows sticker** advertises a user interface you are
   familiar with that has a **"start" command**. 
 * If there was a **Blu-ray Disc sticker**, you would expect to
   find a disc drive with an **"open/close" command**.
@@ -400,12 +400,13 @@ expect support for the "deny ipv4_net" command.**
 Well, where are the stickers in OpenC2? There are three kinds:
 
 * **Discovered**: You send the Consumer a command called
-  **'query-features'**, and it tells you the Actuator Profiles it
-  implements. That's the only command that all Consumers must
-  implement, and the only one that isn't specific to Actuators.
+  **`query-features`**, and it tells you the Actuator Profiles it
+  implements. That's the only command that *all* Consumers must
+  implement, and the only one that isn't specific to any
+  particular Actuator.
 * **Pre-Shared**: You **configured** the Consumer, so you already
   know the Actuator Profiles it implements.
-* **Unknown**   : You don't know what the Consumer implements,
+* **Unknown**: You don't know what the Consumer implements,
   but you just send it commands because this is an emergency and
   we don't have time to play games.
 
@@ -415,7 +416,7 @@ Ok, back to using the **actuator field** in an OpenC2 Command.
 ### This field helps a Consumer determine if it should act on a command.
 
 Remember, the only required fields in an OpenC2 Command are the
-**action** and **target**.
+**`action`** and **`target`**.
 
 `"actuator" : {}` --> *Actuator field is blank or omitted. Anyone
 with this action/target pair, please act.*
@@ -453,8 +454,8 @@ Say we have the following Actuator Profiles:
 
 | Actuator Profile | Description |
 |-|-|
-|slpf | Stateless Packet Filter |
-|x-trouble | Unknown, but supports **deny ipv4_net**  |
+|slpf | Stateless Packet Filter, supports **`deny ipv4_net`** |
+|x-trouble | Unknown, but supports **`deny ipv4_net`**  |
 |x-acme | RoadRunner Hunting |
 
 And Consumers that implement them:
@@ -515,3 +516,6 @@ Consumer that received the Command, including what other commands
 it implements.
 
 
+# Acknowledgement
+
+The editors would like to recognize [Mr. Patrick Connole](https://github.com/patconnole) as the author of the [original version](https://github.com/patconnole/openc2_companion) of this very helpful document.
