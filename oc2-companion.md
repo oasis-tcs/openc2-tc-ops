@@ -63,8 +63,9 @@ Well, this is both the POWER and the BARRIER-TO-ENTRY of OpenC2.
 
 In reading the specs, you won't find anything like this:
 
-     The Producer POSTS a JSON "deny" command over TLS to the Gateway on port 99,
-     and expects a 200 OK Payload in an HTTP Response on success.
+> `The Producer POSTS a JSON "deny" command over TLS to the
+> Gateway on port 99, and expects a 200 OK Payload in an HTTP
+> Response on success.`
      
 Instead, everything in the OpenC2 Language related to Transfer
 Protocol, Serialization, Commands and even Device is abstractly
@@ -123,6 +124,8 @@ OpenC2 Language spec.
 
 # Producers and Consumers
 
+OK, so what are OpenC2 _Producers_ and _Consumers_?
+
 * **Producers** send Commands to Consumers. If you want to defend
   your network, your network nodes will be OpenC2 Consumers,
   awaiting commands from your Producer(s). The Producer could be
@@ -175,10 +178,10 @@ The forgotten children of OpenC2: The Headers. They're called
 Elements](https://docs.oasis-open.org/openc2/oc2ls/v1.0/cs02/oc2ls-v1.0-cs02.html#32-message)
 in the Language Spec, but their implementation details are in the
 Transfer specs, because 'headers' is very dependent on transport
-protocol. They tell you if the payload is a Command or Response,
+protocol. They tell you if the payload is a Request or Response,
 in JSON or something else, etc.
 
-**These are not FIELDS to populate, unlike "action" and "target",
+**These are not _fields_ to populate, unlike "action" and "target",
 etc.** These are *names of data*, and that data needs to go in
 the fields of your transfer headers.
 
@@ -199,31 +202,32 @@ measure.
 
 ```
 HTTP Header:
-                   This message is an
-                   OpenC2 Command!
-                          |               Using this
-                          |               OpenC2 Version
-                          |               |
-                          v               v           
+                     This message is an
+                     OpenC2 message!
+                            |            Using this
+                            |            OpenC2 Version
+                            |             |
+                            v             v           
 
-Content-type: application/openc2-cmd+json;version=1.0
+Content-type: application/openc2+json;version=1.0
                     
-                                     ^
-                                     |
-                                     |
-                                   Serialized with JSON!
+                                   ^
+                                   |
+                                   |
+                                Serialized with JSON!
 ```
     
 How did we know how to format it? You would only know by reading
-the HTTPS Transfer Spec.
+the [HTTPS Transfer
+Spec](https://docs.oasis-open.org/openc2/open-impl-https/v1.0/open-impl-https-v1.0.html).
 
 # Command: Action/Target Pair
 
-In an OpenC2 **Command** Message, the only required payload is an
-**action** and **target** pair. This is the bread-and-butter of
-OpenC2, the biggest selling point, and what makes it so simple
-and powerful. Is there a bad-guy coming in on some IP Address?
-Block him with 
+In an OpenC2 **Request** Message, the only required payload is an
+**action** and **target** pair. This pair constitutes a
+**Command**. This is the bread-and-butter of OpenC2, the biggest
+selling point, and what makes it so simple and powerful. Is there
+a bad-guy coming in on some IP Address? Block him with 
 
 ```json
 "action" : "deny",
@@ -235,18 +239,18 @@ One reason the syntax and format of commands doesn't feel too
 well-defined in the specs is, again, they're not defined directly
 in a Serialization format like JSON, but instead are defined
 abstractly, and it's inferred that those abstract definitions can
-map to *any* concrete serialization. But this isn't stated
-outloud, leaving some obvious tension between "We're not dipping
-our toes in serialization directly" and "Well, we recognize you
-need some hints on how to actually implement this." That's why
-there are a lot of examples in JSON, but with asterisks saying
-"This section is non-normative".
+map to *any* concrete serialization. But this isn't stated out
+loud, leaving some obvious tension between "We're not dipping our
+toes in serialization directly" and "Well, we recognize you need
+some hints on how to actually implement this." That's why there
+are a lot of examples in JSON, but with asterisks saying "This
+section is non-normative".
 
-For the sake of ease and to actually implement something, let's
-assume OpenC2 messages are always JSON.
+For the simplicaty and to actually implement something, for this
+discussion let's assume OpenC2 messages are always JSON.
 
 
-Back to the action/target pair:
+Back to the Action/Target pair:
 
 ```
      Action is always a single-word, eg "deny"
@@ -256,7 +260,7 @@ Back to the action/target pair:
            v
            
 "action":  "deny"
-"target":  {"ipv4_net" : ["192.168.17.0/24"] }
+"target":  {"ipv4_net" : ["192.168.17.0/24"]}
 
            ^             ^
            |             |
@@ -264,10 +268,11 @@ Back to the action/target pair:
            |             Type and value here depend on the target.
      Target is           For ipv4_net in json, it's a one-value array.
      always a one-key          
-     dictionary, eg 
+     dictionary, e.g., 
      {"ipv4_net": ...}
      
-     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
                               We could also have another dictionary, 
                               as with target ipv4_connection:
                                |
@@ -280,13 +285,13 @@ Back to the action/target pair:
 ```
 
 **The "action" field is obviously simple**; it's just one word,
-and can only be a word from the actions listed in the Language
+and can *only* be a word from the actions listed in the Language
 Spec.
 
 **"target" is its own beast.** Sure, it's always a
-one-key-dictionary, with key a word from the Language Spec
-targets, but what about the value of that dictionary? For
-example, 
+one-key-dictionary, with the key a word from the Language Spec
+targets (usually -- there are provisions for extensions), but
+what about the value of that dictionary? For example, 
 
 How did we know that ipv4_net is a one-value string array?
 
@@ -326,7 +331,7 @@ your own peril.
 13. What is **(Array /ipv4-net)**? It does look like a type
     definition, but I don't recognize the language.
 
-So now, we are **PRETTY SURE** that a JSON formatted "ipv4_net" value is
+So now, we are **PRETTY SURE** that a JSON formatted `ipv4_net` value is
 
     ["192.168.17.0/24"]
 
@@ -343,12 +348,13 @@ Profile.**
 # Actuator Profile
 
 An **Actuator Profile** is a document that defines your commands
-and what they do. For example, the **Stateless Packet Filter
-Actuator Profile** grabs a bunch of actions and targets from the
-Language spec, pairs them up as individual commands, then
-declares what those commands should do. On top of that, it gives
-itself a standard name: **"slpf"** (known as a namespace
-identifier "nsid").
+and what they do. For example, the **[Stateless Packet Filter
+Actuator Profile
+(SLPF)](https://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.html)**
+grabs a bunch of actions and targets from the Language Spec,
+pairs them up as individual commands, then declares what those
+commands should do. On top of that, it gives itself a standard
+name: **"slpf"** (known as a namespace identifier "nsid").
 
 ```
 +---------------------+                   +-------------------------+
