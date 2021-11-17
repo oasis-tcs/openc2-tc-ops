@@ -1,17 +1,19 @@
 # OpenC2 Companion Guide (10 min read)
 You've read *most of* the OpenC2 specs. Maybe you've written a quick Consumer to try out. Or maybe you've done none of those things, but you're curious about [Open Command and Control (OpenC2)](https://openc2.org/index.html). What next?
 
-Here is an informal guide to the knitty-gritty of OpenC2.
+Here is an informal guide to the nitty-gritty of OpenC2.
 
-* [Basics](#basics)
-* [OpenC2 Structure](#openc2-structure)
-* [Producers and Consumers](#producers-and-consumers)
-* [Message: Request or Response](#message-request-or-response)
-* [Message: Headers](#message-headers)
-* [Command: Action/Target Pair](#command-actiontarget-pair)
-* [Actuator](#actuator)
-* [Actuator Profiles](#actuator-profile)
-* [Command: Actuator Field](#command-actuator-field)
+- [Basics](#basics)
+- [OpenC2 Structure](#openc2-structure)
+- [Producers and Consumers](#producers-and-consumers)
+- [Message: Request or Response](#message-request-or-response)
+- [Message: Headers](#message-headers)
+- [Command: Action/Target Pair](#command-actiontarget-pair)
+- [Actuator](#actuator)
+- [Actuator Profile](#actuator-profile)
+- [Command: Actuator Field](#command-actuator-field)
+- [Command ID vs Request ID](#command-id-vs-request-id)
+- [Query Features](#query-features)
 
 
 # Basics
