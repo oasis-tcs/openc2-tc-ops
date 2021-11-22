@@ -57,7 +57,7 @@ Content-type: application/openc2+json;version=1.0
 # OpenC2 Structure
 
 In the above examples, notice how they're all qualified with
-*"... in JSON"* or *"...in HTTP"*? Why is that? Why not just say
+*"... in JSON"* or *"... in HTTP"*? Why is that? Why not just say
 "Example Request" or "Message Header" without the qualification?
 
 Well, this is both the POWER and the BARRIER-TO-ENTRY of OpenC2.
@@ -77,13 +77,14 @@ of individual specifications.
 
 This way a system of Producers and Consumers could be
 OpenC2-compliant no matter if they're using HTTPS, MQTT, JSON,
-CBOR, running on a VM, Mac-Mini, RaspberryPi, physical router,
+CBOR, running on a VM, Mac-Mini, Raspberry Pi, physical router,
 etc. The specific Transfer, Serialization, and set of Commands
 are composed together with their own specs, and OpenC2 doesn't
 prescribe what they run on.
 
-BECAUSE OF THIS, YOU WILL OFTEN FEEL LIKE YOU'RE MISSING CONCRETE
-DEFINITIONS OF WHAT OPENC2 IS. You will never find one document
+### BECAUSE OF THIS, YOU WILL OFTEN FEEL LIKE YOU'RE MISSING CONCRETE DEFINITIONS OF WHAT OPENC2 IS.
+
+You will never find one document
 that tells you everything you need (although the forthcoming
 [Architecture
 Specification](https://github.com/oasis-tcs/oc2arch/tree/working)
@@ -156,8 +157,8 @@ when/how they're sent. Will we? Perhaps...
 ```
 Fields:                  Description:                                       JSON Example:                        
                                            
-action     : Required    Do this                                           "action"     : "deny"                 
-target     : Required    To this                                           "target"     : {"ipv4_net ...         
+action     : Required    Do this ...                                       "action"     : "deny"                 
+target     : Required            ... To this                                "target"     : {"ipv4_net ...         
 actuator   : -           Use this if you have it, otherwise do nothing     "actuator"   : {"slpf": ...           
 args       : -           When to do it, if to reply..                      "args"       : {"response_req...      
 command_id : -           Bookkeeping                                       "command_id" : "12345"                
@@ -182,9 +183,10 @@ Transfer specs, because 'headers' is very dependent on transport
 protocol. They tell you if the payload is a Request or Response,
 in JSON or something else, etc.
 
-**These are not _fields_ to populate, unlike "action" and "target",
-etc.** These are *names of data*, and that data needs to go in
-the fields of your transfer headers.
+**These are not _fields_ to populate, unlike "action" and
+"target", etc.** These are *names of data*, and that data may go
+into the header fields of an OpenC2 message, the fields of your
+transfer headers, or both.
 
 **Message Headers (but not actual Headers...)**
 ```
@@ -230,7 +232,7 @@ In an OpenC2 **Request** Message, the only required payload is an
 selling point, and what makes it so simple and powerful. Is there
 a bad-guy coming in on some IP Address? Block him with 
 
-```json
+```
 "action" : "deny",
 "target" : {"ipv4_net" : ["...."]}
 ```
@@ -256,15 +258,12 @@ Back to the Action/Target pair:
 ```
      Action is always a single-word, eg "deny"
            |
-           |
-           |
            v
            
 "action":  "deny"
 "target":  {"ipv4_net" : ["192.168.17.0/24"]}
 
            ^             ^
-           |             |
            |             |
            |             Type and value here depend on the target.
      Target is           For ipv4_net in json, it's a one-value array.
@@ -277,8 +276,6 @@ Back to the Action/Target pair:
                               We could also have another dictionary, 
                               as with target ipv4_connection:
                                |
-                               |
-                               |
                                v 
 "action": "deny" 
 "target": {"ipv4_connection" : {"protocol": "tcp",
@@ -287,7 +284,7 @@ Back to the Action/Target pair:
 
 **The "action" field is obviously simple**; it's just one word,
 and can *only* be a word from the actions listed in the Language
-Spec.
+Spec. Those actions are the "verbs" of OpenC2.
 
 **"target" is its own beast.** Sure, it's always a
 one-key-dictionary, with the key a word from the Language Spec
@@ -348,9 +345,9 @@ Profile.**
 
 # Actuator Profiles
 
-An **Actuator Profile** is a document that defines your commands
-and what they do. For example, the **[Stateless Packet Filter
-Actuator Profile
+An **Actuator Profile** (AP for short) is a document that defines
+your commands and what they do. For example, the **[Stateless
+Packet Filter Actuator Profile
 (SLPF)](https://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.html)**
 grabs a bunch of actions and targets from the Language Spec,
 pairs them up as individual commands, then declares what those
@@ -462,7 +459,7 @@ Say we have the following Actuator Profiles:
 And Consumers that implement them:
 
 |Consumer |Actuator Profile(s)|  Duplicate Action-Target Pairs (besides query-features) |
-|-|-|-|
+|:-:|-|-|
 |1|slpf |  -|
 |2|x-trouble |  - |
 |3|x-acme |  - |
@@ -471,14 +468,14 @@ And Consumers that implement them:
 
 We send these consumers the same command:
 
-```json
+```
 "action" : "deny",
 "target" : {"ipv4_net": ["192.168.1.0/24"]}
 ```
 
 And sometimes we include the actuator field specifying SLPF:
 
-```json
+```
 "actuator" : {"slpf" : {}}
 ```
 
