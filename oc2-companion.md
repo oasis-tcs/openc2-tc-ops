@@ -15,11 +15,12 @@ Here is an informal guide to the nitty-gritty of OpenC2.
 - [Message: Request or Response](#message-request-or-response)
 - [Message: Headers](#message-headers)
 - [Command: Action/Target Pair](#command-actiontarget-pair)
-- [Actuator](#actuator)
-- [Actuator Profile](#actuator-profile)
+- [Actuators](#actuators)
+- [Actuator Profiles](#actuator-profiles)
 - [Command: Actuator Field](#command-actuator-field)
 - [Command ID vs Request ID](#command-id-vs-request-id)
 - [Query Features](#query-features)
+- [Acknowledgement](#acknowledgement)
 
 
 # Basics
@@ -337,7 +338,7 @@ So now, we are **PRETTY SURE** that a JSON formatted `ipv4_net` value is
 
 Congratulations!
 
-# Actuator
+# Actuators
 
 Before we look at the **actuator field** of an OpenC2 Command, we
 need to know what an actuator is.
@@ -345,7 +346,7 @@ need to know what an actuator is.
 **An actuator is a Consumer's implementation of an Actuator
 Profile.**
 
-# Actuator Profile
+# Actuator Profiles
 
 An **Actuator Profile** is a document that defines your commands
 and what they do. For example, the **[Stateless Packet Filter
@@ -508,7 +509,14 @@ What commands can your Producer send to your Consumer? There is
 always one command that is required to be implemented on your
 Consumers:
 
-     query features
+```
+{
+    "action": "query",
+    "target": {
+        "features": ["versions", "profiles", "rate_limit"]
+    }
+}
+```
      
 This is probably the first command your Producer will send out.
 The Response will tell you everything you need to know about the
