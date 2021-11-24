@@ -16,6 +16,9 @@ This repository includes the following information:
 * [General-Member-Info.md](General-Member-Info.md)
   -- An overview of how the OpenC2 TC conducts its operations;
   useful for both new and existing members
+* [An OpenC2 Companion](oc2-companion.md) -- a friendly, informal
+  guide to all of the pieces of OpenC2 and how you put them
+  together to do something useful (**a really good place to start**)
 * [Documentation-Norms.md](Documentation-Norms.md)
   -- An information document for work product editors, including
   the TC's use of markdown and GitHub for developing and managing
