@@ -497,7 +497,55 @@ Consumers that contain duplicate action-target pairs.
 
 # Command ID vs Request ID
 
-insert content
+When you start asking 
+
+> "I received a response message; what command triggered this?" 
+
+you've run into the need for correlation. One of the items
+included in the "names of data" discussed above in the [Message:
+Headers](#message-headers) section is the OpenC2 `request_id`,
+defined as 
+
+>"A unique identifier created by the Producer and copied by
+>Consumer into all Responses, in order to support reference to a
+>particular Command, transaction, or event chain." 
+
+So, where does the Producer put the `request_id`? Where does the
+Consumer copy it to? There are two answers, and both of them can
+be "right".
+
+**Answer #1:  put it in the OpenC2 message headers**<br>(wait,
+before we said those weren't really headers)
+
+As of version 1.1 of the [Language
+Specification](https://github.com/oasis-tcs/openc2-oc2ls/blob/working/oc2ls.md),
+OpenC2 is adopting an "atomic" [message
+structure](https://github.com/oasis-tcs/openc2-oc2ls/blob/working/oc2ls.md#32-message)
+with actual headers. One of those is `request_id`, so you can put
+your unique identifier in that field in your Request message and
+it will be returned in the corresponding field in the Response
+message. Voila, correlation!
+
+**Answer #2:  use the features of your transfer protocol**
+
+Many transfer protocols also offer support for correlation, such
+as the (non-standard but common) HTTP `X-Request-ID /
+X-Correlation-ID` field. So you can also achieve request /
+response correlation using protocol features. 
+
+**Both Right: put them in both places!**
+
+Sometimes the right answer is to put that unique identifier in
+both places, so that your OpenC2 Producers and Consumers can help
+with correlation, but you can also take advantage of protocol
+features.
+
+When in doubt, look to the OpenC2 transfer specification for the
+transfer protocol you've selected for your application and follow
+its guidance. If you're breaking fresh ground with a new transfer
+protocol, consider the existing transfer protocol specs useful
+examples.
+
 
 
 # Query Features
