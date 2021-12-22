@@ -1,5 +1,6 @@
 # README
 
+![TC Ops Header Graphic](images/TC_Ops_Header.png)
 
 ## Description
 
