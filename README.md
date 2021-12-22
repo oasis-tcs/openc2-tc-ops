@@ -4,7 +4,8 @@
 
 ## Description
 
-This repository is for documentation associated with Openc2 TC
+This repository is for documentation associated with the OASIS [OpenC2
+TC's](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2)
 operations and information sharing such as FAQs, lists of links
 to related work, and norms for developing and approving TC work
 products. Given the intent of the repo, both TC co-chairs and the
