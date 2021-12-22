@@ -2,7 +2,7 @@
 
 > Names in _italics_ are individuals who are no longer TC members.
 > 
-> The TC's operating convention is that the write team for repo includes the work product editors, TC Co-Chairs, and TC Secretary.
+> The TC's operating convention is that the write team for each repo includes the work product editors, TC Co-Chairs, and TC Secretary.
 
 | Repository | Title | Recent | Editors | GH Repo<br>Write Team |
 |:---:|:----:|:-----:|:----:|:-----:|
@@ -19,7 +19,6 @@
 | [pf](https://github.com/oasis-tcs/openc2-ap-pf) | Packet Filter | | Alex Everett | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
 | [av](https://github.com/oasis-tcs/openc2-ap-av) | Anti-Virus | | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
 | [https](https://github.com/oasis-tcs/openc2-impl-https) | HTTPS Transfer Specification | [CS01](https://docs.oasis-open.org/openc2/open-impl-https/v1.0/open-impl-https-v1.0.html) | David Lemire<br>_Joe Brule_ | David Lemire<br>Duncan Sparrell |
-| [http](https://github.com/oasis-tcs/openc2-transf-http) | HTTP Transfer Specification | | David Lemire<br>Duncan Sparrell | David Lemire<br>Duncan Sparrell |
 | [mqtt](https://github.com/oasis-tcs/openc2-transf-mqtt) | MQTT Transfer Specification | | David Lemire | David Lemire<br>Duncan Sparrell |
 | [odxl](https://github.com/oasis-tcs/openc2-transf-odxl) | OpenDXL Transfer Specification | | Duncan Sparrell<br>_Scott MacGregor_ | David Lemire<br>Duncan Sparrell |
 | [lc](https://github.com/oasis-tcs/openc2-ap-lc) | Log Collector | | Alex Everett<br>David Kemp | Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
