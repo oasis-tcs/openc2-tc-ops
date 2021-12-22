@@ -7,7 +7,7 @@
 | Repository | Title | Recent | Editors | GH Repo<br>Write Team |
 |:---:|:----:|:-----:|:----:|:-----:|
 | [oc2ls](https://github.com/oasis-tcs/openc2-oc2ls) | Language Specification | [CS02](https://docs.oasis-open.org/openc2/oc2ls/v1.0/oc2ls-v1.0.html) | Toby Considine<br>Duncan Sparrell<br>_Jason Romano_ | Toby Considine<br>Duncan Sparrell<br>Drew Varner<br>David Lemire |
-| [oc2arch](https://github.com/oasis-tcs/oc2arch) | Architecture Specification | | Duncan Sparrell<br>Dan Johnson | Duncan Sparrell<br>Dan Johnson<br>Toby Considine<br>David Lemire |
+| [oc2arch](https://github.com/oasis-tcs/openc2-oc2arch) | Architecture Specification | | Duncan Sparrell<br>Dan Johnson | Duncan Sparrell<br>Dan Johnson<br>Toby Considine<br>David Lemire |
 | [jadn](https://github.com/oasis-tcs/openc2-jadn) | JSON Abstract Data Notation | [CS01](https://docs.oasis-open.org/openc2/jadn/v1.0/cs01/jadn-v1.0-cs01.html) | David Kemp | David Kemp<br>Duncan Sparrell |
 | [jadn-im](https://github.com/oasis-tcs/openc2-jadn-im) | Information Modeling with JADN (CN) | | David Kemp<br>Dan Johnson | David Kemp<br>Dan Johnson<br>Duncan Sparrell<br>David Lemire |
 | [slpf](https://github.com/oasis-tcs/openc2-apsc-stateless-packet-filter) | Stateless Packet Filter | [CS01](https://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.html) | Duncan Sparrell<br>Alex Everett<br>_Joe Brule_ | David Kemp<br>Alex Everett<br>Duncan Sparrell<br>David Lemire |
