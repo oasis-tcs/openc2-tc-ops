@@ -75,7 +75,7 @@ content.
 ## :writing_hand: Contributions :writing_hand:
 
 As stated in this repository's
-[CONTRIBUTING](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/CONTRIBUTING.md)
+[CONTRIBUTING](https://github.com/oasis-tcs/openc2-tc-ops/blob/main/CONTRIBUTING.md)
 file, contributors to this repository must be Members of the
 OASIS OpenC2 TC for any substantive contributions or change
 requests. Anyone wishing to contribute to this GitHub project and
@@ -89,14 +89,14 @@ License](https://www.oasis-open.org/policies-guidelines/ipr#appendixa).
 ## :scroll: Licensing :scroll:
 
 Please see the
-[LICENSE](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/LICENSE.md)
+[LICENSE](https://github.com/oasis-tcs/openc2-tc-ops/blob/main/LICENSE.md)
 file for description of the license terms and OASIS policies
 applicable to the TC's work in this GitHub project. Content in
 this repository is intended to be part of the OpenC2 TC's
 permanent record of activity, visible and freely available for
 all to use, subject to applicable OASIS policies, as presented in
 the repository
-[LICENSE](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/LICENSE.md).
+[LICENSE](https://github.com/oasis-tcs/openc2-tc-ops/blob/main/LICENSE.md).
 
 
 
