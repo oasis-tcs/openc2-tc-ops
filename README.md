@@ -2,7 +2,7 @@
 
 ![TC Ops Header Graphic](images/TC_Ops_Header.png)
 
-## Description
+## :left_speech_bubble: Description :left_speech_bubble:
 
 This repository is for documentation associated with the OASIS [OpenC2
 TC's](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2)
@@ -11,7 +11,7 @@ to related work, and norms for developing and approving TC work
 products. Given the intent of the repo, both TC co-chairs and the
 secretary are maintainers.
 
-## What's Here?
+## :world_map:  What's Here? :world_map:
 
 This repository includes the following information:
 
@@ -72,7 +72,7 @@ which are used for development of open source
 content.
 
 
-## Contributions
+## :writing_hand: Contributions :writing_hand:
 
 As stated in this repository's
 [CONTRIBUTING](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/CONTRIBUTING.md)
@@ -86,7 +86,7 @@ the [OASIS Feedback
 License](https://www.oasis-open.org/policies-guidelines/ipr#appendixa).
 
 
-## Licensing
+## :scroll: Licensing :scroll:
 
 Please see the
 [LICENSE](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/LICENSE.md)
@@ -100,7 +100,7 @@ the repository
 
 
 
-## Contact
+## :envelope_with_arrow: Contact :envelope_with_arrow:
 
 Please send questions or comments about [OASIS TC GitHub
 repositories](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work)
