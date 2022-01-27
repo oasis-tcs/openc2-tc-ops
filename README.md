@@ -48,7 +48,7 @@ This repository includes the following information:
   (ITU) and efforts to encourage its adoption of OpenC2 as an ITU
   Recommendation.
 
-## ![oasis-avatar](https://avatars.githubusercontent.com/u/47402065?s=48&v=4) OASIS-Controlled Repository ![oasis-avatar](https://avatars.githubusercontent.com/u/47402065?s=48&v=4)
+## ![oasis-avatar](https://avatars.githubusercontent.com/u/47402065?s=24&v=4) OASIS-Controlled Repository ![oasis-avatar](https://avatars.githubusercontent.com/u/47402065?s=24&v=4)
 
 Members of the [OASIS Open Command and Control (OpenC2)
 TC](https://www.oasis-open.org/committees/openc2/) create and
