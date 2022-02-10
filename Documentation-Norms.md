@@ -474,9 +474,6 @@ the work as follows:
   Published branch will only contain the template rather than a
   complete version of the work product.
 
-> NOTE: as of May 2020, renaming default branches from Main /
-> Master to Published is work in progress.
-
 ### Figure 2: Work Product Repository Branching Concept
 
 ![Work Product Repo Branching
