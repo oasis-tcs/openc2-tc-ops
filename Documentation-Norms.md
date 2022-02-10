@@ -176,7 +176,11 @@ This section describes the process the OpenC2 TC is using in developing work pro
 
 ## 3.1 Family of Documents
 
-The OpenC2 Language Specification is the foundation of a family of documents that collectively define the language, tailor its use with specific cybersecurity functions, and describe how other protocols are used in a supporting manner (e.g., for message transfer). This family includes a variety of document types:
+The OpenC2 Language Specification is the foundation of a family
+of documents that collectively define the language, tailor its
+use with specific cybersecurity functions, and describe how other
+protocols are used in a supporting manner (e.g., for message
+transfer). This family includes a variety of document types:
 
 * Language Specification
 * Architecture Specification (pending)
@@ -185,17 +189,41 @@ The OpenC2 Language Specification is the foundation of a family of documents tha
 * Supplementary documents
 * Schemas
 
-Documents of similar type (e.g., actuator profiles) within the family logically have similar content and organization, so familiarity with previously created OpenC2 specifications is helpful when developing a new work product. 
+Documents of similar type (e.g., actuator profiles) within the
+family logically have similar content and organization, so
+familiarity with previously created OpenC2 specifications is
+helpful when developing a new work product. 
 
 ## 3.2 "Agile" document development concept
 
-The OpenC2 TC has been using a development process inspired by agile software development concepts. Under this process, document editors work with the members of the TC to incrementally develop and gain consensus regarding the content of a work product. This process includes moderately frequent publication of [Working Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkingDraft) (WDs) that are then presented to the OpenC2 TC for approval as [Committee Specification Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeDraft) (CSDs). Approval of a CSD formalizes and documents TC consensus on the material from that increment of development.
+The OpenC2 TC has been using a development process inspired by
+agile software development concepts. Under this process, document
+editors work with the members of the TC to incrementally develop
+and gain consensus regarding the content of a work product. This
+process includes moderately frequent publication of [Working
+Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkingDraft)
+(WDs) that are then presented to the OpenC2 TC for approval as
+[Committee Specification
+Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeDraft)
+(CSDs). Approval of a CSD formalizes and documents TC consensus
+on the material from that increment of development.
 
-Once the editors and TC members agree that a work product is complete and mature, the remainder of its review and approval are governed by the OASIS TC Process for public review, approval as a Committee Specification, and eventual approval as an OASIS Standard (following additional public review). Sections [2.6](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#publicReview) through [2.8](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#OASISstandard) of the [TC Process document](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26) describe those aspects of work product development.
+Once the editors and TC members agree that a work product is
+complete and mature, the remainder of its review and approval are
+governed by the OASIS TC Process for public review, approval as a
+Committee Specification, and eventual approval as an OASIS
+Standard (following additional public review). Sections
+[2.6](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#publicReview)
+through
+[2.8](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#OASISstandard)
+of the [TC Process
+document](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26)
+describe those aspects of work product development.
 
 ## 3.3 Work Product Development Sequence
 
-The overall sequence for development of a work product, as currently performed within the OpenC2 TC, is as follows:
+The overall sequence for development of a work product, as
+currently performed within the OpenC2 TC, is as follows:
 
 * Identify WP Need
 * Determine WP name
@@ -206,7 +234,8 @@ The overall sequence for development of a work product, as currently performed w
 * Conduct Public Review (Cycle)
 * CS Approval & Publication
 
-The next section and the Appendices provide detailed information about these steps.
+The next section and the Appendices provide detailed information
+about these steps.
 
 # 4 OpenC2 TC Work Product Development Process
 
