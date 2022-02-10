@@ -16,8 +16,8 @@ products](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-201
 (the OASIS term for what a TC produces).
 
 **What is a "Work Product"?** Work Product is the official OASIS
-term for the materials (e.g. narrative documents, schemas, sample
-code) created by a TC in fulfillment of its charter.
+term for the materials created by a TC in fulfillment of its
+charter (e.g. narrative documents, schemas, sample code).
 
 **What is an "Editor"?**  Excerpting from the OASIS Editor’s
 Manual (see Section 2), a work product editor is responsible for:
@@ -36,7 +36,7 @@ Manual (see Section 2), a work product editor is responsible for:
   Administration, and presenting the document to the Technical
   Committee for approval for a public review
 
-* Create and maintain a public review comment log
+* Creating and maintaining public review comment logs
 
 The guide says "It’s safe to say that the role of editor is
 likely to be the most intensive job of any in the Technical
