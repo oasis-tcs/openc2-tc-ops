@@ -340,7 +340,17 @@ The editors / maintainers are responsible for unzipping the attachment and popul
 
 ### 4.3.2 Request Repository
 
-When requesting a repository (AKA "TC GitHub version control instance") for a work product, it is necessary to identify the maintainer(s) to be assigned to the new repo, and provide a description of the work product. OASIS TC Administration will take care of creating the repo, assigning the maintainers, and notifying the maintainers once the repo has been created. A list of the TC's work product repos and the maintainers associated with each can be found on the OASIS [Teams](https://github.com/orgs/oasis-tcs/teams?utf8=%E2%9C%93&query=openc2) page on GitHub.
+When requesting a repository (AKA "[TC GitHub version control
+instance](https://www.oasis-open.org/policies-guidelines/github-repositories-for-oasis-tc-members-chartered-work/)"
+for a work product, it is necessary to identify the maintainer(s)
+to be assigned to the new repo, and provide a description of the
+work product. OASIS TC Administration will take care of creating
+the repo, assigning the maintainers, and notifying the
+maintainers once the repo has been created. A list of the TC's
+work product repos and the maintainers associated with each can
+be found on the OASIS
+[Teams](https://github.com/orgs/oasis-tcs/teams?utf8=%E2%9C%93&query=openc2)
+page on GitHub.
 
 ### 4.3.3 Configure Repository
 
