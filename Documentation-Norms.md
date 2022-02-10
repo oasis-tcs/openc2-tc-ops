@@ -249,7 +249,12 @@ Any TC member can propose a work product, typically by presenting
 their idea to the TC membership (e.g., at a monthly meeting). The
 work product will then need a name and an abstract in order to
 submit the request for a starter document (naming and starter
-document requests are discussed in the next section).
+document requests are discussed in the next section). In
+addition, the TC must approve a motion requesting the
+establishment of a version control instance (repo) for the newly
+identified work product; a [simple majority
+vote](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dSimpleMajority)
+is required for approval.
 
 ## 4.2 Assign Work Product Name
 
