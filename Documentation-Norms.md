@@ -363,6 +363,7 @@ starter document from OASIS. For a markdown-formatted product, a
 companion request is made for a GitHub repo in the TC's space
 (i.e., [oasis-TCs /
 openc2-...](https://github.com/oasis-tcs?utf8=✓&q=openc2&type=&language=)).
+
 While it might seem reasonable to launch a new work product by
 cloning an existing TC product, following the OASIS process has
 several advantages:
