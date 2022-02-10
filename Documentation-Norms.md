@@ -352,37 +352,88 @@ GitHub repository branching concept further described in [section
 
 ### 4.3.1 Request Template
 
-> NOTE: OASIS changed their document formats in late 2020; an overview of the new structure for a specification is provided for reference in [Document Template 2020](./Document-Template-2020.md). The starter document provided by OASIS contains much more complete guidance than the overview.
+> NOTE: OASIS changed their document formats in late 2020; an
+> overview of the new structure for a specification is provided
+> for reference in [Document Template
+> 2020](./Document-Template-2020.md). The starter document
+> provided by OASIS contains much more complete guidance than the
+> overview.
 
-Once a new work product is identified and a product name selected, the next step in the process is to request a template / starter document from OASIS. For a markdown-formatted product, a companion request is made for a GitHub repo in the TC's space (i.e., [oasis-TCs / openc2-...](https://github.com/oasis-tcs?utf8=✓&q=openc2&type=&language=)). While it might seem reasonable to launch a new work product by cloning an existing TC product, following the OASIS process has several advantages:
+Once a new work product is identified and a product name
+selected, the next step in the process is to request a template /
+starter document from OASIS. For a markdown-formatted product, a
+companion request is made for a GitHub repo in the TC's space
+(i.e., [oasis-TCs /
+openc2-...](https://github.com/oasis-tcs?utf8=✓&q=openc2&type=&language=)).
+While it might seem reasonable to launch a new work product by
+cloning an existing TC product, following the OASIS process has
+several advantages:
 
-* Encourages the TC and the editor(s) to think through naming the work product appropriately
+* Encourages the TC and the editor(s) to think through naming the
+  work product appropriately
 
-* Creates awareness of the new work product in OASIS TC Administration, and gives them an opportunity to identify any possible problems (e.g., name collisions with other OASIS work [which has happened])
+* Creates awareness of the new work product in OASIS TC
+  Administration, and gives them an opportunity to identify any
+  possible problems (e.g., name collisions with other OASIS work
+  [which has happened])
 
-* Ensures that the work product begins from a template that reflects current OASIS formats and guidelines
+* Ensures that the work product begins from a template that
+  reflects current OASIS formats and guidelines
 
-Requesting a template / starter document creates *no* obligation for the TC or the editor(s) that the work product will be completed.
+Requesting a template / starter document creates *no* obligation
+for the TC or the editor(s) that the work product will be
+completed.
 
-Both the template / starter document and a GitHub repo are requested using forms on the [TC Admin Requests](https://www.oasis-open.org/resources/tc-admin-requests) page. Any TC member may place the requests, but typically this will be handled by some one of: the document editor(s), the TC co-chairs, or the TC Secretary. Editors who are uncertain how to proceed should request assistance from the Secretary. Submitting a TC Admin request requires login with the submitter's OASIS Kavi credentials. The relevant forms on the TC Admin Requests page are:
+Both the template / starter document and a GitHub repo are
+requested using forms on the [TC Admin
+Requests](https://www.oasis-open.org/resources/tc-admin-requests)
+page. Any TC member may place the requests, but typically this
+will be handled by some one of: the document editor(s), the TC
+co-chairs, or the TC Secretary. Editors who are uncertain how to
+proceed should request assistance from the Secretary. Submitting
+a TC Admin request requires login with the submitter's OASIS Kavi
+credentials. The relevant forms on the TC Admin Requests page
+are:
 
-* Request a template / starter document (use the notes section of the request form to request Markdown-formatted starter document)
+* Request a template / starter document (use the notes section of
+  the request form to request Markdown-formatted starter
+  document)
 
 * Request a TC GitHub version control instance be created
 
-> NOTE:  Links to Individual request forms are not provided here to allow for future changes by TC Admin. Use the TC Admin Requests link above to get to the list of forms.
+> NOTE:  Links to Individual request forms are not provided here
+> to allow for future changes by TC Admin. Use the TC Admin
+> Requests link above to get to the list of forms.
 
-The editors of the work product should also be named as the maintainers of the GitHub repository, so every editor needs a [GitHub](https://www.github.com) account. Document editors must be familiar with the OASIS guidance on using [GitHub Repositories for OASIS TC Members' Chartered Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work). In particular, the repo maintainers must enforce that contributions to the work product are only from TC members and that the Intellectual Property policy under which the TC operates is enforced.
+The editors of the work product should also be named as the
+maintainers of the GitHub repository, so every editor needs a
+[GitHub](https://www.github.com) account. Document editors must
+be familiar with the OASIS guidance on using [GitHub Repositories
+for OASIS TC Members' Chartered
+Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work).
+In particular, the repo maintainers must enforce that
+contributions to the work product are only from TC members and
+that the Intellectual Property policy under which the TC operates
+is enforced.
 
-In response to the request for a template / starter document, TC Admin will send a message to the TC mail list with an attached ZIP file containing:
+In response to the request for a template / starter document, TC
+Admin will send a message to the TC mail list with an attached
+ZIP file containing:
 
-* a Markdown file (.md) -- this is the main template or starter document, customized with titles and other elements for this Work Product
+* a Markdown file (.md) -- this is the main template or starter
+  document, customized with titles and other elements for this
+  Work Product
 * an HTML version generated from the markdown - for reference
 * a directory /styles containing an HTML style sheet (.css)
 * a directory /images containing an example image file
 * a "README" text file with important instructions
 
-The editors / maintainers are responsible for unzipping the attachment and populating the repo with the starter document content for the work product. The email with the starter document package contains other valuable info, which the editor(s) should also read (the same information is included in the README text file).
+The editors / maintainers are responsible for unzipping the
+attachment and populating the repo with the starter document
+content for the work product. The email with the starter document
+package contains other valuable info, which the editor(s) should
+also read (the same information is included in the README text
+file).
 
 ### 4.3.2 Request Repository
 
