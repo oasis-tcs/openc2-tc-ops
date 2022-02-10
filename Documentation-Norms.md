@@ -2,25 +2,53 @@
 
 # 1 Foreword
 
-This document provides informal, internal guidance for [work product](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dWorkProduct) editors in the [OASIS](https://www.oasis-open.org/) [OpenC2 Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2) (TC).  It captures the working processes and norms being used by the OpenC2 TC in the development of OpenC2 standards under OASIS auspices. OpenC2 standards include the language specification, actuator profiles, transfer specifications, etc., as well as other supporting [work products](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkProduct) (the OASIS term for what a TC produces).
+This document provides informal, internal guidance for [work
+product](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dWorkProduct)
+editors in the [OASIS](https://www.oasis-open.org/) [OpenC2
+Technical
+Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2)
+(TC).  It captures the working processes and norms being used by
+the OpenC2 TC in the development of OpenC2 standards under OASIS
+auspices. OpenC2 standards include the language specification,
+actuator profiles, transfer specifications, etc., as well as
+other supporting [work
+products](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkProduct)
+(the OASIS term for what a TC produces).
 
-**What is a "Work Product"?** Work Product is the official OASIS term for the materials (e.g. narrative documents, schemas, sample code) created by a TC in fulfillment of its charter.
+**What is a "Work Product"?** Work Product is the official OASIS
+term for the materials (e.g. narrative documents, schemas, sample
+code) created by a TC in fulfillment of its charter.
 
-**What is an "Editor"?**  Excerpting from the OASIS Editor’s Manual (see Section 2), a work product editor is responsible for:
+**What is an "Editor"?**  Excerpting from the OASIS Editor’s
+Manual (see Section 2), a work product editor is responsible for:
 
-* Creating and maintaining documents that reflect the consensus of the TC and incorporating agreed-upon changes clearly and unambiguously
+* Creating and maintaining documents that reflect the consensus
+  of the TC and incorporating agreed-upon changes clearly and
+  unambiguously
 
-* Helping to find consensus positions and providing text that gets the TC to agreement
+* Helping to find consensus positions and providing text that
+  gets the TC to agreement
 
-* Bringing up unresolved issues at TC meetings, suggesting resolutions, and incorporating approved text as appropriate
+* Bringing up unresolved issues at TC meetings, suggesting
+  resolutions, and incorporating approved text as appropriate
 
-* Preparing documents for review, coordinating with TC Administration, and presenting the document to the Technical Committee for approval for a public review
+* Preparing documents for review, coordinating with TC
+  Administration, and presenting the document to the Technical
+  Committee for approval for a public review
 
 * Create and maintain a public review comment log
 
-The guide says "It’s safe to say that the role of editor is likely to be the most intensive job of any in the Technical Committee. In return, however, you will find your name on the front page of the published work, you will exert the greatest influence over the form and substance of the finished document, and you will be in the best position to develop relationships with other experts and thought leaders in the TC."
+The guide says "It’s safe to say that the role of editor is
+likely to be the most intensive job of any in the Technical
+Committee. In return, however, you will find your name on the
+front page of the published work, you will exert the greatest
+influence over the form and substance of the finished document,
+and you will be in the best position to develop relationships
+with other experts and thought leaders in the TC."
 
-These *Documentation Norms* will gradually be honed to a more polished form, but will likely always be something of a "work in progress".
+These *Documentation Norms* will gradually be honed to a more
+polished form, but will likely always be something of a "work in
+progress".
 
 * * *
 
