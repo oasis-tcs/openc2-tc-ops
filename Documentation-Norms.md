@@ -216,8 +216,9 @@ of working preferences. There are three types of GitHub
 repositories in use by the OpenC2 TC:
 
 * **TC Product Repos:** For each TC-sponsored work product, OASIS
-  TC Administration creates a GitHub repository (AKA "repo"), and
-  assigns the editor(s) of the document as "maintainers".
+  TC Administration creates a [GitHub repository (AKA
+"repo")](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories),
+  and assigns the editor(s) of the document as "maintainers".
   Maintainers have the privilege to
   [commit](https://help.github.com/en/github/getting-started-with-github/github-glossary#commit)
   changes to the repository's contents, be those changes their
