@@ -270,18 +270,18 @@ Consultation with the OASIS TC Administration team is also
 helpful, as they can assist with applying the naming directives
 and help avoid collisions with the names of other OASIS products.
 
-The TC's work products can be broken into over-arching
-documents (e.g., Language Specification, Architecture Specification) that
-define OpenC2 overall, and supporting documents (e.g.,
-actuator profiles, transfer specifications) that address
-specific features and functions. To provide for consistency,
-the following principles apply:
+The TC's work products can be broken into over-arching documents
+(e.g., Language Specification, Architecture Specification) that
+define OpenC2 overall, and supporting documents (e.g., actuator
+profiles, transfer specifications) that address specific features
+and functions. To provide for consistency, the following
+principles apply:
  - Overarching documents should spell out OpenC2 in their titles.
- - Supporting documents don't need to do so as they are
-   dependent on the overarching documents.
+ - Supporting documents don't need to do so as they are dependent
+   on the overarching documents.
 
-The following example titles illustrate the application of
-these principals:
+The following example titles illustrate the application of these
+principals:
 
 - Open Command and Control (OpenC2) Language Specification
 - Open Command and Control (OpenC2) Architecture Specification
@@ -289,7 +289,12 @@ these principals:
 - OpenC2 Transfer Specification for _protocol_
 
 
-Since the TC name (i.e., "openc2") is already included in the URLs and GitHub repo names that OASIS assigns there is no need to include "openc2" or "oc2" in the shorthand name for the product (a lesson learned since the TC's first work products were named). A useful convention is to include the document type, so the following patterns are recommended:
+Since the TC name (i.e., "openc2") is already included in the
+URLs and GitHub repo names that OASIS assigns there is no need to
+include "openc2" or "oc2" in the shorthand name for the product
+(a lesson learned since the TC's first work products were named).
+A useful convention is to include the document type, so the
+following patterns are recommended:
 
 * Actuator profiles:  `ap-<function shorthand>`
 * Transfer specifications:  `transf-<protocol shorthand>`
@@ -301,17 +306,19 @@ Since the TC name (i.e., "openc2") is already included in the URLs and GitHub re
 > co-chairs and secretary can assist in determining the naming
 > pattern for the new document type.
 
-As an example, an actuator profile for anti-virus might have the shorthand of "ap-av", leading to:
+As an example, an actuator profile for anti-virus might have the
+shorthand of "ap-av", leading to:
 
 * Repo name:  oasis-tcs / openc2-**ap-av**
-* Document URL:  docs.oasis-open.org/openc2/**ap-av**/v1.0/**ap-av**-v1.0.html
+* Document URL:
+  docs.oasis-open.org/openc2/**ap-av**/v1.0/**ap-av**-v1.0.html
 
-The OASIS TC Administration team will enforce the shorthand 
-name originally attached to a product when creating 
-OASIS-published versions (e.g., committee specification drafts [CSDs]). 
+The OASIS TC Administration team will enforce the shorthand name
+originally attached to a product when creating OASIS-published
+versions (e.g., committee specification drafts [CSDs]). 
 
-Here are some example names from current committee work; 
-the last two apply the naming conventions described above:
+Here are some example names from current committee work; the last
+two apply the naming conventions described above:
 
 |  Document | Shorthand Name | Repo Name (openc2-...) |
 | ---|:--:|:--:|
