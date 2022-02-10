@@ -345,9 +345,7 @@ GitHub repository branching concept further described in [section
 
 ### Figure 1: New Work Product Launch
 
-![Work Product Launch](images/work-product-launch.png)
-
-> [Figure 1 Source (Google Draw File)](https://docs.google.com/drawings/d/1x_KHAzdUPmzdNpz00zOxjnwLN5dLIFPpIBNbp9oltxg/edit)
+![Work Product Launch](images/work-product-initiation.png)
 
 
 ### 4.3.1 Request Template
