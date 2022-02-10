@@ -454,47 +454,48 @@ page on GitHub.
 
 ### 4.3.3 Configure Repository
 
-The following branching scheme has been worked out to
-facilitate the configuration control of work products
-developed by the OpenC2 TC. The two branches in the
-repo are intended to organize the work as follows:
+The following branching scheme has been worked out to facilitate
+the configuration control of work products developed by the
+OpenC2 TC. The two branches in the repo are intended to organize
+the work as follows:
 
-* The *Working* branch contains the newest content for the
-  work product, material that is actively being developed,
-  and subject to potentially frequent and significant
-  change. Contributors to the work product should target
-  their inputs to the Working branch. Working Draft (WD)
-  versions of the work product are identified using the
-  GitHub Release feature, and the WD content is uploaded to
-  the TC's document store at OASIS .
+* The *Working* branch contains the newest content for the work
+  product, material that is actively being developed, and subject
+  to potentially frequent and significant change. Contributors to
+  the work product should target their inputs to the Working
+  branch. Working Draft (WD) versions of the work product are
+  identified using the GitHub Release feature, and the WD content
+  is uploaded to the TC's document store at OASIS .
 
-* The *Published* (default) branch contains TC-approved CS and OASIS
-  Standard versions of the work product. The Published branch
-  is initially populated with the starter document template
-  supplied by OASIS. Until the first CS is approved, the
+* The *Published* (default) branch contains TC-approved CS and
+  OASIS Standard versions of the work product. The Published
+  branch is initially populated with the starter document
+  template supplied by OASIS. Until the first CS is approved, the
   Published branch will only contain the template rather than a
   complete version of the work product.
 
-> NOTE: as of May 2020, renaming default branches from Main / Master to Published is work in progress.
+> NOTE: as of May 2020, renaming default branches from Main /
+> Master to Published is work in progress.
 
 ### Figure 2: Work Product Repository Branching Concept
 
-![Work Product Repo Branching Concept](images/versioning-concept.png)
+![Work Product Repo Branching
+Concept](images/versioning-concept.png)
 
-> [Figure 2 Source (Google Draw File)](https://docs.google.com/drawings/d/1k6-Sl9Ge4X0pQcF1jOFgG3Ognf514NuAWVVTBB8g7-k/edit)
+> [Figure 2 Source (Google Draw
+> File)](https://docs.google.com/drawings/d/1k6-Sl9Ge4X0pQcF1jOFgG3Ognf514NuAWVVTBB8g7-k/edit)
 
-Figure 2 assumes a Committee Specification has been approved
-(the v1.0 document) and work is proceeding on a future
-version (the v1.1 document). For a new work product, as
-shown in Figure 1, above, the `published` branch would be
-populated with the OASIS-supplied template, and then the
-`working` branch created from the `published` so that the
-template is available in the `working` branch as the
-starting point. Note that this branching strategy is
-intended for the _work product_ managed in the repo. There
-may be reasons to make changes directly to the `published`
-branch, such as to update the information in the repo's
-README.md file.
+Figure 2 assumes a Committee Specification has been approved (the
+v1.0 document) and work is proceeding on a future version (the
+v1.1 document). For a new work product, as shown in Figure 1,
+above, the `published` branch would be populated with the
+OASIS-supplied template, and then the `working` branch created
+from the `published` so that the template is available in the
+`working` branch as the starting point. Note that this branching
+strategy is intended for the _work product_ managed in the repo.
+There may be reasons to make changes directly to the `published`
+branch, such as to update the information in the repo's README.md
+file.
 
 #### 4.3.3.1 README.md Content Update
 
