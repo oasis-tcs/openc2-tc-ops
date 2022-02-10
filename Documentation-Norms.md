@@ -182,21 +182,65 @@ The next section and the Appendices provide detailed information about these ste
 
 # 4 OpenC2 TC Work Product Development Process
 
-As of December 2018, the OpenC2 TC shifted to focus on [GitHub](https://help.github.com/en/github) as our primary tool for the development of work products and has adopted [Markdown](https://en.wikipedia.org/wiki/Markdown) (MD) as our preferred authoritative format for work products (AKA documents).   If you’re completely unfamiliar with GitHub, [Annex B](#annex-b-getting-comfortable-with-github) provides an introduction and links to other helpful information sources.
+As of December 2018, the OpenC2 TC shifted to focus on
+[GitHub](https://help.github.com/en/github) as our primary tool
+for the development of work products and has adopted
+[Markdown](https://en.wikipedia.org/wiki/Markdown) (MD) as our
+preferred authoritative format for work products (AKA documents).
+If you’re completely unfamiliar with GitHub, [Annex
+B](#annex-b-getting-comfortable-with-github) provides an
+introduction and links to other helpful information sources.
 
-(NOTE:  The use of Google Docs as an initial development platform for work products remains available as an option; a script is available to export Google Docs to Markdown and can be used when the editor(s) is ready to shift to GitHub to mature the document. All TC member should have access to the TC's Google Drive space.)
+>(NOTE:  The use of Google Docs as an initial development
+>platform for work products remains available as an option; a
+>script is available to export Google Docs to Markdown and can be
+>used when the editor(s) is ready to shift to GitHub to mature
+>the document. All TC member should have access to the TC's
+>Google Drive space.)
 
-Markdown is a text-based language that uses a simple formatting syntax to make editing easy, the Markdown source very readable, and the processed output nicely formatted. Since OASIS uses GitHub repositories for version control, the OpenC2 TC is specifically using [GitHub-Flavored Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-) (often shortened as GFM), the dialect of Markdown that is currently supported for user content on GitHub.com and GitHub Enterprise.
+Markdown is a text-based language that uses a simple formatting
+syntax to make editing easy, the Markdown source very readable,
+and the processed output nicely formatted. Since OASIS uses
+GitHub repositories for version control, the OpenC2 TC is
+specifically using [GitHub-Flavored
+Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-)
+(often shortened as GFM), the dialect of Markdown that is
+currently supported for user content on GitHub.com and GitHub
+Enterprise.
 
-GitHub offers many useful features to support our process, including rich version control features, issue capture and discussion, easy editing of text-based formats, and ready availability of free and open-source tools to support a variety of working preferences. There are three types of GitHub repositories in use by the OpenC2 TC:
+GitHub offers many useful features to support our process,
+including rich version control features, issue capture and
+discussion, easy editing of text-based formats, and ready
+availability of free and open-source tools to support a variety
+of working preferences. There are three types of GitHub
+repositories in use by the OpenC2 TC:
 
-* **TC Product Repos:** For each TC-sponsored work product, OASIS TC Administration creates a GitHub repository (AKA "repo"), and assigns the editor(s) of the document as "maintainers". Maintainers have the privilege to [commit](https://help.github.com/en/github/getting-started-with-github/github-glossary#commit) changes to the repository's contents, be those changes their own work or contributions from other TC members. Typically the maintainers of a TC work product repo will be the editors of the product. Other maintainers may be identified if there is a need.
+* **TC Product Repos:** For each TC-sponsored work product, OASIS
+  TC Administration creates a GitHub repository (AKA "repo"), and
+  assigns the editor(s) of the document as "maintainers".
+  Maintainers have the privilege to
+  [commit](https://help.github.com/en/github/getting-started-with-github/github-glossary#commit)
+  changes to the repository's contents, be those changes their
+  own work or contributions from other TC members. Typically the
+  maintainers of a TC work product repo will be the editors of
+  the product. Other maintainers may be identified if there is a
+  need.
 
-* **TC Working Repos:** In addition to repos specific to individual work products, the TC has other repos to support its efforts, such as the capture of [use cases](https://github.com/oasis-tcs/openc2-usecases), and a repository to support development of [custom actuator profiles](https://github.com/oasis-tcs/openc2-cap) (which may eventually turn into TC work products and receive individual repos).
+* **TC Working Repos:** In addition to repos specific to
+  individual work products, the TC has other repos to support its
+  efforts, such as the capture of [use
+  cases](https://github.com/oasis-tcs/openc2-usecases), and a
+  repository to support development of [custom actuator
+  profiles](https://github.com/oasis-tcs/openc2-cap) (which may
+  eventually turn into TC work products and receive individual
+  repos).
 
-* **TC Open Repos:**  These are established by the TC to capture the development of (primarily) software related to the TC's objectives. 
+* **TC Open Repos:**  These are established by the TC to capture
+  the development of (primarily) software related to the TC's
+  objectives. 
 
-This document is focused on the use of **TC Product Repos** to develop TC work products (e.g., specifications, committee notes).
+This document is focused on the use of **TC Product Repos** to
+develop TC work products (e.g., specifications, committee notes).
 
 ## 4.1 Identify Work Product Need
 
@@ -276,12 +320,13 @@ the last two apply the naming conventions described above:
 
 The development environment for a new work product includes the
 starter document template from OASIS and the work product's
-repository ("repo"), along with forks of the repo created by
-contributors, and tools the editors find useful. The process for
-establishing and initializing the development environment is
-illustrated in the figure below and described in the following
-sections. The process utilizes the GitHub repository branching
-concept further described in [section
+[GitHub repository
+("repo")](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories).
+The environment grows over time with forks of the repo created by
+contributors. The process for establishing and initializing the
+development environment is illustrated in the figure below and
+described in the following sections. The process utilizes the
+GitHub repository branching concept further described in [section
 4.3.3](#433-configure-repository)
 
 
