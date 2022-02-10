@@ -465,14 +465,12 @@ the work as follows:
   the work product should target their inputs to the Working
   branch. Working Draft (WD) versions of the work product are
   identified using the GitHub Release feature, and the WD content
-  is uploaded to the TC's document store at OASIS .
+  is uploaded to the TC's document store at OASIS.
 
-* The *Published* (default) branch contains TC-approved CS and
-  OASIS Standard versions of the work product. The Published
-  branch is initially populated with the starter document
-  template supplied by OASIS. Until the first CS is approved, the
-  Published branch will only contain the template rather than a
-  complete version of the work product.
+* The *Published* (default) branch contains TC-approved Committee
+  Specification (CS) and OASIS Standard (OS) versions of the work
+  product. Until the first CS is approved the Published branch
+  will only contain administrative documents.
 
 ### Figure 2: Work Product Repository Branching Concept
 
