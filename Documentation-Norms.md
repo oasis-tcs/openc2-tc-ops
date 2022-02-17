@@ -666,6 +666,11 @@ can readily be found by searching on-line. TC members are
 also happy to share their GitHub knowledge, and GitHub 
 provides an extensive [help](https://help.github.com/en) library.
 
+### Figure XX: New Work Product Launch
+_(source: sources/work-product-init.plant.txt)_
+
+![Work Product Launch](images/work-product-initiation.png)
+
 ### 4.4.1 Creating & Posting a Working Draft
 
 A frequent occurrence in developing a work product is the
