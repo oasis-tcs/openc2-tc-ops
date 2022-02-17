@@ -486,10 +486,12 @@ credentials. The relevant forms on the TC Admin Requests page
 are:
 
 * Request a template / starter document (use the notes section of
-  the request form to request Markdown-formatted starter
-  document)
+  the request form to specificallyk request a Markdown-formatted
+  starter document)
 
-* Request a TC GitHub version control instance be created
+* Request a TC GitHub version control instance be created (this
+  requires a link to the TC meeting minutes where the repository
+  request was approved)
 
 > NOTE:  Links to Individual request forms are not provided here
 > to allow for future changes by TC Admin. Use the TC Admin
