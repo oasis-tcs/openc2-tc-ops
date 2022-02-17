@@ -1,0 +1,43 @@
+@startuml
+' Sequence diagram for OpenC2 TC work product incremental development 
+' process, including use of GitHub release tagging, and updating of 
+' GitHub repository content from OASIS-published versions.
+'
+' submit this code to the PlantUML online server to regenerate or 
+' develop modifications
+' https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000
+
+
+
+!theme mars
+
+Title OpenC2 Work Product Development and Tracking 
+
+hide footbox
+
+Box "Work Product\n Repository (GitHub)" #LightGrey
+Participant "Published" as P
+Participant "Working" as W
+end box
+
+Box OASIS #DeepSkyBlue
+Database Kavi as K #IndianRed
+Collections TCADMIN as T
+end box
+== First Version ==
+
+
+Group Develop Content (loop)
+W -> W : content development
+Note over W : Editor declares\nworking draft
+HNote over W #aqua : Tag GH\nRelease:\n**WDxx**
+W -> K : Post WDxx
+Note over W, K : TC approves WDxx as CSDyy
+K -> T : CSDyy submitted\nfor publication
+Note over T #LightBlue : CSDyy\npublished
+T -> W : Update working from CSDyy
+HNote over W #aqua : Tag GH\nRelease:\n**CSDyy**
+end
+
+== Repeat Develop Content &\nFor Additional Versions ==
+@enduml
