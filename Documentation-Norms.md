@@ -531,10 +531,9 @@ Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis
 In particular, the repo maintainers must enforce that
 contributions to the work product are only from TC members and
 that the Intellectual Property policy under which the TC operates
-is enforced. Our TC's convention is that the chairs and secretary
+is enforced. Our TC's convention is that the co-chairs and secretary
 are also named as maintainers to provide backup / continuity if
 the editor(s) become unavailable.
-
 
 OASIS TC Administration will take care of creating
 the repo, assigning the maintainers, and notifying the
