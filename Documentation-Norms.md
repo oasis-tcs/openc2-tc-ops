@@ -428,15 +428,17 @@ starter document template from OASIS and the work product's
 ("repo")](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories).
 The environment grows over time with forks of the repo created by
 contributors. The process for establishing and initializing the
-development environment is illustrated in the figure below and
+development environment is illustrated in Figure 1 and
 described in the following sections. The process utilizes the
 GitHub repository branching concept further described in [section
 4.3.3](#433-configure-repository)
 
 
 ### Figure 1: New Work Product Launch
+_(source: sources/work-product-init.plant.txt)_
 
 ![Work Product Launch](images/work-product-initiation.png)
+
 
 
 ### 4.3.1 Request Template
