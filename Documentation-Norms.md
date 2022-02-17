@@ -64,13 +64,16 @@ progress".
   - [3.1 Family of Documents](#31-family-of-documents)
   - [3.2 "Agile" document development concept](#32-agile-document-development-concept)
   - [3.3 Work Product Development Sequence](#33-work-product-development-sequence)
+  - [3.4 GitHub, Markdown, Repositories, and Fork & Pull](#34-github-markdown-repositories-and-fork--pull)
 - [4 OpenC2 TC Work Product Development Process](#4-openc2-tc-work-product-development-process)
   - [4.1 Identify Work Product Need](#41-identify-work-product-need)
   - [4.2 Assign Work Product Name](#42-assign-work-product-name)
   - [4.3 Establish Development Environment](#43-establish-development-environment)
+    - [Figure 1: New Work Product Launch](#figure-1-new-work-product-launch)
     - [4.3.1 Request Template](#431-request-template)
     - [4.3.2 Request Repository](#432-request-repository)
     - [4.3.3 Configure Repository](#433-configure-repository)
+    - [Figure 2: Work Product Repository Branching Concept](#figure-2-work-product-repository-branching-concept)
       - [4.3.3.1 README.md Content Update](#4331-readmemd-content-update)
       - [4.3.3.2 Create and Populate Branches](#4332-create-and-populate-branches)
   - [4.4 Incremental Development](#44-incremental-development)
@@ -81,6 +84,7 @@ progress".
   - [4.6 CS Approval & Publication](#46-cs-approval--publication)
 - [Appendix A: Links to Useful Software](#appendix-a-links-to-useful-software)
 - [Appendix B: Getting Comfortable with GitHub](#appendix-b-getting-comfortable-with-github)
+      - [Figure 3: Relationships Among GitHub Repositories](#figure-3-relationships-among-github-repositories)
 - [Appendix C: GitHub- / Markdown-Based Process & Procedures](#appendix-c-github---markdown-based-process--procedures)
   - [C.1 Create OASIS "working" Branch](#c1-create-oasis-working-branch)
   - [C.2 Fork OASIS Repository](#c2-fork-oasis-repository)
@@ -98,6 +102,19 @@ progress".
   - [C.14 Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch (TBD)](#c14-update-working-branch-in-the-personal-fork-with-oasis-repo-working-branch-tbd)
 - [Appendix D: Markdown Formatting Conventions](#appendix-d-markdown-formatting-conventions)
   - [D.1 Headings](#d1-headings)
+- [This is a Level 1 heading](#this-is-a-level-1-heading)
+  - [This is a Level 2 heading](#this-is-a-level-2-heading)
+  - [D.2 Emphasis: Bold and Italic Text](#d2-emphasis-bold-and-italic-text)
+  - [D.3 Hyperlinks and Section Cross-links](#d3-hyperlinks-and-section-cross-links)
+  - [D.4 Images](#d4-images)
+  - [D.5 Figure and Table numbering](#d5-figure-and-table-numbering)
+  - [D.6 Code Examples](#d6-code-examples)
+  - [D.7 Editor's Notes](#d7-editors-notes)
+  - [D.8 Ordered and Unordered Lists](#d8-ordered-and-unordered-lists)
+  - [D.9 Tables](#d9-tables)
+  - [D.10 "short lines"](#d10-short-lines)
+  - [D.11 Graphics](#d11-graphics)
+  - [D.12 Table of Contents Creation](#d12-table-of-contents-creation)
 - [Appendix E: Google Document Formatting Standards (Legacy)](#appendix-e-google-document-formatting-standards-legacy)
   - [E.1 Section Numbering](#e1-section-numbering)
   - [E.2 Figure & Table Numbering](#e2-figure--table-numbering)
@@ -144,7 +161,7 @@ Work product editors should become familiar with OASIS guidance on development o
 * **OASIS Technical Committee Process:** OASIS has a structured process for the establishment of TCs and the development of work products by a TC. While a document editor doesn't need an understanding of the complete process, familiarity with 
 [Section 2. TC Work Products](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#tcWorkProducts) will be helpful.
 
-* **OASIS Editor's Manual:** On 5 September 2018 the OASIS Technical Advisory Board (TAB) announced version 1.0 of the OASIS Editor's Manual, to be shared with specification editors. The manual is captured in four Google Docs for now. Anyone with the link can add comments and the TAB welcomes feedback. Please feel free to comment directly to the documents. If you prefer, you can send your thoughts to tab-askthetab@lists.oasis-open.org. The Editor's Manual is published in four parts (about 30-35 total pages): 
+* **OASIS Editor's Manual:** On 5 September 2018 the OASIS [Technical Advisory Board (TAB)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=tab) announced version 1.0 of the OASIS Editor's Manual, to be shared with specification editors. The manual is captured in four Google Docs for now. Anyone with the link can add comments and the TAB welcomes feedback. Please feel free to comment directly to the documents. If you prefer, you can send your thoughts to tab-askthetab@lists.oasis-open.org. The Editor's Manual is published in four parts (about 30-35 total pages): 
 
     * **Part 1: [The Role of Editor](https://docs.google.com/document/d/1lTartcAzlqidzrCxuXFFiwdRDKRipqMnNsMS24SZdjg/edit#heading=h.bi4fdsq13pue):**  explains the basics of the job you undertake when you volunteer to edit a work product.  
 
@@ -176,11 +193,13 @@ This section describes the process the OpenC2 TC is using in developing work pro
 
 ## 3.1 Family of Documents
 
-The OpenC2 Language Specification is the foundation of a family
-of documents that collectively define the language, tailor its
-use with specific cybersecurity functions, and describe how other
-protocols are used in a supporting manner (e.g., for message
-transfer). This family includes a variety of document types:
+The [OpenC2 Language
+Specification](https://docs.oasis-open.org/openc2/oc2ls/v1.0/oc2ls-v1.0.html)
+is the foundation of a family of documents that collectively
+define the language, tailor its use with specific cybersecurity
+functions, and describe how other protocols are used in a
+supporting manner (e.g., for message transfer). This family
+includes a variety of document types:
 
 * Language Specification
 * Architecture Specification (pending)
@@ -197,16 +216,16 @@ helpful when developing a new work product.
 ## 3.2 "Agile" document development concept
 
 The OpenC2 TC has been using a development process inspired by
-agile software development concepts. Under this process, document
-editors work with the members of the TC to incrementally develop
-and gain consensus regarding the content of a work product. This
-process includes moderately frequent publication of [Working
+agile software development concepts. Under this process, editors
+work with the members of the TC to incrementally develop and gain
+consensus regarding the content of a work product. This process
+includes moderately frequent publication of [Working
 Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkingDraft)
 (WDs) that are then presented to the OpenC2 TC for approval as
 [Committee Specification
 Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeDraft)
-(CSDs). Approval of a CSD formalizes and documents TC consensus
-on the material from that increment of development.
+(CSDs). *Approval of a CSD formalizes and documents TC consensus
+on the material from that increment of development.*
 
 Once the editors and TC members agree that a work product is
 complete and mature, the remainder of its review and approval are
@@ -229,23 +248,27 @@ currently performed within the OpenC2 TC, is as follows:
 * Determine WP name
 * Request starter template and GitHub repository
 * Upload template and configure repository
-* Apply agile, incremental development (Cycle)
+* Apply agile, incremental development (cycle)
   * Development activity review and approval through the [working meeting process](Working-Meeting-Process.md)
   * Intermittent WD releases / CSD approvals
-* Conduct Public Review (Cycle)
+* Conduct Public Review (cycle)
 * CS Approval & Publication
 
-The next section and the Appendices provide detailed information
+The [Section 4](#4-openc2-tc-work-product-development-process) and the Appendices provide detailed information
 about these steps.
 
-# 4 OpenC2 TC Work Product Development Process
+## 3.4 GitHub, Markdown, Repositories, and Fork & Pull
+
 
 As of December 2018, the OpenC2 TC shifted to focus on
 [GitHub](https://help.github.com/en/github) as our primary tool
-for the development of work products and has adopted
+for the development of work products, and has adopted
 [Markdown](https://en.wikipedia.org/wiki/Markdown) (MD) as our
-preferred authoritative format for work products (AKA documents).
-If you’re completely unfamiliar with GitHub, [Annex
+preferred authoritative format for work products (AKA documents)
+and the GitHub [Fork & Pull
+model](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models)
+for controlling the development of work product content. If
+you’re completely unfamiliar with GitHub, [Annex
 B](#annex-b-getting-comfortable-with-github) provides an
 introduction and links to other helpful information sources.
 
@@ -274,10 +297,11 @@ of working preferences. There are three types of GitHub
 repositories in use by the OpenC2 TC:
 
 * **TC Product Repos:** For each TC-sponsored work product, OASIS
-  TC Administration creates a [GitHub repository (AKA
-"repo")](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories),
-  and assigns the editor(s) of the document as "maintainers".
-  Maintainers have the privilege to
+  TC Administration creates a [GitHub "version control
+  instance"](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)
+  (AKA "repository" (AKA "repo")), and assigns the editor(s) of
+  the document as "maintainers". Maintainers have the privilege
+  to
   [commit](https://help.github.com/en/github/getting-started-with-github/github-glossary#commit)
   changes to the repository's contents, be those changes their
   own work or contributions from other TC members. Typically the
@@ -292,7 +316,7 @@ repositories in use by the OpenC2 TC:
   repository to support development of [custom actuator
   profiles](https://github.com/oasis-tcs/openc2-cap) (which may
   eventually turn into TC work products and receive individual
-  repos).
+  repos). This document is sotred in the [TC Operationsl repo](https://github.com/oasis-tcs/openc2-tc-ops), which is another "working repo".
 
 * **TC Open Repos:**  These are established by the TC to capture
   the development of (primarily) software related to the TC's
@@ -300,14 +324,22 @@ repositories in use by the OpenC2 TC:
 
 This document is focused on the use of **TC Product Repos** to
 develop TC work products (e.g., specifications, committee notes).
+However, the TC's basic development process and the "fork & pull"
+model can be applied to updating the contents of all three types
+of repositories.
+
+# 4 OpenC2 TC Work Product Development Process
+
+This section outlines the TC's standard work product development
+process.
 
 ## 4.1 Identify Work Product Need
 
 Any TC member can propose a work product, typically by presenting
-their idea to the TC membership (e.g., at a monthly meeting). The
-work product will then need a name and an abstract in order to
-submit the request for a starter document (naming and starter
-document requests are discussed in the next section). In
+their idea to the TC membership (e.g., at the monthly TC
+meeting). The work product will then need a name and an abstract
+in order to submit the request for a starter document (naming and
+starter document requests are discussed in the next section). In
 addition, the TC must approve a motion requesting the
 establishment of a version control instance (repo) for the newly
 identified work product; a [simple majority
@@ -367,7 +399,7 @@ following patterns are recommended:
 As an example, an actuator profile for anti-virus might have the
 shorthand of "ap-av", leading to:
 
-* Repo name:  oasis-tcs / openc2-**ap-av**
+* Repository name:  oasis-tcs / openc2-**ap-av**
 * Document URL:
   docs.oasis-open.org/openc2/**ap-av**/v1.0/**ap-av**-v1.0.html
 
@@ -376,15 +408,16 @@ originally attached to a product when creating OASIS-published
 versions (e.g., committee specification drafts [CSDs]). 
 
 Here are some example names from current committee work; the last
-two apply the naming conventions described above:
+three apply the naming conventions described above:
 
 |  Document | Shorthand Name | Repo Name (openc2-...) |
 | ---|:--:|:--:|
 |  _Open Command and Control (OpenC2) Language Specification_ | oc2ls | …-oc2ls |
 |  _Open Command and Control (OpenC2) Actuator Profile for Stateless Packet Filtering_ | oc2slpf | ...-apsc-stateless-packet-filter |
 |  _Specification for Transfer of OpenC2 Messages via HTTPS_ | open-impl-https | …-impl-https |
-|  _Specification for Transfer of OpenC2 Messages via OpenDXL_ | transf-odxl | …-transf-odxl |
-|  _Specification for Transfer of OpenC2 Messages via MQTT_ | transf-mqtt | ...-transf-mqtt |
+|  _OpenC2 Actuator Profile for Packet Filtering_ | ap-pf | ... openc2-ap-pf |  
+|  _Specification for Transfer of OpenC2 Messages via OpenDXL_ | transf-odxl | …openc2-transf-odxl |
+|  _Specification for Transfer of OpenC2 Messages via MQTT_ | transf-mqtt | ...-openc2-transf-mqtt |
 
 
 ## 4.3 Establish Development Environment
@@ -408,19 +441,19 @@ GitHub repository branching concept further described in [section
 
 ### 4.3.1 Request Template
 
-> NOTE: OASIS changed their document formats in late 2020; an
-> overview of the new structure for a specification is provided
-> for reference in [Document Template
-> 2020](./Document-Template-2020.md). The starter document
-> provided by OASIS contains much more complete guidance than the
-> overview.
-
 Once a new work product is identified and a product name
 selected, the next step in the process is to request a template /
 starter document from OASIS. For a markdown-formatted product, a
 companion request is made for a GitHub repo in the TC's space
 (i.e., [oasis-TCs /
 openc2-...](https://github.com/oasis-tcs?utf8=✓&q=openc2&type=&language=)).
+
+> NOTE: OASIS changed their document formats in late 2020; an
+> overview of the new structure for a specification is provided
+> for reference in [Document Template
+> 2020](./Document-Template-2020.md). The starter document
+> provided by OASIS contains much more complete guidance than the
+> overview.
 
 While it might seem reasonable to launch a new work product by
 cloning an existing TC product, following the OASIS process has
