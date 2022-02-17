@@ -441,19 +441,12 @@ GitHub repository branching concept further described in [section
 
 ### 4.3.1 Request Template
 
-Once a new work product is identified and a product name
-selected, the next step in the process is to request a template /
-starter document from OASIS. For a markdown-formatted product, a
-companion request is made for a GitHub repo in the TC's space
-(i.e., [oasis-TCs /
+Once a new work product is identified and a product name and
+shorthand selected, the next step in the process is to request a
+template / starter document from OASIS. For a markdown-formatted
+product, a companion request is made for a GitHub repo in the
+TC's space (i.e., [oasis-TCs /
 openc2-...](https://github.com/oasis-tcs?utf8=✓&q=openc2&type=&language=)).
-
-> NOTE: OASIS changed their document formats in late 2020; an
-> overview of the new structure for a specification is provided
-> for reference in [Document Template
-> 2020](./Document-Template-2020.md). The starter document
-> provided by OASIS contains much more complete guidance than the
-> overview.
 
 While it might seem reasonable to launch a new work product by
 cloning an existing TC product, following the OASIS process has
@@ -464,7 +457,7 @@ several advantages:
 
 * Creates awareness of the new work product in OASIS TC
   Administration, and gives them an opportunity to identify any
-  possible problems (e.g., name collisions with other OASIS work
+  possible problems (e.g., a name collision with other OASIS work
   [which has happened])
 
 * Ensures that the work product begins from a template that
@@ -473,6 +466,13 @@ several advantages:
 Requesting a template / starter document creates *no* obligation
 for the TC or the editor(s) that the work product will be
 completed.
+
+> NOTE: OASIS changed their document formats in late 2020; an
+> overview of the new structure for a specification is provided
+> for reference in [Document Template
+> 2020](./Document-Template-2020.md). The starter document
+> provided by OASIS contains much more complete guidance than the
+> overview.
 
 Both the template / starter document and a GitHub repo are
 requested using forms on the [TC Admin
