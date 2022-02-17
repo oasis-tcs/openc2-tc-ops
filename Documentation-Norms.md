@@ -230,7 +230,8 @@ currently performed within the OpenC2 TC, is as follows:
 * Request starter template and GitHub repository
 * Upload template and configure repository
 * Apply agile, incremental development (Cycle)
-    * Intermittent WD releases / CSD approvals
+  * Development activity review and approval through the [working meeting process](Working-Meeting-Process.md)
+  * Intermittent WD releases / CSD approvals
 * Conduct Public Review (Cycle)
 * CS Approval & Publication
 
