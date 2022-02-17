@@ -564,6 +564,12 @@ the work as follows:
   product. Until the first CS is approved the Published branch
   will only contain administrative documents.
 
+The TC repos' README.md files include the following graphic to highlight this organization:
+
+### Figure 2: Working and Published Branches
+
+![Working and Published Branches](images/repo-branches.png)
+
 ### Figure 2: Work Product Repository Branching Concept
 
 ![Work Product Repo Branching
