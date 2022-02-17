@@ -594,46 +594,31 @@ file.
 
 #### 4.3.3.1 README.md Content Update
 
-When OASIS creates a repository for the work product it will be populated three files:
+When OASIS creates a repository for the work product it will be
+populated three files:
 
-* **CONTRIBUTING.md:** rules and restrictions on contributing to this repository
+* **CONTRIBUTING.md:** rules and restrictions on contributing to
+  this repository
 
-* **LICENSE.md:**  information on applicable OASIS policies and Intellectual Property (IP) constraints.
+* **LICENSE.md:**  information on applicable OASIS policies and
+  Intellectual Property (IP) constraints.
 
-* **README.md:**  overview of the repository's contents and purpose. This file is displayed by default when anyone loads the repository home page (NOTE: this is different than the README.txt in the starter template).
+* **README.md:**  overview of the repository's contents and
+  purpose. This file is displayed by default when anyone loads
+  the repository home page (NOTE: this is different than the
+  README.txt in the starter template).
 
-These files must remain when the starter document contents from the ZIP file are added to the repository. The editor(s) should modify the README.md file to convey useful information about the repository and the work product it contains. In particular:
+The first two files must remain when other contents are added to
+the repository. 
 
-* The OASIS default includes a section labeled "Further Description of this Repository" where the editors can add information
-
-* An explanation of the branching convention being used, and where to find the most current version of the work product should be added; here is suggested text in markdown format:
-
-* * *
-
-```
-This repository is organized with two branches:
-
- * The *_Working_* branch contains work product 
- material that is actively being developed, and 
- subject to potentially frequent and significant 
- change. Contributors to the work product should 
- target their inputs to the Working branch.
-
-  * The *Published_* branch contains TC-approved 
-[Committee Specification](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeSpec) (CS) or [OASIS Standard](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dOASISstandard) 
-versions of the work product. Until the first CS 
-is approved, the Published branch will not contain 
-a complete version of the work product.
-
-  * Releases in this repository correspond to 
-  Working Draft versions that have been uploaded 
-  to OASIS, including Working Draft versions 
-  that have been approved as Committee Specification 
-  Drafts (CSDs).
-```
- 
- * * *
-
+The OpenC2 TC has developed a [model README.md
+file](MODEL-README.md), a copy of which is contained in the [TC
+Ops repo](https://github.com/oasis-tcs/openc2-tc-ops). The
+editor(s) should copy, rename and modify the MODEL-README.md file to with
+information specifci to the new repository and the work product
+it contains. The model README.md is annotated with the types of
+updates needed and the TC Secretary can provise assistance in
+tailoring the model README.md for the specific work product.
 
 #### 4.3.3.2 Create and Populate Branches
 
