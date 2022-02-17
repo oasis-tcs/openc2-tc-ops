@@ -622,10 +622,10 @@ tailoring the model README.md for the specific work product.
 
 #### 4.3.3.2 Create and Populate Branches
 
-As shown in [Figure 1](#figure-1-new-work-product-launch), when
-the repo is available the maintainers should create a `working`
-branch from the `published` branch, and then populate the
-`working` branch with the starter document received from TC
+As shown in [Figure 1](#figure-1-new-work-product-launch) above,
+when the repo is available the maintainers should create a
+`working` branch from the `published` branch, and then populate
+the `working` branch with the starter document received from TC
 Administration (including the subdirectories and supporting
 files). Activity to develop the product then proceeds as
 described above. The `published` branch will only have
@@ -633,7 +633,7 @@ administrative files until a CS is approved, at which point the
 maintainers populate it with the current CS version. Each time a
 new CS is approved the `published` branch is updated.
 
-Work in progress is always handled in the `working` branch,
+Work-in-progress is always handled in the `working` branch,
 using the standard GitHub mechanisms of forking the work
 product repository and creating pull requests (PRs) with
 contributions. When Working Drafts (WDs) are declared, the
