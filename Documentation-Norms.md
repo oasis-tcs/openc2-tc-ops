@@ -652,24 +652,37 @@ Developing a document on GitHub requires the editor to develop a level of comfor
 * Authoring a document using [Github-Flavored](https://en.wikipedia.org/wiki/Markdown#GFM) [Markdown](https://en.wikipedia.org/wiki/Markdown) for formatting
 * Using GitHub / Git procedures for version control
 
-Document creation using GitHub is inherently text-based. 
-It is possible for an editor to do all of their work 
-entirely within GitHub, but for many it may be more 
-comfortable and/or convenient to create a local copy 
-of the repository to enable use of preferred text editors, 
-working offline, etc. [Annex A](#annex-a-links-to-useful-software) 
-provides suggestions for useful software. [Annex B](#annex-b-getting-comfortable-with-github) 
-provides an overview of establishing an environment with 
-a related set of repositories to enable working in this 
-manner and a link to an excellent explainer; other resources 
-can readily be found by searching on-line. TC members are 
-also happy to share their GitHub knowledge, and GitHub 
-provides an extensive [help](https://help.github.com/en) library.
+Document creation using GitHub is inherently text-based. It is
+possible for an editor to do all of their work entirely within
+GitHub, but for many it may be more comfortable and/or convenient
+to create a local copy of the repository to enable use of
+preferred text editors, working offline, etc. [Annex
+A](#annex-a-links-to-useful-software) provides suggestions for
+useful software. [Annex
+B](#annex-b-getting-comfortable-with-github) provides an overview
+of establishing an environment with a related set of repositories
+to enable working in this manner and a link to an excellent
+explainer; other resources can readily be found by searching
+on-line. TC members are also happy to share their GitHub
+knowledge, and GitHub provides an extensive
+[help](https://help.github.com/en) library.
 
-### Figure XX: New Work Product Launch
-_(source: sources/work-product-init.plant.txt)_
+Figure XX illlustrates the flow of information between GitHub and
+OASIS as working drafts are posted and CSDs are approved. It also
+illustrates the use of GitHub release tags to enable precisely
+locating specific versions of the work product in the repository.
+Figure XX shows updating the working version from a published
+CSD. It is common for OASIS TC Administration to find and fix
+issues in work products during publiction (9)e.g., correcting
+broken links). The incorporation of such changes into the working
+version aids in the publication of future versions. The details
+of such changes are commonly included in the email sent to the TC
+mail list when a CSD is published. 
 
-![Work Product Launch](images/work-product-initiation.png)
+### Figure XX: New Work Content Development
+_(source: sources/dev-content.plant.txt)_
+
+![Work Product Launch](images/work-product-content-development.png)
 
 ### 4.4.1 Creating & Posting a Working Draft
 
