@@ -894,50 +894,130 @@ _(source: sources/pub-cs.plant.txt)_
 
 # Appendix B: Getting Comfortable with GitHub
 
-For those unfamiliar with using GitHub and Git, [this article](https://medium.com/hackernoon/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a) provides a helpful 
-(albeit colorfully presented and highly opinionated) explanation of the concepts and processes 
-(feel free to skip the introductory <Rant> and jump to the GitHub-oriented meat 
-[search for "What is a repository?"]).  Another good introduction is [this article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) from someone who isn’t primarily a programmer.
+For those unfamiliar with using GitHub and Git, [this
+article](https://medium.com/hackernoon/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a)
+provides a helpful (albeit colorfully presented and highly
+opinionated) explanation of the concepts and processes (feel free
+to skip the introductory <Rant> and jump to the GitHub-oriented
+meat [search for "What is a repository?"]).  Another good
+introduction is [this
+article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
+from someone who isn’t primarily a programmer.
 
-If you're unfamiliar with the use of Git and GitHub for version control, the terminology 
-and process can be a little bit hard to grasp. The articles linked above can definitely help.  
-The following diagram illustrates the process of connecting GitHub repos and a local Git 
-repo to work on products.  The process steps are listed below the diagram, with links 
-to the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary) 
+If you're unfamiliar with the use of Git and GitHub for version
+control, the terminology and process can be a little bit hard to
+grasp. The articles linked above can definitely help.  
+The following diagram illustrates the process of connecting
+GitHub repos and a local Git repo to work on products.  The
+process steps are listed below the diagram, with links to the
+[GitHub
+glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary)
 for definitions of key terminology.
 
 #### Figure 5: Relationships Among GitHub Repositories
 
-![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
+![GitHub Repo
+Relationships](images/GitHub-Repo-Relationships.png)
 
-> [Figure 5 Source (Google Draw File)](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
+> [Figure 5 Source (Google Draw
+> File)](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
 
 
-1. GitHub: A Project Owner creates a [repository](https://help.github.com/en/github/getting-started-with-github/github-glossary#repository) ("repo") for the document. This the "primary" version of the document, and its repo is the "[Upstream](https://help.github.com/en/github/getting-started-with-github/github-glossary#upstream) Repo". In the case of OpenC2 TC work products, these repos are created and managed by OASIS TC Administration, with one or more TC members established as maintainers for the repo.
+1. GitHub: A Project Owner creates a
+   [repository](https://help.github.com/en/github/getting-started-with-github/github-glossary#repository)
+   ("repo") for the document. This the "primary" version of the
+   document, and its repo is the
+   "[Upstream](https://help.github.com/en/github/getting-started-with-github/github-glossary#upstream)
+   Repo". In the case of OpenC2 TC work products, these repos are
+   created and managed by OASIS TC Administration, with one or
+   more TC members established as maintainers for the repo.
 
-2. GitHub: A Contributor creates a [forked copy](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork) of the Upstream Repo in their own GitHub account. This repo will contain a copy of the document as it existed in the Upstream Repo at the time the fork was created. The contributor can work purely in this document on the web, or create a local [Git](https://help.github.com/en/github/getting-started-with-github/github-glossary#git) repo (step #3) where they can, for example, edit with their favorite text editor or Git-/GitHub-aware tool set.
+2. GitHub: A Contributor creates a [forked
+   copy](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork)
+   of the Upstream Repo in their own GitHub account. This repo
+   will contain a copy of the document as it existed in the
+   Upstream Repo at the time the fork was created. The
+   contributor can work purely in this document on the web, or
+   create a local
+   [Git](https://help.github.com/en/github/getting-started-with-github/github-glossary#git)
+   repo (step #3) where they can, for example, edit with their
+   favorite text editor or Git-/GitHub-aware tool set.
 
-> NOTE: The default names in the [GitHub documentation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork) for the repos described in Steps 1 and 2 here are "upstream" for the "OASIS" repo, and "origin" for the "Fork" repo. The instructions in [C.3](#c3-clone-local-repository-from-personal-fork) describe using `git` commands to establish the "OASIS" and "Fork" names used here.
+> NOTE: The default names in the [GitHub
+> documentation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
+> for the repos described in Steps 1 and 2 here are "upstream"
+> for the "OASIS" repo, and "origin" for the "Fork" repo. The
+> instructions in
+> [C.3](#c3-clone-local-repository-from-personal-fork) describe
+> using `git` commands to establish the "OASIS" and "Fork" names
+> used here.
 
-3. Local: A Contributor "[clones](https://help.github.com/en/github/getting-started-with-github/github-glossary#clone)" their GitHub fork of the document to a Git environment on their local system.
+3. Local: A Contributor
+   "[clones](https://help.github.com/en/github/getting-started-with-github/github-glossary#clone)"
+   their GitHub fork of the document to a Git environment on
+   their local system.
 
-4. Local: The Contributor can edit document content and create additional content, including graphics and other files in their local environment.  Git is used on the local machine command line to update the local repo to reflect new and modified content.
+4. Local: The Contributor can edit document content and create
+   additional content, including graphics and other files in
+   their local environment.  Git is used on the local machine
+   command line to update the local repo to reflect new and
+   modified content.
 
-5. Local: When the Contributor wishes to submit material to change the primary document, they use the Git "[push](https://help.github.com/en/github/getting-started-with-github/github-glossary#push)" command (local command line) (NOTE:  Some local editing tools, such as the Microsoft Visual Studio Code editor, have built-in support for pushing changes to GitHub, eliminating the need to use the command line.) to replicate their content to their fork repo. This updates the fork repo to match the local repo.
+5. Local: When the Contributor wishes to submit material to
+   change the primary document, they use the Git
+   "[push](https://help.github.com/en/github/getting-started-with-github/github-glossary#push)"
+   command (local command line) (NOTE:  Some local editing tools,
+   such as the Microsoft Visual Studio Code editor, have built-in
+   support for pushing changes to GitHub, eliminating the need to
+   use the command line.) to replicate their content to their
+   fork repo. This updates the fork repo to match the local repo.
 
-6. GitHub: The Contributor creates a [Pull Request](https://help.github.com/en/github/getting-started-with-github/github-glossary#pull-request) (PR) from their GitHub fork repo back to the upstream repo to contribute their proposed changes to the primary document. Pull requests can target the default branch of the upstream repo (`main` is the standard default branch on GitHub) or any other chosen [branch](https://help.github.com/en/github/getting-started-with-github/github-glossary#branch) (e.g., the "working" branch being used to accumulate changes toward a future version of a document).
+6. GitHub: The Contributor creates a [Pull
+   Request](https://help.github.com/en/github/getting-started-with-github/github-glossary#pull-request)
+   (PR) from their GitHub fork repo back to the upstream repo to
+   contribute their proposed changes to the primary document.
+   Pull requests can target the default branch of the upstream
+   repo (`main` is the standard default branch on GitHub) or any
+   other chosen
+   [branch](https://help.github.com/en/github/getting-started-with-github/github-glossary#branch)
+   (e.g., the "working" branch being used to accumulate changes
+   toward a future version of a document).
 
-7. GitHub: The Project Owner can accept a Pull Request to merge the Contributor's material into the specified branch of the upstream repo. This modifies the upstream document by incorporating the Contributor's additions and deletions. GitHub offers the Project Owner the option to edit the contribution before merging the pull request.
+7. GitHub: The Project Owner can accept a Pull Request to merge
+   the Contributor's material into the specified branch of the
+   upstream repo. This modifies the upstream document by
+   incorporating the Contributor's additions and deletions.
+   GitHub offers the Project Owner the option to edit the
+   contribution before merging the pull request.
 
-GitHub has no obvious mechanism to update a fork repo with changes from the upstream repo. A straightforward approach is to delete the fork and create a new one. If you are also working with a local Git repo, however, the Contributor can add the upstream repo as a remote repo. This creates a linkage among all three repos. The Contributor can then, at any time, "Fetch" the upstream repo to update the local repo to be consistent, and then "Push" the local repo to the fork repo on GitHub to synchronize it. The processes to [configure an upstream repo](https://help.github.com/articles/configuring-a-remote-for-a-fork/), [synchronize upstream changes to a fork](https://help.github.com/articles/syncing-a-fork/), and [push to your GitHub fork](https://help.github.com/articles/pushing-to-a-remote/) are described in GitHub help.
+GitHub has no obvious mechanism to update a fork repo with
+changes from the upstream repo. A straightforward approach is to
+delete the fork and create a new one. If you are also working
+with a local Git repo, however, the Contributor can add the
+upstream repo as a remote repo. This creates a linkage among all
+three repos. The Contributor can then, at any time, "Fetch" the
+upstream repo to update the local repo to be consistent, and then
+"Push" the local repo to the fork repo on GitHub to synchronize
+it. The processes to [configure an upstream
+repo](https://help.github.com/articles/configuring-a-remote-for-a-fork/),
+[synchronize upstream changes to a
+fork](https://help.github.com/articles/syncing-a-fork/), and
+[push to your GitHub
+fork](https://help.github.com/articles/pushing-to-a-remote/) are
+described in GitHub help.
 
-An easier approach, and one that’s useful if you have a fork on GitHub but aren’t doing local editing with Git, is to apply the [method described here](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser) to create a pull request from the upstream repo to the fork.
+An easier approach, and one that’s useful if you have a fork on
+GitHub but aren’t doing local editing with Git, is to apply the
+[method described
+here](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
+to create a pull request from the upstream repo to the fork.
 
-> NOTE: experimenting with that method, it seems to create something of a
-loop condition between the fork and the upstream repo, where the commit
-of the PR from upstream to fork shows up as the fork being a commit ahead, and
-creating a new fork --> upstream PR just perpetuates the problem. So deleting
-and recreating the fork may still be a cleaner approach.
+> NOTE: experimenting with that method, it seems to create
+something of a loop condition between the fork and the upstream
+repo, where the commit of the PR from upstream to fork shows up
+as the fork being a commit ahead, and creating a new fork -->
+upstream PR just perpetuates the problem. So deleting and
+recreating the fork may still be a cleaner approach.
 
 # Appendix C: GitHub- / Markdown-Based Process & Procedures
 
