@@ -54,9 +54,8 @@ progress".
 
 
 # Table of Contents
-- [Documentation Norms for the OpenC2 Technical Committee](#documentation-norms-for-the-openc2-technical-committee)
 - [1 Foreword](#1-foreword)
-- [Figures](#figures)
+- [List of Figures](#list-of-figures)
 - [To-Do List](#to-do-list)
 - [2 OASIS Guidance for Editors](#2-oasis-guidance-for-editors)
 - [3 Work Product Development Overview](#3-work-product-development-overview)
@@ -79,26 +78,24 @@ progress".
       - [4.4.1.2 Create GH Release and Upload to OASIS](#4412-create-gh-release-and-upload-to-oasis)
   - [4.5 Public Review Comment Handling](#45-public-review-comment-handling)
   - [4.6 CS Approval & Publication](#46-cs-approval--publication)
-
 - [Appendix A: Links to Useful Software](#appendix-a-links-to-useful-software)
 - [Appendix B: Getting Comfortable with GitHub](#appendix-b-getting-comfortable-with-github)
-      - [Figure 3: Relationships Among GitHub Repositories](#figure-3-relationships-among-github-repositories)
 - [Appendix C: GitHub- / Markdown-Based Process & Procedures](#appendix-c-github---markdown-based-process--procedures)
-
 - [Appendix D: Markdown Formatting Conventions](#appendix-d-markdown-formatting-conventions)
+- [Appendix E: Google Document Formatting Standards (Legacy)](#appendix-e-google-document-formatting-standards-legacy)
 
-- [Appendix E: Google Document Formatting Standards (Legacy)]
-
-
-  - [Parking Lot](#parking-lot)
-    - [Figure 2: Work Product Repository Branching Concept](#figure-2-work-product-repository-branching-concept)
+- [Parking Lot](#parking-lot)
+    - [(old) Figure 2: Work Product Repository Branching Concept](#old-figure-2-work-product-repository-branching-concept)
 
 
-# Figures
+# List Of Figures
   - [Figure 1: New Work Product Launch](#figure-1-new-work-product-launch)
   - [Figure 2: Working and Published Branches](#figure-2-working-and-published-branches)
   - [Figure 3: New Work Content Development](#figure-3-new-work-content-development)
   - [Figure 4: Committee Specification Approval](#figure-4-committee-specification-approval)
+  - [Figure 5: Relationships Among GitHub Repositories](#figure-5-relationships-among-github-repositories)
+
+
 
 
 * * *
@@ -1712,7 +1709,7 @@ Limitations on table formatting
     * Definitely need the MD export script
 
 
-## Parking Lot
+# Parking Lot
 
 ### (old) Figure 2: Work Product Repository Branching Concept
 
