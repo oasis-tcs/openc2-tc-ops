@@ -2,7 +2,7 @@
 
 ![TC Ops Header Graphic](images/TC_Ops_Header.png)
 
-## Description
+## :left_speech_bubble: Description :left_speech_bubble:
 
 This repository is for documentation associated with the OASIS [OpenC2
 TC's](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2)
@@ -11,7 +11,7 @@ to related work, and norms for developing and approving TC work
 products. Given the intent of the repo, both TC co-chairs and the
 secretary are maintainers.
 
-## What's Here?
+## :world_map:  What's Here? :world_map:
 
 This repository includes the following information:
 
@@ -48,7 +48,7 @@ This repository includes the following information:
   (ITU) and efforts to encourage its adoption of OpenC2 as an ITU
   Recommendation.
 
-## OASIS-Controlled Repository
+## ![oasis-avatar](https://avatars.githubusercontent.com/u/47402065?s=24&v=4) OASIS-Controlled Repository ![oasis-avatar](https://avatars.githubusercontent.com/u/47402065?s=24&v=4)
 
 Members of the [OASIS Open Command and Control (OpenC2)
 TC](https://www.oasis-open.org/committees/openc2/) create and
@@ -72,10 +72,10 @@ which are used for development of open source
 content.
 
 
-## Contributions
+## :writing_hand: Contributions :writing_hand:
 
 As stated in this repository's
-[CONTRIBUTING](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/CONTRIBUTING.md)
+[CONTRIBUTING](https://github.com/oasis-tcs/openc2-tc-ops/blob/main/CONTRIBUTING.md)
 file, contributors to this repository must be Members of the
 OASIS OpenC2 TC for any substantive contributions or change
 requests. Anyone wishing to contribute to this GitHub project and
@@ -86,21 +86,21 @@ the [OASIS Feedback
 License](https://www.oasis-open.org/policies-guidelines/ipr#appendixa).
 
 
-## Licensing
+## :scroll: Licensing :scroll:
 
 Please see the
-[LICENSE](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/LICENSE.md)
+[LICENSE](https://github.com/oasis-tcs/openc2-tc-ops/blob/main/LICENSE.md)
 file for description of the license terms and OASIS policies
 applicable to the TC's work in this GitHub project. Content in
 this repository is intended to be part of the OpenC2 TC's
 permanent record of activity, visible and freely available for
 all to use, subject to applicable OASIS policies, as presented in
 the repository
-[LICENSE](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/LICENSE.md).
+[LICENSE](https://github.com/oasis-tcs/openc2-tc-ops/blob/main/LICENSE.md).
 
 
 
-## Contact
+## :envelope_with_arrow: Contact :envelope_with_arrow:
 
 Please send questions or comments about [OASIS TC GitHub
 repositories](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work)
