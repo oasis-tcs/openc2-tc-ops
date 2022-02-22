@@ -521,7 +521,7 @@ file).
 ### 4.3.2 Request Repository
 
 When requesting a repository (AKA "[TC GitHub version control
-instance](https://www.oasis-open.org/policies-guidelines/github-repositories-for-oasis-tc-members-chartered-work/)"
+instance](https://www.oasis-open.org/policies-guidelines/github-repositories-for-oasis-tc-members-chartered-work/)")
 for a work product, it is necessary to identify the maintainer(s)
 to be assigned to the new repo, and provide a description of the
 work product. All editors of the work product should be named as
@@ -558,44 +558,26 @@ the work as follows:
   to potentially frequent and significant change. Contributors to
   the work product should target their inputs to the Working
   branch. Working Draft (WD) versions of the work product are
-  identified using the GitHub Release feature, and the WD content
-  is uploaded to the TC's document store at OASIS.
+  identified using the GitHub Release feature with the Working
+  branch content as the basis for the release, and the WD content
+  is them uploaded to the TC's document store at OASIS (see [Section 4.4.1](#441-creating--posting-a-working-draft) for details).
 
-* The *Published* (default) branch contains TC-approved Committee
-  Specification (CS) and OASIS Standard (OS) versions of the work
-  product. Until the first CS is approved the Published branch
-  will only contain administrative documents.
+* The *Published* (default) branch contains TC-/OASIS-approved
+  Committee Specification (CS) and OASIS Standard (OS) versions
+  of the work product. Until the first CS is approved the
+  Published branch will only contain administrative documents.
 
-The TC repos' README.md files include the following graphic to highlight this organization:
+The TC repos' standard `README.md` files include the following
+graphic to highlight this organization:
 
 ### Figure 2: Working and Published Branches
 
 ![Working and Published Branches](images/repo-branches.png)
 
-### Figure 2: Work Product Repository Branching Concept
-
-![Work Product Repo Branching
-Concept](images/versioning-concept.png)
-
-> [Figure 2 Source (Google Draw
-> File)](https://docs.google.com/drawings/d/1k6-Sl9Ge4X0pQcF1jOFgG3Ognf514NuAWVVTBB8g7-k/edit)
-
-Figure 2 assumes a Committee Specification has been approved (the
-v1.0 document) and work is proceeding on a future version (the
-v1.1 document). For a new work product, as shown in Figure 1,
-above, the `published` branch would be populated with the
-OASIS-supplied template, and then the `working` branch created
-from the `published` so that the template is available in the
-`working` branch as the starting point. Note that this branching
-strategy is intended for the _work product_ managed in the repo.
-There may be reasons to make changes directly to the `published`
-branch, such as to update the information in the repo's README.md
-file.
-
 #### 4.3.3.1 README.md Content Update
 
 When OASIS creates a repository for the work product it will be
-populated three files:
+populated with three files:
 
 * **CONTRIBUTING.md:** rules and restrictions on contributing to
   this repository
@@ -614,11 +596,12 @@ the repository.
 The OpenC2 TC has developed a [model README.md
 file](MODEL-README.md), a copy of which is contained in the [TC
 Ops repo](https://github.com/oasis-tcs/openc2-tc-ops). The
-editor(s) should copy, rename and modify the MODEL-README.md file to with
-information specifci to the new repository and the work product
-it contains. The model README.md is annotated with the types of
-updates needed and the TC Secretary can provise assistance in
-tailoring the model README.md for the specific work product.
+editor(s) should copy, rename, and modify the MODEL-README.md
+file  with information specific to the new repository and the
+work product it contains. The model README.md is annotated with
+the types of updates needed and the TC Secretary can provise
+assistance in tailoring the model README.md for the specific work
+product.
 
 #### 4.3.3.2 Create and Populate Branches
 
@@ -1599,3 +1582,27 @@ Limitations on table formatting
 
     * Definitely need the MD export script
 
+
+## Parking Lot
+
+### Figure 2: Work Product Repository Branching Concept
+
+![Work Product Repo Branching
+Concept](images/versioning-concept.png)
+
+
+
+> [Figure 2 Source (Google Draw
+> File)](https://docs.google.com/drawings/d/1k6-Sl9Ge4X0pQcF1jOFgG3Ognf514NuAWVVTBB8g7-k/edit)
+
+Figure 2 assumes a Committee Specification has been approved (the
+v1.0 document) and work is proceeding on a future version (the
+v1.1 document). For a new work product, as shown in Figure 1,
+above, the `published` branch would be populated with the
+OASIS-supplied template, and then the `working` branch created
+from the `published` so that the template is available in the
+`working` branch as the starting point. Note that this branching
+strategy is intended for the _work product_ managed in the repo.
+There may be reasons to make changes directly to the `published`
+branch, such as to update the information in the repo's README.md
+file.
