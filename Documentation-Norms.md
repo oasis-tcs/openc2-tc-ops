@@ -851,7 +851,29 @@ if desired.
 
 ## 4.6 CS Approval & Publication
 
-The approval of a CS is governed by Section [2.7](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#committeeSpec) of the TC Procedures. Once a public review has been completed without material changes to the document, TC can request OASIS TC Administration conduct a [Special Majority Vote](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dSpecialMajority) to approve the document as a CS. Once the CS is approved, TC Administration will create the CS version of the document in multiple formats, and publish an announcement on the OASIS home page. The work product maintainers should upload the CS versions of the product to the repository’s `published` branch, with correspondent relevant updates to the README.md file.
+Figure 4 shows the process for approval and publication of an
+OASIS Committee Specification (CS). The approval of a CS is
+governed by Section
+[2.7](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#committeeSpec)
+of the TC Procedures. Once a public review has been completed
+without material changes to the document, TC can request OASIS TC
+Administration conduct a [Special Majority
+Vote](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dSpecialMajority)
+to approve the document as a CS. Once the CS is approved, TC
+Administration will create the CS version of the document in
+multiple formats, and publish an announcement on the OASIS home
+page. The work product maintainers should upload the CS versions
+of the product to the repository’s `published` branch, with
+correspondent relevant updates to the README.md file. As with the
+publication of a CSD, the editors should also update the
+`working` branch copy of the work product source to incorporate
+any changes made by OASIS TC Administration in the publication of
+the CS.
+
+### Figure 4: Committee Specification Approval
+_(source: sources/pub-cs.plant.txt)_
+
+![Work Product Launch](images/pub-cs.png)
 
 # Appendix A: Links to Useful Software
 
