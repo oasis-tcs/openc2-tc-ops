@@ -795,16 +795,18 @@ received during a public review, an email recording that result
 is sent to the TC mail list as the artifact.
 
 The OpenC2 TC is handling public review with a hybrid approach of
-a Comment Resolution Matrix (CRM) captured in a Google Sheet to
-maintain an overall record of comment disposition, along with the
-use of GitHub issues in the associated work product  repo to
-capture the details of how each comment is addressed. The CRM
-connects the original comment emails in the public archives of
-the TC and comment mail lists with the GitHub issues and, if
-appropriate, pull requests where the details of comment
-disposition are recorded. When the process is complete, the CRM
-is exported to a PDF that is sent to the TC mail list as the
-definitive public artifact recording the outcomes.
+a Comment Resolution Matrix (CRM) captured in a shared Google
+Sheet to maintain an overall record of comment disposition, along
+with the use of [GitHub
+issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+in the associated work product repo to capture the details of how
+each comment is addressed. The CRM connects the original comment
+emails in the public archives of the TC and comment mail lists
+with the GitHub issues and, if appropriate, pull requests where
+the details of comment disposition are recorded. When the process
+is complete, the CRM is exported to a PDF that is sent to the TC
+mail list as the definitive public artifact recording the
+outcomes.
 
 The OpenC2 TC has a [CRM
 template](https://docs.google.com/spreadsheets/d/1Kk6FOIHCs4M8KsLzSywwnsrMbarpIVM2m0T2ZC7h0zc/edit#gid=0)
