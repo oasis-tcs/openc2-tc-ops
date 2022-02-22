@@ -771,24 +771,40 @@ the ZIP file to OASIS as a WD.
 
 ## 4.5 Public Review Comment Handling
 
-An essential part of the OASIS standards development process is public review of TC work products, as documented in sections [2.6](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#publicReview) and [2.8.2](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#OSpublicRev) of the TC Process. During a public review, comments are submitted via the TC mail list (for TC members) and the TC public comments list (for non-TC members). The TC is required to:
+An essential part of the OASIS standards development process is
+public review of TC work products, as documented in sections
+[2.6](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#publicReview)
+and
+[2.8.2](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26#OSpublicRev)
+of the TC Process. During a public review, comments are submitted
+via the TC mail list (for TC members) and the TC public comments
+list (for non-TC members). The TC is required to:
 
-> _acknowledge the receipt of each comment, track the comments received, and post to its primary e-mail list the disposition of each comment at the end of the review period. (TC Process, Sections 2.6 & 2.8.2)_
+> _acknowledge the receipt of each comment, track the comments
+> received, and post to its primary e-mail list the disposition
+> of each comment at the end of the review period. (TC Process,
+> Sections 2.6 & 2.8.2)_
 
-Disposition of comments can include any of (i) altering a document to address a comment, (ii) deferring a comment to future work (e.g., a later version of the document), or (iii) determining that no change is required. The OASIS requirement is to provide an artifact, posted to the TC's mail list, that records the TC disposition decisions.  If no comments are received during a public review, an email recording that result is sent to the TC mail list as the artifact.
+Disposition of comments can include any of (i) altering a
+document to address a comment, (ii) deferring a comment to future
+work (e.g., a later version of the document), or (iii)
+determining that no change is required. The OASIS requirement is
+to provide an artifact, posted to the TC's mail list, that
+records the TC disposition decisions.  If no comments are
+received during a public review, an email recording that result
+is sent to the TC mail list as the artifact.
 
-The OpenC2 TC is handling public review with a hybrid
-approach of a Comment Resolution Matrix (CRM) captured in a
-Google Sheet to maintain an overall record of comment
-disposition, along with the use of GitHub issues in the
-associated work product  repo to capture the details of how each
-comment is addressed. The CRM connects the original comment
-emails in the public archives of the TC and comment mail
-lists with the GitHub issues and, if appropriate, pull
-requests where the details of comment disposition are
-recorded. When the process is complete, the CRM is exported
-to a PDF that is sent to the TC mail list as the definitive
-public artifact recording the outcomes.
+The OpenC2 TC is handling public review with a hybrid approach of
+a Comment Resolution Matrix (CRM) captured in a Google Sheet to
+maintain an overall record of comment disposition, along with the
+use of GitHub issues in the associated work product  repo to
+capture the details of how each comment is addressed. The CRM
+connects the original comment emails in the public archives of
+the TC and comment mail lists with the GitHub issues and, if
+appropriate, pull requests where the details of comment
+disposition are recorded. When the process is complete, the CRM
+is exported to a PDF that is sent to the TC mail list as the
+definitive public artifact recording the outcomes.
 
 The OpenC2 TC has a [CRM
 template](https://docs.google.com/spreadsheets/d/1Kk6FOIHCs4M8KsLzSywwnsrMbarpIVM2m0T2ZC7h0zc/edit#gid=0)
@@ -812,15 +828,24 @@ comment adjudication.  The CRM template columns are as follows:
 |  Material? | Editor's assessment of whether any changes made to address the comment represent material changes to the work product. Material changes made to a document as a result of a public review require that the updated document undergo a subsequent public review. |
 
 
-Our editors have found it useful to employ GitHub's [labels](https://help.github.com/en/articles/about-labels) feature when organizing issues from public review comments for discussion. Labels can be used to identify:
+Our editors have found it useful to employ GitHub's
+[labels](https://help.github.com/en/articles/about-labels)
+feature when organizing issues from public review comments for
+discussion. Labels can be used to identify:
 
 * Which public review generated a comment (e.g., PR01, PR02)
 * A set of issues planned for discussion at an upcoming meeting
-* A set of issues that all relate to a particular topic with a work product (e.g., Group_Actions)
-* Issues that have tentatively reached resolution (e.g., Candidate_For_Closure)
+* A set of issues that all relate to a particular topic with a
+  work product (e.g., Group_Actions)
+* Issues that have tentatively reached resolution (e.g.,
+  Candidate_For_Closure)
 * Issues that are being deferred (e.g., Future)
 
-Examine the issue labels in existing work product repos for additional examples. GitHub creates a default set of labels for a repository; these are oriented toward the standard software development use case, and editors should feel free to delete them if desired.
+Examine the issue labels in existing work product repos for
+additional examples. GitHub creates a default set of labels for a
+repository; these are oriented toward the standard software
+development use case, and editors should feel free to delete them
+if desired.
 
 ## 4.6 CS Approval & Publication
 
