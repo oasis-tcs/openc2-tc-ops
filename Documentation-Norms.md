@@ -820,14 +820,14 @@ comment adjudication.  The CRM template columns are as follows:
 | :----: | ---- |
 |  Item # | A tracking identifier for the comment. Editor's discretion for assigning. It can be helpful to put this identifier into the titles of associated GitHub issues and pull requests for easy cross-referencing.  Recommended use is to combine a shorthand for the document with a sequence number. Using a leading hundreds (or thousands) value for the sequence number can key it to a particular public review (e.g., HTTPS-101 is the first comment from the first public review, HTTPS-203 is the third comment from the second public review).  The order of comments in the CRM has no significance. |
 |  Source | Individual or organization that submitted the comment. |
-|  Email Link | Web link to the specific email containing the comment in the OASIS public archive of the appropriate mail list (i.e., OpenC2 TC mail list public archive, OpenC2 TC comment mail list public archive |
+|  Email Link | Web link to the specific email containing the comment in the OASIS public archive of the appropriate mail list (i.e., OpenC2 TC mail list public archive, OpenC2 TC comment mail list public archive) |
 |  Section | Section of the document where the target of the comment appears. |
 |  Page | Page where the target of the comment appears (usually from a PDF version of the document).  Optionally a column may be inserted for the line where the target of the comment appears, if line numbering was applied to the public review document. |
-|  Comment (or Comment Summary) | The comment text or (editor's discretion) a summary of the comment. If a summary is used, the editor should: Use care to correctly capture the intent of comment, and Include the full text of the comment in the GitHub issue where it is addressed, to avoid any ambiguity. |
+|  Comment (or Comment Summary) | The comment text or (editor's discretion) a summary of the comment. If a summary is used, the editor should: Use care to correctly capture the intent of comment, _and_ include the full text of the comment in the GitHub issue where it is addressed, to avoid any ambiguity. |
 |  GitHub Issue Link | Web link to the GitHub issue where the comment will be discussed and disposition recorded. |
 |  Resolution Summary | A brief summation of the disposition (e.g., "ACCEPTED: added language …", DEFERRED to later version). Having this summary in the CRM is important so that the permanent artifact in the OASIS archive meets the requirement to "post … the disposition of each comment", without need to refer to other sources. |
 |  GitHub Change Link | Web link to the GitHub pull request where the specific document changes related to the comment, if any, are identified. |
-|  Material? | Editor's assessment of whether any changes made to address the comment represent material changes to the work product. Material changes made to a document as a result of a public review require that the updated document undergo a subsequent public review. |
+|  Material? | Editor's assessment of whether any changes made to address the comment represent [material changes](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dMaterialChange) to the work product. Material changes made to a document as a result of a public review require that the updated document undergo a subsequent public review of the changed material. |
 
 
 Our editors have found it useful to employ GitHub's
