@@ -679,25 +679,25 @@ _(source: sources/dev-content.plant.txt)_
 
 ### 4.4.1 Creating & Posting a Working Draft
 
-A frequent occurrence in developing a work product is the
-posting of a "Working Draft" (WD) version to OASIS. This
-must be done, in particular, any time a ballot is to be held
-to approve a document as a Committee Specification Draft
-(CSD), which happens periodically during our "agile"
-document development process. The GitHub
+A frequent occurrence in developing a work product is the posting
+of a "Working Draft" (WD) version to OASIS. This must be done, in
+particular, any time a ballot is to be held to approve a document
+as a Committee Specification Draft (CSD), which happens
+periodically during our "agile" document development process. The
+GitHub
 [Releases](https://help.github.com/en/articles/managing-releases-in-a-repository)
-feature is used to tag a WD within GitHub and to help create
-the WD package for upload to OASIS. The creation of a WD is
-a two-step process:
+feature is used to tag a WD within GitHub and to help create the
+WD package for upload to OASIS. The creation of a WD is a
+two-step process:
 
 1. In the `working` branch,  refresh the document's table of
-   contents (see next section) and ensure the document title
-   page is updated to reflect the correct WD number and
-   date.
+   contents (see next section) and ensure the document title page
+   is updated to reflect the correct WD number and date.
 
 1. Use the GH Releases feature to create the release package.
 
 #### 4.4.1.1 Document Updates for WD
+
 As final preparation to create a WD, editors should
 * update the WD sequence number and date
 information on the title page so that they are current, and
