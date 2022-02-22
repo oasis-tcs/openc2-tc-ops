@@ -56,7 +56,6 @@ progress".
 # Table of Contents
 - [Documentation Norms for the OpenC2 Technical Committee](#documentation-norms-for-the-openc2-technical-committee)
 - [1 Foreword](#1-foreword)
-- [Table of Contents](#table-of-contents)
 - [Figures](#figures)
 - [To-Do List](#to-do-list)
 - [2 OASIS Guidance for Editors](#2-oasis-guidance-for-editors)
@@ -69,11 +68,9 @@ progress".
   - [4.1 Identify Work Product Need](#41-identify-work-product-need)
   - [4.2 Assign Work Product Name](#42-assign-work-product-name)
   - [4.3 Establish Development Environment](#43-establish-development-environment)
-    - [Figure 1: New Work Product Launch](#figure-1-new-work-product-launch)
     - [4.3.1 Request Template](#431-request-template)
     - [4.3.2 Request Repository](#432-request-repository)
     - [4.3.3 Configure Repository](#433-configure-repository)
-    - [Figure 2: Work Product Repository Branching Concept](#figure-2-work-product-repository-branching-concept)
       - [4.3.3.1 README.md Content Update](#4331-readmemd-content-update)
       - [4.3.3.2 Create and Populate Branches](#4332-create-and-populate-branches)
   - [4.4 Incremental Development](#44-incremental-development)
@@ -82,51 +79,27 @@ progress".
       - [4.4.1.2 Create GH Release and Upload to OASIS](#4412-create-gh-release-and-upload-to-oasis)
   - [4.5 Public Review Comment Handling](#45-public-review-comment-handling)
   - [4.6 CS Approval & Publication](#46-cs-approval--publication)
+
 - [Appendix A: Links to Useful Software](#appendix-a-links-to-useful-software)
 - [Appendix B: Getting Comfortable with GitHub](#appendix-b-getting-comfortable-with-github)
       - [Figure 3: Relationships Among GitHub Repositories](#figure-3-relationships-among-github-repositories)
 - [Appendix C: GitHub- / Markdown-Based Process & Procedures](#appendix-c-github---markdown-based-process--procedures)
-  - [C.1 Create OASIS "working" Branch](#c1-create-oasis-working-branch)
-  - [C.2 Fork OASIS Repository](#c2-fork-oasis-repository)
-  - [C.3 Clone Local Repository from Personal Fork](#c3-clone-local-repository-from-personal-fork)
-  - [C.4 Create "feature" Branch in Local Repository](#c4-create-feature-branch-in-local-repository)
-  - [C.5 Commit Changes to Local "feature" Branch](#c5-commit-changes-to-local-feature-branch)
-  - [C.6 Push Local Changes from "feature" Branch to Personal Fork](#c6-push-local-changes-from-feature-branch-to-personal-fork)
-  - [C.7 Create Pull Request to OASIS Repository](#c7-create-pull-request-to-oasis-repository)
-  - [C.8 Approve Pull Request (TBD)](#c8-approve-pull-request-tbd)
-  - [C.9 Create Working Draft (WD) (TBD)](#c9-create-working-draft-wd-tbd)
-  - [C.10 Create Committee Specification Draft (CSD) (TBD)](#c10-create-committee-specification-draft-csd-tbd)
-  - [C.11 Create Public Review Draft (CSPRD) (TBD)](#c11-create-public-review-draft-csprd-tbd)
-  - [C.12 Create Committee Specification (CS) (TBD)](#c12-create-committee-specification-cs-tbd)
-  - [C.13 Update "working" Branch in the OASIS Repo from "published" Branch](#c13-update-working-branch-in-the-oasis-repo-from-published-branch)
-  - [C.14 Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch (TBD)](#c14-update-working-branch-in-the-personal-fork-with-oasis-repo-working-branch-tbd)
+
 - [Appendix D: Markdown Formatting Conventions](#appendix-d-markdown-formatting-conventions)
-  - [D.1 Headings](#d1-headings)
-- [This is a Level 1 heading](#this-is-a-level-1-heading)
-  - [This is a Level 2 heading](#this-is-a-level-2-heading)
-  - [D.2 Emphasis: Bold and Italic Text](#d2-emphasis-bold-and-italic-text)
-  - [D.3 Hyperlinks and Section Cross-links](#d3-hyperlinks-and-section-cross-links)
-  - [D.4 Images](#d4-images)
-  - [D.5 Figure and Table numbering](#d5-figure-and-table-numbering)
-  - [D.6 Code Examples](#d6-code-examples)
-  - [D.7 Editor's Notes](#d7-editors-notes)
-  - [D.8 Ordered and Unordered Lists](#d8-ordered-and-unordered-lists)
-  - [D.9 Tables](#d9-tables)
-  - [D.10 "short lines"](#d10-short-lines)
-  - [D.11 Graphics](#d11-graphics)
-  - [D.12 Table of Contents Creation](#d12-table-of-contents-creation)
-- [Appendix E: Google Document Formatting Standards (Legacy)](#appendix-e-google-document-formatting-standards-legacy)
-  - [E.1 Section Numbering](#e1-section-numbering)
-  - [E.2 Figure & Table Numbering](#e2-figure--table-numbering)
-  - [E.3 Acknowledgement Sections](#e3-acknowledgement-sections)
-  - [E.4 Hash Marks for Markdown Headings](#e4-hash-marks-for-markdown-headings)
-  - [E.5 Markdown Considerations During Publishing](#e5-markdown-considerations-during-publishing)
+
+- [Appendix E: Google Document Formatting Standards (Legacy)]
+
+
+  - [Parking Lot](#parking-lot)
+    - [Figure 2: Work Product Repository Branching Concept](#figure-2-work-product-repository-branching-concept)
 
 
 # Figures
   - [Figure 1: New Work Product Launch](#figure-1-new-work-product-launch)
-  - [Figure 2: Work Product Repository Branching Concept](#figure-2-work-product-repository-branching-concept)
- -   [Figure 3: Relationships Among GitHub Repositories](#figure-3-relationships-among-github-repositories)
+  - [Figure 2: Working and Published Branches](#figure-2-working-and-published-branches)
+  - [Figure 3: New Work Content Development](#figure-3-new-work-content-development)
+  - [Figure 4: Committee Specification Approval](#figure-4-committee-specification-approval)
+
 
 * * *
 # To-Do List
@@ -933,11 +906,11 @@ repo to work on products.  The process steps are listed below the diagram, with 
 to the [GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary) 
 for definitions of key terminology.
 
-#### Figure 3: Relationships Among GitHub Repositories
+#### Figure 5: Relationships Among GitHub Repositories
 
 ![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
 
-> [Figure 3 Source (Google Draw File)](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
+> [Figure 5 Source (Google Draw File)](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
 
 
 1. GitHub: A Project Owner creates a [repository](https://help.github.com/en/github/getting-started-with-github/github-glossary#repository) ("repo") for the document. This the "primary" version of the document, and its repo is the "[Upstream](https://help.github.com/en/github/getting-started-with-github/github-glossary#upstream) Repo". In the case of OpenC2 TC work products, these repos are created and managed by OASIS TC Administration, with one or more TC members established as maintainers for the repo.
@@ -1661,7 +1634,7 @@ Limitations on table formatting
 
 ## Parking Lot
 
-### Figure 2: Work Product Repository Branching Concept
+### (old) Figure 2: Work Product Repository Branching Concept
 
 ![Work Product Repo Branching
 Concept](images/versioning-concept.png)
