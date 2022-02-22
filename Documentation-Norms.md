@@ -611,10 +611,20 @@ when the repo is available the maintainers should create a
 the `working` branch with the starter document received from TC
 Administration (including the subdirectories and supporting
 files). Activity to develop the product then proceeds as
-described above. The `published` branch will only have
-administrative files until a CS is approved, at which point the
-maintainers populate it with the current CS version. Each time a
-new CS is approved the `published` branch is updated.
+described in the next section. The `published` branch will only
+have administrative files until a CS is approved, at which point
+the maintainers populate it with the current CS version. Each
+time a new CS is approved the `published` branch is updated.
+
+Typical contents of the working branch are:
+
+```
+<work product>.md  <-- the primary file containing the work product contents
+/images            <-- folder with binary files for images in the document
+/sources           <-- folder with sources to allow editing/updating images
+```
+
+There may be other folders or files as appropriate to the work product under development.
 
 Work-in-progress is always handled in the `working` branch,
 using the standard GitHub mechanisms of forking the work
@@ -650,19 +660,19 @@ on-line. TC members are also happy to share their GitHub
 knowledge, and GitHub provides an extensive
 [help](https://help.github.com/en) library.
 
-Figure XX illlustrates the flow of information between GitHub and
+Figure 3 illlustrates the flow of information between GitHub and
 OASIS as working drafts are posted and CSDs are approved. It also
 illustrates the use of GitHub release tags to enable precisely
 locating specific versions of the work product in the repository.
-Figure XX shows updating the working version from a published
+Figure 3 also shows updating the working version from a published
 CSD. It is common for OASIS TC Administration to find and fix
-issues in work products during publiction (9)e.g., correcting
+issues in work products during publiction (e.g., correcting
 broken links). The incorporation of such changes into the working
 version aids in the publication of future versions. The details
-of such changes are commonly included in the email sent to the TC
-mail list when a CSD is published. 
+of such changes are commonly included in the message sent to the
+TC mail list when a CSD is published. 
 
-### Figure XX: New Work Content Development
+### Figure 3: New Work Content Development
 _(source: sources/dev-content.plant.txt)_
 
 ![Work Product Launch](images/work-product-content-development.png)
