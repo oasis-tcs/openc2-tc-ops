@@ -699,59 +699,61 @@ two-step process:
 #### 4.4.1.1 Document Updates for WD
 
 As final preparation to create a WD, editors should
-* update the WD sequence number and date
-information on the title page so that they are current, and
-* update the TOC within the Markdown file prior to declaring a release to create a WD. 
+* update the WD sequence number and date information on the title
+page so that they are current, and
+* update the TOC within the Markdown file prior to declaring a
+  release to create a WD. 
 
 [pandoc](#annex-a-links-to-useful-software) is a flexible
-document conversion tool that can created the TOC
-in a local file, as follows:
+document conversion tool that can created the TOC in a local
+file, as follows:
 
 `pandoc -f gfm --toc --toc-depth=5 -s -o <outfile> <infile>`
 
 where `<infile>` and `<outfile>` are markdown files. The
 `<infile>` is the markdown file from GitHub containing the
-working draft content.  The TOC will be added to the
-`<outfile>` at the beginning of the file, and the editors
-must manually move it to the proper place in the document.
-There may be other clean-up required of the TOC (e.g.,
-extraneous headings); the editor should review it carefully,
-delete unwanted content, and confirm that all internal
-document links work properly.
+working draft content.  The TOC will be added to the `<outfile>`
+at the beginning of the file, and the editors must manually move
+it to the proper place in the document. There may be other
+clean-up required of the TOC (e.g., extraneous headings); the
+editor should review it carefully, delete unwanted content, and
+confirm that all internal document links work properly.
 
 #### 4.4.1.2 Create GH Release and Upload to OASIS
 
 The editor uses GitHub to [create a
 release](https://help.github.com/en/articles/creating-releases),
 and assigns it an appropriate identification tag, typically
-identifying the target version and the WD revision number
-(e.g., v1.0_WD05). GitHub creates a ZIP file containing the
-contents of the selected branch of the repository at the
-time of the release's creation. That ZIP file is the basis
-for the WD package.
+identifying the target version and the WD revision number (e.g.,
+v1.0_WD05). GitHub creates a ZIP file containing the contents of
+the selected branch of the repository at the time of the
+release's creation. That ZIP file is the basis for the WD
+package.
 
 The essential contents of the WD package are
 
 * the Markdown file for the document, and 
 * any image files, which should be in the /images folder. 
 
-The editor has the option to create and include an HTML
-file; this can be done using `pandoc` and the CSS files
-supplied by OASIS in the template / starter document
-package. While the HTML file is optional, creating one can
-be helpful in that the HTML version provides an
-easily-readable rendered version of the markdown file that
-can be reviewed in a browser for quality control purposes.
-`pandoc` comes into play again here to create the HTML file.
-With the `working` branch checked out and the directory
-containing the work product markdown file as the current
-directory, the following command will create the HTML file:
+The editor has the option to create and include an HTML file;
+this can be done using `pandoc` and the CSS files supplied by
+OASIS in the template / starter document package. While the HTML
+file is optional, creating one can be helpful in that the HTML
+version provides an easily-readable rendered version of the
+markdown file that can be reviewed in a browser for quality
+control purposes. `pandoc` comes into play again here to create
+the HTML file. With the `working` branch checked out and the
+directory containing the work product markdown file as the
+current directory, the following command will create the HTML
+file:
 
-`pandoc -f gfm -t html <filename>.md -c styles/markdown-styles-v1.7.css -s -o <filename>.html --metadata title="Title of Specification Version X.Y"`
+`pandoc -f gfm -t html <filename>.md -c
+styles/markdown-styles-v1.7.css -s -o <filename>.html --metadata
+title="Title of Specification Version X.Y"`
 
-The editor should remove extraneous material from the ZIP
-file (e.g., the image sources in the /src folder) prior to
-uploading the ZIP file to OASIS as a WD.
+The editor should remove extraneous material from the ZIP file
+(e.g., the image sources in the /src folder) prior to uploading
+the ZIP file to OASIS as a WD.
 
 ## 4.5 Public Review Comment Handling
 
