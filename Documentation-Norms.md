@@ -740,6 +740,9 @@ The essential contents of the WD package are
 * the Markdown file for the document, and 
 * any image files, which should be in the /images folder. 
 
+The `/sources` folder can be deleted prior to uploading the WD to
+OASIS.
+
 The editor has the option to create and include an HTML file;
 this can be done using `pandoc` and the CSS files supplied by
 OASIS in the template / starter document package. While the HTML
@@ -755,6 +758,12 @@ file:
 `pandoc -f gfm -t html <filename>.md -c
 styles/markdown-styles-v1.7.css -s -o <filename>.html --metadata
 title="Title of Specification Version X.Y"`
+
+> NOTE: if creating an HTML file, the editor can also point to
+> the CSS file maintaind at OASIS:
+> `https://docs.oasis-open.org/templates/css/markdown-styles-v1.7.3a.css`;
+> this URL can be referenced directly in the `pandoc` command
+> after the `-c` option.
 
 The editor should remove extraneous material from the ZIP file
 (e.g., the image sources in the /src folder) prior to uploading
