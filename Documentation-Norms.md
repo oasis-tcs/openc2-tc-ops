@@ -704,9 +704,14 @@ page so that they are current, and
 * update the TOC within the Markdown file prior to declaring a
   release to create a WD. 
 
-[pandoc](#annex-a-links-to-useful-software) is a flexible
-document conversion tool that can created the TOC in a local
-file, as follows:
+If using Microsoft Visual Studio Code, the Markdown All-In-One
+extension is very helpful, and can create and update TOCs within
+the editor.
+
+Another alternative is
+[pandoc](#annex-a-links-to-useful-software). a flexible document
+conversion tool that can created the TOC in a local file, as
+follows:
 
 `pandoc -f gfm --toc --toc-depth=5 -s -o <outfile> <infile>`
 
