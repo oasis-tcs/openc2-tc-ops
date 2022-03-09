@@ -1,0 +1,41 @@
+@startuml
+' Sequence diagram for OpenC2 TC work product initiation process
+'
+' submit this code to the PlantUML online server to regenerate or 
+' develop modifications
+' https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000
+
+
+
+!theme mars
+
+Title OpenC2 Work Product Initiation Process
+
+hide footbox
+
+Box "Work Product\n Repository (GitHub)" #LightGrey
+Participant "Published" as P
+Participant "Working" as W
+end box
+
+Box OASIS #DeepSkyBlue
+Collections TCADMIN as T
+end box
+== First Version ==
+
+[-> T : **<color IndianRed>TC Requests Work Product Repository</color>**
+[-> T : **<color IndianRed>TC Requests Starter Document</color>**
+||18||
+Group Repo Setup
+T -> P : Create Repository
+Note Left: Creates basic\nadmin files
+Note Over P: Editor creates\ntailored\nREADME.md
+' Note over P: Create Working branch
+P -> W : Create Working Branch
+Note over W, T: Starter document is sent to TC mail list\n& unzipped and added to GitHub\nby work product editor(s)
+T -> W : Starter Document
+Note over W: Load Working\nbranch with\nStarter Document
+end
+||15||
+
+@enduml
