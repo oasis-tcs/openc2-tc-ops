@@ -1132,17 +1132,31 @@ in, e.g., the TC's Google Drive space.
 
 Some suggestions for image editing / creation tools:
 
-* Diagrams.net, [a free, on-line diagramming tool](https://www.diagrams.net/) similar to Visio / Gliffy / LucidChart
+* Diagrams.net, [a free, on-line diagramming
+  tool](https://www.diagrams.net/) similar to Visio / Gliffy /
+  LucidChart
 
-* [PlantUML](https://plantuml.com/), a tool that can render a variety of images from structured source text. Excellent for creating sequence diagrams. PlantUML's [on-line server](https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000) can be used without need for any local software installation.  Image source code can be freely transferred with copy-and-pasted between a local copy of an image's source and the server's code window for updating.
+* [PlantUML](https://plantuml.com/), a tool that can render a
+  variety of images from structured source text. Excellent for
+  creating sequence diagrams. PlantUML's [on-line
+  server](https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+  can be used without need for any local software installation.
+  Image source code can be freely transferred with copy-and-paste
+  between a local copy of an image's source and the server's code
+  window for updating.
 
-* Gravit Designer, "full featured" [vector editor](https://www.designer.io/en/), has free and pro versions
+* Gravit Designer, "full featured" [vector
+  editor](https://www.designer.io/en/), has free and pro versions
 
-* Vector diagramming / [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)-based tools like [Inkscape](https://inkscape.org/)
+* Vector diagramming /
+  [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)-based
+  tools like [Inkscape](https://inkscape.org/)
 
-* Google Draw for diagrams created in the TC's OASIS Google Drive space
+* Google Draw for diagrams created in the TC's OASIS Google Drive
+  space
 
-* Well-known office application drawing tools (e.g., PowerPoint, LibreOffice)
+* Well-known office application drawing tools (e.g., PowerPoint,
+  LibreOffice)
 
 
 
