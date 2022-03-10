@@ -1010,9 +1010,14 @@ By default the local `git` environment will identify the local
 clone of your fork of a repository as `origin`, and the original
 repository that was forked as `upstream`. It is possible to
 rename the remote repositories to names the user prefers. This is
-done using the command `git remote rename <current> <new>`. The
-following commands will change the default names to `fork` and
-`oasis`, respectively:
+done using the command: 
+
+```
+git remote rename <current> <new>
+```
+
+The following commands will change the default names to `fork`
+and `oasis`, respectively:
 
 ```
 $ git remote rename origin fork
@@ -1021,6 +1026,7 @@ $ git remote rename upstream oasis
 
 You can verify that two remote tracking branches have been
 created: "fork" and "oasis" with the command `git remote -v`:
+
 ```
 $ git remote -v
 fork    https://github.com/<personal-account/<repo-name>.git (fetch)
