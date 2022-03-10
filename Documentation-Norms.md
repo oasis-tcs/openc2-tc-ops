@@ -1006,6 +1006,31 @@ local clone).
 
 ## B.1 Renaming Remote Repositories
 
+By default the local `git` environment will identify the local
+clone of your fork of a repository as `origin`, and the original
+repository that was forked as `upstream`. It is possible to
+rename the remote repositories to names the user prefers. This is
+done using the command `git remote rename <current> <new>`. The
+following commands will change the default names to `fork` and
+`oasis`, respectively:
+
+```
+$ git remote rename origin fork
+$ git remote rename upstream oasis
+```
+
+You can verify that two remote tracking branches have been
+created: "fork" and "oasis" with the command `git remote -v`:
+```
+$ git remote -v
+fork    https://github.com/<personal-account/<repo-name>.git (fetch)
+fork    https://github.com/<personal-account/<repo-name>.git (push)
+oasis   https://github.com/oasis-tcs/<repo-name>.git (fetch)
+oasis   https://github.com/oasis-tcs/<repo-name>.git (push)
+```
+
+
+
 # Appendix E: Google Document Formatting Standards (Legacy)
 
 While the OpenC2 TC is no longer primarily using Google
