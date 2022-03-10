@@ -909,11 +909,11 @@ the screenshots may be a bit out-of-date.
 
 If you're unfamiliar with the use of Git and GitHub for version
 control, the terminology and process can be a little bit hard to
-grasp. The articles linked above can definitely help.  
-The following diagram illustrates the process of connecting
-GitHub repos and a local Git repo to work on products.  The
-process steps are listed below the diagram, with links to the
-[GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary)
+grasp. The articles linked above can definitely help. The
+following diagram illustrates the process of connecting GitHub
+repos and a local Git repo to work on products.  The process
+steps are listed below the diagram, with links to the [GitHub
+glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary)
 for definitions of key terminology.
 
 #### Figure 5: Relationships Among GitHub Repositories
