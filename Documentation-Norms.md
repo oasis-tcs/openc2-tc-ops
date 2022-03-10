@@ -936,7 +936,7 @@ for definitions of key terminology.
 2. GitHub: A Contributor creates a
    [fork](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork)
    (i.e., personal copy) of the upstream Repo in their own GitHub
-   account. This fork will contain a copy of the repo Upstream
+   account. This fork will contain a copy of the upstream
    Repo's content as of the time the fork was created. The
    contributor can work purely in this document on the web, or
    create a local
