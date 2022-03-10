@@ -933,12 +933,13 @@ for definitions of key terminology.
    created and managed by OASIS TC Administration, with one or
    more TC members established as maintainers for the repo.
 
-2. GitHub: A Contributor creates a [forked
-   copy](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork)
-   of the Upstream Repo in their own GitHub account. This fork
-   will contain a copy of the repo Upstream Repo's content as of
-   the time the fork was created. The contributor can work purely
-   in this document on the web, or create a local
+2. GitHub: A Contributor creates a
+   [fork](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork)
+   (i.e., personal copy) of the upstream Repo in their own GitHub
+   account. This fork will contain a copy of the repo Upstream
+   Repo's content as of the time the fork was created. The
+   contributor can work purely in this document on the web, or
+   create a local
    [Git](https://help.github.com/en/github/getting-started-with-github/github-glossary#git)
    repo (step #3) where they can, for example, edit with their
    favorite text editor or Git-/GitHub-aware tool set.
