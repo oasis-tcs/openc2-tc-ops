@@ -900,10 +900,12 @@ meat [search for "my previous article"]).  Another good
 introduction is [this
 article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
 from someone who isn’t primarily a programmer. A web search for
-"github writer" will yield other similar articles. Note that
-these articles tend to focus on the use of command line `git`,
-which may be only minimially necessary if you're using a
-GitHub-aware editor.
+"github writer" will yield other similar articles. Note that many
+of these these articles tend to focus on the use of command line
+`git`, which may be only minimially necessary if you're using a
+GitHub-aware editor. Also, some were published long enough ago
+that some details of the GitHub user interface have changed, so
+the screenshots may be a bit out-of-date.
 
 If you're unfamiliar with the use of Git and GitHub for version
 control, the terminology and process can be a little bit hard to
