@@ -911,14 +911,12 @@ grasp. The articles linked above can definitely help.
 The following diagram illustrates the process of connecting
 GitHub repos and a local Git repo to work on products.  The
 process steps are listed below the diagram, with links to the
-[GitHub
-glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary)
+[GitHub glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary)
 for definitions of key terminology.
 
 #### Figure 5: Relationships Among GitHub Repositories
 
-![GitHub Repo
-Relationships](images/GitHub-Repo-Relationships.png)
+![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
 
 > [Figure 5 Source (Google Draw
 > File)](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
@@ -948,10 +946,9 @@ Relationships](images/GitHub-Repo-Relationships.png)
 > documentation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
 > for the repos described in Steps 1 and 2 here are "upstream"
 > for the "OASIS" repo, and "origin" for the "Fork" repo. The
-> instructions in
-> [C.3](#c3-clone-local-repository-from-personal-fork) describe
-> using `git` commands to establish the "OASIS" and "Fork" names
-> used here.
+> instructions in [B.1](#b1-renaming-remote-repositories)
+> describes using `git` commands to establish the "OASIS" and
+> "Fork" names used here.
 
 3. Local: A Contributor
    "[clones](https://help.github.com/en/github/getting-started-with-github/github-glossary#clone)"
@@ -1007,7 +1004,7 @@ local clone).
 
 ![Upstream Fetch and Merge](images/upstream-fetch-and-merge.png)
 
-
+## B.1 Renaming Remote Repositories
 
 # Appendix E: Google Document Formatting Standards (Legacy)
 
