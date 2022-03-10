@@ -950,7 +950,7 @@ for definitions of key terminology.
 > documentation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
 > for the repos described in Steps 1 and 2 here are "upstream"
 > for the "OASIS" repo, and "origin" for the "Fork" repo. The
-> instructions in [B.1](#b1-renaming-remote-repositories)
+> instructions in [B.1](#b1-local-names-for-remote-repositories)
 > describes using `git` commands to establish the "OASIS" and
 > "Fork" names used here.
 
@@ -1014,7 +1014,7 @@ and recreate the fork (and your local clone).
 
 ![Upstream Fetch and Merge](images/upstream-fetch-and-merge.png)
 
-## B.1 Renaming Remote Repositories
+## B.1 Local Names for Remote Repositories
 
 By default the local `git` environment will identify the local
 clone of your fork of a repository as `origin`, and the original
