@@ -942,6 +942,11 @@ for definitions of key terminology.
    repo (step #3) where they can, for example, edit with their
    favorite text editor or Git-/GitHub-aware tool set.
 
+3. Local: A Contributor
+   "[clones](https://help.github.com/en/github/getting-started-with-github/github-glossary#clone)"
+   their GitHub fork of the document to a Git environment on
+   their local system.
+
 > NOTE: The default names in the [GitHub
 > documentation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
 > for the repos described in Steps 1 and 2 here are "upstream"
@@ -949,11 +954,6 @@ for definitions of key terminology.
 > instructions in [B.1](#b1-renaming-remote-repositories)
 > describes using `git` commands to establish the "OASIS" and
 > "Fork" names used here.
-
-3. Local: A Contributor
-   "[clones](https://help.github.com/en/github/getting-started-with-github/github-glossary#clone)"
-   their GitHub fork of the document to a Git environment on
-   their local system.
 
 4. Local: The Contributor can edit document content and create
    additional content, including graphics and other files in
