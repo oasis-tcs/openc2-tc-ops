@@ -895,8 +895,8 @@ For those unfamiliar with using GitHub and Git, [this
 article](https://medium.com/hackernoon/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a)
 provides a helpful (albeit colorfully presented and highly
 opinionated) explanation of the concepts and processes (feel free
-to skip the introductory <Rant> and jump to the GitHub-oriented
-meat [search for "What is a repository?"]).  Another good
+to skip the introductory rant and jump to the GitHub-oriented
+meat [search for "my previous article"]).  Another good
 introduction is [this
 article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
 from someone who isn’t primarily a programmer. A web search for
