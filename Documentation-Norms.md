@@ -1048,7 +1048,7 @@ oasis   https://github.com/oasis-tcs/<repo-name>.git (fetch)
 oasis   https://github.com/oasis-tcs/<repo-name>.git (push)
 ```
 
-# Appendix C: Some Markdown Tips
+# Appendix C: Some Markdown and Document Management Tips
 
 Markdown is text-oriented and intended to be both easily readable in its raw form, and easily rendered into HTML or other more visually pleasing forms. GitHub provides some guides for using GitHub-Flavored Markdown (GFM):
 
