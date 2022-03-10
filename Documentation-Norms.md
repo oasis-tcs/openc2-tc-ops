@@ -987,34 +987,21 @@ Relationships](images/GitHub-Repo-Relationships.png)
    GitHub offers the Project Owner the option to edit the
    contribution before merging the pull request.
 
-GitHub has no obvious mechanism to update a fork repo with
-changes from the upstream repo. A straightforward approach is to
-delete the fork and create a new one. If you are also working
-with a local Git repo, however, the Contributor can add the
-upstream repo as a remote repo. This creates a linkage among all
-three repos. The Contributor can then, at any time, "Fetch" the
-upstream repo to update the local repo to be consistent, and then
-"Push" the local repo to the fork repo on GitHub to synchronize
-it. The processes to [configure an upstream
-repo](https://help.github.com/articles/configuring-a-remote-for-a-fork/),
-[synchronize upstream changes to a
-fork](https://help.github.com/articles/syncing-a-fork/), and
-[push to your GitHub
-fork](https://help.github.com/articles/pushing-to-a-remote/) are
-described in GitHub help.
+GitHub has a feature to update a fork repo with changes from the
+upstream repo. When viewing your fork of the upstream repository,
+GitHub will indicate if the currently selected branch is behind
+the corresponding upstream branch. Clicking on "Fetch upstream",
+and then selecting the "Fetch and merge" button will update the
+fork from the upstream repository. This greatly simplifies
+maintaining synchronization when multiple parties are
+contributing to the upstream repository. If the upstream and the
+fork and badly out of synchronization, it may still be more
+straightforward is to delete and recreate the fork (and your
+local clone). 
 
-An easier approach, and one that’s useful if you have a fork on
-GitHub but aren’t doing local editing with Git, is to apply the
-[method described
-here](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
-to create a pull request from the upstream repo to the fork.
+#### Figure 6: Upstream Fetch and Merge
 
-> NOTE: experimenting with that method, it seems to create
-something of a loop condition between the fork and the upstream
-repo, where the commit of the PR from upstream to fork shows up
-as the fork being a commit ahead, and creating a new fork -->
-upstream PR just perpetuates the problem. So deleting and
-recreating the fork may still be a cleaner approach.
+![Upstream Fetch and Merge](images/upstream-fetch-and-merge.png)
 
 
 
