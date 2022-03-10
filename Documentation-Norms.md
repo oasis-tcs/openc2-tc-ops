@@ -1075,10 +1075,10 @@ request).
 
 ## C.2: Internal Hyperlinks
 
-Cross-links to a section header within a document use the same
-hyperlink structure as links to web document, with a specific
-format for the `(link)` portion. As an example, the following
-source:
+Cross-links to a section header or figure label within a document
+use the same hyperlink structure as ordinary web links, but with
+a specific format for the `(link)` portion. As an example, the
+following source:
 
 ```
 [3.2.2 A Level 3 Heading](#322-a-level-3-heading)
