@@ -933,19 +933,18 @@ for definitions of key terminology.
 
 2. GitHub: A Contributor creates a [forked
    copy](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork)
-   of the Upstream Repo in their own GitHub account. This repo
-   will contain a copy of the document as it existed in the
-   Upstream Repo at the time the fork was created. The
-   contributor can work purely in this document on the web, or
-   create a local
+   of the Upstream Repo in their own GitHub account. This fork
+   will contain a copy of the repo Upstream Repo's content as of
+   the time the fork was created. The contributor can work purely
+   in this document on the web, or create a local
    [Git](https://help.github.com/en/github/getting-started-with-github/github-glossary#git)
    repo (step #3) where they can, for example, edit with their
    favorite text editor or Git-/GitHub-aware tool set.
 
 3. Local: A Contributor
    "[clones](https://help.github.com/en/github/getting-started-with-github/github-glossary#clone)"
-   their GitHub fork of the document to a Git environment on
-   their local system.
+   their GitHub fork of the document to a repo in the Git
+   environment on their local system.
 
 > NOTE: The default names in the [GitHub
 > documentation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
@@ -957,32 +956,38 @@ for definitions of key terminology.
 
 4. Local: The Contributor can edit document content and create
    additional content, including graphics and other files in
-   their local environment.  Git is used on the local machine
-   command line to update the local repo to reflect new and
-   modified content.
+   their local environment.  Command line `git` or a git-aware
+   editing tool is used on the local machine command line to
+   update the local repo to reflect new and modified content.
 
 5. Local: When the Contributor wishes to submit material to
-   change the primary document, they use the Git
+   change the primary document, they use the `git`
    "[push](https://help.github.com/en/github/getting-started-with-github/github-glossary#push)"
-   command (local command line) (NOTE:  Some local editing tools,
-   such as the Microsoft Visual Studio Code editor, have built-in
-   support for pushing changes to GitHub, eliminating the need to
-   use the command line.) to replicate their content to their
-   fork repo. This updates the fork repo to match the local repo.
+   command (on the local command line) to replicate their content
+   to their fork repo. This updates the fork repo to match the
+   local repo. Pushes can be done frequently to propogate local
+   changes to the GitHub fork as a backup mechanism, until the
+   Contributor determines it is time to contribute their changes
+   onward. Note that `git`-aware editing tools, such as the
+   Microsoft Visual Studio Code editor, have built-in support for
+   pushing changes to GitHub, eliminating the need to use the
+   command line.
 
 6. GitHub: The Contributor creates a [Pull
    Request](https://help.github.com/en/github/getting-started-with-github/github-glossary#pull-request)
    (PR) from their GitHub fork repo back to the upstream repo to
    contribute their proposed changes to the primary document.
    Pull requests can target the default branch of the upstream
-   repo (`main` is the standard default branch on GitHub) or any
-   other chosen
+   repo or any other chosen
    [branch](https://help.github.com/en/github/getting-started-with-github/github-glossary#branch)
    (e.g., the "working" branch being used to accumulate changes
-   toward a future version of a document).
+   toward a future version of a document). Recall that while
+   `main` is the standard default branch on GitHub, `published`
+   is the default for OpenC2 work product repos, as described in
+   [Section 4.3.3](#433-configure-repository).
 
-7. GitHub: The Project Owner can accept a Pull Request to merge
-   the Contributor's material into the specified branch of the
+7. GitHub: The Project Owner can accept a PR to merge the
+   Contributor's material into the specified branch of the
    upstream repo. This modifies the upstream document by
    incorporating the Contributor's additions and deletions.
    GitHub offers the Project Owner the option to edit the
