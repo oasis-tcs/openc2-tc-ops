@@ -993,17 +993,22 @@ for definitions of key terminology.
    GitHub offers the Project Owner the option to edit the
    contribution before merging the pull request.
 
-GitHub has a feature to update a fork repo with changes from the
-upstream repo. When viewing your fork of the upstream repository,
-GitHub will indicate if the currently selected branch is behind
-the corresponding upstream branch. Clicking on "Fetch upstream",
-and then selecting the "Fetch and merge" button will update the
-fork from the upstream repository. This greatly simplifies
-maintaining synchronization when multiple parties are
-contributing to the upstream repository. If the upstream and the
-fork and badly out of synchronization, it may still be more
-straightforward is to delete and recreate the fork (and your
-local clone). 
+As the above process is executed, the upstream repo may be
+receiving changes from multiple contributors, which means that
+any one contributor's fork may become out of sync with the
+upstream repo. GitHub has a feature to update a fork repo with
+changes from the upstream repo. As shown below in [Figure
+6](#figure-6-upstream-fetch-and-merge), when viewing your fork of
+the upstream repository, GitHub will indicate if the currently
+selected branch is behind the corresponding upstream branch.
+Clicking on "Fetch upstream", and then selecting the "Fetch and
+merge" button will update the fork from the upstream repository.
+This greatly simplifies maintaining synchronization when multiple
+parties are contributing to the upstream repository. Once you've
+resynchronized your fork, you should then also synchronize the
+local clone. If the upstream and the fork are badly out of
+synchronization, it may still be more straightforward to delete
+and recreate the fork (and your local clone). 
 
 #### Figure 6: Upstream Fetch and Merge
 
