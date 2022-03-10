@@ -1090,6 +1090,48 @@ generated links is important, and some manual editing may be
 necessary to fix a link that doesn't work due to special
 characters.
 
+## C.3 Creating Images and Editable Sources
+
+When creating graphics for a work product, editors should favor
+approaches that also create an editable original file, ideally in
+an open format, available to TC for future use. The goal is to
+ensure that a graphic can be edited, if necessary, for future
+document versions. The suggested approach for graphic handling
+is:
+
+* Create a folder in the document repo to hold editable image
+  sources (e.g., `/sources`)
+* Create images using an open source or widely available tool
+  (see suggestions below)
+* Export images for use in document from the image editor in a
+  suitable form (e.g., PNG, JPEG), and place those images in the
+  `/images` folder in the document repo so that they can be
+  linked into the document
+* Place the corresponding editable source files for the image in
+  the `/sources` folder
+
+For images created and stored purely in web-based tools (e.g.,
+Google Draw), create a file (e.g., `SourceLinks.md`) in the
+`/sources` folder, and populate that file with brief descriptions
+of the images and corresponding links to the original image file
+in, e.g., the TC's Google Drive space.
+
+Some suggestions for image editing / creation tools:
+
+* Diagrams.net, [a free, on-line diagramming tool](https://www.diagrams.net/) similar to Visio / Gliffy / LucidChart
+
+* [PlantUML](https://plantuml.com/), a tool that can render a variety of images from structured source text. Excellent for creating sequence diagrams. PlantUML's [on-line server](https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000) can be used without need for any local software installation.  Image source code can be freely transferred with copy-and-pasted between a local copy of an image's source and the server's code window for updating.
+
+* Gravit Designer, "full featured" [vector editor](https://www.designer.io/en/), has free and pro versions
+
+* Vector diagramming / [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)-based tools like [Inkscape](https://inkscape.org/)
+
+* Google Draw for diagrams created in the TC's OASIS Google Drive space
+
+* Well-known office application drawing tools (e.g., PowerPoint, LibreOffice)
+
+
+
 
 # Appendix E: Google Document Formatting Standards (Legacy)
 
