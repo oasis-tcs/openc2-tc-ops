@@ -55,7 +55,7 @@ progress".
 
 # Table of Contents
 - [1 Foreword](#1-foreword)
-- [List of Figures](#list-of-figures)
+- [List Of Figures](#list-of-figures)
 - [To-Do List](#to-do-list)
 - [2 OASIS Guidance for Editors](#2-oasis-guidance-for-editors)
 - [3 Work Product Development Overview](#3-work-product-development-overview)
@@ -80,10 +80,17 @@ progress".
   - [4.6 CS Approval & Publication](#46-cs-approval--publication)
 - [Appendix A: Links to Useful Software](#appendix-a-links-to-useful-software)
 - [Appendix B: Getting Comfortable with GitHub](#appendix-b-getting-comfortable-with-github)
-- [Appendix C: GitHub- / Markdown-Based Process & Procedures](#appendix-c-github---markdown-based-process--procedures)
-- [Appendix D: Markdown Formatting Conventions](#appendix-d-markdown-formatting-conventions)
+  - [B.1 Local Names for Remote Repositories](#b1-local-names-for-remote-repositories)
+- [Appendix C: Some Markdown and Document Management Tips](#appendix-c-some-markdown-and-document-management-tips)
+  - [C.1: Short Lines in Markdown Source](#c1-short-lines-in-markdown-source)
+  - [C.2: Internal Hyperlinks](#c2-internal-hyperlinks)
+  - [C.3 Creating Images and Editable Sources](#c3-creating-images-and-editable-sources)
 - [Appendix E: Google Document Formatting Standards (Legacy)](#appendix-e-google-document-formatting-standards-legacy)
-
+  - [E.1 Section Numbering](#e1-section-numbering)
+  - [E.2 Figure & Table Numbering](#e2-figure--table-numbering)
+  - [E.3 Acknowledgement Sections](#e3-acknowledgement-sections)
+  - [E.4 Hash Marks for Markdown Headings](#e4-hash-marks-for-markdown-headings)
+  - [E.5 Markdown Considerations During Publishing](#e5-markdown-considerations-during-publishing)
 - [Parking Lot](#parking-lot)
     - [(old) Figure 2: Work Product Repository Branching Concept](#old-figure-2-work-product-repository-branching-concept)
 
@@ -94,6 +101,7 @@ progress".
   - [Figure 3: New Work Content Development](#figure-3-new-work-content-development)
   - [Figure 4: Committee Specification Approval](#figure-4-committee-specification-approval)
   - [Figure 5: Relationships Among GitHub Repositories](#figure-5-relationships-among-github-repositories)
+  - [Figure 6: Upstream Fetch and Merge](#figure-6-upstream-fetch-and-merge)
 
 
 
@@ -106,19 +114,7 @@ related to exporting GDocs to MD
 
 > To-Do:  Determine if table formatting needs improvement
 
-> To-Do:  Polish introductory text in Appendix C (or delete
-> that appendix)
-
-> To-Do:  Remaining step-by-step instruction items that need
-> to be finished (these section numbers are out of date due
-> edits describing the simplified branching strategy)
-> * C.9 Approve Pull Request
-> * C.10 Create Working Draft (WD)
-> * C.11 Create Committee Specification Draft (CSD)
-> * C.12 Create Public Review Draft (CSPRD)
-> * C.16 Update "working" Branch in the Personal Fork with OASIS Repo 
-"working" Branch (do this if pull request have been approved to 
-the "working" branch of the OASIS Repo)
+> To-Do:  Identify additional useful software tools (especially for non-Windows OSes)
 
 * * *
 
