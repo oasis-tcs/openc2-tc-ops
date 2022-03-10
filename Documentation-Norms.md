@@ -1064,6 +1064,32 @@ This section points out some aspect of using GFM to help simplify document creat
 
 `git` was originally created to track changes in computer source code, which is generally very line-oriented, and lines of computer code are typically relatively short. When GitHub displays a diff, it's doing a line-by-line comparison between the old and new versions. In a document, if a paragraph is one very long line, it's much harder for GitHub to easily display the line-in / line-out changes, so it's helpful to break the source text into shorter lines and maintain that approach to make changes more visible when viewing a diff (e.g., in a pull request). 
 
+## C.2: Internal Hyperlinks
+
+Cross-links to a section header within a document use the same hyperlink structure with a specific format for the `(link)` portion. An example, the following source:
+
+```
+[3.2.2 A Level 3 Heading](#322-a-level-3-heading)
+```
+
+will display as [3.2.2 A Level 3 Heading](#322-a-level-3-heading) and is an active internal cross link.  
+
+The text to display is the same as with any other link, but the (link) portion has 
+
+* a single leading hash mark, 
+* the section number with punctuation removed, and 
+* the section name in lower case with all spaces replaced with hyphens. 
+
+When using a tool like `pandoc` to create a TOC, all of the TOC
+entries are automatically created using this format so that the
+TOC is a collection of active links to the document's sections.
+Experience has shown that automatic TOC creation doesn't always
+correctly handle headings that contain characters like ampersands
+(&) and forward or back slashes, so a quality control check of
+generated links is important, and some manual editing may be
+necessary to fix a link that doesn't work due to special
+characters.
+
 
 # Appendix E: Google Document Formatting Standards (Legacy)
 
