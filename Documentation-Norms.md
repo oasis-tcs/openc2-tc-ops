@@ -1048,6 +1048,21 @@ oasis   https://github.com/oasis-tcs/<repo-name>.git (fetch)
 oasis   https://github.com/oasis-tcs/<repo-name>.git (push)
 ```
 
+# Appendix C: Some Markdown Tips
+
+Markdown is text-oriented and intended to be both easily readable in its raw form, and easily rendered into HTML or other more visually pleasing forms. GitHub provides some guides for using GitHub-Flavored Markdown (GFM):
+
+* [Basic markdown writing and formatting syntax](https://help.github.com/en/articles/basic-writing-and-formatting-syntax) (covers most of what you need to know; somewhat more detailed than the overview provided below)
+
+* GFM overview:  [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/) -- a quick guide to the most-used formatting features; will answer most questions.
+
+* GFM spec:  [https://github.github.com/gfm/](https://github.github.com/gfm/) -- a detailed formal specification of GFM, more useful to programmers than editors, but can help with troubleshooting.
+
+This section points out some aspect of using GFM to help simplify document creation, maintenance, and reading. 
+
+## C.1: Short Lines in Markdown Source
+
+`git` was originally created to track changes in computer source code, which is generally very line-oriented, and lines of computer code are typically relatively short. When GitHub displays a diff, it's doing a line-by-line comparison between the old and new versions. In a document, if a paragraph is one very long line, it's much harder for GitHub to easily display the line-in / line-out changes, so it's helpful to break the source text into shorter lines and maintain that approach to make changes more visible when viewing a diff (e.g., in a pull request). 
 
 
 # Appendix E: Google Document Formatting Standards (Legacy)
