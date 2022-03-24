@@ -8,24 +8,33 @@ regarding the meeting scheduling process. The Lucid Meetings
 [Fundamentals: Start
 Here](http://support.lucidmeetings.com/support/solutions/folders/16000049332)
 page provides an introduction to how things are organized in
-Lucid.
+Lucid. The keys to efficient scheduling in Lucid are to update
+the meeting agenda template and room membership prior to
+scheduling a meeting series.
+
+## General Notes
 
 * This arrangement requires TC and working meetings to be
-  scheduled in both Kavi & Lucid
+  scheduled in *both* Kavi & Lucid
   * The TC has been scheduling recurring meeting series in
     6-month blocks
   * Scheduling meeting series generates a flurry of calendar
     invitation emails. Consider sending a "warning order" email
-    to the TC mail list so that members aren't surprised.
-  * Consider creating a matrix so you can check off each meeting
-    series as it's scheduled (example at the end of this note) to
-    keep track.
+    to the TC mail list so that members aren't surprised.<br><br>
+    **NOTE:** as of March 2022, we have agreement from OASIS TC
+    Administration that while we should continue to schedule in
+    both systems, we only need to send meetings invitations from
+    Lucid, which reduces the invitation email burden on TC
+    members. <br><br>
+  * Consider creating a matrix (example at the end of this note)
+    so you can check off each meeting series as it's scheduled.
   * Working meetings (which occur three times per month) require
-    scheduling a series for each session (e.g., 1st Wednesday,
+    scheduling a series for each session (i.e., 1st Wednesday,
     2nd Wednesday, 4th Wednesday are scheduled as three separate
     series)
-  * The monthly TC meeting's morning and evening sessions
+  * The monthly TC meeting's first and second sessions
     likewise require scheduling a series for each session
+    * **NOTE:**  Lucid added a feature in early 2022 to copy a meeting agenda from a previous meeting. This means it's now easier to schedule the second session TC meeting with a trivial agenda template, and then copy the agenda from the first session into the second session once the first session has adjoured.
 * The person who schedules a meeting in Lucid is automatically a
   facilitator, others need to have their role changed to
   facilitator.
@@ -36,8 +45,8 @@ Lucid.
     presenters for their work items in the working meeting
     agendas
 * Use the _Monthly / Same Day of Week_ repeat schedule for
-  meetings (to get, e.g., second Wednesday of month)
-* Uncheck the box to receive emails for RSVPs in Lucid if you
+  meetings (to get, e.g., second Wednesday of month) in both systems
+* Uncheck the box in Lucid to receive emails for RSVPs if you
   don't want to get flooded.
 * Only Facilitators and Participants can raise hands in Lucid, so
   set people's roles accordingly. Our convention has been:
@@ -62,14 +71,14 @@ Lucid.
   meetings
 
 
-**For efficient scheduling in Lucid:**
+## For efficient scheduling in Lucid:
 1. Go into the OpenC2 "room"
-1. Pick the agenda template for the meeting being scheduled;<br>
+1. Pick the agenda template for the meeting being scheduled;<br><br>
    **NOTE:** it's worthwhile reviewing and updating the agenda
    template before scheduling a block of meetings to make sure
    the content is current as of scheduling time, and to ensure
    all TC members in the "room" are added to the _template_ as
-   attendees.
+   attendees.<br><br>
 1. Schedule the meeting (set date, time, repeats, end criteria
    for repeats; repeats should use the monthly / day of week
    setting)
