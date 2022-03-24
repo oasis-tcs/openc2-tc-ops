@@ -36,7 +36,7 @@ Lucid.
     presenters for their work items in the working meeting
     agendas
 * Use the _Monthly / Same Day of Week_ repeat schedule for
-  meetings (to get, e.g., first Tuesday of month)
+  meetings (to get, e.g., second Wednesday of month)
 * Uncheck the box to receive emails for RSVPs in Lucid if you
   don't want to get flooded.
 * Only Facilitators and Participants can raise hands in Lucid, so
@@ -64,7 +64,12 @@ Lucid.
 
 **For efficient scheduling in Lucid:**
 1. Go into the OpenC2 "room"
-1. Pick the agenda template for the meeting being scheduled
+1. Pick the agenda template for the meeting being scheduled;<br>
+   **NOTE:** it's worthwhile reviewing and updating the agenda
+   template before scheduling a block of meetings to make sure
+   the content is current as of scheduling time, and to ensure
+   all TC members in the "room" are added to the _template_ as
+   attendees.
 1. Schedule the meeting (set date, time, repeats, end criteria
    for repeats; repeats should use the monthly / day of week
    setting)
