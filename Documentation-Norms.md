@@ -873,7 +873,9 @@ _(source: sources/pub-cs.plant.txt)_
   > announced that Draw.io is being renamed to diagrams.net. The
   > new home page is
   > [www.diagrams.net](https://www.diagrams.net/). For now,
-  > draw.io redirects to diagrams.net.)
+  > draw.io redirects to diagrams.net, and the site still uses
+  > <filename>.drawio.png as the default format for saving files
+  > locally.)
 
 
 * **[Tables
