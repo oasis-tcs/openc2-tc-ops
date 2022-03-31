@@ -487,12 +487,20 @@ file).
 
 ### 4.3.2 Request Repository and Assign Maintainers
 
-When requesting a repository (AKA "[TC GitHub version control
-instance](https://www.oasis-open.org/policies-guidelines/github-repositories-for-oasis-tc-members-chartered-work/)")
-for a work product, it is necessary to identify the maintainer(s)
-to be assigned to the new repo, and provide a description of the
-work product. The OpenC2 TC's convention is that the maintainers
-of a work product repo are:
+OASIS TC Administration has overall control of repositories for
+OASIS work products (i.e., repositories that appear in the
+`github.com/oasis-tcs/...` space on GitHub). TC Administration
+are the only entity that can create new repositories, rename
+existing repositories, archive a repository that is no longer
+needed, and manage GitHub user privileges regarding any
+particular repository.
+
+When requesting a repository for a new work product, the TC
+provides descriptive information for the work product, a link to
+the TC meeting minutes that document approval of the repository's
+creation, and identifies the maintainer(s) to be assigned to the
+new repo. The OpenC2 TC's convention is that the maintainers of a
+work product repo are:
 
  - All editors of the work product,
  - The TC co-chairs, and 
