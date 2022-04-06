@@ -55,7 +55,7 @@ progress".
 
 # Table of Contents
 - [1 Foreword](#1-foreword)
-- [List of Figures](#list-of-figures)
+- [List Of Figures](#list-of-figures)
 - [To-Do List](#to-do-list)
 - [2 OASIS Guidance for Editors](#2-oasis-guidance-for-editors)
 - [3 Work Product Development Overview](#3-work-product-development-overview)
@@ -80,10 +80,17 @@ progress".
   - [4.6 CS Approval & Publication](#46-cs-approval--publication)
 - [Appendix A: Links to Useful Software](#appendix-a-links-to-useful-software)
 - [Appendix B: Getting Comfortable with GitHub](#appendix-b-getting-comfortable-with-github)
-- [Appendix C: GitHub- / Markdown-Based Process & Procedures](#appendix-c-github---markdown-based-process--procedures)
-- [Appendix D: Markdown Formatting Conventions](#appendix-d-markdown-formatting-conventions)
+  - [B.1 Local Names for Remote Repositories](#b1-local-names-for-remote-repositories)
+- [Appendix C: Some Markdown and Document Management Tips](#appendix-c-some-markdown-and-document-management-tips)
+  - [C.1: Short Lines in Markdown Source](#c1-short-lines-in-markdown-source)
+  - [C.2: Internal Hyperlinks](#c2-internal-hyperlinks)
+  - [C.3 Creating Images and Editable Sources](#c3-creating-images-and-editable-sources)
 - [Appendix E: Google Document Formatting Standards (Legacy)](#appendix-e-google-document-formatting-standards-legacy)
-
+  - [E.1 Section Numbering](#e1-section-numbering)
+  - [E.2 Figure & Table Numbering](#e2-figure--table-numbering)
+  - [E.3 Acknowledgement Sections](#e3-acknowledgement-sections)
+  - [E.4 Hash Marks for Markdown Headings](#e4-hash-marks-for-markdown-headings)
+  - [E.5 Markdown Considerations During Publishing](#e5-markdown-considerations-during-publishing)
 - [Parking Lot](#parking-lot)
     - [(old) Figure 2: Work Product Repository Branching Concept](#old-figure-2-work-product-repository-branching-concept)
 
@@ -94,6 +101,7 @@ progress".
   - [Figure 3: New Work Content Development](#figure-3-new-work-content-development)
   - [Figure 4: Committee Specification Approval](#figure-4-committee-specification-approval)
   - [Figure 5: Relationships Among GitHub Repositories](#figure-5-relationships-among-github-repositories)
+  - [Figure 6: Upstream Fetch and Merge](#figure-6-upstream-fetch-and-merge)
 
 
 
@@ -106,19 +114,7 @@ related to exporting GDocs to MD
 
 > To-Do:  Determine if table formatting needs improvement
 
-> To-Do:  Polish introductory text in Appendix C (or delete
-> that appendix)
-
-> To-Do:  Remaining step-by-step instruction items that need
-> to be finished (these section numbers are out of date due
-> edits describing the simplified branching strategy)
-> * C.9 Approve Pull Request
-> * C.10 Create Working Draft (WD)
-> * C.11 Create Committee Specification Draft (CSD)
-> * C.12 Create Public Review Draft (CSPRD)
-> * C.16 Update "working" Branch in the Personal Fork with OASIS Repo 
-"working" Branch (do this if pull request have been approved to 
-the "working" branch of the OASIS Repo)
+> To-Do:  Identify additional useful software tools (especially for non-Windows OSes)
 
 * * *
 
@@ -283,7 +279,7 @@ repositories in use by the OpenC2 TC:
   repository to support development of [custom actuator
   profiles](https://github.com/oasis-tcs/openc2-cap) (which may
   eventually turn into TC work products and receive individual
-  repos). This document is sotred in the [TC Operationsl repo](https://github.com/oasis-tcs/openc2-tc-ops), which is another "working repo".
+  repos). This document is stored in the [TC Operationsl repo](https://github.com/oasis-tcs/openc2-tc-ops), which is another "working repo".
 
 * **TC Open Repos:**  These are established by the TC to capture
   the development of (primarily) software related to the TC's
@@ -891,7 +887,9 @@ _(source: sources/pub-cs.plant.txt)_
   > announced that Draw.io is being renamed to diagrams.net. The
   > new home page is
   > [www.diagrams.net](https://www.diagrams.net/). For now,
-  > draw.io redirects to diagrams.net.)
+  > draw.io redirects to diagrams.net, and the site still uses
+  > <filename>.drawio.png as the default format for saving files
+  > locally.)
 
 
 * **[Tables
@@ -909,26 +907,30 @@ For those unfamiliar with using GitHub and Git, [this
 article](https://medium.com/hackernoon/github-for-chimpanzees-and-a-short-rant-against-scientists-868fb04e5e4a)
 provides a helpful (albeit colorfully presented and highly
 opinionated) explanation of the concepts and processes (feel free
-to skip the introductory <Rant> and jump to the GitHub-oriented
-meat [search for "What is a repository?"]).  Another good
+to skip the introductory rant and jump to the GitHub-oriented
+meat [search for "my previous article"]).  Another good
 introduction is [this
 article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
-from someone who isn’t primarily a programmer.
+from someone who isn’t primarily a programmer. A web search for
+"github writer" will yield other similar articles. Note that many
+of these these articles tend to focus on the use of command line
+`git`, which may be only minimially necessary if you're using a
+GitHub-aware editor. Also, some were published long enough ago
+that some details of the GitHub user interface have changed, so
+the screenshots may be a bit out-of-date.
 
 If you're unfamiliar with the use of Git and GitHub for version
 control, the terminology and process can be a little bit hard to
-grasp. The articles linked above can definitely help.  
-The following diagram illustrates the process of connecting
-GitHub repos and a local Git repo to work on products.  The
-process steps are listed below the diagram, with links to the
-[GitHub
+grasp. The articles linked above can definitely help. The
+following diagram illustrates the process of connecting GitHub
+repos and a local Git repo to work on products.  The process
+steps are listed below the diagram, with links to the [GitHub
 glossary](https://help.github.com/en/github/getting-started-with-github/github-glossary)
 for definitions of key terminology.
 
 #### Figure 5: Relationships Among GitHub Repositories
 
-![GitHub Repo
-Relationships](images/GitHub-Repo-Relationships.png)
+![GitHub Repo Relationships](images/GitHub-Repo-Relationships.png)
 
 > [Figure 5 Source (Google Draw
 > File)](https://docs.google.com/drawings/d/10M4foaPrE3t1XCQGQ3Tr-cBVFmj5Zm9PccGUkuPeop8/edit)
@@ -943,207 +945,112 @@ Relationships](images/GitHub-Repo-Relationships.png)
    created and managed by OASIS TC Administration, with one or
    more TC members established as maintainers for the repo.
 
-2. GitHub: A Contributor creates a [forked
-   copy](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork)
-   of the Upstream Repo in their own GitHub account. This repo
-   will contain a copy of the document as it existed in the
-   Upstream Repo at the time the fork was created. The
+2. GitHub: A Contributor creates a
+   [fork](https://help.github.com/en/github/getting-started-with-github/github-glossary#fork)
+   (i.e., personal copy) of the upstream Repo in their own GitHub
+   account. This fork will contain a copy of the upstream
+   Repo's content as of the time the fork was created. The
    contributor can work purely in this document on the web, or
    create a local
    [Git](https://help.github.com/en/github/getting-started-with-github/github-glossary#git)
    repo (step #3) where they can, for example, edit with their
    favorite text editor or Git-/GitHub-aware tool set.
 
+3. Local: A Contributor
+   "[clones](https://help.github.com/en/github/getting-started-with-github/github-glossary#clone)"
+   their GitHub fork of the document to a repo in the Git
+   environment on their local system.
+
 > NOTE: The default names in the [GitHub
 > documentation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
 > for the repos described in Steps 1 and 2 here are "upstream"
 > for the "OASIS" repo, and "origin" for the "Fork" repo. The
-> instructions in
-> [C.3](#c3-clone-local-repository-from-personal-fork) describe
-> using `git` commands to establish the "OASIS" and "Fork" names
-> used here.
-
-3. Local: A Contributor
-   "[clones](https://help.github.com/en/github/getting-started-with-github/github-glossary#clone)"
-   their GitHub fork of the document to a Git environment on
-   their local system.
+> instructions in [B.1](#b1-local-names-for-remote-repositories)
+> describes using `git` commands to establish the "OASIS" and
+> "Fork" names used here.
 
 4. Local: The Contributor can edit document content and create
    additional content, including graphics and other files in
-   their local environment.  Git is used on the local machine
-   command line to update the local repo to reflect new and
-   modified content.
+   their local environment.  Command line `git` or a git-aware
+   editing tool is used on the local machine command line to
+   update the local repo to reflect new and modified content.
 
 5. Local: When the Contributor wishes to submit material to
-   change the primary document, they use the Git
+   change the primary document, they use the `git`
    "[push](https://help.github.com/en/github/getting-started-with-github/github-glossary#push)"
-   command (local command line) (NOTE:  Some local editing tools,
-   such as the Microsoft Visual Studio Code editor, have built-in
-   support for pushing changes to GitHub, eliminating the need to
-   use the command line.) to replicate their content to their
-   fork repo. This updates the fork repo to match the local repo.
+   command (on the local command line) to replicate their content
+   to their fork repo. This updates the fork repo to match the
+   local repo. Pushes can be done frequently to propogate local
+   changes to the GitHub fork as a backup mechanism, until the
+   Contributor determines it is time to contribute their changes
+   onward. Note that `git`-aware editing tools, such as the
+   Microsoft Visual Studio Code editor, have built-in support for
+   pushing changes to GitHub, eliminating the need to use the
+   command line.
 
 6. GitHub: The Contributor creates a [Pull
    Request](https://help.github.com/en/github/getting-started-with-github/github-glossary#pull-request)
    (PR) from their GitHub fork repo back to the upstream repo to
    contribute their proposed changes to the primary document.
    Pull requests can target the default branch of the upstream
-   repo (`main` is the standard default branch on GitHub) or any
-   other chosen
+   repo or any other chosen
    [branch](https://help.github.com/en/github/getting-started-with-github/github-glossary#branch)
    (e.g., the "working" branch being used to accumulate changes
-   toward a future version of a document).
+   toward a future version of a document). Recall that while
+   `main` is the standard default branch on GitHub, `published`
+   is the default for OpenC2 work product repos, as described in
+   [Section 4.3.3](#433-configure-repository).
 
-7. GitHub: The Project Owner can accept a Pull Request to merge
-   the Contributor's material into the specified branch of the
+7. GitHub: The Project Owner can accept a PR to merge the
+   Contributor's material into the specified branch of the
    upstream repo. This modifies the upstream document by
    incorporating the Contributor's additions and deletions.
    GitHub offers the Project Owner the option to edit the
    contribution before merging the pull request.
 
-GitHub has no obvious mechanism to update a fork repo with
-changes from the upstream repo. A straightforward approach is to
-delete the fork and create a new one. If you are also working
-with a local Git repo, however, the Contributor can add the
-upstream repo as a remote repo. This creates a linkage among all
-three repos. The Contributor can then, at any time, "Fetch" the
-upstream repo to update the local repo to be consistent, and then
-"Push" the local repo to the fork repo on GitHub to synchronize
-it. The processes to [configure an upstream
-repo](https://help.github.com/articles/configuring-a-remote-for-a-fork/),
-[synchronize upstream changes to a
-fork](https://help.github.com/articles/syncing-a-fork/), and
-[push to your GitHub
-fork](https://help.github.com/articles/pushing-to-a-remote/) are
-described in GitHub help.
+As the above process is executed, the upstream repo may be
+receiving changes from multiple contributors, which means that
+any one contributor's fork may become out of sync with the
+upstream repo. GitHub has a feature to update a fork repo with
+changes from the upstream repo. As shown below in [Figure
+6](#figure-6-upstream-fetch-and-merge), when viewing your fork of
+the upstream repository, GitHub will indicate if the currently
+selected branch is behind the corresponding upstream branch.
+Clicking on "Fetch upstream", and then selecting the "Fetch and
+merge" button will update the fork from the upstream repository.
+This greatly simplifies maintaining synchronization when multiple
+parties are contributing to the upstream repository. Once you've
+resynchronized your fork, you should then also synchronize the
+local clone. If the upstream and the fork are badly out of
+synchronization, it may still be more straightforward to delete
+and recreate the fork (and your local clone). 
 
-An easier approach, and one that’s useful if you have a fork on
-GitHub but aren’t doing local editing with Git, is to apply the
-[method described
-here](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
-to create a pull request from the upstream repo to the fork.
+#### Figure 6: Upstream Fetch and Merge
 
-> NOTE: experimenting with that method, it seems to create
-something of a loop condition between the fork and the upstream
-repo, where the commit of the PR from upstream to fork shows up
-as the fork being a commit ahead, and creating a new fork -->
-upstream PR just perpetuates the problem. So deleting and
-recreating the fork may still be a cleaner approach.
+![Upstream Fetch and Merge](images/upstream-fetch-and-merge.png)
 
-# Appendix C: GitHub- / Markdown-Based Process & Procedures
+## B.1 Local Names for Remote Repositories
 
-> This section is currently incomplete
-
-"feature branches" are normally worked in forks of the "working" branch. They can be related to official Issues or just new features that someone wants to be considered. To consider the feature, a Pull Request is created against the "working" branch of the "upstream" repository
-
-Committees can publish Working Drafts to the TC documents on
-OASIS. The current commit of the "working" branch is tagged
-as a GitHub Release.
-
-The TC can vote to approve a Working Draft as a Committee
-Specification Draft. Once approved by the TC, the Release
-description can be edited to record the approval and link to
-the published version of the CSD at OASIS. Work product
-editors should compare the front matter of the
-OASIS-published CSD to the version in their `working` branch
-and make any appropriate updates to the working version.
-
-Same with CSPRD…
-
-Same with CS…
-
-(Assumption: Start with template in "published" branch.)
-
-* Create OASIS "working" Branch
-
-* Fork OASIS Repository
-
-* Clone Local Repository from Personal Fork
-
-* Create "feature" Branch in Local Repository
-
-* Commit Changes to Local "feature" Branch
-
-* Push Local Changes from "feature" Branch to Personal Fork
-
-* Create Pull Request to OASIS Repository
-
-* Approve Pull Request
-
-* Create Working Draft (WD)
-
-* Create Committee Specification Draft (CSD)
-
-* Create Public Review Draft (CSPRD)
-
-* Create Committee Specification (CS)
-
-* Update "working" Branch in the OASIS Repo from "published" Branch to reflect changes made by OASIS TCADMIN when publishing the specification
-
-* Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch
-(do this if pull request have been approved to the "working" branch of the OASIS Repo)
-
-## C.1 Create OASIS "working" Branch
-
-**From GitHub OASIS Repo**
-
-* From the "published" branch, click on the "Branch" drop-down button.
-
-* Type the branch name, "working", into the text box.
-
-* Click the link to "Create Branch: working from 'published'"
-
-## C.2 Fork OASIS Repository
-
-This will create a copy of the OASIS repository into your personal GitHub account.
-
-**From GitHub OASIS Repo**
-
-* Click on the "Fork" button in the upper-right corner of the "Code" page.
-
-* The Branch Infobar will display: "This branch is even with oasis-tcs:published."
-
-## C.3 Clone Local Repository from Personal Fork
-
-This will create a copy of your personal forked repository into your local computer. 
-
-(This assumes that you have installed Git on your local computer.)
-
-**From Personal Forked Repo**
-
-* Click on the green "Clone or download" button.
-
-* Copy the web URL.
-
-**From Local Command Line**
-
-* Clone the repo
+By default the local `git` environment will identify the local
+clone of your fork of a repository as `origin`, and the original
+repository that was forked as `upstream`. It is possible to
+rename the remote repositories to names the user prefers. This is
+done using the command: 
 
 ```
-$ git clone https://github.com/<personal-account>/<repo-name>.git
+git remote rename <current> <new>
 ```
 
-where `personal-account` is the name of your personal account and `repo-name` is the name of the repository.
-
-* Copy the web URL of the OASIS repository.
-
-* Create a reference to the OASIS repository. This will create a remote tracking branch. This is often called the "upstream" remote, but is called "oasis" for clarity.
-
-```
-$ git remote add oasis https://github.com/oasis-tcs/<repo-name>.git
-```
-
-
-where `<repo-name>` is the name of the repository.
-
-* Rename the "origin" remote tracking branch to "fork". This step is not necessary, but it is done for clarity. The rest of the procedures here use the name, "fork", when referring to this remote tracking branch.
+The following commands will change the default names to `fork`
+and `oasis`, respectively:
 
 ```
 $ git remote rename origin fork
+$ git remote rename upstream oasis
 ```
 
-
-* Verify that two remote tracking branches have been created: "fork" and "oasis".
+You can verify that two remote tracking branches have been
+created: "fork" and "oasis" with the command `git remote -v`:
 
 ```
 $ git remote -v
@@ -1153,253 +1060,7 @@ oasis   https://github.com/oasis-tcs/<repo-name>.git (fetch)
 oasis   https://github.com/oasis-tcs/<repo-name>.git (push)
 ```
 
-
-## C.4 Create "feature" Branch in Local Repository
-
-**From Local Command Line**
-
-Replace `<new-feature>` with the name of the new branch.
-
-* Checkout the "working" branch.
-
-```
-$ git checkout working
-```
-
-
-* Create a new branch (the "-b" option creates the branch and switches to the newly created branch in a single step)
-
-```
-$ git checkout -b <new-feature>
-```
-
-
-* Set the upstream tracking reference for the new branch.
-
-```
-$ git push --set-upstream fork <new-feature>
-```
-
-## C.5 Commit Changes to Local "feature" Branch
-
-After changes have been made to the files in the "feature" branch, the changes should be committed.
-
-**From Local Command Line**
-
-Make sure that the "feature" branch is checked out.
-
-* Add any untracked files to the staging area.
-
-```
-$ git add .
-```
-
-
-* Commit the files to the local repository with a commit message. It is customary for the commit message to be written in present, active tense.
-
-```
-$ git commit -m "add message"
-```
-
-
-## C.6 Push Local Changes from "feature" Branch to Personal Fork
-
-**From Local Command Line**
-
-* Push the local, committed changes upstream
-
-```
-$ git push
-```
-
-
-## C.7 Create Pull Request to OASIS Repository
-
-**From Personal Forked Repo**
-
-* Click the green "Compare & pull request" button.
-
-* Select the "working" base branch of the "oasis" repo.
-
-* Set the pull request title and comments, as necessary.
-
-* Click the green "Create pull request" button.
-
-## C.8 Approve Pull Request (TBD)
-TBSL
-
-## C.9 Create Working Draft (WD) (TBD)
-TBSL
-
-## C.10 Create Committee Specification Draft (CSD) (TBD)
-TBSL
-
-## C.11 Create Public Review Draft (CSPRD) (TBD)
-TBSL
-
-## C.12 Create Committee Specification (CS) (TBD)
-TBSL
-
-**From Local Command Line**
-
-* Checkout the "published" branch.
-
-```
-$ git checkout published
-```
-
-
-
-* Copy the published files into the "published" branch.
-
-* Make any other updates, as necessary
-
-* Commit the changes to the "published" branch
-
-```
-$ git add .
-$ git commit -m "add message"
-```
-
-
-* Push the committed changes to the "fork" remote
-
-```
-$ git push
-```
-
-
-**From Personal Forked Repo**
-
-* Click the "Pull request" link on the branch infobar.
-
-**From OASIS Repo**
-
-* Select the "published" base branch of the "oasis" repo.
-
-* Click the green "Create pull request" button.
-
-* Set the pull request title and comments, as necessary.
-
-* Click the green "Create pull request" button.
-
-* Click the green "Merge pull request" button.
-
-* Click the green "Confirm merge" button.
-
-* View the "Code" page of the "published" branch
-
-* Click the "releases" link
-
-* Click the "Draft a new release" button
-
-* Set the "Tag version" and "Release title", per convention
-
-* Ensure that the release "Target" is "published".
-
-* Click the green "Publish release" button
-
-**From Local Command Line**
-
-* Fetch and merge the changes from the OASIS repo.
-
-
-```
-$ git fetch oasis
-$ git merge oasis/published
-```
-
-
-* Push these changes back into your "fork" repo.
-
-```
-$ git push
-```
-
-
-**From Personal Forked Repo**
-
-* Refresh the page for the "published" branch of the Forked repo.
-
-* Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:published."
-
-## C.13 Update "working" Branch in the OASIS Repo from "published" Branch
-
-**From Local Command Line**
-
-* Checkout the "working" branch.
-
-```
-$ git checkout working
-```
-
-* Merge the changes from the "published" branch into the "working" branch
-
-```
-$ git merge published
-```
-
-* Push the changes to the Personal Forked Repo
-
-```
-$ git push
-```
-
-
-**From Personal Forked Repo**
-
-* Click the green "Compare & pull request" button.
-
-**From OASIS Repo**
-
-* Verify that the base repository is the OASIS repo and the base branch is "working"
-
-* Set the pull request title and comments, as necessary.
-
-* Click the green "Create pull request" button.
-
-* Click the green "Merge pull request" button.
-
-* Click the green "Confirm merge" button.
-
-**From Local Command Line**
-
-* Fetch and merge the changes from the OASIS repo.
-
-```
-$ git fetch oasis
-$ git merge oasis/working
-```
-
-
-* Push these changes back into your "fork" repo.
-
-```
-$ git push
-```
-
-
-**From Personal Forked Repo**
-
-* Refresh the page for the "working" branch of the Forked repo.
-
-* Inspect the Branch Infobar. It should state: "This branch is even with oasis-tcs:working."
-
-## C.14 Update "working" Branch in the Personal Fork with OASIS Repo "working" Branch (TBD)
-
-After creating the CS in the "published" branch and applying the CS to the  "working" branches, the Git Log from the "working" branch should look similar to the following:
-
-```
-$ git checkout working
-$ git log --oneline -n 10
-3fb479b7 (HEAD -> working, oasis/working, fork/working) Merge pull request #104 from ghuserid/working
-690245de remove HTML and PDF files
-4392cf27 (tag: v1.0-cs01, oasis/published, fork/published, fork/HEAD, published) Merge pull request #102 from ghuserid/published
-06828efd update readme
-0df24dd0 sync to OASIS-published files, v1.0-cs01
-```
-
-# Appendix D: Markdown Formatting Conventions
+# Appendix C: Some Markdown and Document Management Tips
 
 Markdown is text-oriented and intended to be both easily readable in its raw form, and easily rendered into HTML or other more visually pleasing forms. GitHub provides some guides for using GitHub-Flavored Markdown (GFM):
 
@@ -1409,227 +1070,108 @@ Markdown is text-oriented and intended to be both easily readable in its raw for
 
 * GFM spec:  [https://github.github.com/gfm/](https://github.github.com/gfm/) -- a detailed formal specification of GFM, more useful to programmers than editors, but can help with troubleshooting.
 
-This section provides a quick reference to the GFM features most used in preparing OpenC2 work products. 
+This section points out some aspect of using GFM to help simplify document creation, maintenance, and reading. 
 
-## D.1 Headings
+## C.1: Short Lines in Markdown Source
 
-Section headings in GFM are indicated by leading pound signs / hash marks on a line:
+`git` was originally created to track changes in computer source
+code, which is generally very line-oriented, and lines of
+computer code are typically relatively short. When GitHub
+displays a diff, it's doing a line-by-line comparison between the
+old and new versions. In a document, if a paragraph is one very
+long line, it's much harder for GitHub to easily display the
+line-in / line-out changes, so it's helpful to break the source
+text into shorter lines and maintain that approach to make
+changes more visible when viewing a diff (e.g., in a pull
+request). 
 
-```
-# This is a Level 1 heading
-```
-# This is a Level 1 heading
+## C.2: Internal Hyperlinks
 
-```
-## This is a Level 2 heading
-```
-## This is a Level 2 heading
-
-The maximum header level is six. A blank line is not required between a heading and the text that follows it. A blank line is required between paragraphs of ordinary text.
-
-OpenC2 TC documents use [decimal outline numbering](https://en.wikipedia.org/wiki/Outline_(list)#Decimal_outline) (1.0, 1.1, 1.1.1, 1.1.2, etc.). At present, editors will need to manually add section numbers to the heading lines in their documents, e.g,
-
-```
-# 1.0 Heading 1
-# 2.0 Another Heading 1
-## 2.1 Heading 2
-## 2.2 Another Heading 2
-```
-
-We are investigating tools that may make this easier.
-
-The template document supplied by OASIS also uses hash marks to highlight heading lines in the up-front boilerplate material. Document editors should leave those hash marks in place in order not to disturb OASIS formatting; however, be aware that those lines will create table-of-contents (TOC) entries that will need to be manually removed from the TOC.
-
-## D.2 Emphasis: Bold and Italic Text
-
-Text can be emphasized by surrounding it with paired markers, either underlines or asterisks.  Single markers produce italic text, double markers produce bold text.  Examples:
+Cross-links to a section header or figure label within a document
+use the same hyperlink structure as ordinary web links, but with
+a specific format for the `(link)` portion. As an example, the
+following source:
 
 ```
-*This text will be italic*
-
-_This will also be italic_
-
-**This text will be bold**
-
-__This will also be bold__
-
-_You **can** combine them_
+[3.2.2 A Level 3 Heading](#322-a-level-3-heading)
 ```
 
-## D.3 Hyperlinks and Section Cross-links
+will display as [3.2.2 A Level 3 Heading](#322-a-level-3-heading)
+and is an active internal cross link.  
 
-A hyperlink in a GFM document is entered as follows:  `[text to display](link)`.  A simple example would be 
-
-```
-[this links to Google]([https://www.google.com](https://www.google.com))
-```
-which produces [this links to Google](https://www.google.com).
-
-Cross-links to a section header within a document use the same hyperlink structure with a specific format for the `(link)` portion. An example:  
-
-```
-[3.2.2 HTTP Usage](#322-http-usage). 
-```
-[3.2.2 HTTP Usage](#322-http-usage). 
-
-The text to display is the same as with any other link, but the (link) portion has 
+The text to display is the same as with any other link, but the
+(link) portion has 
 
 * a single leading hash mark, 
-
 * the section number with punctuation removed, and 
-
 * the section name in lower case with all spaces replaced with hyphens. 
 
-When using pandoc to create a TOC (as described below), all of the TOC entries are automatically created using this format so that the TOC is a collection of links to the document's sections. We've noticed that pandoc's TOC creation doesn't always correctly handle headings that contain characters like ampersands (&) and forward and back slashes, so a quality control check of the links it produces is important.
+When using a tool like `pandoc` to create a TOC, all of the TOC
+entries are automatically created using this format so that the
+TOC is a collection of active links to the document's sections.
+Experience has shown that automatic TOC creation doesn't always
+correctly handle headings that contain characters like ampersands
+(&) and forward or back slashes, so a quality control check of
+generated links is important, and some manual editing may be
+necessary to fix a link that doesn't work due to special
+characters.
 
-## D.4 Images
+## C.3 Creating Images and Editable Sources
 
-Images are inserted using the hyperlink form with a leading exclamation point. The text to display portion is treated as the alternative text for the image. The link can be relative, so it can easily be pointed to the /images folder included in the OASIS starter document.  An example image link:  
+When creating graphics for a work product, editors should favor
+approaches that also create an editable original file, ideally in
+an open format, available to TC for future use. The goal is to
+ensure that a graphic can be edited, if necessary, for future
+document versions. The suggested approach for graphic handling
+is:
 
-```
-![This is an image.](./images/AnImage.png)
-```
+* Create a folder in the document repo to hold editable image
+  sources (e.g., `/sources`)
+* Create images using an open source or widely available tool
+  (see suggestions below)
+* Export images for use in document from the image editor in a
+  suitable form (e.g., PNG, JPEG), and place those images in the
+  `/images` folder in the document repo so that they can be
+  linked into the document
+* Place the corresponding editable source files for the image in
+  the `/sources` folder
 
-## D.5 Figure and Table numbering
-
-TBD
-
-## D.6 Code Examples
-
-Where normal document text will be rendered in a proportional font, text intended to be understood as code is usually formatted in a fixed-width font.  Code formatting is used two ways: 
-
-1. to highlight terms in-line in the text, and 
-
-2. to format an example block of code distinctly from normal document text. 
-
-In-code code is surrounded by single backticks:  `CodeWord`.  Code examples are surrounded by leading and trailing marker of three backticks: ```<block of code>```.  Text between leading and trailing backtick code markers will be displayed in a fixed font with a shaded background.  An example of block code:
-
-```
-HTTP/1.1 200 OK
-Date: Wed, 19 Dec 2018 22:15:00 GMT
-Content-type: application/openc2-cmd+json;version=1.0
-X-Request-ID: id_1234
-{   
-    "action": "contain",
-    "target": {
-        "user_account": {
-            "user_id": "fjbloggs",
-            "account_type": "windows-local"
-        }
-    }
-}
-```
-
-## D.7 Editor's Notes
-
-During the development of a document there is often a need for the editor to provide explanation of work in progress or an indicator of the planned content of a section. The GFM block quote function is used for this, by preceding the relevant line(s) with a greater-than symbol (>).
-
-```
-> This text will be rendered as a block quote.
-```
-> This text will be rendered as a block quote.
-
-## D.8 Ordered and Unordered Lists
-
-Lists entries are identified by a leading character to signal that it's a list item. An asterisk (*) is used for unordered list items, and a number with a period (1.) for ordered list items. Nesting / hierarchy is shown by indenting subordinate list entries.  Examples:
-
-An unordered list:
-
-```
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-```
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-
-```
-An ordered list:
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-```
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-
-
-
-For indentation to work properly, the list entry marker for the indented item must fall under the text of unindented item above. Hence, in the example above, the indented items are indented by three columns to align with the text (the "I" in "Item …") of the unindented item above.
-
-## D.9 Tables
-
-Tables are created with pipes | and hyphens -. Hyphens are used to create each column's header, while pipes separate each column. There must be at least 3 hyphens in each column of the header row. You must include a blank line before your table in order for it to correctly render.
-
-```
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-```
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-
-GFM offers additional flexibility in formatting tables, the details are described [here](https://help.github.com/en/articles/organizing-information-with-tables).
-
-## D.10 "short lines"
-
-When GitHub displays a diff, it's doing a line-by-line comparison, and recall the tool was created for software version control. Lines of code are typically short. In a document, if a paragraph is one very long line, it's much harder for GitHub to easily display the line-in / line-out changes, so it's helpful to break the text into shorter lines to make changes more visible. 
-
-## D.11 Graphics
-
-When creating graphics for a work product, editors should favor approaches that leave an editable original file, ideally in an open format, available to TC for future use. The goal is to ensure that a graphic can be edited for use in new document versions. The suggested approach for graphic handling is:
-
-* Create a folder in the document repo to hold editable image sources (e.g., `/src`)
-
-* Create images using an open source or widely available tool (see below)
-
-* Export images for use in document from the image editor in a suitable form (e.g., PNG, JPEG), and place those images in the `/images` folder in the document repo so that they can be linked into the document
-
-* Place the corresponding editable source files for the image in the `/src` folder
-
-For images created and stored purely in web-based tools (e.g., Google Draw), create a file (e.g., SourceLinks.md) in the `/src` folder, and populate that file with brief descriptions of the images and corresponding links to the original image file in, e.g., the TC's Google Drive space.
+For images created and stored purely in web-based tools (e.g.,
+Google Draw), create a file (e.g., `SourceLinks.md`) in the
+`/sources` folder, and populate that file with brief descriptions
+of the images and corresponding links to the original image file
+in, e.g., the TC's Google Drive space.
 
 Some suggestions for image editing / creation tools:
 
-* Diagrams.net, [a free, on-line diagramming tool](https://www.diagrams.net/) similar to Visio / Gliffy / LucidChart; 
+* Diagrams.net, [a free, on-line diagramming
+  tool](https://www.diagrams.net/) similar to Visio / Gliffy /
+  LucidChart
 
-* Gravit Designer, "full featured" [vector editor](https://www.designer.io/en/), has free and pro versions
+* [PlantUML](https://plantuml.com/), a tool that can render a
+  variety of images from structured source text. Excellent for
+  creating sequence diagrams. PlantUML's [on-line
+  server](https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+  can be used without need for any local software installation.
+  Image source code can be freely transferred with copy-and-paste
+  between a local copy of an image's source and the server's code
+  window for updating.
 
-* Vector diagramming / [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)-based tools like [Inkscape](https://inkscape.org/)
+* Gravit Designer, "full featured" [vector
+  editor](https://www.designer.io/en/), has free and pro versions
 
-* Google Draw for diagrams created in the TC's OASIS Google Drive space
+* Vector diagramming /
+  [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)-based
+  tools like [Inkscape](https://inkscape.org/)
 
-* Well-known office application drawing tools (e.g., PowerPoint, LibreOffice)
+* Google Draw for diagrams created in the TC's OASIS Google Drive
+  space
 
-## D.12 Table of Contents Creation
+* Well-known office application drawing tools (e.g., PowerPoint,
+  LibreOffice)
 
-The [pandoc](https://pandoc.org/index.html) document processing and conversion tool is used to create tables of contents (TOC). This requires the [installation](https://pandoc.org/installing.html) of pandoc, and a local copy of the Markdown file. If the editor has created a local git repository for the document, the Markdown file will be there. Otherwise the editor must download a copy of the files from GitHub.
 
-A simple pandoc command generates a table of contents:  
 
-```
-pandoc -f gfm --toc -s -o <outfile> <infile>
-```
-
-The TOC will be created at the very beginning of the output file.  Heading to appear as TOC entries are identified within the Markdown text file by lines with leading hash marks. The template / starter document from OASIS also uses hash marks in the up-front material to provide emphasis and structure to their boilerplate content. Clean-up of the pandoc-generated TOC requires the editor to:
-
-* Remove all TOC entries associated with OASIS template items
-
-* Move the TOC from the beginning of the file to the proper location, just before section 1.0 of the document (i.e., before the TC-created content)
-
-When generating a new working draft (WD) for posting to OASIS, it is prudent to generate a current TOC, clean it up, and replace any previous TOC with the current version
 
 # Appendix E: Google Document Formatting Standards (Legacy)
 
