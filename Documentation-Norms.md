@@ -270,10 +270,7 @@ repositories in use by the OpenC2 TC:
   to
   [commit](https://help.github.com/en/github/getting-started-with-github/github-glossary#commit)
   changes to the repository's contents, be those changes their
-  own work or contributions from other TC members. Typically the
-  maintainers of a TC work product repo will be the editors of
-  the product. Other maintainers may be identified if there is a
-  need.
+  own work or contributions from other TC members. The assignment of maintainers is discussed in [Section 4.3.2](#432-request-repository-and-assign-maintainers). 
 
 * **TC Working Repos:** In addition to repos specific to
   individual work products, the TC has other repos to support its
@@ -484,32 +481,49 @@ package contains other valuable info, which the editor(s) should
 also read (the same information is included in the README text
 file).
 
-### 4.3.2 Request Repository
+### 4.3.2 Request Repository and Assign Maintainers
 
-When requesting a repository (AKA "[TC GitHub version control
-instance](https://www.oasis-open.org/policies-guidelines/github-repositories-for-oasis-tc-members-chartered-work/)")
-for a work product, it is necessary to identify the maintainer(s)
-to be assigned to the new repo, and provide a description of the
-work product. All editors of the work product should be named as
-the maintainers of the GitHub repository, so every editor needs a
-[GitHub](https://www.github.com) account. Document editors must
-be familiar with the OASIS guidance on using [GitHub Repositories
-for OASIS TC Members' Chartered
+OASIS TC Administration has overall control of repositories for
+OASIS work products (i.e., repositories that appear in the
+`github.com/oasis-tcs/...` space on GitHub). TC Administration
+are the only entity that can create new repositories, rename
+existing repositories, archive a repository that is no longer
+needed, and manage GitHub user privileges regarding any
+particular repository.
+
+When requesting a repository for a new work product, the TC
+provides descriptive information for the work product, a link to
+the TC meeting minutes that document approval of the repository's
+creation, and identifies the maintainer(s) to be assigned to the
+new repo. The OpenC2 TC's convention is that the maintainers of a
+work product repo are:
+
+ - All editors of the work product,
+ - The TC co-chairs, and 
+ - The TC secretary.
+
+The co-chairs and secretary are named as maintainers to provide
+backup / continuity if the editor(s) become unavailable. Every
+maintainer must establish a [GitHub](https://www.github.com)
+account. Document editors must be familiar with the OASIS
+guidance on using [GitHub Repositories for OASIS TC Members'
+Chartered
 Work](https://www.oasis-open.org/resources/tcadmin/github-repositories-for-oasis-tc-members-chartered-work).
 In particular, the repo maintainers must enforce that
 contributions to the work product are only from TC members and
 that the Intellectual Property policy under which the TC operates
-is enforced. Our TC's convention is that the co-chairs and secretary
-are also named as maintainers to provide backup / continuity if
-the editor(s) become unavailable.
+is enforced.
 
-OASIS TC Administration will take care of creating
-the repo, assigning the maintainers, and notifying the
-maintainers once the repo has been created. A list of the TC's
-work product repos and the maintainers associated with each can
-be found on the OASIS
+The GitHub identifiers of the maintainers are listed in a "write
+team" on the site. When OASIS TC Administration creates the repo,
+they will assign the maintainers by addeing them to the write
+team, and then will notify the TC mail list once the repo has
+been created. A list of the TC's work product repos and the
+maintainers associated with each can be found on the OASIS
 [Teams](https://github.com/orgs/oasis-tcs/teams?utf8=%E2%9C%93&query=openc2)
-page on GitHub.
+page on GitHub. Changes to a repository's write team can be
+intituted by emailing a request to the OASIS TC Administration
+team (i.e, Chet Ensign and Paul  Knight).
 
 
 ### 4.3.3 Configure Repository
