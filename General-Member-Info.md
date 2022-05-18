@@ -16,16 +16,17 @@ operates:
 
 We conduct TC and working meetings using [Lucid
   Meetings](https://www.lucidmeetings.com). As the OASIS Kavi
-  system is the system of record for TC activities, you'll
-  receive two invitations for each meeting _series_: one from
-  Kavi, one from Lucid. We schedule our meetings in 6-month
-  blocks, so when we schedule a new block each member receives a
-  brief flurry of email with calendar invitations (10 calendar
-  invites, total).
+  system is the system of record for TC activities, we schedule
+  our meetings on both the Kavi and Lucid calendars, but you'll
+  only receive one invitations for each meeting series, from
+  Lucid. We schedule our meetings in 6-month blocks, so when we
+  schedule a new block each member receives a brief flurry of
+  email with calendar invitations (5 calendar invites, total).
+
   * Wednesdays at 11:00 AM Eastern time is "OpenC2 time"
-  * Our monthly TC meetings have a daytime (11:00 AM Eastern) and
-    evening (9:00 PM Eastern) session on the **third** Wednesday
-    of each month. Per [Standing Rule
+    * Our monthly TC meetings on the **third** Wednesday of each
+    month have an "early" (11:00 AM Eastern) and a "late" (9:00
+ PM Eastern) session . Per [Standing Rule
     #6](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2#other)
     attendance at either session (which you should record in
     Kavi) constitutes attendance for that month's meeting. We
@@ -35,10 +36,11 @@ We conduct TC and working meetings using [Lucid
     meeting minutes, motions voted, etc. This means decisions
     made at the daytime session are provisional until the evening
     session is adjourned.
-  * (_As of April 2021 we have a new standing meeting schedule_).
+    * (_As of April 2021 we have a new standing meeting schedule_).
     The 1st, 2nd, and 4th Wednesdays of each month are used for
     working meeting to discuss topics related to TC work products
     and other technical matters. If there are five Wednesdays in a month, there is usually no meeting on the 5th Wednesday.
+
   * In OASIS Kavi, all meetings are scheduled on the TC calendar (We've eliminated our subcommittees, but they still exist in the system. We no longer use the SC calendars or email lists.)
   * The entire meeting schedule will be visible on your Lucid
     dashboard and calendar once you've been added to the OpenC2
@@ -47,7 +49,7 @@ We conduct TC and working meetings using [Lucid
   
 ### TC Communications:
   * In joining our TC you’re automatically subscribed to the TC email list. 
-  * We also do much of our communications in our [Slack community](https://openc2-community.slack.com). 
+  * We also have a [Slack community](https://openc2-community.slack.com). 
 You'll receive an invitation for that as well.
 
 ### Work Product Development
