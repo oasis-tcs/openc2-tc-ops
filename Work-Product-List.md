@@ -34,6 +34,7 @@ This list is presented alphabetically by work product title.
 | [jadn-im](https://github.com/oasis-tcs/openc2-jadn-im) | JADN Information Modeling (CN) | | David Kemp<br>Dan Johnson | David Kemp<br>Dan Johnson<br>Duncan Sparrell<br>David Lemire |
 | [lc](https://github.com/oasis-tcs/openc2-ap-lc) | Log Collector | | Alex Everett<br>David Kemp | Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
 | [odxl](https://github.com/oasis-tcs/openc2-transf-odxl) | OpenDXL Transfer Specification | | Duncan Sparrell<br>_Scott MacGregor_ | David Lemire<br>Duncan Sparrell |
+| [pac](https://github.com/oasis-tcs/openc2-ap-pac) | Posture Attribute Collection | | David Kemp<br>David Lemire | David Kemp<br>David Lemire<br>Michael Rosa<br>Duncan Sparrell |
 | [pf](https://github.com/oasis-tcs/openc2-ap-pf) | Packet Filter | | Alex Everett | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
 | [sbom](https://github.com/oasis-tcs/openc2-ap-sbom) | Software Bill of Materials | | Duncan Sparrell | Duncan Sparrell<br>Alex Everett<br>David Kemp<br>David Lemire |
 | [swup](https://github.com/oasis-tcs/openc2-ap-swup) | Software Update | | Duncan Sparrell | Duncan Sparrell<br>David Lemire |
