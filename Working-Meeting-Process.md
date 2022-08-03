@@ -7,8 +7,7 @@ three working meetings on the 1st, 2nd, and 4th Wednesdays of
 each month at 11:00 am Eastern time. This document describes the
 norms for planning, conducting, and recording the results of
 working meetings. Working meetings primarily focus on advancing
-the TC's work products, which are listed in [this
-document](Work-Product-List.md).
+the TC's work products, as listed in the [Work Product List](Work-Product-List.md).
 
 ## Standing Agenda Format
 
@@ -20,12 +19,15 @@ The agenda for working meetings, generally, is:
     *	Link to work products page
     *	Review & approve agenda
 
-2.	**Pull Requests for Agreement** 
-    *   List any PRs that are ready to go in the order they were
-        distributed (i.e., older goes first, incentive to get in
-        early)
+2.	**Pull Requests for Agreement**
+
+ *   List any PRs that are ready to go in the order they were
+    distributed (i.e., older goes first, incentive to get in
+        early). Generally such PRs have been discussed at
+        previous meetings but there is no requirement for prior
+        discussion.
         * **Format:  list PRs directly on this agenda page, no sub-pages**
-    *   Simple "Any objection or discussion?" on each PR 
+ *   Simple "Any objection or discussion?" on each PR 
         *	if none, merge the PR
         *	If any discussion, change PR to draft and defer to item 3 on agenda
 
@@ -45,14 +47,16 @@ The agenda for working meetings, generally, is:
     *   If draft PR is something discussed before and has no new
         changes, it can be skipped until changes have been made
         and/or consensus reached
+    *   Working meeting participants can agree that a PR 
+        presented for discussion is ready to be merged and approve such PRs.
 
 4.	**Special Topics** 
-    *   Dedicated agenda time (time bound) on a topic that was
+    *   Dedicated agenda time (time bound) on any topic that was
         requested prior to meeting and added to agenda. In some
         meetings this might be 30 min dedicated to resolving some
-        particularly thorny issue. Is other meetings, it might be
+        particularly thorny issue. In other meetings, it might be
         skipped entirely.
-        * **Format: List PRs on this page, create sub-agenda item (i.e., 3.1, 3.2, ...) with detailed information for discussion**
+        * **Format: List topics on this page, create sub-agenda item (i.e., 4.1, 4.2, ...) with detailed information for discussion**
 
 5.	**Work Product Status/Next Steps** 
     *   List all work products, in different order each meeting
