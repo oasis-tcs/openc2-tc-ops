@@ -35,9 +35,9 @@ technology. OpenC2 is a project under
 **I**nformation **S**tandards, a nonprofit international
 consortium that develops open IT standards.
 
-> *NOTE: agreed to add this FAQ at the 5 October 2022 working meeting.*
-
 ### How is the "suite" of OpenC2 Specifications organized?
+
+> *NOTE: agreed to add this FAQ at the 5 October 2022 working meeting.*
 
 As described in the [_OpenC2 Architecture
 Specification_](https://docs.oasis-open.org/openc2/oc2arch/v1.0/oc2arch-v1.0.html),
@@ -114,12 +114,12 @@ Specifications were approved in 2019. The OpenC2 TC continues to
 develop and improve the specifications in the suite.
 
 
-> _NOTE: at the 5 October 2022 working meeting, it was agreed the
-> following FAQ should be re-written as a "how relates to ...?"
+### What similiar efforts exist?
+
+> _NOTE: at the 5 October 2022 working meeting, it was agreed
+> this FAQ should be re-written as a "how relates to ...?"
 > question. A new answer regarding "similar efforts" may be
 > appropriate to retain this FAQ._
-
-### What similiar efforts exist?
 
 There are some similarities between OpenC2 and the recently
 announced [Open Cybersecurity Alliance's OpenDXL
@@ -130,11 +130,11 @@ allowing for granular implementations to various operational
 environments.
 
 
-> _NOTE: the following FAQ should probably also refer to transfer
+### Is there an OpenC2 API?
+
+> _NOTE: this FAQ should probably also refer to transfer
 > specifications beyond HTTPS. Also, ensure the HTTPS link is
 > pointing to the current specification._
-
-### Is there an OpenC2 API?
 
 The OpenC2 Language Specification and Actuator Profiles taken
 together define the request and response message content and
@@ -154,12 +154,12 @@ is captured in the TC's [Documentation
 Norms](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/Documentation-Norms.md).
 
 
-> _NOTE: Suggest the following FAQ answer be replaced with a link
-> (at least for the details) to the appropriate document in the
-> TC Ops repo that describes the meeting schedule, so that it
-> only needs to be maintained in one place._
-
 ### What is the meeting schedule?
+
+> _NOTE: Suggest this FAQ answer be replaced with a link (at
+> least for the details) to the appropriate document in the TC
+> Ops repo that describes the meeting schedule, so that it only
+> needs to be maintained in one place._
 
 All TC meetings are nominally scheduled for 1 hour duration, and
 are conducted using [Lucid
