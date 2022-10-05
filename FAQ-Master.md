@@ -7,7 +7,8 @@
 > visibility.
 
 > Initial content created from https://openc2.org/faq.html by
-> re-editing HTML content to GFM, 5 October 2022
+> re-editing HTML content to GFM, 5 October 2022, plus some
+> changes agreed to at that working meeting.
 
 ### What is OpenC2? 
 
