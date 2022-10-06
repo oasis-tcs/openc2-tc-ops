@@ -121,13 +121,7 @@ develop and improve the specifications in the suite.
 > question. A new answer regarding "similar efforts" may be
 > appropriate to retain this FAQ._
 
-There are some similarities between OpenC2 and the recently
-announced [Open Cybersecurity Alliance's OpenDXL
-Ontology](https://opencybersecurityalliance.github.io/opendxl-ontology/).
-OpenDXL is a cybersecurity messaging format for use with the
-OpenDXL messaging bus. However, OpenC2 is transport agnostic
-allowing for granular implementations to various operational
-environments.
+> TBD pending identification of other "similar efforts"
 
 
 ### Is there an OpenC2 API?
