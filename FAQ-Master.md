@@ -150,27 +150,37 @@ Norms](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/Documentation-Norm
 
 ### What is the meeting schedule?
 
-> _NOTE: Suggest this FAQ answer be replaced with a link (at
-> least for the details) to the appropriate document in the TC
-> Ops repo that describes the meeting schedule, so that it only
-> needs to be maintained in one place._
+OpenC2 meetings are routinely conducted Wednesdays at 11:00am
+Eastern Time ("OpenC2 Time").  All meetings are nominally
+scheduled for 1 hour duration, and are conducted using [Lucid
+Meetings](https://www.lucidmeetings.com/). 
 
-All TC meetings are nominally scheduled for 1 hour duration, and
-are conducted using [Lucid
-Meetings](https://www.lucidmeetings.com/).
+Our meeting formats are:
 
-Currently, the TC holds one "voting" meeting on the third
-Wednesday of each month. This meeting conducts official business
-and counts towards voting rights. The voting meeting is held in
-two parts to facilitate participation across timezones. The first
-part of the meeting is held at 11 AM Eastern and the second part
-(same agenda) is held at 9 PM Eastern. For minutes and attendance
-purposes, the two sessions are treated as a single meeting and
-attendance is only required at one of the two.
+ - TC Monthly Meeting: 3rd Wednesday of each month, in two
+   sessions
+ - Working Meetings: 1st, 2nd, and 4th Wednesdays of each month
 
-The TC also holds "working" meetings on the 1st, 2nd, and 3rd
-Wednesdays at 11 AM Eastern. There is no meeting on the 5th
-Wednesday of the month.
+The monthly TC meeting on the third Wednesday of each month
+**counts towards voting rights** and is where the TC conducts
+official business. The monthly meeting is held in two sessions to
+facilitate member participation across timezones:
+
+ - First session: 11:00 AM Eastern
+ - Second session: 9:00 PM Eastern
+
+The same agenda is used for both sessions, and the two sessions
+are treated as a single meeting for purposes of attendance and
+meeting minutes. Attendance is only required at one of the two
+sessions in order to maintain voting rights.
+
+The TC also holds working meetings on the 1st, 2nd, and 4th
+Wednesdays at 11 AM Eastern. These meetings focus on current work
+product development activities, technical issue resolution, and
+related topics (see the [Working Meeting
+Process](Working-Meeting-Process.md) document). 
+
+There is no meeting on the 5th Wednesday of the month, if any.
 
 
 ### How does OpenC2 relate to the OASIS [Collaborative Automated Course of Action Operations (CACAO) for Cyber Security TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cacao)? 
