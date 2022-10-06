@@ -191,7 +191,7 @@ operations. CACAO will have the ability of integrating different
 languages for controlling components that are part of cyber
 defense ecosystems, thus, OpenC2 is a candidate.
 
-### How does OpenC2 relate to STIX COA? 
+### How does OpenC2 relate to STIX [Course of Action (COA)](https://docs.oasis-open.org/cti/stix/v2.1/os/stix-v2.1-os.html#_a925mpw39txn)? 
 
 Structured Threat Information Expression (STIX™) is a language
 and serialization format used to exchange cyber threat
