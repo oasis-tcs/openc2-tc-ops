@@ -19,7 +19,7 @@ file](https://github.com/OpenC2-org/openc2-org.github.io/blob/main/README.md).
    the "write team") are assigned to:
    - the TC Co-Chairs
    - the TC Secretary
-   - the website architect[^1]
+   - the website architect [^1]
  - The TC Secretary serves as the Website Editor.
  - Website changes are proposed using GitHub pull requests
    directed to the
