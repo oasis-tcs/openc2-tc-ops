@@ -9,7 +9,7 @@ support awareness & adoption of OpenC2.
    - the TC Co-Chairs
    - the TC Secretary
    - the website architect[^1]
- - The TC Secretary serves as the Website Editor
+ - The TC Secretary serves as the Website Editor.
  - Website changes are proposed using GitHub pull requests
    directed to the
    [openc2-org.githib.io](https://github.com/OpenC2-org/openc2-org.github.io)
@@ -24,6 +24,7 @@ support awareness & adoption of OpenC2.
    - New / replacement carousel items
    - Items of comparable impact to the above
  - The Working Meeting should approve, at any regular meeting:
+   - Any **substantive changes** to content
    - Any **structural changes** to the site
  - Either TC Co-Chair or the Secretary can approve an “urgent”
    change that would normally go through the working meeting, if
