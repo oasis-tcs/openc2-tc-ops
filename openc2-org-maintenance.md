@@ -44,7 +44,7 @@ file](https://github.com/OpenC2-org/openc2-org.github.io/blob/main/README.md).
    change that would normally go through the working meeting, if
    needed (shouldn't really have any of those).
 
-## Background
+## History
 
 This SOP was originally agreed to by the Implementation
 Considerations Subcommittee in October 2020. With the abolition
