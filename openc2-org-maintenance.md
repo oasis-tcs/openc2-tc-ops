@@ -36,7 +36,8 @@ file](https://github.com/OpenC2-org/openc2-org.github.io/blob/main/README.md).
      secondary review)
    - New / updated / replacement home page carousel items
    - Items of comparable impact to the above
- - The Working Meeting should approve, at any regular meeting:
+ - A [Working Meeting](Working-Meeting-Process.md) should
+   approve:
    - Any **substantive changes** to content
    - Any **structural changes** to the site
  - Either TC Co-Chair or the Secretary can approve an “urgent”
