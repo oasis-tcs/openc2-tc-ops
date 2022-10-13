@@ -4,6 +4,17 @@ This note captures the SOP for approving changes to the
 [openc2.org](https://www.openc2.org) website, which exists to
 support awareness & adoption of OpenC2. 
 
+## Website Information
+
+The OpenC2.org website is hosted using GitHub pages, and is
+composed of a mixture of markdown and HTML content.  Instructions
+for maintaining the website are included in the source
+repository's [README.md
+file](https://github.com/OpenC2-org/openc2-org.github.io/blob/main/README.md).
+
+
+## Maintenance SOP
+
  - Privileges to commit changes to the OpenC2.org website (AKA,
    the "write team") are assigned to:
    - the TC Co-Chairs
@@ -30,6 +41,7 @@ support awareness & adoption of OpenC2.
    change that would normally go through the working meeting, if
    needed (shouldn't really have any of those).
 
+## Background
 
 This SOP was originally agreed to by the Implementation
 Considerations Subcommittee in October 2020. With the abolition
