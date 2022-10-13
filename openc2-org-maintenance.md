@@ -26,9 +26,10 @@ file](https://github.com/OpenC2-org/openc2-org.github.io/blob/main/README.md).
    [openc2-org.githib.io](https://github.com/OpenC2-org/openc2-org.github.io)
    repository. Any TC member can propose website changes.
  - The Website Editor can directly commit **routine / editorial
-   changes** (typos, wrong dates, broken links).
- - **Moderate** changes should be reviewed by a second write team
-   member before merging:
+   changes** (typos, wrong dates, broken links) without further
+   approval.
+ - **Moderate** changes should be reviewed and approved by a
+   second write team member before merging:
    - New “OpenC2 in the News” items
      - Exception: publication of documents by OASIS, which can be
        posted w/o a review
