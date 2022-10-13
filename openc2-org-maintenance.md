@@ -30,10 +30,11 @@ file](https://github.com/OpenC2-org/openc2-org.github.io/blob/main/README.md).
    approval.
  - **Moderate** changes should be reviewed and approved by a
    second write team member before merging:
-   - New “OpenC2 in the News” items
-     - Exception: publication of documents by OASIS, which can be
-       posted w/o a review
-   - New / replacement carousel items
+   - New [“OpenC2 in the News”](https://openc2.org/news.html)
+     items (*exception:* information regarding publication of new
+     or updated documents by OASIS can be posted without
+     secondary review)
+   - New / updated / replacement home page carousel items
    - Items of comparable impact to the above
  - The Working Meeting should approve, at any regular meeting:
    - Any **substantive changes** to content
