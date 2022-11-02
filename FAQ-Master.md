@@ -151,11 +151,7 @@ Norms](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/Documentation-Norm
 ### What is the meeting schedule?
 
 OpenC2 meetings are routinely conducted Wednesdays at 11:00am
-Eastern Time ("OpenC2 Time").  All meetings are nominally
-scheduled for 1 hour duration, and are conducted using [Lucid
-Meetings](https://www.lucidmeetings.com/).
-
-Our meeting formats are:
+Eastern Time ("OpenC2 Time"). Our two meeting formats are:
 
  - TC Monthly Meeting: 3rd Wednesday of each month, in two
    sessions
@@ -175,10 +171,13 @@ meeting minutes. Attendance is only required at one of the two
 sessions in order to maintain voting rights.
 
 The TC also holds working meetings on the 1st, 2nd, and 4th
-Wednesdays at 11 AM Eastern. These meetings focus on current work
-product development activities, technical issue resolution, and
-related topics (see the [Working Meeting
+Wednesdays at 11 AM Eastern Time. These meetings focus on current
+work product development activities, technical issue resolution,
+and related topics (see the [Working Meeting
 Process](Working-Meeting-Process.md) document).
+
+All meetings are nominally scheduled for 1 hour duration, and are
+conducted using [Lucid Meetings](https://www.lucidmeetings.com/).
 
 There is no meeting on the 5th Wednesday of the month, if any.
 
