@@ -269,10 +269,11 @@ their information sharing and information exchange initiatives.
 framework from Google for deploying, managing, and running
 distributed forensic workloads.
 
-### How does OpenC2 relate to [OpenDDS](https://opendds.org/)?
+### How does OpenC2 relate to OpenDDS?
 
-OpenDDS is an open source C++ implementation of the Object
-Management Group (OMG) [Data Distribution Service
+[OpenDDS](https://opendds.org/) is an open source C++
+implementation of the Object Management Group (OMG) [Data
+Distribution Service
 (DDS)](https://www.omg.org/spec/DDS/About-DDS/), a Data-Centric
 Publish-Subscribe (DCPS) model for distributed application
 communication and integration.
