@@ -10,7 +10,7 @@
 > re-editing HTML content to GFM, 5 October 2022, plus some
 > changes agreed to at that working meeting.
 
-### What is OpenC2? 
+### What is OpenC2?
 
 OpenC2 is a standardized language for machine-to-machine
 communications for the command and control of technologies that
@@ -59,7 +59,7 @@ used in concert:
   specify the subset of the OpenC2 language relevant in the
   context of specific actuator functions (e.g., [packet
   filtering](https://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.html),
-  honeypots). 
+  honeypots).
 
 * [**OpenC2 Transfer
   Specifications**](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2#technical)
@@ -153,7 +153,7 @@ Norms](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/Documentation-Norm
 OpenC2 meetings are routinely conducted Wednesdays at 11:00am
 Eastern Time ("OpenC2 Time").  All meetings are nominally
 scheduled for 1 hour duration, and are conducted using [Lucid
-Meetings](https://www.lucidmeetings.com/). 
+Meetings](https://www.lucidmeetings.com/).
 
 Our meeting formats are:
 
@@ -178,12 +178,12 @@ The TC also holds working meetings on the 1st, 2nd, and 4th
 Wednesdays at 11 AM Eastern. These meetings focus on current work
 product development activities, technical issue resolution, and
 related topics (see the [Working Meeting
-Process](Working-Meeting-Process.md) document). 
+Process](Working-Meeting-Process.md) document).
 
 There is no meeting on the 5th Wednesday of the month, if any.
 
 
-### How does OpenC2 relate to the OASIS [Collaborative Automated Course of Action Operations (CACAO) for Cyber Security TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cacao)? 
+### How does OpenC2 relate to the OASIS [Collaborative Automated Course of Action Operations (CACAO) for Cyber Security TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cacao)?
 
 CACAO's goal is defining the standard for creating
 machine-readable course of action playbooks for cybersecurity
@@ -191,7 +191,7 @@ operations. CACAO will have the ability of integrating different
 languages for controlling components that are part of cyber
 defense ecosystems, thus, OpenC2 is a candidate.
 
-### How does OpenC2 relate to STIX [Course of Action (COA)](https://docs.oasis-open.org/cti/stix/v2.1/os/stix-v2.1-os.html#_a925mpw39txn)? 
+### How does OpenC2 relate to STIX [Course of Action (COA)](https://docs.oasis-open.org/cti/stix/v2.1/os/stix-v2.1-os.html#_a925mpw39txn)?
 
 Structured Threat Information Expression (STIX™) is a language
 and serialization format used to exchange cyber threat
@@ -201,14 +201,33 @@ courses of action. OpenC2 can be utilized to populate STIX COA
 SDOs for sharing automated courses of action for the purpose of
 responding to cyber incidents in cyber-relevant time.
 
-### How does OpenC2 relate to [MISP](https://www.misp-project.org/features.html)? 
+### How does OpenC2 relate to [PACE](https://opencybersecurityalliance.org/pace/)?
+
+Posture Attribute Collection and Evaluation (PACE) is an
+[Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)
+effort to create a
+comprehensive automated strategy for understanding security posture.
+OpenC2 plays two roles in PACE.
+PACE uses OpenC2 for command & control to obtain security posture information,
+and for the command & control of the PACE system itself
+(e.g. request securit posture evaluation of a device).
+OpenC2 also plays a role in the actions that result from posture evaluation
+(e.g. add a firewall rule, sandbox a device, etc).
+
+### How does OpenC2 relate to [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol)?
+
+[PACE](https://opencybersecurityalliance.org/pace/)
+is the next generation of SCAP.
+See previous question.
+
+### How does OpenC2 relate to [MISP](https://www.misp-project.org/features.html)?
 
 MISP originally stood for Malware Information Sharing Platform
 but it has evolved to "Open Source Threat Intelligence Platform &
 Open Standards For Threat Information Sharing" according to its
 homepage.
 
-### How does OpenC2 relate to [OpenDXL](https://www.opendxl.com/)? 
+### How does OpenC2 relate to [OpenDXL](https://www.opendxl.com/)?
 
 OpenDXL is an initiative to create adaptive systems of
 interconnected services that communicate and share information
@@ -243,19 +262,19 @@ catalogs, control baselines, system security plans, and
 assessment plans and results. OSCAL development is being managed
 in a GitHub repository.
 
-### How does OpenC2 relate to the [FIRST Information Exchange Policy (IEP)](https://www.first.org/iep/)? 
+### How does OpenC2 relate to the [FIRST Information Exchange Policy (IEP)](https://www.first.org/iep/)?
 
 IEP is a framework that Computer Security Incident Response Teams
 (CSIRT), security communities, organizations, and vendors may
 consider implementing to support their information sharing and
 information exchange initiatives.
 
-### How does OpenC2 relate to [Turbinia](https://github.com/google/turbinia)? 
+### How does OpenC2 relate to [Turbinia](https://github.com/google/turbinia)?
 
 Turbinia is an open-source framework from Google for deploying,
 managing, and running distributed forensic workloads.
 
-### How does OpenC2 relate to [OpenDDS](https://opendds.org/)? 
+### How does OpenC2 relate to [OpenDDS](https://opendds.org/)?
 
 OpenDDS is an open source C++ implementation of the Object
 Management Group (OMG) [Data Distribution Service
@@ -267,14 +286,10 @@ communication and integration.
 
 ### How does OpenC2 relate to [Open Network Automation Platform (ONAP)](https://www.onap.org/)?
 
-### How does OpenC2 relate to [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol)?
-
-
-
 ### How does OpenC2 relate to Business Process Modeling Notation (BPMN)?
 
 
-### How does OpenC2 relate to [ROLIE](https://datatracker.ietf.org/doc/rfc8322/)? 
+### How does OpenC2 relate to [ROLIE](https://datatracker.ietf.org/doc/rfc8322/)?
 ROLIE is the Resource-Oriented Lightweight Information Exchange,
 defined in [RFC 8322](https://datatracker.ietf.org/doc/rfc8322/).
 ROLIE defines a resource-oriented approach for security
@@ -292,7 +307,7 @@ Protocol and Atom Syndication Format to transport and share
 security automation resource representations.
 
 
-### How does OpenC2 relate to [Manufacturer Usage Descriptions (MUD)](https://developer.cisco.com/docs/mud/#!what-is-mud)? 
+### How does OpenC2 relate to [Manufacturer Usage Descriptions (MUD)](https://developer.cisco.com/docs/mud/#!what-is-mud)?
 
 Manufacturer Usage Description (MUD) is an embedded software
 standard defined by the IETF that allows IoT Device makers to
@@ -304,4 +319,3 @@ within those parameters. In this manner, MUD becomes the
 authoritative identifier and enforcer of policy for devices on
 the network. MUD is defined in [RFC
 8520](https://tools.ietf.org/html/rfc8520).
-
