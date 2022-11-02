@@ -216,9 +216,7 @@ OpenC2 also plays a role in the actions that result from posture evaluation
 
 ### How does OpenC2 relate to [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol)?
 
-[PACE](https://opencybersecurityalliance.org/pace/)
-is the next generation of SCAP.
-See previous question.
+To be specified
 
 ### How does OpenC2 relate to [MISP](https://www.misp-project.org/features.html)?
 
