@@ -255,12 +255,13 @@ baselines, system security plans, and assessment plans and
 results. OSCAL development is being managed in a GitHub
 repository.
 
-### How does OpenC2 relate to the [FIRST Information Exchange Policy (IEP)](https://www.first.org/iep/)?
+### How does OpenC2 relate to the FIRST Information Exchange Policy (IEP)?
 
-IEP is a framework that Computer Security Incident Response Teams
-(CSIRT), security communities, organizations, and vendors may
-consider implementing to support their information sharing and
-information exchange initiatives.
+The FIRST [Information Exchange Policy
+(IEP)](https://www.first.org/iep/) is a framework that Computer
+Security Incident Response Teams (CSIRT), security communities,
+organizations, and vendors may consider implementing to support
+their information sharing and information exchange initiatives.
 
 ### How does OpenC2 relate to [Turbinia](https://github.com/google/turbinia)?
 
