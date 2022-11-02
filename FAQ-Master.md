@@ -245,13 +245,15 @@ interoperability, which OpenC2 should be able to leverage.
 [Open Connectivity Foundation](https://openconnectivity.org/)
 
 
-### How does OpenC2 relate to the [Open Security Controls Assessment Language (OSCAL)](https://pages.nist.gov/OSCAL/)?
+### How does OpenC2 relate to the Open Security Controls Assessment Language (OSCAL)?
 
-OSCAL is a set of formats expressed in XML, JSON, and YAML. These
-formats provide machine-readable representations of control
-catalogs, control baselines, system security plans, and
-assessment plans and results. OSCAL development is being managed
-in a GitHub repository.
+The [Open Security Controls Assessment Language
+(OSCAL)](https://pages.nist.gov/OSCAL/) is a set of formats
+expressed in XML, JSON, and YAML. These formats provide
+machine-readable representations of control catalogs, control
+baselines, system security plans, and assessment plans and
+results. OSCAL development is being managed in a GitHub
+repository.
 
 ### How does OpenC2 relate to the [FIRST Information Exchange Policy (IEP)](https://www.first.org/iep/)?
 
