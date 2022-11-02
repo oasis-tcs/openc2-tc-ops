@@ -263,10 +263,11 @@ Security Incident Response Teams (CSIRT), security communities,
 organizations, and vendors may consider implementing to support
 their information sharing and information exchange initiatives.
 
-### How does OpenC2 relate to [Turbinia](https://github.com/google/turbinia)?
+### How does OpenC2 relate to Turbinia?
 
-Turbinia is an open-source framework from Google for deploying,
-managing, and running distributed forensic workloads.
+[Turbinia](https://github.com/google/turbinia) is an open-source
+framework from Google for deploying, managing, and running
+distributed forensic workloads.
 
 ### How does OpenC2 relate to [OpenDDS](https://opendds.org/)?
 
