@@ -6,9 +6,9 @@
 > page](https://openc2.org/faq.html) for general public
 > visibility.
 
-> Initial content created from https://openc2.org/faq.html by
-> re-editing HTML content to GFM, 5 October 2022, plus some
-> changes agreed to at that working meeting.
+> IMPORTANT:  ***Do not*** embed links the question portion of
+> the FAQ, as this breaks the formatting on the OpenC2.org
+> website. Only use links in the answer body of the FAQ.
 
 ### What is OpenC2?
 
