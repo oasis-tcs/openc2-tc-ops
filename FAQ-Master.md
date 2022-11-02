@@ -218,9 +218,11 @@ point-to-point and publish / subscribe communications models.
 OpenDXL could be used as a communications fabric for OpenC2, but
 no transfer specification has been formalized for it.
 
-### How does OpenC2 relate to the [Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)?
+### How does OpenC2 relate to the Open Cybersecurity Alliance?
 
 \* \* \* To Be Supplied \* \* \*
+
+[Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)
 
 
 ### How does OpenC2 relate to the Open Cybersecurity Alliance's [OCA Ontology](https://github.com/opencybersecurityalliance/oca-ontology)?
