@@ -1,14 +1,20 @@
 # OpenC2 Frequently Asked Questions
 
-> NOTE: This markdown document exists to support group review and
-> updates to the FAQ list. The questions and answers will be
+> **NOTE:** This markdown document exists to support group review
+> and updates to the FAQ list. The questions and answers will be
 > ported to the OpenC2.org website [FAQ
 > page](https://openc2.org/faq.html) for general public
 > visibility.
 
-> IMPORTANT:  ***Do not*** embed links the question portion of
-> the FAQ, as this breaks the formatting on the OpenC2.org
+> **IMPORTANT:**  ***Do not*** embed links the question portion
+> of the FAQ, as this breaks the formatting on the OpenC2.org
 > website. Only use links in the answer body of the FAQ.
+
+> **NOTE:** Per agreement at the 2 November 2022 working meeting,
+> FAQs without answers should not be ported to the OpenC2.org
+> website. However, such FAQs are maintained here with a "\* \*
+> \* TO BE SUPPLIED \* \* \*" tag as the answer to highlight that
+> answers are still needed.
 
 ### What is OpenC2?
 
