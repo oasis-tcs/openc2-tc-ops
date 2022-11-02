@@ -286,9 +286,11 @@ communication and integration.
 
 [Open Network Automation Platform (ONAP)](https://www.onap.org/)
 
-### How does OpenC2 relate to [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol)?
+### How does OpenC2 relate to Security Content Automation Protocol (SCAP)?
 
 \* \* \* To Be Supplied \* \* \*
+
+[Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol)
 
 ### How does OpenC2 relate to Business Process Modeling Notation (BPMN)?
 
