@@ -40,16 +40,14 @@ calendar invites, total).
 
 Our monthly TC meetings on the **third** Wednesday of each month
 have an "early" (11:00 AM Eastern) and a "late" (9:00 PM Eastern)
-session . Per [Standing Rule
-#6](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2#other)
-attendance at either session (which you should record in Kavi)
-constitutes attendance for that month's meeting. We treat these
-two sessions as a single meeting for purposes of attendance,
-[voting
+session. The same agenda is used for both sessions, and the two
+sessions are treated as a single meeting (see [Standing Rule
+#6](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2#other))
+for purposes of attendance, meeting minutes, [voting
 rights](https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26/#membership),
-meeting minutes, motions voted, etc. This means decisions made at
-the daytime session are provisional until the evening session is
-adjourned.
+meeting minutes, motions voted, etc. This also means decisions
+made at the daytime session are provisional until the evening
+session is adjourned.
 
 ## Working Meetings
 
