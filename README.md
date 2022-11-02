@@ -33,8 +33,12 @@ This repository includes the following information:
   -- notes about the meeting scheduling process, for reference by
   co-chairs and the TC secretary
 * [Document-Template-2020.md](Document-Template-2020.md) -- a highly condensed version of the new work product outline adopted in late 2020 by OASIS. New work items should use this format (it will be reflected in the starter document provided by OASIS). Existing work items can be reformatted to use this outline; the TC's work product editors consider it an improvement.
-* [FAQ.md](FAQ.md)
-  -- An OpenC2 Frequently Asked Questions list
+* [FAQ-Master.md](FAQ-Master.md) -- A markdown version of the
+  OpenC2 Frequently Asked Questions list. Having the list here in
+  markdown simplifies editing and updating FAQs. The TC Secretary
+  then ports updates to the website's [FAQ
+  page](https://openc2.org/faq.html) following a Markdown-to-HTML
+  conversion.
 * [Other-OpenC2-Work.md](Other-OpenC2-Work.md)
   -- a listing of OpenC2 implementation efforts known to the TC
   outside of those maintained in [open repositories sponsored by
