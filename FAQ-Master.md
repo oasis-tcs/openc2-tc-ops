@@ -211,7 +211,8 @@ OpenC2 plays two roles in PACE.
 PACE uses OpenC2 for command & control to obtain security posture information,
 and for the command & control of the PACE system itself
 (e.g., request security posture evaluation of a device).
-OpenC2 also plays a role in the actions that result from posture evaluation
+OpenC2 also plays a role in implementing the actions
+that result from posture evaluation
 (e.g., add a firewall rule, sandbox a device, etc).
 
 ### How does OpenC2 relate to [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol)?
