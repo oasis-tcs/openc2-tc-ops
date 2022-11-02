@@ -208,15 +208,15 @@ stood for Malware Information Sharing Platform but it has evolved
 to "Open Source Threat Intelligence Platform & Open Standards For
 Threat Information Sharing" according to its homepage.
 
-### How does OpenC2 relate to [OpenDXL](https://www.opendxl.com/)?
+### How does OpenC2 relate to OpenDXL?
 
-OpenDXL is an initiative to create adaptive systems of
-interconnected services that communicate and share information
-for real-time, accurate security decisions and actions. As a
-communications fabric, OpenDXL supports both point-to-point and
-publish / subscribe communications models. OpenDXL could be used
-as a communications fabric for OpenC2, but no transfer
-specification has been formalized for it.
+[OpenDXL](https://www.opendxl.com/) is an initiative to create
+adaptive systems of interconnected services that communicate and
+share information for real-time, accurate security decisions and
+actions. As a communications fabric, OpenDXL supports both
+point-to-point and publish / subscribe communications models.
+OpenDXL could be used as a communications fabric for OpenC2, but
+no transfer specification has been formalized for it.
 
 ### How does OpenC2 relate to the [Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)?
 
