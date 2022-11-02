@@ -177,13 +177,16 @@ conducted using [Lucid Meetings](https://www.lucidmeetings.com/).
 There is no meeting on the 5th Wednesday of the month, if any.
 
 
-### How does OpenC2 relate to the OASIS [Collaborative Automated Course of Action Operations (CACAO) for Cyber Security TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cacao)?
+### How does OpenC2 relate to the OASIS CACAO TC?
 
-CACAO's goal is defining the standard for creating
-machine-readable course of action playbooks for cybersecurity
-operations. CACAO will have the ability of integrating different
-languages for controlling components that are part of cyber
-defense ecosystems, thus, OpenC2 is a candidate.
+The [CACAO (Collaborative Automated Course of Action Operations
+for Cyber Security)
+TC's](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cacao)
+goal is defining the standard for creating machine-readable
+course of action playbooks for cybersecurity operations. CACAO
+will have the ability of integrating different languages for
+controlling components that are part of cyber defense ecosystems,
+thus, OpenC2 is a candidate.
 
 ### How does OpenC2 relate to STIX [Course of Action (COA)](https://docs.oasis-open.org/cti/stix/v2.1/os/stix-v2.1-os.html#_a925mpw39txn)?
 
