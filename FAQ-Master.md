@@ -238,10 +238,11 @@ interoperability, which OpenC2 should be able to leverage.
 
 
 
-### How does OpenC2 relate to the [Open Connectivity Foundation](https://openconnectivity.org/)?
+### How does OpenC2 relate to the Open Connectivity Foundation (OCF)?
 
 \* \* \* To Be Supplied \* \* \*
 
+[Open Connectivity Foundation](https://openconnectivity.org/)
 
 
 ### How does OpenC2 relate to the [Open Security Controls Assessment Language (OSCAL)](https://pages.nist.gov/OSCAL/)?
