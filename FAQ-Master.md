@@ -297,12 +297,13 @@ communication and integration.
 \* \* \* To Be Supplied \* \* \*
 
 
-### How does OpenC2 relate to [ROLIE](https://datatracker.ietf.org/doc/rfc8322/)?
-ROLIE is the Resource-Oriented Lightweight Information Exchange,
-defined in [RFC 8322](https://datatracker.ietf.org/doc/rfc8322/).
-ROLIE defines a resource-oriented approach for security
-automation information publication, discovery, and sharing. Using
-this approach, producers may publish, share, and exchange
+### How does OpenC2 relate to ROLIE?
+[ROLIE](https://datatracker.ietf.org/doc/rfc8322/) is the
+Resource-Oriented Lightweight Information Exchange, defined in
+[RFC 8322](https://datatracker.ietf.org/doc/rfc8322/). ROLIE
+defines a resource-oriented approach for security automation
+information publication, discovery, and sharing. Using this
+approach, producers may publish, share, and exchange
 representations of software descriptors, security incidents,
 attack indicators, software vulnerabilities, configuration
 checklists, and other security automation information as
