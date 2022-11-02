@@ -201,12 +201,12 @@ action. OpenC2 can be utilized to populate STIX COA SDOs for
 sharing automated courses of action for the purpose of responding
 to cyber incidents in cyber-relevant time.
 
-### How does OpenC2 relate to [MISP](https://www.misp-project.org/features.html)?
+### How does OpenC2 relate to MISP?
 
-MISP originally stood for Malware Information Sharing Platform
-but it has evolved to "Open Source Threat Intelligence Platform &
-Open Standards For Threat Information Sharing" according to its
-homepage.
+[MISP](https://www.misp-project.org/features.html) originally
+stood for Malware Information Sharing Platform but it has evolved
+to "Open Source Threat Intelligence Platform & Open Standards For
+Threat Information Sharing" according to its homepage.
 
 ### How does OpenC2 relate to [OpenDXL](https://www.opendxl.com/)?
 
