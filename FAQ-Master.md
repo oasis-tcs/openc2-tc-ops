@@ -114,7 +114,7 @@ Specifications were approved in 2019. The OpenC2 TC continues to
 develop and improve the specifications in the suite.
 
 
-### What similiar efforts exist?
+### What similar efforts exist?
 
 > _NOTE: at the 5 October 2022 working meeting, it was agreed
 > this FAQ should be re-written as a "how relates to ...?"
@@ -219,6 +219,9 @@ specification has been formalized for it.
 
 ### How does OpenC2 relate to the [Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)?
 
+\* \* \* To Be Supplied \* \* \*
+
+
 ### How does OpenC2 relate to the Open Cybersecurity Alliance's [OCA Ontology](https://github.com/opencybersecurityalliance/oca-ontology)?
 
 The OCA Ontology (formerly known as the OCA OpenDXL Ontology) is
@@ -232,6 +235,9 @@ leverage.
 
 
 ### How does OpenC2 relate to the [Open Connectivity Foundation](https://openconnectivity.org/)?
+
+\* \* \* To Be Supplied \* \* \*
+
 
 
 ### How does OpenC2 relate to the [Open Security Controls Assessment Language (OSCAL)](https://pages.nist.gov/OSCAL/)?
@@ -266,11 +272,16 @@ communication and integration.
 
 ### How does OpenC2 relate to [Open Network Automation Platform (ONAP)](https://www.onap.org/)?
 
+\* \* \* To Be Supplied \* \* \*
+
+
 ### How does OpenC2 relate to [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol)?
 
-
+\* \* \* To Be Supplied \* \* \*
 
 ### How does OpenC2 relate to Business Process Modeling Notation (BPMN)?
+
+\* \* \* To Be Supplied \* \* \*
 
 
 ### How does OpenC2 relate to [ROLIE](https://datatracker.ietf.org/doc/rfc8322/)?
