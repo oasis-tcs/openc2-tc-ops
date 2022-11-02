@@ -114,10 +114,7 @@ develop and improve the specifications in the suite.
 
 ### What similar efforts exist?
 
-> _NOTE: at the 5 October 2022 working meeting, it was agreed
-> this FAQ should be re-written as a "how relates to ...?"
-> question. A new answer regarding "similar efforts" may be
-> appropriate to retain this FAQ._
+\* \* \* TO BE SUPPLIED \* \* \*
 
 > TBD pending identification of other "similar efforts"
 
