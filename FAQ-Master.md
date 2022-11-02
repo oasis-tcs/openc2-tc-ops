@@ -37,8 +37,6 @@ consortium that develops open IT standards.
 
 ### How is the "suite" of OpenC2 Specifications organized?
 
-> *NOTE: agreed to add this FAQ at the 5 October 2022 working meeting.*
-
 As described in the [_OpenC2 Architecture
 Specification_](https://docs.oasis-open.org/openc2/oc2arch/v1.0/oc2arch-v1.0.html),
 there are multiple types of OpenC2 specifications, meant to be
