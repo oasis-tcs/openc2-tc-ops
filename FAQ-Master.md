@@ -151,37 +151,16 @@ Norms](https://github.com/oasis-tcs/openc2-tc-ops/blob/master/Documentation-Norm
 
 ### What is the meeting schedule?
 
-OpenC2 meetings are routinely conducted Wednesdays at 11:00am
-Eastern Time ("OpenC2 Time"). Our two meeting formats are:
-
- - TC Monthly Meeting: 3rd Wednesday of each month, in two
-   sessions
- - Working Meetings: 1st, 2nd, and 4th Wednesdays of each month
-
-The monthly TC meeting on the third Wednesday of each month
-**counts towards voting rights** and is where the TC conducts
-official business. The monthly meeting is held in two sessions to
-facilitate member participation across timezones:
-
- - First session: 11:00 AM Eastern
- - Second session: 9:00 PM Eastern
-
-The same agenda is used for both sessions, and the two sessions
-are treated as a single meeting for purposes of attendance and
-meeting minutes. Attendance is only required at one of the two
-sessions in order to maintain voting rights.
-
-The TC also holds working meetings on the 1st, 2nd, and 4th
-Wednesdays at 11 AM Eastern Time. These meetings focus on current
-work product development activities, technical issue resolution,
-and related topics (see the [Working Meeting
-Process](Working-Meeting-Process.md) document).
-
-All meetings are nominally scheduled for 1 hour duration, and are
-conducted using [Lucid Meetings](https://www.lucidmeetings.com/).
-
-There is no meeting on the 5th Wednesday of the month, if any.
-
+The OpenC2 TC holds meetings on Wednesdays at 11:00am Eastern
+Time ("OpenC2 Time"). The TC conducts business meetings on the
+3rd Wednesday of the month, and working meetings on the 1st, 2nd,
+and 4th Wednesdays of each month.  See the [Meeting
+Schedule](#https://github.com/oasis-tcs/openc2-tc-ops/blob/main/General-Member-Info.md#meeting-schedules)
+portion of the [General Member
+Information](https://github.com/oasis-tcs/openc2-tc-ops/blob/main/General-Member-Info.md)
+page of our [TC Operations
+repository](https://github.com/oasis-tcs/openc2-tc-ops) for more
+information.
 
 ### How does OpenC2 relate to the OASIS CACAO TC?
 
