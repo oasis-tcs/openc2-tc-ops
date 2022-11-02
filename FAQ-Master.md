@@ -280,10 +280,11 @@ communication and integration.
 
 
 
-### How does OpenC2 relate to [Open Network Automation Platform (ONAP)](https://www.onap.org/)?
+### How does OpenC2 relate to Open Network Automation Platform (ONAP)?
 
 \* \* \* To Be Supplied \* \* \*
 
+[Open Network Automation Platform (ONAP)](https://www.onap.org/)
 
 ### How does OpenC2 relate to [Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol)?
 
