@@ -240,20 +240,6 @@ interoperability, which OpenC2 should be able to leverage.
 [Open Connectivity Foundation](https://openconnectivity.org/)
 
 
-### How does OpenC2 relate to the FIRST Information Exchange Policy (IEP)?
-
-The FIRST [Information Exchange Policy
-(IEP)](https://www.first.org/iep/) is a framework that Computer
-Security Incident Response Teams (CSIRT), security communities,
-organizations, and vendors may consider implementing to support
-their information sharing and information exchange initiatives.
-
-### How does OpenC2 relate to Turbinia?
-
-[Turbinia](https://github.com/google/turbinia) is an open-source
-framework from Google for deploying, managing, and running
-distributed forensic workloads.
-
 ### How does OpenC2 relate to OpenDDS?
 
 [OpenDDS](https://opendds.org/) is an open source C++
