@@ -207,9 +207,9 @@ no transfer specification has been formalized for it.
 
 \* \* \* To Be Supplied \* \* \*
 
-### How does OpenC2 relate to [PACE](https://opencybersecurityalliance.org/pace/)?
+### How does OpenC2 relate to PACE?
 
-Posture Attribute Collection and Evaluation (PACE) is an
+Posture Attribute Collection and Evaluation ([PACE](https://opencybersecurityalliance.org/pace/)) is an
 [Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)
 effort to create a
 comprehensive automated strategy for understanding security posture.
