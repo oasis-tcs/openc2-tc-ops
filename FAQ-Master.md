@@ -186,13 +186,6 @@ action. OpenC2 can be utilized to populate STIX COA SDOs for
 sharing automated courses of action for the purpose of responding
 to cyber incidents in cyber-relevant time.
 
-### How does OpenC2 relate to MISP?
-
-[MISP](https://www.misp-project.org/features.html) originally
-stood for Malware Information Sharing Platform but it has evolved
-to "Open Source Threat Intelligence Platform & Open Standards For
-Threat Information Sharing" according to its homepage.
-
 ### How does OpenC2 relate to OpenDXL?
 
 [OpenDXL](https://www.opendxl.com/) is an initiative to create
@@ -247,30 +240,6 @@ interoperability, which OpenC2 should be able to leverage.
 [Open Connectivity Foundation](https://openconnectivity.org/)
 
 
-### How does OpenC2 relate to the Open Security Controls Assessment Language (OSCAL)?
-
-The [Open Security Controls Assessment Language
-(OSCAL)](https://pages.nist.gov/OSCAL/) is a set of formats
-expressed in XML, JSON, and YAML. These formats provide
-machine-readable representations of control catalogs, control
-baselines, system security plans, and assessment plans and
-results. OSCAL development is being managed in a GitHub
-repository.
-
-### How does OpenC2 relate to the FIRST Information Exchange Policy (IEP)?
-
-The FIRST [Information Exchange Policy
-(IEP)](https://www.first.org/iep/) is a framework that Computer
-Security Incident Response Teams (CSIRT), security communities,
-organizations, and vendors may consider implementing to support
-their information sharing and information exchange initiatives.
-
-### How does OpenC2 relate to Turbinia?
-
-[Turbinia](https://github.com/google/turbinia) is an open-source
-framework from Google for deploying, managing, and running
-distributed forensic workloads.
-
 ### How does OpenC2 relate to OpenDDS?
 
 [OpenDDS](https://opendds.org/) is an open source C++
@@ -279,37 +248,6 @@ Distribution Service
 (DDS)](https://www.omg.org/spec/DDS/About-DDS/), a Data-Centric
 Publish-Subscribe (DCPS) model for distributed application
 communication and integration.
-
-
-
-### How does OpenC2 relate to Open Network Automation Platform (ONAP)?
-
-\* \* \* To Be Supplied \* \* \*
-
-[Open Network Automation Platform (ONAP)](https://www.onap.org/)
-
-### How does OpenC2 relate to Business Process Modeling Notation (BPMN)?
-
-\* \* \* To Be Supplied \* \* \*
-
-
-### How does OpenC2 relate to ROLIE?
-[ROLIE](https://datatracker.ietf.org/doc/rfc8322/) is the
-Resource-Oriented Lightweight Information Exchange, defined in
-[RFC 8322](https://datatracker.ietf.org/doc/rfc8322/). ROLIE
-defines a resource-oriented approach for security automation
-information publication, discovery, and sharing. Using this
-approach, producers may publish, share, and exchange
-representations of software descriptors, security incidents,
-attack indicators, software vulnerabilities, configuration
-checklists, and other security automation information as
-web-addressable resources. Furthermore, consumers and other
-stakeholders may access and search this security information as
-needed, establishing a rapid and on-demand information exchange
-network for restricted internal use or public access
-repositories. The specification extends the Atom Publishing
-Protocol and Atom Syndication Format to transport and share
-security automation resource representations.
 
 
 ### How does OpenC2 relate to Manufacturer Usage Descriptions (MUD)?
