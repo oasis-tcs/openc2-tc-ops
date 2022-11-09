@@ -207,8 +207,25 @@ no transfer specification has been formalized for it.
 
 \* \* \* To Be Supplied \* \* \*
 
-[Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)
+### How does OpenC2 relate to PACE?
 
+Posture Attribute Collection and Evaluation ([PACE](https://opencybersecurityalliance.org/pace/)) is an
+[Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)
+effort to create a
+comprehensive automated strategy for understanding security posture.
+OpenC2 plays two roles in PACE.
+PACE uses OpenC2 for command & control to obtain security posture information,
+and for the command & control of the PACE system itself
+(e.g., request security posture evaluation of a device).
+OpenC2 also plays a role in implementing the actions
+that result from posture evaluation
+(e.g., add a firewall rule, sandbox a device, etc).
+
+### How does OpenC2 relate to SCAP?
+
+\* \* \* To Be Supplied \* \* \*
+
+[Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol)?
 
 ### How does OpenC2 relate to the OCA Ontology?
 
@@ -271,12 +288,6 @@ communication and integration.
 
 [Open Network Automation Platform (ONAP)](https://www.onap.org/)
 
-### How does OpenC2 relate to Security Content Automation Protocol (SCAP)?
-
-\* \* \* To Be Supplied \* \* \*
-
-[Security Content Automation Protocol (SCAP)](https://csrc.nist.gov/projects/security-content-automation-protocol)
-
 ### How does OpenC2 relate to Business Process Modeling Notation (BPMN)?
 
 \* \* \* To Be Supplied \* \* \*
@@ -314,4 +325,3 @@ within those parameters. In this manner, MUD becomes the
 authoritative identifier and enforcer of policy for devices on
 the network. MUD is defined in [RFC
 8520](https://tools.ietf.org/html/rfc8520).
-
