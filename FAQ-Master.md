@@ -250,18 +250,6 @@ Publish-Subscribe (DCPS) model for distributed application
 communication and integration.
 
 
-
-### How does OpenC2 relate to Open Network Automation Platform (ONAP)?
-
-\* \* \* To Be Supplied \* \* \*
-
-[Open Network Automation Platform (ONAP)](https://www.onap.org/)
-
-### How does OpenC2 relate to Business Process Modeling Notation (BPMN)?
-
-\* \* \* To Be Supplied \* \* \*
-
-
 ### How does OpenC2 relate to Manufacturer Usage Descriptions (MUD)?
 
 [Manufacturer Usage Descriptions
