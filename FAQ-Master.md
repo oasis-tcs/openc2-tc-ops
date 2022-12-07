@@ -99,10 +99,48 @@ tooling](https://openc2.org/openc2-org.github.io/opensource.html)
 to add in implementing OpenC2.
 
 
-### Do I have to be a member of OASIS to use OpenC2?
+### What is JADN?
 
-No, OASIS OpenC2 specifications are available to all. There are
-no known intellectual property rights associated with OpenC2. See
+[JSON Abstract Data Notation
+(JADN)](https://docs.oasis-open.org/openc2/jadn/v1.0/cs01/jadn-v1.0-cs01.html)
+is a UML-based information modeling language that defines
+information requirements and data structure independently of data
+format. JADN was created by the OpenC2 TC to assist with defining
+ OpenC2 information models for the language and actuator profiles
+in a way that supports the language's goal of enabling
+machine-to-machine communications for purposes of command and
+control of cyber defense components, subsystems and/or systems in
+a manner that is agnostic of the serialization formats.
+
+### How can I learn more about JADN?
+
+The TC is developing a [Committee Note
+(CN)](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dCommitteeNote)
+on [*Information Modeling Using
+JADN*](https://github.com/oasis-tcs/openc2-jadn-im/blob/working/imjadn-v1.0-cn01.md)
+(the link is to the in-progress draft, which is substantially
+complete). The CN provides an overview of information modeling
+and the use of JADN for that purpose. Detailed specifics can be
+found in the [*Specification for JSON Abstract Data Notation
+(JADN)*](https://docs.oasis-open.org/openc2/jadn/v1.0/cs01/jadn-v1.0-cs01.html),
+an OASIS [Committee Specification
+(CS)](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dCommitteeSpec)
+published in August 2021.
+
+### Are there tools for working with JADN?
+
+Open source tools to process JADN information models (abstract
+schemas) used to define OpenC2 content as well as other types of
+structured data, e.g., Software Bill of Materials (SBOM)
+documents and validate data against an information model can be
+found on Github in an OASIS TC Open Repository of [JADN
+Software](https://github.com/oasis-open/openc2-jadn-software).
+
+
+### Do I have to be a member of OASIS to use OpenC2 or JADN?
+
+No, OASIS specifications are available to all. There are no known
+intellectual property rights associated with OpenC2 or JADN. See
 [this page](https://www.oasis-open.org/committees/openc2/ipr.php)
 for additional information.
 
