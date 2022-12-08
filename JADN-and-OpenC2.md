@@ -40,10 +40,13 @@ general purpose in its design and can be used to create IMs for
 nearly any purpose. Examples of other possible JADN applications
 include defining:
 
- - Data structures, such as [Software Bills of Materials (SBOMs)](https://www.ntia.doc.gov/report/2021/minimum-elements-software-bill-materials-sbom)
- - Information exchanges, such as are described by [NIEM](https://github.com/niemopen/oasis-open-project#readme)
+ - Data structures, such as [Software Bills of Materials
+   (SBOMs)](https://www.ntia.doc.gov/report/2021/minimum-elements-software-bill-materials-sbom)
+ - Information exchanges, such as are described by
+   [NIEM](https://github.com/niemopen/oasis-open-project#readme)
 
-RFC 8477 defines information and data models to clarify the differences:
+RFC 8477 defines information and data models to clarify the
+differences:
 
  - **Information Model** -- An information model defines an
       environment at the highest level of abstraction and
@@ -137,7 +140,8 @@ supporting text explaining details or constraints as needed. For
 example, the following shows OpenC2's definition of a digital
 artifact:
 
-> ![OpenC2 Artifact Property Table](images/artifact-pt-example.png)
+> ![OpenC2 Artifact Property
+> Table](images/artifact-pt-example.png)
 
 Underlying the specification's contents is a rigorous IM in JADN,
 in which each OpenC2 data structure or type is precisely defined
