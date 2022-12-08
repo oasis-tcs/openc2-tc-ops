@@ -173,7 +173,59 @@ points:
 
 ## OpenC2 Actuator Profiles
 
+As explained in the [OpenC2 Architecture
+Specification](https://docs.oasis-open.org/openc2/oc2arch/v1.0/cs01/oc2arch-v1.0-cs01.html), 
 
+> _**OpenC2 Actuator Profiles (APs)** specify the subset of the
+> OpenC2 language relevant in the context of specific actuator
+> functions. ... A profile refines the meaning of language
+> elements (actions, targets, command arguments, results) used to
+> perform the actuator function, and often defines additional
+> elements that are relevant and/or unique to that function._
+
+An AP identifies the specific actions relevant to the actuator
+(i.e., cyber defense function) in question, which targets align
+with which actions, whether new actuator-specific targets are
+needed, and other information necessary to specify the OpenC2
+interface to the actuator. Just as with the OpenC2 Language, APs
+are intended to be defined in implementation-independent terms so
+that the exchange of commands and responses may be supported
+using different protocols or transfer encodings, while retaining
+a common and consistent meaning. The IM for an OpenC2 AP is
+therefore both a subset of the OpenC2 Language IM (as not all
+actions or targets will apply to any individual actuator) and an
+extension of it to define actuator-specific elements. A feature
+of every AP is the mapping of supports actions / target
+combinations to specify the set of commands valid for that
+actuator. The [Stateless Packet Filtering
+AP](https://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.html)
+includes the following command matrix (section 2.3):
+
+> ![SLPF AP Command Matrix](images/slfp-ap-cmd-matrix.png)
+
+As with the Language Specification, the AP is actually defined by
+its underlying IM:
+
+```
+Action-Targets = Map  // Targets applicable to each action
+   3 query            Query-Targets unique [1..10]
+   6 deny             Allow-Deny-Targets unique [1..10]
+   8 allow            Allow-Deny-Targets unique [1..10]
+  16 update           Update-Targets unique [1..10]
+  20 delete           Delete-Targets unique [1..10]
+
+Query-Targets = Enumerated
+   1 features
+
+Allow-Deny-Targets = Enumerated
+   1 ipv4_net
+   2 ipv6_net
+   3 ipv4_connection
+   4 ipv6_connection
+```
+
+In fact, the development of the appropriate IM is the most
+essential activity in the creation of an OpenC2 AP.
 
 ## _FAQs (for reference / reuse, to be deleted)_
 
