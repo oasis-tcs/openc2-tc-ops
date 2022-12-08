@@ -53,6 +53,38 @@ implementation that supports interoperability.
 
 # A Brief JADN Overview
 
+The JADN information modeling language was developed against
+specific objectives:
+
+1. JADN Core types represent application-relevant "information",
+   not "data"
+1. A single JADN specification unambiguously defines multiple
+   data formats
+1. The JADN specification uses named type definitions equivalent
+   to property tables
+1. The JADN specification is data that can be serialized
+1. The JADN specification has a fixed structure designed for
+   extensibility
+
+The JADN core types are five primitive (or scalar) and seven
+structured type (or complex) information types, along with a
+variety of options to refine the use of these types to model a
+broad spectrum of information types. JADN models are organized as
+[Directed Acyclic Graphs
+(DAGs)](https://en.wikipedia.org/wiki/Directed_acyclic_graph),
+and complex models can be broken into packages that are related
+using name space identifiers and links between packages. JADN
+models can also be programatically translated among multiple,
+equivalent representations:
+
+ - JSON data, the basic format of JADN
+ - JADN Interface Definition Language (IDL), an easy-to-read and
+   -edit textual representation of JADN type definitions
+ - Property tables
+ - Entity Relationship Diagrams
+
+More information about JADN can be found in 
+
 # Information Models in OpenC2
 
 ## OpenC2 Language
