@@ -163,7 +163,8 @@ points:
 
  - The use of both primitive (`String`) and structured
    (`Payload`, `Hashes`) types
- - The DAG aspect (`Artifact` points to the structured types)
+ - The DAG aspect (fields in `Artifact` point to the structured
+   types)
  - Since the property table is created programmatically from the
    underlying model, the specification authors can be confident
    of its accuracy
@@ -174,7 +175,7 @@ points:
 
 
 
-## FAQs (for reference / reuse, to be deleted)
+## _FAQs (for reference / reuse, to be deleted)_
 
 ### What is JADN?
 
