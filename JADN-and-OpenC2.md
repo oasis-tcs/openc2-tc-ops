@@ -46,19 +46,19 @@ include defining:
    [NIEM](https://github.com/niemopen/oasis-open-project#readme)
 
 RFC 8477 defines information and data models to clarify the
-differences:
+differences (emphasis added):
 
  - **Information Model** -- An information model defines an
-      environment at the highest level of abstraction and
-      expresses the desired functionality. Information models can
+      environment *at the highest level of abstraction and
+      expresses the desired functionality*. Information models can
       be defined informally (e.g., in prose) or more formally
       (e.g., Unified Modeling Language (UML), Entity-
       Relationship Diagrams, etc.).  Implementation details are
       hidden.
 
  - **Data Model** -- A data model defines concrete data
-      representations at a lower level of abstraction, including
-      implementation- and protocol- specific details.  Some
+      representations *at a lower level of abstraction, including
+      implementation- and protocol- specific details*.  Some
       examples are SNMP Management Information Base (MIB)
       modules, World Wide Web Consortium (W3C) Thing Description
       (TD) Things, YANG modules, Lightweight Machine-to-Machine
@@ -86,19 +86,19 @@ specific objectives:
    extensibility
 
 The JADN core types are five primitive (or scalar) and seven
-structured type (or complex) information types, along with a
-variety of options to refine the use of these types to model a
-broad spectrum of information types. JADN models are organized as
-[Directed Acyclic Graphs
+structured (or complex) information types, along with a variety
+of options to refine the use of these types to model a broad
+spectrum of information. JADN models are organized as [Directed
+Acyclic Graphs
 (DAGs)](https://en.wikipedia.org/wiki/Directed_acyclic_graph),
 and complex models can be broken into packages that are related
 using name space identifiers and links between packages. JADN
 models can also be programatically translated among multiple,
 equivalent representations:
 
- - JSON data, the basic format of JADN
+ - JSON, the basic format of JADN
  - JADN Interface Definition Language (JIDL), an easy-to-read and
-   -edit textual representation of JADN type definitions
+   -edit textual representation of JADN
  - Property tables
  - Entity Relationship Diagrams
 
@@ -117,7 +117,7 @@ an OASIS [Committee Specification
 published in August 2021. Open source tools to process JADN
 information models (abstract schemas) used to define OpenC2
 content as well as other types of structured data, e.g., Software
-Bill of Materials (SBOM) documents and validate data against an
+Bill of Materials (SBOM), and validate data against an
 information model can be found on Github in an OASIS TC Open
 Repository of [JADN
 Software](https://github.com/oasis-open/openc2-jadn-software).
@@ -143,12 +143,12 @@ artifact:
 > ![OpenC2 Artifact Property
 > Table](images/artifact-pt-example.png)
 
-Underlying the specification's contents is a rigorous IM in JADN,
-in which each OpenC2 data structure or type is precisely defined
+Underlying the specification's contents is a rigorous JADN IM, in
+which each OpenC2 data structure or type is precisely defined
 (e.g., `Payload` and `Hashes` are structured types that are
-further defined elsewhere in the OpenC2 IM. ). The JADN for the
-`Artifact` type (in JIDL format for readability) along with the
-definition of one of the linked types (`Hashes`) is as follows:
+further defined elsewhere in the OpenC2 IM). The JADN for the
+`Artifact` type along with the definition of one of the linked
+types (`Hashes`) is as follows (in JIDL format for readability):
 
 ```
 Artifact = Record{1..*}
@@ -194,16 +194,18 @@ needed, and other information necessary to specify the OpenC2
 interface to the actuator. Just as with the OpenC2 Language, APs
 are intended to be defined in implementation-independent terms so
 that the exchange of commands and responses may be supported
-using different protocols or transfer encodings, while retaining
-a common and consistent meaning. The IM for an OpenC2 AP is
+using different protocols or transfer encodings while retaining a
+common and consistent meaning. The IM for an OpenC2 AP is
 therefore both a subset of the OpenC2 Language IM (as not all
 actions or targets will apply to any individual actuator) and an
-extension of it to define actuator-specific elements. A feature
-of every AP is the mapping of supports actions / target
+extension of it (to define actuator-specific elements). A feature
+of every AP is the mapping of supported action / target
 combinations to specify the set of commands valid for that
 actuator. The [Stateless Packet Filtering
 AP](https://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.html)
-includes the following command matrix (section 2.3):
+includes the following command matrix (section 2.3, actions are
+across the top, targets are down the left side including an
+AP-specific target [`slpf:rule_number`]):
 
 > ![SLPF AP Command Matrix](images/slfp-ap-cmd-matrix.png)
 
