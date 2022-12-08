@@ -1,34 +1,49 @@
 # Information Modeling: JADN and OpenC2
 
-Information models (IMs) are used to define and generate physical
-data models, validate information instances, and enable lossless
-translation across data formats. An IM defines the essential
-content of entities used in computing, independently of how those
-entities are represented (i.e., serialized) for communication or
-storage. The [OpenC2 Technical Committee
+The [OpenC2 Architecture
+Specification](https://docs.oasis-open.org/openc2/oc2arch/v1.0/cs01/oc2arch-v1.0-cs01.html)
+abstract defines the objective of OpenC2:
+
+> _Open Command and Control (OpenC2) is a concise and extensible
+> language to enable machine-to-machine communications for
+> purposes of command and control of cyber defense components,
+> subsystems and/or systems in a manner that is agnostic of the
+> underlying products, technologies, transport mechanisms or
+> other aspects of the implementation._
+
+The [OpenC2 Technical Committee
 (TC)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2)
 recognized the need to define the [OpenC2
 language](https://docs.oasis-open.org/openc2/oc2ls/v1.0/oc2ls-v1.0.html)
-in such an implementation-independent manner in order to achieve
-the project's goals, and created an information modeling
-language, [JSON Abstract Data Notation
+in an implementation-independent manner in order to achieve the
+project's goals, and created an information modeling language,
+[JSON Abstract Data Notation
 (JADN)](https://docs.oasis-open.org/openc2/jadn/v1.0/cs01/jadn-v1.0-cs01.html),
-to support information modeling. While JADN was created by the
-OpenC2 TC, it is entirely general purpose in its design and can
-be used to create IMs for nearly any purpose. Examples of
-possible JADN applications include defining:
+to support information modeling.
 
- - Data structures, such as Software Bills of Materials (SBOMs)
- - Information exchanges, such as are described by NIEM
-
-The IETF ([RFC 8477](https://www.rfc-editor.org/info/rfc8477)) has attributed challenges in achieve interoperability to a lack of information modeling:
+The IETF ([RFC 8477](https://www.rfc-editor.org/info/rfc8477))
+has attributed challenges in achieve interoperability to a lack
+of information modeling:
 
 > _One common problem is the lack of an encoding-independent
    standardization of the information, the so-called information
    model. Another problem is the strong relationship between data
    formats and the underlying communication architecture_
 
-The same RFC defines information and data models to clarify the differences:
+Information models (IMs) are used to define and generate physical
+data models, validate information instances, and enable lossless
+translation across data formats. An IM defines the essential
+content of entities used in computing, independently of how those
+entities are represented (i.e., serialized) for communication or
+storage.  While JADN was created by the OpenC2 TC, it is entirely
+general purpose in its design and can be used to create IMs for
+nearly any purpose. Examples of other possible JADN applications
+include defining:
+
+ - Data structures, such as [Software Bills of Materials (SBOMs)](https://www.ntia.doc.gov/report/2021/minimum-elements-software-bill-materials-sbom)
+ - Information exchanges, such as are described by [NIEM](https://github.com/niemopen/oasis-open-project#readme)
+
+RFC 8477 defines information and data models to clarify the differences:
 
  - **Information Model** -- An information model defines an
       environment at the highest level of abstraction and
@@ -43,13 +58,14 @@ The same RFC defines information and data models to clarify the differences:
       implementation- and protocol- specific details.  Some
       examples are SNMP Management Information Base (MIB)
       modules, World Wide Web Consortium (W3C) Thing Description
-      (TD) Things, YANG modules, Lightweight Machine-to- Machine
+      (TD) Things, YANG modules, Lightweight Machine-to-Machine
       (LwM2M) Schemas, Open Connectivity Foundation (OCF)
       Schemas, and so on.
 
 JADN provides a means to develop abstract IMs to facilitate clear
-definition of information requirements and support flexibility of
-implementation that supports interoperability.
+and unambiguous definition of information requirements and
+support flexibility of implementation that supports
+interoperability.
 
 # A Brief JADN Overview
 
@@ -78,15 +94,121 @@ models can also be programatically translated among multiple,
 equivalent representations:
 
  - JSON data, the basic format of JADN
- - JADN Interface Definition Language (IDL), an easy-to-read and
+ - JADN Interface Definition Language (JIDL), an easy-to-read and
    -edit textual representation of JADN type definitions
  - Property tables
  - Entity Relationship Diagrams
 
-More information about JADN can be found in 
+More information about JADN can be found in the OpenC2 TC's
+[Committee Note
+(CN)](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dCommitteeNote)
+on [*Information Modeling Using
+JADN*](https://github.com/oasis-tcs/openc2-jadn-im/blob/working/imjadn-v1.0-cn01.md)
+(the link is to the in-progress draft, which is substantially
+complete). The CN provides an overview of information modeling
+and the use of JADN for that purpose. Detailed specifics can be
+found in the [*Specification for JSON Abstract Data Notation
+(JADN)*](https://docs.oasis-open.org/openc2/jadn/v1.0/cs01/jadn-v1.0-cs01.html),
+an OASIS [Committee Specification
+(CS)](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dCommitteeSpec)
+published in August 2021. Open source tools to process JADN
+information models (abstract schemas) used to define OpenC2
+content as well as other types of structured data, e.g., Software
+Bill of Materials (SBOM) documents and validate data against an
+information model can be found on Github in an OASIS TC Open
+Repository of [JADN
+Software](https://github.com/oasis-open/openc2-jadn-software).
+
 
 # Information Models in OpenC2
 
+Information modeling is used at two levels in OpenC2:
+
+ - Definition of the OpenC2 Language
+ - Documentation of the use of OpenC2 in context of a specific
+   actuator, including actuator-specific extensions
+
 ## OpenC2 Language
 
+The [OpenC2 Language
+Specification](https://docs.oasis-open.org/openc2/oc2ls/v1.0/oc2ls-v1.0.html)
+documents the language in a series of property tables, with
+supporting text explaining details or constraints as needed. For
+example, the following shows OpenC2's definition of a digital
+artifact:
+
+> ![OpenC2 Artifact Property Table](images/artifact-pt-example.png)
+
+Underlying the specification's contents is a rigorous IM in JADN,
+in which each OpenC2 data structure or type is precisely defined
+(e.g., `Payload` and `Hashes` are structured types that are
+further defined elsewhere in the OpenC2 IM. ). The JADN for the
+`Artifact` type (in JIDL format for readability) along with the
+definition of one of the linked types (`Hashes`) is as follows:
+
+```
+Artifact = Record{1..*}
+   1 mime_type    String optional    // Permitted values specified in the IANA Media Types registry, [RFC6838]
+   2 payload      Payload optional   // Choice of literal content or URL
+   3 hashes       Hashes optional    // Hashes of the payload content
+
+Hashes = Map{1..*}   // Cryptographic hash values
+   1 md5          Binary{16..16} /x optional  // MD5 hash as defined in [RFC1321]
+   2 sha1         Binary{20..20} /x optional  // SHA1 hash as defined in [RFC6234]
+   3 sha256       Binary{32..32} /x optional  // SHA256 hash as defined in [RFC6234]
+```
+
+While this is a simple example, it illustrates several key
+points:
+
+ - The use of both primitive (`String`) and structured
+   (`Payload`, `Hashes`) types
+ - The DAG aspect (`Artifact` points to the structured types)
+ - Since the property table is created programmatically from the
+   underlying model, the specification authors can be confident
+   of its accuracy
+ - Modifications or additions to the model can readily be added
+   to the specification
+
 ## OpenC2 Actuator Profiles
+
+
+
+## FAQs (for reference / reuse, to be deleted)
+
+### What is JADN?
+
+[JSON Abstract Data Notation
+(JADN)](https://docs.oasis-open.org/openc2/jadn/v1.0/cs01/jadn-v1.0-cs01.html)
+is a UML-based information modeling language that defines
+information requirements and data structure independently of data
+format. JADN was created by the OpenC2 TC to assist with defining
+ OpenC2 information models for the language and actuator profiles
+in a way that supports the language's goal of enabling
+machine-to-machine communications for purposes of command and
+control of cyber defense components, subsystems and/or systems in
+a manner that is agnostic of the serialization formats.
+
+### How can I learn more about JADN?
+
+The TC is developing a [Committee Note
+(CN)](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dCommitteeNote)
+on [*Information Modeling Using
+JADN*](https://github.com/oasis-tcs/openc2-jadn-im/blob/working/imjadn-v1.0-cn01.md)
+(the link is to the in-progress draft, which is substantially
+complete). The CN provides an overview of information modeling
+and the use of JADN for that purpose. Detailed specifics can be
+found in the [*Specification for JSON Abstract Data Notation
+(JADN)*](https://docs.oasis-open.org/openc2/jadn/v1.0/cs01/jadn-v1.0-cs01.html),
+an OASIS [Committee Specification
+(CS)](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dCommitteeSpec)
+published in August 2021.
+
+### Are there tools for working with JADN?
+
+Open source tools to process JADN information models (abstract
+schemas) used to define OpenC2 content as well as other types of
+structured data, e.g., Software Bill of Materials (SBOM)
+documents and validate data against an information model can be
+found on Github in an OASIS TC Open Repository of [JADN
+Software](https://github.com/oasis-open/openc2-jadn-software).
