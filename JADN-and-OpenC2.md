@@ -96,7 +96,7 @@ specific objectives:
    extensibility
 
 The JADN core types are five primitive (or scalar) and seven
-structured (or complex) information types, along with a variety
+compound (or structured) information types, along with a variety
 of options to refine the use of these types to model a broad
 spectrum of information. JADN models are organized as [Directed
 Acyclic Graphs
@@ -154,8 +154,8 @@ artifact:
 > Table](images/artifact-pt-example.png)
 
 Underlying the specification's contents is a rigorous JADN IM, in
-which each OpenC2 data structure or type is precisely defined
-(e.g., `Payload` and `Hashes` are structured types that are
+which each OpenC2 information type is precisely defined
+(e.g., `Payload` and `Hashes` are compound types that are
 further defined elsewhere in the OpenC2 IM). The JADN for the
 `Artifact` type along with the definition of one of the linked
 types (`Hashes`) is as follows (in JIDL format for readability):
@@ -175,9 +175,9 @@ Hashes = Map{1..*}   // Cryptographic hash values
 While this is a simple example, it illustrates several key
 points:
 
- - The use of both primitive (`String`) and structured
+ - The use of both primitive (`String`) and compound
    (`Payload`, `Hashes`) types
- - The DAG aspect (fields in `Artifact` point to the structured
+ - The DAG aspect (fields in `Artifact` point to the compound
    types)
  - Since the property table is created programmatically from the
    underlying model, the specification authors can be confident
