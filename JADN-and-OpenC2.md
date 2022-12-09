@@ -65,10 +65,20 @@ differences (emphasis added):
       (LwM2M) Schemas, Open Connectivity Foundation (OCF)
       Schemas, and so on.
 
-JADN provides a means to develop abstract IMs to facilitate clear
-and unambiguous definition of information requirements and
-support flexibility of implementation that supports
-interoperability.
+In contrast to the RFC 8477 hierarchy, a JADN information model is
+positioned within three abstraction levels, the highest being:
+
+ - **Logical Model** -- A logical model defines the semantics
+      (knowledge/meaning) assigned to things being modeled.
+      Logical models are defined using languages such as the
+      W3C Web Ontology Language (OWL).
+
+JADN is based on Information Theory, which provides a concrete
+way of quantifying information that is explicitly independent
+of both semantic meaning and data representation.
+A JADN IM provides a clear and unambiguous bridge between
+semantics and data, supporting flexibility of implementations
+while maintaining interoperable information exchange between them.
 
 # A Brief JADN Overview
 
