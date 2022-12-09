@@ -87,13 +87,13 @@ specific objectives:
 
 1. JADN Core types represent application-relevant "information",
    not "data"
-1. A single JADN specification unambiguously defines multiple
+2. A single JADN specification unambiguously defines multiple
    data formats
-1. The JADN specification uses named type definitions equivalent
+3. The JADN specification uses named type definitions equivalent
    to property tables
-1. The JADN specification is data that can be serialized
-1. The JADN specification has a fixed structure designed for
+4. The JADN specification has a fixed structure designed for
    extensibility
+5. A JADN information model is data that can be serialized
 
 The JADN core types are five primitive (or scalar) and seven
 compound (or structured) information types, along with a variety
