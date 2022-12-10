@@ -71,11 +71,12 @@ positioned within three abstraction levels, the highest being:
  - **Logical Model** -- A logical model defines the semantics
       (knowledge/meaning) assigned to things being modeled.
       Logical models are defined using languages such as the
-      W3C Web Ontology Language (OWL).
+      W3C Web Ontology Language ([OWL](https://www.w3.org/OWL/)).
 
-JADN is based on Information Theory, which provides a concrete
-way of quantifying information that is explicitly independent
-of both semantic meaning and data representation.
+JADN is based on
+[Information Theory](https://en.wikipedia.org/wiki/Entropy_(information_theory)),
+which provides a concrete way of quantifying information that is
+explicitly independent of both semantic meaning and data representation.
 A JADN IM provides a clear and unambiguous bridge between
 semantics and data, supporting flexibility of implementations
 while maintaining interoperable information exchange between them.
