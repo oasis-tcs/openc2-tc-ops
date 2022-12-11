@@ -177,10 +177,10 @@ Hashes = Map{1..*}   // Cryptographic hash values
 While this is a simple example, it illustrates several key
 points:
 
- - The use of both primitive (`String`) and compound
+ - The use of both primitive (`String`, `Binary`) and compound
    (`Payload`, `Hashes`) types
- - The DAG aspect (fields in `Artifact` point to the compound
-   types)
+ - The DAG structure (fields in `Artifact` contain both primitive
+   and compound types)
  - Since the property table is created programmatically from the
    underlying model, the specification authors can be confident
    of its accuracy
