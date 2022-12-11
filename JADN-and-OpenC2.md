@@ -77,9 +77,10 @@ JADN is based on
 [Information Theory](https://en.wikipedia.org/wiki/Entropy_(information_theory)),
 which provides a concrete way of quantifying information that is
 explicitly independent of both semantic meaning and data representation.
-A JADN IM provides a clear and unambiguous bridge between
-semantics and data, supporting flexibility of implementations
-while maintaining interoperable information exchange between them.
+A JADN IM links model-defined semantic types with JADN-defined core
+information types, providing an unambiguous bridge between semantics and data.
+This supports implementation flexibility while maintaining
+interoperable information exchange across implementations.
 
 # A Brief JADN Overview
 
