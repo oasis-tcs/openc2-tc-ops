@@ -22,7 +22,7 @@ project's goals, and created an information modeling language,
 to support information modeling.
 
 The IETF ([RFC 8477](https://www.rfc-editor.org/info/rfc8477))
-has attributed challenges in achieve interoperability to a lack
+has attributed challenges in achieving interoperability to a lack
 of information modeling:
 
 > _One common problem is the lack of an encoding-independent
