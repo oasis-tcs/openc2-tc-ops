@@ -202,18 +202,10 @@ The [Open Cybersecurity Alliance
 (OCA)](https://opencybersecurityalliance.org/) is an OASIS [Open
 Project](https://www.oasis-open.org/open-projects/) focused on
 building an open ecosystem where cybersecurity products
-interoperate without the need for custom integrations. Currently
-(November 2022) the OCA has three primary sub-projects: the
-[Kestrel](https://github.com/opencybersecurityalliance/kestrel-lang)
-threat hunting language, the [STIX
-Shifter](https://github.com/opencybersecurityalliance/stix-shifter)
-patterning library, and [PACE (Posture Attribute Collection and
-Evaluation)](https://opencybersecurityalliance.org/pace). OpenC2
-is being used in PACE as the preferred C2 mechanism, and there is
-activity to develop an actuator profile to enable OpenC2 to
-direct hunting activities via Kestrel. OCA also has working
-groups exploring Indicators of Behavior (IOB) sharing, Zero Trust
-Architecture (ZTA), and a unified cybersecurity ontology.
+interoperate without the need for custom integrations. OpenC2 is
+being used on some OCA sub-projects as the preferred C2
+mechanism, and some OCA sub-projects may trigger the development
+of an OpenC2 AP.
 
 ### How does OpenC2 relate to PACE?
 
