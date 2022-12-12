@@ -21,6 +21,10 @@ This repository includes the following information:
 * [An OpenC2 Companion](oc2-companion.md) -- a friendly, informal
   guide to all of the pieces of OpenC2 and how you put them
   together to do something useful (**a really good place to start**)
+* [JADN and OpenC2](JADN-and-OpenC2.md) -- A concise introduction
+  to Information Modeling and the JSON Abstract Data Notation
+  (JADN) IM language, including the use of JADN in defining and
+  documenting the OpenC2 information model
 * [Documentation-Norms.md](Documentation-Norms.md)
   -- An information document for work product editors, including
   the TC's use of markdown and GitHub for developing and managing
