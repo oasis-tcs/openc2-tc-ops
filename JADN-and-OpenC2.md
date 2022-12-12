@@ -65,10 +65,22 @@ differences (emphasis added):
       (LwM2M) Schemas, Open Connectivity Foundation (OCF)
       Schemas, and so on.
 
-JADN provides a means to develop abstract IMs to facilitate clear
-and unambiguous definition of information requirements and
-support flexibility of implementation that supports
-interoperability.
+In contrast to the RFC 8477 hierarchy, a JADN information model is
+positioned within three abstraction levels, the highest being:
+
+ - **Logical Model** -- A logical model defines the semantics
+      (knowledge/meaning) assigned to things being modeled.
+      Logical models are defined using languages such as the
+      W3C Web Ontology Language ([OWL](https://www.w3.org/OWL/)).
+
+JADN is based on
+[Information Theory](https://en.wikipedia.org/wiki/Entropy_(information_theory)),
+which provides a concrete way of quantifying information that is
+explicitly independent of both semantic meaning and data representation.
+A JADN IM links model-defined semantic types with JADN-defined core
+information types, providing an unambiguous bridge between semantics and data.
+This supports implementation flexibility while maintaining
+interoperable information exchange across implementations.
 
 # A Brief JADN Overview
 
@@ -77,16 +89,16 @@ specific objectives:
 
 1. JADN Core types represent application-relevant "information",
    not "data"
-1. A single JADN specification unambiguously defines multiple
+2. A single JADN specification unambiguously defines multiple
    data formats
-1. The JADN specification uses named type definitions equivalent
+3. The JADN specification uses named type definitions equivalent
    to property tables
-1. The JADN specification is data that can be serialized
-1. The JADN specification has a fixed structure designed for
+4. The JADN specification has a fixed structure designed for
    extensibility
+5. A JADN information model is data that can be serialized
 
 The JADN core types are five primitive (or scalar) and seven
-structured (or complex) information types, along with a variety
+compound (or structured) information types, along with a variety
 of options to refine the use of these types to model a broad
 spectrum of information. JADN models are organized as [Directed
 Acyclic Graphs
@@ -144,8 +156,8 @@ artifact:
 > Table](images/artifact-pt-example.png)
 
 Underlying the specification's contents is a rigorous JADN IM, in
-which each OpenC2 data structure or type is precisely defined
-(e.g., `Payload` and `Hashes` are structured types that are
+which each OpenC2 information type is precisely defined
+(e.g., `Payload` and `Hashes` are compound types that are
 further defined elsewhere in the OpenC2 IM). The JADN for the
 `Artifact` type along with the definition of one of the linked
 types (`Hashes`) is as follows (in JIDL format for readability):
@@ -165,10 +177,10 @@ Hashes = Map{1..*}   // Cryptographic hash values
 While this is a simple example, it illustrates several key
 points:
 
- - The use of both primitive (`String`) and structured
+ - The use of both primitive (`String`, `Binary`) and compound
    (`Payload`, `Hashes`) types
- - The DAG aspect (fields in `Artifact` point to the structured
-   types)
+ - The DAG structure (fields in `Artifact` contain both primitive
+   and compound types)
  - Since the property table is created programmatically from the
    underlying model, the specification authors can be confident
    of its accuracy
