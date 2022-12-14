@@ -114,7 +114,10 @@ a manner that is agnostic of the serialization formats.
 
 ### How can I learn more about JADN?
 
-The TC is developing a [Committee Note
+A brief introduction to JADN can be found in the [*JADN and
+OpenC2*](JADN-and-OpenC2.md) document in the TC's [operations
+repository](https://github.com/oasis-tcs/openc2-tc-ops). The TC
+is developing a [Committee Note
 (CN)](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dCommitteeNote)
 on [*Information Modeling Using
 JADN*](https://github.com/oasis-tcs/openc2-jadn-im/blob/working/imjadn-v1.0-cn01.md)
