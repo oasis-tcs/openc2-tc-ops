@@ -212,6 +212,7 @@ currently performed within the OpenC2 TC, is as follows:
 
 * Identify WP Need
 * Determine WP name
+  * For Actuator Profiles, add the AP to the namespace registry
 * Request starter template and GitHub repository
 * Upload template and configure repository
 * Apply agile, incremental development (cycle)
@@ -220,8 +221,8 @@ currently performed within the OpenC2 TC, is as follows:
 * Conduct Public Review (cycle)
 * CS Approval & Publication
 
-The [Section 4](#4-openc2-tc-work-product-development-process) and the Appendices provide detailed information
-about these steps.
+[Section 4](#4-openc2-tc-work-product-development-process) and
+the Appendices provide detailed information about these steps.
 
 ## 3.4 GitHub, Markdown, Repositories, and Fork & Pull
 
