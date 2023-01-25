@@ -271,7 +271,9 @@ repositories in use by the OpenC2 TC:
   to
   [commit](https://help.github.com/en/github/getting-started-with-github/github-glossary#commit)
   changes to the repository's contents, be those changes their
-  own work or contributions from other TC members. The assignment of maintainers is discussed in [Section 4.3.2](#432-request-repository-and-assign-maintainers). 
+  own work or contributions from other TC members. The assignment
+  of maintainers is discussed in [Section
+  4.3.2](#432-request-repository-and-assign-maintainers). 
 
 * **TC Working Repos:** In addition to repos specific to
   individual work products, the TC has other repos to support its
@@ -280,7 +282,9 @@ repositories in use by the OpenC2 TC:
   repository to support development of [custom actuator
   profiles](https://github.com/oasis-tcs/openc2-cap) (which may
   eventually turn into TC work products and receive individual
-  repos). This document is stored in the [TC Operationsl repo](https://github.com/oasis-tcs/openc2-tc-ops), which is another "working repo".
+  repos). This document is stored in the [TC Operationsl
+  repo](https://github.com/oasis-tcs/openc2-tc-ops), which is
+  another "working repo".
 
 * **TC Open Repos:**  These are established by the TC to capture
   the development of (primarily) software related to the TC's
