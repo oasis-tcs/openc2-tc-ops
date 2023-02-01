@@ -282,7 +282,7 @@ repositories in use by the OpenC2 TC:
   repository to support development of [custom actuator
   profiles](https://github.com/oasis-tcs/openc2-cap) (which may
   eventually turn into TC work products and receive individual
-  repos). This document is stored in the [TC Operationsl
+  repos). This document is stored in the [TC Operations
   repo](https://github.com/oasis-tcs/openc2-tc-ops), which is
   another "working repo".
 
