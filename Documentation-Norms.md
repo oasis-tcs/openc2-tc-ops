@@ -212,6 +212,7 @@ currently performed within the OpenC2 TC, is as follows:
 
 * Identify WP Need
 * Determine WP name
+  * For Actuator Profiles, add the AP to the namespace registry
 * Request starter template and GitHub repository
 * Upload template and configure repository
 * Apply agile, incremental development (cycle)
@@ -220,8 +221,8 @@ currently performed within the OpenC2 TC, is as follows:
 * Conduct Public Review (cycle)
 * CS Approval & Publication
 
-The [Section 4](#4-openc2-tc-work-product-development-process) and the Appendices provide detailed information
-about these steps.
+[Section 4](#4-openc2-tc-work-product-development-process) and
+the Appendices provide detailed information about these steps.
 
 ## 3.4 GitHub, Markdown, Repositories, and Fork & Pull
 
@@ -270,7 +271,9 @@ repositories in use by the OpenC2 TC:
   to
   [commit](https://help.github.com/en/github/getting-started-with-github/github-glossary#commit)
   changes to the repository's contents, be those changes their
-  own work or contributions from other TC members. The assignment of maintainers is discussed in [Section 4.3.2](#432-request-repository-and-assign-maintainers). 
+  own work or contributions from other TC members. The assignment
+  of maintainers is discussed in [Section
+  4.3.2](#432-request-repository-and-assign-maintainers). 
 
 * **TC Working Repos:** In addition to repos specific to
   individual work products, the TC has other repos to support its
@@ -279,7 +282,9 @@ repositories in use by the OpenC2 TC:
   repository to support development of [custom actuator
   profiles](https://github.com/oasis-tcs/openc2-cap) (which may
   eventually turn into TC work products and receive individual
-  repos). This document is stored in the [TC Operationsl repo](https://github.com/oasis-tcs/openc2-tc-ops), which is another "working repo".
+  repos). This document is stored in the [TC Operations
+  repo](https://github.com/oasis-tcs/openc2-tc-ops), which is
+  another "working repo".
 
 * **TC Open Repos:**  These are established by the TC to capture
   the development of (primarily) software related to the TC's
@@ -382,6 +387,38 @@ three apply the naming conventions described above:
 |  _Specification for Transfer of OpenC2 Messages via OpenDXL_ | transf-odxl | …openc2-transf-odxl |
 |  _Specification for Transfer of OpenC2 Messages via MQTT_ | transf-mqtt | ...-openc2-transf-mqtt |
 
+### 4.2.1 Add Actuator Profile to Namespace Registry
+
+All OpenC2 type definitions are contained in a specification, and
+each specification is assigned a globally-unique namespace in the
+form of a URI. Types in one specification can reference types
+defined in another specification using a namespaced name. As
+OpenC2 uses Actuator Profiles to extend the core language, for
+these extensions to be recognized new APs must be added to the
+Namespace Registry. A more complete discussion of OpenC2
+namespaces can be found in [Appendix
+F](https://docs.oasis-open.org/openc2/oc2arch/v1.0/cs01/oc2arch-v1.0-cs01.html#appendix-f-openc2-namespace-registry)
+of the _OpenC2 Architecture Specification_.
+
+A namespace entry has the following form (excerpt from the
+namespace registry):
+
+| Prop ID | Property Name | OpenC2 Specification                                                                              | NS Prefix | Namespace                                              | Status                                    |
+|---------|---------------|---------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|-----------------------------------------
+|         |               | [OpenC2 Language Spec v1.1 Common Types](https://github.com/oasis-tcs/openc2-oc2ls)               | ls:       | http://docs.oasis-open.org/openc2/ns/types/v1.1        | Types section of LS                       |
+| 1024    | slpf          | [Stateless Packet Filtering AP](https://github.com/oasis-tcs/openc2-apsc-stateless-packet-filter) | slpf:     | http://docs.oasis-open.org/openc2/ns/ap-slpf/v1.0      | CSPRD01 2019/05/31 superseded by PF      
+
+
+The namespace registry is maintained in the [GitHub repository
+for the Architecture
+Specification](https://github.com/oasis-tcs/openc2-oc2arch), in
+the file `namespace-registry.md`. When initiating the development
+of a new AP, a pull request should be made to update the
+namespace registry file with a new line representing the new AP;
+the `Prop ID` value for the next AP should be one greater than
+the `Prop ID` of the highest-numbered Standard Actuator Profile,
+and the `Property Name` and `Namespace` values should be set to
+the `<function-shorthand>` for the new AP.
 
 ## 4.3 Establish Development Environment
 

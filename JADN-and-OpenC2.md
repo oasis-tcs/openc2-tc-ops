@@ -28,7 +28,7 @@ of information modeling:
 > _One common problem is the lack of an encoding-independent
    standardization of the information, the so-called information
    model. Another problem is the strong relationship between data
-   formats and the underlying communication architecture_
+   formats and the underlying communication architecture_.
 
 Information models (IMs) are used to define and generate physical
 data models, validate information instances, and enable lossless
@@ -207,13 +207,17 @@ interface to the actuator. Just as with the OpenC2 Language, APs
 are intended to be defined in implementation-independent terms so
 that the exchange of commands and responses may be supported
 using different protocols or transfer encodings while retaining a
-common and consistent meaning. The IM for an OpenC2 AP is
-therefore both a subset of the OpenC2 Language IM (as not all
-actions or targets will apply to any individual actuator) and an
-extension of it (to define actuator-specific elements). A feature
-of every AP is the mapping of supported action / target
-combinations to specify the set of commands valid for that
-actuator. The [Stateless Packet Filtering
+common and consistent meaning. 
+
+Developing an OpenC2 AP is begun by developing an appropriate IM
+for that AP, ideally using JADN. An AP's IM is both a subset of
+the OpenC2 Language IM (as not all of the actions or targets in
+the language will apply to any individual actuator) and an
+extension of it (as most APs need to define actuator-specific
+elements). A feature of every AP is the identification of
+supported action / target combinations to specify the set of
+commands valid for that actuator. As an example, the [Stateless
+Packet Filtering
 AP](https://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.html)
 includes the following command matrix (section 2.3, actions are
 across the top, targets are down the left side including an
@@ -222,7 +226,7 @@ AP-specific target [`slpf:rule_number`]):
 > ![SLPF AP Command Matrix](images/slfp-ap-cmd-matrix.png)
 
 As with the Language Specification, the AP is actually defined by
-its underlying IM:
+its underlying IM, from which the command matrix is derived:
 
 ```
 Action-Targets = Map  // Targets applicable to each action
