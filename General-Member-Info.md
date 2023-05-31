@@ -39,7 +39,7 @@ calendar invitations (5 calendar invites, total).
 ## TC (Technical Committee) Meetings
 
 Our monthly TC meetings on the **third** Wednesday of each month
-have an "early" (11:00 AM Eastern) sesion and a "late" (9:00 PM
+have an "early" (11:00 AM Eastern) session and a "late" (9:00 PM
 Eastern) session. The same agenda is used for both sessions, and
 the two sessions are treated as a single meeting (see [Standing Rule
 #6](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=openc2#other))
@@ -64,10 +64,13 @@ other technical matters.
 ## Work Product Development
 
 * At present all of our work product development is happening on
-  [GitHub](https://github.com/) using [Fork & Pull](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models) model.  There is also a collection
+  [GitHub](https://github.com/) using the [Fork & Pull](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models) model.  There is also a collection
   of open GitHub repositories with OpenC2 implementations. Links:
+
   * [Work product repos:](https://github.com/oasis-tcs?utf8=%E2%9C%93&q=openc2&type=&language=) specifications and related documents
+
   * [Open repos:](https://github.com/oasis-open?utf8=%E2%9C%93&q=openc2-&type=&language=) software contributions
+
 * The TC's [Documentation Norms](Documentation-Norms.md) provides
   a great deal of information regarding our approach to work
   product development. This includes [information on using
