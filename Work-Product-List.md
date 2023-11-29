@@ -20,7 +20,7 @@ each  _Repository_ link.
 | [slpf](https://github.com/oasis-tcs/openc2-apsc-stateless-packet-filter) | Stateless Packet Filter, v1.0 | [CS01](https://docs.oasis-open.org/openc2/oc2slpf/v1.0/oc2slpf-v1.0.html) | Duncan Sparrell<br>Alex Everett<br>_Joe Brule_ | David Kemp<br>Alex Everett<br>Duncan Sparrell<br>David Lemire |
 | [https](https://github.com/oasis-tcs/openc2-impl-https) | HTTPS Transfer Specification, v1.1 | [CS01](https://docs.oasis-open.org/openc2/open-impl-https/v1.1/cs01/open-impl-https-v1.1-cs01.html) | David Lemire<br>_Joe Brule_ | David Lemire<br>Duncan Sparrell |
 | [mqtt](https://github.com/oasis-tcs/openc2-transf-mqtt) | MQTT Transfer Specification, v1.0 | [CS01](https://docs.oasis-open.org/openc2/transf-mqtt/v1.0/transf-mqtt-v1.0.html) | David Lemire | David Lemire<br>Duncan Sparrell |
-| [jadn-im](https://github.com/oasis-tcs/openc2-jadn-im) | JADN Information Modeling (CN) |  | David Kemp<br>Dan Johnson | David Kemp<br>Dan Johnson<br>Duncan Sparrell<br>David Lemire |  |
+| [jadn-im](https://github.com/oasis-tcs/openc2-jadn-im) | JADN Information Modeling (CN) | [CN01](https://docs.oasis-open.org/openc2/imjadn/v1.0/imjadn-v1.0.html) | David Kemp | David Kemp<br>Duncan Sparrell<br>David Lemire |  |
 
 
 ## Work In Progress
@@ -30,7 +30,7 @@ This list is presented alphabetically by work product title.
 |:---:|:---:|:---:|---|---|
 | [av](https://github.com/oasis-tcs/openc2-ap-av) | Anti-Virus |  | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
 | [ap-dev](https://github.com/oasis-tcs/openc2-cn-apdev) | Actuator Profile Development Process CN |  | David Kemp<br>David Lemire | Duncan Sparrell<br>Michael Rosa<br>David Kemp<br>David Lemire |
-| [er](https://github.com/oasis-tcs/openc2-ap-er) | Endpoint Response |  | Vasileios Mavroeidis<br>Martin Evandt | Vasileios Mavroeidis<br>Martin Evandt<br>Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
+| [er](https://github.com/oasis-tcs/openc2-ap-er) | Endpoint Response |  | Vasileios Mavroeidis | Vasileios Mavroeidis<br>Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
 | [honeypots](https://github.com/oasis-tcs/openc2-ap-honeypots) | Honeypots |  | Alex Everett | Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
 | [ids](https://github.com/oasis-tcs/openc2-ap-ids) | Intrusion Detection Systems |  | Duncan Sparrell | Duncan Sparrell<br>David Lemire |
 | [lc](https://github.com/oasis-tcs/openc2-ap-lc) | Log Collector |  | Alex Everett<br>David Kemp | Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
