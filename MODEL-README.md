@@ -56,7 +56,7 @@ _Provide a 1-2 paragraph summary of the work product contained in this repo._
 ### :scroll: Licensing :scroll:
 
 <div>
-<p>Please see the <a href="LICENSE.md">LICENSE</a> file for description of the license terms and OASIS policies applicable to the TC's work in this GitHub project. Content in this repository is intended to be part of the OpenC2 TC's permanent record of activity, visible and freely available for all to use, subject to applicable OASIS policies, as presented in the repository <a href="https://github.com/oasis-tcs/openc2-jadn/blob/master/LICENSE.md">LICENSE</a> file.</p>
+<p>Please see the <a href="LICENSE.md">LICENSE</a> file for description of the license terms and OASIS policies applicable to the TC's work in this GitHub project. Content in this repository is intended to be part of the OpenC2 TC's permanent record of activity, visible and freely available for all to use, subject to applicable OASIS policies, as presented in the repository <a href="LICENSE.md">LICENSE</a> file.</p>
 </div>
 
 ### :left_speech_bubble:   Further Description of this Repository :left_speech_bubble: 
