@@ -28,16 +28,17 @@ This list is presented alphabetically by work product title.
 
 | Repository | Title | Recent | Editors | GH Repo<br>Write Team |
 |:---:|:---:|:---:|---|---|
-| [av](https://github.com/oasis-tcs/openc2-ap-av) | Anti-Virus |  | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
-| [ap-dev](https://github.com/oasis-tcs/openc2-cn-apdev) | Actuator Profile Development Process CN |  | David Kemp<br>David Lemire | Duncan Sparrell<br>Michael Rosa<br>David Kemp<br>David Lemire |
-| [er](https://github.com/oasis-tcs/openc2-ap-er) | Endpoint Response |  | Vasileios Mavroeidis | Vasileios Mavroeidis<br>Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
-| [honeypots](https://github.com/oasis-tcs/openc2-ap-honeypots) | Honeypots |  | Alex Everett | Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
-| [ids](https://github.com/oasis-tcs/openc2-ap-ids) | Intrusion Detection Systems |  | Duncan Sparrell | Duncan Sparrell<br>David Lemire |
-| [lc](https://github.com/oasis-tcs/openc2-ap-lc) | Log Collector |  | Alex Everett<br>David Kemp | Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
+| [av](https://github.com/oasis-tcs/openc2-ap-av) | Anti-Virus Ap |  | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
+| [ap-dev](https://github.com/oasis-tcs/openc2-cn-apdev) | Actuator Profile<br> Development Process CN |  | David Kemp<br>David Lemire | Duncan Sparrell<br>Michael Rosa<br>David Kemp<br>David Lemire |
+| [cacao-ext](https://github.com/oasis-tcs/openc2-cacao-ext) | OpenC2 Extension<br>for CACAO |  | David Lemire | Duncan Sparrell<br>Michael Rosa<br>David Lemire |
+| [er](https://github.com/oasis-tcs/openc2-ap-er) | Endpoint Response AP |  | Vasileios Mavroeidis | Vasileios Mavroeidis<br>Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
+| [honeypots](https://github.com/oasis-tcs/openc2-ap-honeypots) | Honeypots AP |  | Alex Everett | Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
+| [ids](https://github.com/oasis-tcs/openc2-ap-ids) | Intrusion Detection Systems AP |  | Duncan Sparrell | Duncan Sparrell<br>David Lemire |
+| [lc](https://github.com/oasis-tcs/openc2-ap-lc) | Log Collector AP |  | Alex Everett<br>David Kemp | Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
 | [odxl](https://github.com/oasis-tcs/openc2-transf-odxl) | OpenDXL Transfer Specification |  | Duncan Sparrell<br>_Scott MacGregor_ | David Lemire<br>Duncan Sparrell |
-| [pac](https://github.com/oasis-tcs/openc2-ap-pac) | Posture Attribute Collection |  | David Kemp<br>David Lemire | David Kemp<br>David Lemire<br>Michael Rosa<br>Duncan Sparrell |
-| [pf](https://github.com/oasis-tcs/openc2-ap-pf) | Packet Filter |  | Alex Everett | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
-| [sbom](https://github.com/oasis-tcs/openc2-ap-sbom) | Software Bill of Materials |  | Duncan Sparrell | Duncan Sparrell<br>Alex Everett<br>David Kemp<br>David Lemire |
-| [swup](https://github.com/oasis-tcs/openc2-ap-swup) | Software Update |  | Duncan Sparrell | Duncan Sparrell<br>David Lemire |
-| [sfpf](https://github.com/oasis-tcs/openc2-ap-sfpf) | Stateful Packet Filter |  | Alex Everett<br>Vasileios Mavroeidis | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
-| [th](https://github.com/oasis-tcs/openc2-ap-hunt) | Threat Hunting |  | David Lemire | Duncan Sparrell<br>Michael Rosa<br>David Lemire |
+| [pac](https://github.com/oasis-tcs/openc2-ap-pac) | Posture Attribute Collection AP |  | David Kemp<br>David Lemire | David Kemp<br>David Lemire<br>Michael Rosa<br>Duncan Sparrell |
+| [pf](https://github.com/oasis-tcs/openc2-ap-pf) | Packet Filter AP |  | Alex Everett | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
+| [sbom](https://github.com/oasis-tcs/openc2-ap-sbom) | Software Bill of Materials AP |  | Duncan Sparrell | Duncan Sparrell<br>Alex Everett<br>David Kemp<br>David Lemire |
+| [swup](https://github.com/oasis-tcs/openc2-ap-swup) | Software Update AP |  | Duncan Sparrell | Duncan Sparrell<br>David Lemire |
+| [sfpf](https://github.com/oasis-tcs/openc2-ap-sfpf) | Stateful Packet Filter AP |  | Alex Everett<br>Vasileios Mavroeidis | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
+| [th](https://github.com/oasis-tcs/openc2-ap-hunt) | Threat Hunting AP |  | David Lemire | Duncan Sparrell<br>Michael Rosa<br>David Lemire |
