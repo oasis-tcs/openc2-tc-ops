@@ -30,6 +30,7 @@ This list is presented alphabetically by work product title.
 |:---:|:---:|:---:|---|---|
 | [av](https://github.com/oasis-tcs/openc2-ap-av) | Anti-Virus |  | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
 | [ap-dev](https://github.com/oasis-tcs/openc2-cn-apdev) | Actuator Profile Development Process CN |  | David Kemp<br>David Lemire | Duncan Sparrell<br>Michael Rosa<br>David Kemp<br>David Lemire |
+| [cacao-ext](https://github.com/oasis-tcs/openc2-cacao-ext) | OpenC2 Extension for CACAO |  | David Lemire | Duncan Sparrell<br>Michael Rosa<br>David Lemire |
 | [er](https://github.com/oasis-tcs/openc2-ap-er) | Endpoint Response |  | Vasileios Mavroeidis | Vasileios Mavroeidis<br>Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
 | [honeypots](https://github.com/oasis-tcs/openc2-ap-honeypots) | Honeypots |  | Alex Everett | Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
 | [ids](https://github.com/oasis-tcs/openc2-ap-ids) | Intrusion Detection Systems |  | Duncan Sparrell | Duncan Sparrell<br>David Lemire |
