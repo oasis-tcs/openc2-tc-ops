@@ -34,6 +34,7 @@ This list is presented alphabetically by work product title.
 | [er](https://github.com/oasis-tcs/openc2-ap-er) | Endpoint Response AP |  | Vasileios Mavroeidis | Vasileios Mavroeidis<br>Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
 | [honeypots](https://github.com/oasis-tcs/openc2-ap-honeypots) | Honeypots AP |  | Alex Everett | Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
 | [ids](https://github.com/oasis-tcs/openc2-ap-ids) | Intrusion Detection Systems AP |  | Duncan Sparrell | Duncan Sparrell<br>David Lemire |
+| [oc2ls](https://github.com/oasis-tcs/openc2-oc2ls) | Language Specification, v2.0 | [CS02](https://docs.oasis-open.org/openc2/oc2ls/v2.0/csd02/oc2ls-v2.0-csd02.html) | Toby Considine<br>Duncan Sparrell<br>David Lemire | Toby Considine<br>David Lemire<br>Michael Rosa<br>Duncan Sparrell<br>Drew Varner |
 | [lc](https://github.com/oasis-tcs/openc2-ap-lc) | Log Collector AP |  | Alex Everett<br>David Kemp | Alex Everett<br>David Kemp<br>Duncan Sparrell<br>David Lemire |
 | [odxl](https://github.com/oasis-tcs/openc2-transf-odxl) | OpenDXL Transfer Specification |  | Duncan Sparrell<br>_Scott MacGregor_ | David Lemire<br>Duncan Sparrell |
 | [pac](https://github.com/oasis-tcs/openc2-ap-pac) | Posture Attribute Collection AP |  | David Kemp<br>David Lemire | David Kemp<br>David Lemire<br>Michael Rosa<br>Duncan Sparrell |
@@ -41,4 +42,4 @@ This list is presented alphabetically by work product title.
 | [sbom](https://github.com/oasis-tcs/openc2-ap-sbom) | Software Bill of Materials AP |  | Duncan Sparrell | Duncan Sparrell<br>Alex Everett<br>David Kemp<br>David Lemire |
 | [swup](https://github.com/oasis-tcs/openc2-ap-swup) | Software Update AP |  | Duncan Sparrell | Duncan Sparrell<br>David Lemire |
 | [sfpf](https://github.com/oasis-tcs/openc2-ap-sfpf) | Stateful Packet Filter AP |  | Alex Everett<br>Vasileios Mavroeidis | Alex Everett<br>David Kemp<br>Vasileios Mavroeidis<br>Duncan Sparrell<br>David Lemire |
-| [th](https://github.com/oasis-tcs/openc2-ap-hunt) | Threat Hunting AP |  | David Lemire | Duncan Sparrell<br>Michael Rosa<br>David Lemire |
+| [th](https://github.com/oasis-tcs/openc2-ap-hunt) | Threat Hunting AP |  [CS02](https://docs.oasis-open.org/openc2/ap-hunt/v1.0/csd02/ap-hunt-v1.0-csd02.html)  | David Lemire | Duncan Sparrell<br>Michael Rosa<br>David Lemire |
