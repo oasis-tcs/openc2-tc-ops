@@ -1,7 +1,7 @@
 # Secretary's Notes on Meeting Scheduling
 
-The OASIS Kavi system is the system of record for OASIS TC
-operations. The OpenC2 TC uses [Lucid
+The OASIS Community Platform  is the system of record for OASIS TC
+operations (as of March 2024). The OpenC2 TC uses [Lucid
 Meetings](https://meet.lucidmeetings.com/) to conduct TC and SC
 meetings. The following notes capture some useful details
 regarding the meeting scheduling process. The Lucid Meetings
@@ -15,17 +15,15 @@ scheduling a meeting series.
 ## General Notes
 
 * This arrangement requires TC and working meetings to be
-  scheduled in *both* Kavi & Lucid
+  scheduled in *both* OASIS & Lucid
   * The TC has been scheduling recurring meeting series in
     6-month blocks
   * Scheduling meeting series generates a flurry of calendar
     invitation emails. Consider sending a "warning order" email
     to the TC mail list so that members aren't surprised.<br><br>
-    **NOTE:** as of March 2022, we have agreement from OASIS TC
-    Administration that while we should continue to schedule in
-    both systems, we only need to send meetings invitations from
-    Lucid, which reduces the invitation email burden on TC
-    members. <br><br>
+    * **NOTE:** as of September 2024, we have resumed sending invitations from
+    both platforms due to the OASIS Community Platform requiring a prior RSVP
+    before a member can record their attendance for a meeting. <br><br>
   * Consider creating a matrix (example at the end of this note)
     so you can check off each meeting series as it's scheduled.
   * Working meetings (which occur three times per month) require
@@ -34,13 +32,17 @@ scheduling a meeting series.
     series)
   * The monthly TC meeting's first and second sessions
     likewise require scheduling a series for each session
-    * **NOTE:**  Lucid added a feature in early 2022 to copy a meeting agenda from a previous meeting. This means it's now easier to schedule the second session TC meeting with a trivial agenda template, and then copy the agenda from the first session into the second session once the first session has adjoured.
+    * **NOTE:**  Lucid added a feature in early 2022 to copy a meeting agenda
+      from a previous meeting. This means it's now easier to schedule the second
+      session TC meeting with a trivial agenda template, and then copy the
+      agenda from the first session into the second session once the first
+      session has adjoured.
 * The person who schedules a meeting in Lucid is automatically a
   facilitator, others need to have their role changed to
   facilitator.
-  * TC co-chairs and the secretary are facilitators for monthly
+  * TC co-chairs and the Secretary are facilitators for monthly
     TC meetings.
-  * TC co-chairs, and the secretary are facilitators for all
+  * TC co-chairs, and the Secretary are facilitators for all
     working meetings. Work product editors will be specified as
     presenters for their work items in the working meeting
     agendas
@@ -50,11 +52,11 @@ scheduling a meeting series.
   don't want to get flooded.
 * Only Facilitators and Participants can raise hands in Lucid, so
   set people's roles accordingly. Our convention has been:
-  * TC meetings: TC co-chairs and secreatry are facilitators
-  * Working meetings: TC co-chairs and secreatry are
+  * TC meetings: TC co-chairs and Secretary are facilitators
+  * Working meetings: TC co-chairs and Secretary are
     facilitators; work product editors are made presenters for
     their portions of the agenda so they can edit them.  
-    * NOTE: Lucid only allows one presenter per agenda portion,
+    * **NOTE:** Lucid only allows one presenter per agenda portion,
       so if there are multiple editors for a work product one
       should be identified as the presenter for any particular
       meeting.
@@ -100,7 +102,5 @@ support system, and has been very pleased with the quality of
 their support. 
 
 ### Example Meeting Scheduling Matrix
-> NOTE: requires update for working meetings in place of SC
-> meetings
-> 
+
 ![Example Scheduling Grid](/images/scheduling-grid.jpg)
