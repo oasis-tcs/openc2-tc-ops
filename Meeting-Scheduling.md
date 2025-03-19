@@ -35,8 +35,9 @@ will be done in the OpenC2 TC "room".
   list](mailto:OASIS-openc2@ConnectedCommunity.org) so that members aren't
   surprised.
 
-* Use the _Monthly / Same Day of Week_ repeat schedule for meetings (to get,
-e.g., second Wednesday of month) in both systems
+* The repeating meeting setting for each series should be _Monthly / Same Day of
+  Week_ in both the OASIS and Lucid Meetings systems. This setting provides for
+  meetings to occur on, for example, the third Wednesday of month.
 
 * Consider creating a matrix (example at the end of this note) so you can check
   off each meeting series as it is scheduled to ensure completeness.
