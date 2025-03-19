@@ -1,6 +1,6 @@
 # Secretary's Notes on Meeting Scheduling
 
-(Updated March 2025)
+#### (Updated March 2025)
 
 The [OpenC2 TC](https://groups.oasis-open.org/communities/tc-community-home2?CommunityKey=a34c9baf-48b2-44c5-a567-018dc7d32296)'s
 routine meeting schedule is described in the [General Member
@@ -13,9 +13,8 @@ Two systems are involved in scheduling OpenC2 TC meetings:
 * The OpenC2 TC uses [Lucid Meetings](https://meet.lucidmeetings.com/) to
 conduct TC and working meetings.  
 
-The Lucid Meetings [Fundamentals: Start
-Here](http://support.lucidmeetings.com/support/solutions/folders/16000049332)
-page provides an introduction to how things are organized in Lucid. Keys to
+The Lucid Meetings [Fundamentals: Start Here](http://support.lucidmeetings.com/support/solutions/folders/16000049332)
+page provides information describing how things are organized in Lucid. Keys to
 efficient scheduling in Lucid are to update (1) the meeting agenda template and
 (2) the room membership prior to scheduling a meeting series. Lucid uses the
 metaphor of Meeting Rooms for organizations. All of the actions described below
@@ -29,22 +28,22 @@ will be done in the OpenC2 TC "room".
   Lucid invitation provides the necessary information to join each meeting
   (member can RSVP to Lucid but there is no particular utility for doing so).
 
-* The TC schedules recurring meeting series in 6-month blocks (April-September
+* The TC schedules its recurring meeting series in 6-month blocks (April-September
   and October-March)
 
-* Scheduling meeting series generates a flurry of calendar invitation emails.
-  Consider sending a "warning order" email to the [TC mail
-  list](mailto:OASIS-openc2@ConnectedCommunity.org) so that members aren't
-  surprised.
+* Scheduling the five meeting series for a 6-month block generates a flurry of
+  calendar invitation emails. Consider sending a "warning order" email to the
+  [TC mail list](mailto:OASIS-openc2@ConnectedCommunity.org) so that members
+  aren't surprised.
 
 * The repeating meeting setting for each series should be _Monthly / Same Day of
   Week_ in both the OASIS and Lucid Meetings systems. This setting provides for
   meetings to occur on, for example, the third Wednesday of month.
 
-* Consider creating a matrix (example at the end of this note) so you can check
+* Consider creating a tracking matrix (example at the end of this note) so you can check
   off each meeting series as it is scheduled to ensure completeness.
 
-## Meeting Agenda Templates
+## Lucid Meetings Agenda Templates
 
   * Lucid provides a rich system for creating and using meeting agenda templates, found
     in the Open C2 TC "room" in the Meeting Templates section of the Settings
