@@ -1,42 +1,89 @@
 # Secretary's Notes on Meeting Scheduling
 
-The OASIS Community Platform  is the system of record for OASIS TC
-operations (as of March 2024). The OpenC2 TC uses [Lucid
-Meetings](https://meet.lucidmeetings.com/) to conduct TC and SC
-meetings. The following notes capture some useful details
-regarding the meeting scheduling process. The Lucid Meetings
-[Fundamentals: Start
-Here](http://support.lucidmeetings.com/support/solutions/folders/16000049332)
-page provides an introduction to how things are organized in
-Lucid. The keys to efficient scheduling in Lucid are to update
-the meeting agenda template and room membership prior to
-scheduling a meeting series.
+#### (Updated March 2025)
+
+The [OpenC2 TC](https://groups.oasis-open.org/communities/tc-community-home2?CommunityKey=a34c9baf-48b2-44c5-a567-018dc7d32296)'s
+routine meeting schedule is described in the [General Member
+Information](./General-Member-Info.md) document. The following notes capture
+some useful details regarding the meeting scheduling process.
+
+Two systems are involved in scheduling OpenC2 TC meetings:
+
+* The OASIS Community Platform is the system of record for OASIS TC operations.
+* The OpenC2 TC uses [Lucid Meetings](https://meet.lucidmeetings.com/) to
+conduct TC and working meetings.  
+
+The Lucid Meetings [Fundamentals: Start Here](http://support.lucidmeetings.com/support/solutions/folders/16000049332)
+page provides information describing how things are organized in Lucid. Keys to
+efficient scheduling in Lucid are to update (1) the meeting agenda template and
+(2) the room membership prior to scheduling a meeting series. Lucid uses the
+metaphor of Meeting Rooms for organizations. All of the actions described below
+will be done in the OpenC2 TC "room".
 
 ## General Notes
 
-* This arrangement requires TC and working meetings to be
-  scheduled in *both* OASIS & Lucid
-  * The TC has been scheduling recurring meeting series in
-    6-month blocks
-  * Scheduling meeting series generates a flurry of calendar
-    invitation emails. Consider sending a "warning order" email
-    to the TC mail list so that members aren't surprised.<br><br>
-    * **NOTE:** as of September 2024, we have resumed sending invitations from
-    both platforms due to the OASIS Community Platform requiring a prior RSVP
-    before a member can record their attendance for a meeting. <br><br>
-  * Consider creating a matrix (example at the end of this note)
-    so you can check off each meeting series as it's scheduled.
-  * Working meetings (which occur three times per month) require
-    scheduling a series for each session (i.e., 1st Wednesday,
-    2nd Wednesday, 4th Wednesday are scheduled as three separate
-    series)
-  * The monthly TC meeting's first and second sessions
-    likewise require scheduling a series for each session
-    * **NOTE:**  Lucid added a feature in early 2022 to copy a meeting agenda
-      from a previous meeting. This means it's now easier to schedule the second
-      session TC meeting with a trivial agenda template, and then copy the
-      agenda from the first session into the second session once the first
-      session has adjoured.
+* All OpenC2 meetings (both monthly TC and "weekly" working meetings) are
+  scheduled in *both* OASIS & Lucid. The OASIS invitation allows members to RSVP
+  for meetings, which is a pre-requisite for recording their attendance. The
+  Lucid invitation provides the necessary information to join each meeting
+  (member can RSVP to Lucid but there is no particular utility for doing so).
+
+* The TC schedules its recurring meeting series in 6-month blocks (April-September
+  and October-March)
+
+* Scheduling the five meeting series for a 6-month block generates a flurry of
+  calendar invitation emails. Consider sending a "warning order" email to the
+  [TC mail list](mailto:OASIS-openc2@ConnectedCommunity.org) so that members
+  aren't surprised.
+
+* The repeating meeting setting for each series should be _Monthly / Same Day of
+  Week_ in both the OASIS and Lucid Meetings systems. This setting provides for
+  meetings to occur on, for example, the third Wednesday of month.
+
+* Consider creating a tracking matrix (example at the end of this note) so you can check
+  off each meeting series as it is scheduled to ensure completeness.
+
+## Lucid Meetings Agenda Templates
+
+  * Lucid provides a rich system for creating and using meeting agenda templates, found
+    in the Open C2 TC "room" in the Meeting Templates section of the Settings
+    tab. The TC has agenda templates for the OpenC2 Monthly meeting series and the
+    Working Meeting series.
+
+![Meeting Template Management](./images/Meetings-manage-templates.png)
+
+  * There are a total of five meeting series to be scheduled:
+
+    * Working meetings (which occur three times per month) require scheduling a
+      series for each session (i.e., 1st Wednesday, 2nd Wednesday, 4th Wednesday
+      are scheduled as three separate series). When scheduling, apply the
+      Working Meeting agenda template to all three of these series.
+
+    * Monthly TC meeting's first and second sessions likewise require scheduling
+      a series for each session. Apply the OpenC2 Monthly agenda template to the
+      first session meeting series. Apply the Lucid gallery Blank/Quick Call
+      template to the second meeting series. Lucid allows copying the agenda
+      from a previous meeting into an individual meeting. Each month after the
+      first session has completed a facilitator should copy the agenda from the
+      first session into the second session so that the meetings have consistent
+      agendas (updates can be made to the second session agenda after copying if
+      needed). To copy the agenda:
+      1. Go to the upcoming meeting
+      2. Select the More tab
+      3. Scroll down to Manage the meeting process
+      4. Select Copy the agenda from another meeting (this will display a
+         collection of tiles for recent meetings both in the current series
+         [first row] and other series [second and subsequent rows])
+      5. Find the meeting with the agenda you want to copy and click Use Agenda
+         at the bottom of that meeting's tile (typically this will be under Other
+         Recent Meetings)
+
+## Lucid Meetings Scheduling Process
+
+  * Use the **+ Add Meeting** button at the top of the Lucid screen to start the
+    scheduling process. Select OpenC2 TC and you'll be taken to the first page
+    of the meeting scheduling process.
+
 * The person who schedules a meeting in Lucid is automatically a
   facilitator, others need to have their role changed to
   facilitator.
@@ -46,10 +93,10 @@ scheduling a meeting series.
     working meetings. Work product editors will be specified as
     presenters for their work items in the working meeting
     agendas
-* Use the _Monthly / Same Day of Week_ repeat schedule for
-  meetings (to get, e.g., second Wednesday of month) in both systems
+
 * Uncheck the box in Lucid to receive emails for RSVPs if you
   don't want to get flooded.
+
 * Only Facilitators and Participants can raise hands in Lucid, so
   set people's roles accordingly. Our convention has been:
   * TC meetings: TC co-chairs and Secretary are facilitators
@@ -62,6 +109,7 @@ scheduling a meeting series.
       meeting.
   * Lucid Meetings roles are explained
     [here](http://support.lucidmeetings.com/support/solutions/articles/16000013446-roles-and-permissions-who-can-do-what-in-lucid)
+
 * Need to use "Edit series attendees" in Lucid to change attendee
   information for an entire meeting series if you later want to
   add people or adjust roles
@@ -69,6 +117,10 @@ scheduling a meeting series.
   * Click on the Attendees tab
   * Select "(Edit series attendees)" in the space above the table
     of attendees
+
+![Edit Series Attendees](./images/Meetings-edit-series-attendees.png)
+
+
 * The entire TC membership is invited to all TC and working
   meetings
 
