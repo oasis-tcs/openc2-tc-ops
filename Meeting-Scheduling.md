@@ -1,5 +1,7 @@
 # Secretary's Notes on Meeting Scheduling
 
+(Updated March 2025)
+
 The [OpenC2 TC](https://groups.oasis-open.org/communities/tc-community-home2?CommunityKey=a34c9baf-48b2-44c5-a567-018dc7d32296)'s
 routine meeting schedule is described in the [General Member
 Information](./General-Member-Info.md) document. The following notes capture
