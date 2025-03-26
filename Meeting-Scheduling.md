@@ -65,10 +65,7 @@ will be done in the OpenC2 TC "room".
     * Monthly TC meeting's first and second sessions likewise require scheduling
       a series for each session. 
 
-      * Apply the OpenC2 Monthly agenda template to the
-      first session meeting series. 
-      * Apply the Lucid gallery Blank/Quick Call
-      template to the second session meeting series. 
+      * Apply the OpenC2 Monthly agenda template to the first and second session meeting series.
 
   * Lucid allows copying the agenda
     from a previous meeting into an individual meeting. Each month after the
@@ -100,7 +97,7 @@ will be done in the OpenC2 TC "room".
 
 An alternative to making two changes would be to copy the template to be updated
 and give it a new name (e.g., "Working Meeting (April 2025)") so that it can be
-chosen directly at step 4.
+chosen directly at step 4. The previous template can then be deleted.
 
 ![Change Meeting Series Agenda Template](./images/Meetings-edit-series-template.png)
 
