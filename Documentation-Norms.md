@@ -658,11 +658,12 @@ added to the release description.
 ## 4.4 Incremental Development
 
 > **NOTE:  In September 2024 OASIS published
-> [Document Life Cycle Best Practices](https://issues.oasis-open.org/projects/TCADMIN/issues/TCADMIN-4469?filter=allopenissues)
+> [Document Life Cycle Best Practices](https://www.oasis-open.org/policies-guidelines/document-life-cycle-best-practices/)
 > and in November 2024 the OpenC2 TC adopted the standing rules suggested in that document as
 > [Standing Rules 7, 8 and 9](https://groups.oasis-open.org/communities/tc-community-home2?CommunityKey=a34c9baf-48b2-44c5-a567-018dc7d32296#other).
 > Those changes significantly affect the work product development process and the description below _has not_
-> been updated to align. Work Product editors should consult the Best Practices document for guidance and request assistance from the TC Secretary if needed.**
+> been updated to align. Work Product editors should consult the Best Practices document for guidance and request assistance from the TC Secretary if needed. In particular, under the new best practices the term "Working Draft" only applies 
+> [prior to a TC accepting a proposal to become a work item](https://www.oasis-open.org/policies-guidelines/document-life-cycle-best-practices/#DocRevertBP).**
 
 Developing a document on GitHub requires the editor to develop a level of comfort with two distinct skills:
 
