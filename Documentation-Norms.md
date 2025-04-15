@@ -469,13 +469,6 @@ Requesting a template / starter document creates *no* obligation
 for the TC or the editor(s) that the work product will be
 completed.
 
-> NOTE: OASIS changed their document formats in late 2020; an
-> overview of the new structure for a specification is provided
-> for reference in [Document Template
-> 2020](./Document-Template-2020.md). The starter document
-> provided by OASIS contains much more complete guidance than the
-> overview.
-
 Both the template / starter document and a GitHub repo are
 requested using forms on the [TC Admin
 Requests](https://www.oasis-open.org/resources/tc-admin-requests)
