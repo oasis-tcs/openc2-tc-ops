@@ -14,18 +14,20 @@ This process assumes the availability of
 - the focus document in Github-Flavored Markdown (GFM) format
 - any graphics needed for the document, typically in PNG or JPEG format
 - a CSS file that defines OASIS-aligned formatting
-- [`pandoc`](https://pandoc.org/), a FOSS document format conversion tool
+- [`pandoc`](https://pandoc.org/), a FOSS document format conversion tool (or other utility for converting GFM to HTML)
 - Google Chrome or another Chromium-based browser (note that this process has only been tested with Chrome)
+
+The TC Operations repository includes a suitable CSS file as a starting point in the `styles` folder.
 
 ## Process Overview
 
-The process has the following step
+The process has the following steps:
 
 1. Declare a Github Release corresponding to the desired version of the focus document
 2. Download the compressed file for the release and extract to a working folder
 3. Create an HTML version from the Markdown file to HTML using `pandoc` and a suitable CSS file
 4. Review the HTML file for correctness and make any needed adjustments
-5. Use Chrome's `Save as PDF` feature to produce a PDF version
+5. Create a PDF version using Chrome's `Save as PDF` feature
 6. Delete extraneous files
 7. Create a compressed file containing the three versions plus a folder of image
    files and, as needed, other folders with associated file (e.g., schemas)
@@ -95,3 +97,34 @@ Explanations:
 
 It is important that the CSS file contents have the `<style> ... </style>`
 wrapper in order for its contents to be properly embedded in the HTML output.
+The `pandoc` [User's Guide](https://pandoc.org/MANUAL.html) provides
+explanations of all of the parameters.
+
+## 4) Review the HTML Output
+
+Open the newly created `doc_name.html` file in a browser to review the output.
+Some tweaking of the GFM source or the CSS may be necessary to achieved the
+desired formatting.
+
+## 5) Create a PDF Version
+
+The CSS file provided includes formatting directives to produce a page numbered
+PDF styled to match the HTML version. To create this output, invoke the Print
+function from the Chrome menu (or use `ctrl-p`), and select `Save as PDF` as the
+Destination. Other settings can be checked to confirm that the output appears as
+desired. Save the PDF to the same folder as the GFM and HTML versions.
+
+## 6) Delete extraneous files
+
+The OASIS document package only needs the three versions of the document (GFM,
+HTML, PDF), the `images` folder, and any folders containing essential material
+for the package (e.g., schemas, source code). All other files and folders can be
+deleted.
+
+## 7) Create a compressed file
+
+Use a document compression capability in a file manager or stand-alone utility
+to create an archive with all of the required files (e.g., in Windows,
+right-click on `doc_name.md` and select *Send To*, then *Compressed (zipped)
+folder*). The resulting file (e.g., `doc_name.zip`) is suitable for upload to
+OASIS.
