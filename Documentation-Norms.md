@@ -235,9 +235,9 @@ preferred authoritative format for work products (AKA documents)
 and the GitHub [Fork & Pull
 model](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models)
 for controlling the development of work product content. If
-you’re completely unfamiliar with GitHub, [Annex
-B](#annex-b-getting-comfortable-with-github) provides an
-introduction and links to other helpful information sources.
+you’re completely unfamiliar with GitHub,
+[Appendix B](#appendix-b-getting-comfortable-with-github)
+provides an introduction and links to other helpful information sources.
 
 >(NOTE:  The use of Google Docs as an initial development
 >platform for work products remains available as an option; a
@@ -250,8 +250,8 @@ Markdown is a text-based language that uses a simple formatting
 syntax to make editing easy, the Markdown source very readable,
 and the processed output nicely formatted. Since OASIS uses
 GitHub repositories for version control, the OpenC2 TC is
-specifically using [GitHub-Flavored
-Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-)
+specifically using 
+[GitHub-Flavored Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-)
 (often shortened as GFM), the dialect of Markdown that is
 currently supported for user content on GitHub.com and GitHub
 Enterprise.
@@ -674,8 +674,8 @@ Document creation using GitHub is inherently text-based. It is
 possible for an editor to do all of their work entirely within
 GitHub, but for many it may be more comfortable and/or convenient
 to create a local copy of the repository to enable use of
-preferred text editors, working offline, etc. [Annex
-A](#annex-a-links-to-useful-software) provides suggestions for
+preferred text editors, working offline, etc. 
+[Appendix A](#appendix-a-links-to-useful-software) provides suggestions for
 useful software. [Annex
 B](#annex-b-getting-comfortable-with-github) provides an overview
 of establishing an environment with a related set of repositories
@@ -734,7 +734,7 @@ extension is very helpful, and can create and update TOCs within
 the editor.
 
 Another alternative is
-[pandoc](#annex-a-links-to-useful-software). a flexible document
+[pandoc](#appendix-a-links-to-useful-software). a flexible document
 conversion tool that can created the TOC in a local file, as
 follows:
 
@@ -1237,7 +1237,12 @@ A Google Docs add-on called Paragraph Styles+ (PS+) is very useful to manage dec
 
 ## E.1 Section Numbering
 
-OASIS documents use [decimal outline numbering](https://en.wikipedia.org/wiki/Outline_(list)#Decimal_outline). The use of Paragraph Styles+ makes this much easier. The TC uses "Annex" for supplement section to documents (e.g., examples, acronym lists, acknowledgements). Annex titles get Heading 1 formatting, which means Paragraph Styles+ will number them; we edit out those numbers during the publishing process.
+OASIS documents use [decimal outline numbering](https://en.wikipedia.org/wiki/Outline_(list)#Decimal_outline). The
+use of Paragraph Styles+ makes this much easier. The TC uses "Annex" for
+supplement section to documents (e.g., examples, acronym lists,
+acknowledgements). Annex titles get Heading 1 formatting, which means Paragraph
+Styles+ will number them; we edit out those numbers during the publishing
+process.
 
 ## E.2 Figure & Table Numbering
 
