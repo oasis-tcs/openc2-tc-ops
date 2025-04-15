@@ -137,6 +137,14 @@ Work product editors should become familiar with OASIS guidance on development o
 
     * **Part 4: [Work Product Preparation](https://docs.google.com/document/d/10lt8f2pn_ebZTsWJiGYiWYzyo6NbjuTskvDcS2tSyPw/edit#):** covers lessons learned, tips, etc for preparing documents without errors.
 
+> **NOTE:**  In September 2024 OASIS published [_Document Life Cycle Best
+> Practices_](https://www.oasis-open.org/policies-guidelines/document-life-cycle-best-practices/).
+> This document defines changes in the terminology and numbering applied to
+> in-development work products and should be consulted by work product editors
+> to remain consistent with OASIS guidelines. In particular, the _Document Life
+> Cycle Best Practices_ redefines the meaning of "working draft" to a limited
+> scope.
+
 * **Related guidance:** Other documents produced by the OASIS TAB address related topics: 
 
     * _[The OASIS Naming Directives](http://docs.oasis-open.org/specGuidelines/ndr/namingDirectives.html)_. To keep a vast collection of works like the content from OASIS TCs organized in a sensible manner requires some rules governing the organization and naming of work. This document lists the limitations and requirements that apply to filenames, directories in the OASIS libraries, structural organization of work, namespaces, titles and version numbering, etc.
@@ -168,7 +176,7 @@ supporting manner (e.g., for message transfer). This family
 includes a variety of document types:
 
 * Language Specification
-* Architecture Specification (pending)
+* Architecture Specification
 * Actuator Profiles (APs)
 * Transfer Specifications
 * Supplementary documents
@@ -185,11 +193,9 @@ The OpenC2 TC has been using a development process inspired by
 agile software development concepts. Under this process, editors
 work with the members of the TC to incrementally develop and gain
 consensus regarding the content of a work product. This process
-includes moderately frequent publication of [Working
-Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkingDraft)
-(WDs) that are then presented to the OpenC2 TC for approval as
-[Committee Specification
-Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeDraft)
+includes moderately frequent publication of updated work product drafts
+that are then presented to the OpenC2 TC for approval as
+[Committee Specification Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeDraft)
 (CSDs). *Approval of a CSD formalizes and documents TC consensus
 on the material from that increment of development.*
 
@@ -217,7 +223,7 @@ currently performed within the OpenC2 TC, is as follows:
 * Upload template and configure repository
 * Apply agile, incremental development (cycle)
   * Development activity review and approval through the [working meeting process](Working-Meeting-Process.md)
-  * Intermittent WD releases / CSD approvals
+  * Intermittent draft releases / CSD approvals
 * Conduct Public Review (cycle)
 * CS Approval & Publication
 
@@ -235,9 +241,9 @@ preferred authoritative format for work products (AKA documents)
 and the GitHub [Fork & Pull
 model](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models)
 for controlling the development of work product content. If
-you’re completely unfamiliar with GitHub, [Annex
-B](#annex-b-getting-comfortable-with-github) provides an
-introduction and links to other helpful information sources.
+you’re completely unfamiliar with GitHub,
+[Appendix B](#appendix-b-getting-comfortable-with-github)
+provides an introduction and links to other helpful information sources.
 
 >(NOTE:  The use of Google Docs as an initial development
 >platform for work products remains available as an option; a
@@ -246,15 +252,17 @@ introduction and links to other helpful information sources.
 >the document. All TC member should have access to the TC's
 >Google Drive space.)
 
-Markdown is a text-based language that uses a simple formatting
-syntax to make editing easy, the Markdown source very readable,
-and the processed output nicely formatted. Since OASIS uses
-GitHub repositories for version control, the OpenC2 TC is
-specifically using [GitHub-Flavored
-Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-)
-(often shortened as GFM), the dialect of Markdown that is
-currently supported for user content on GitHub.com and GitHub
-Enterprise.
+Markdown is a text-based language that uses a simple formatting syntax to make
+editing easy, the Markdown source very readable, and the processed output nicely
+formatted. Since OASIS uses GitHub repositories for version control, the OpenC2
+TC is specifically using 
+[GitHub-Flavored Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-)
+(often shortened as GFM), the dialect of Markdown that is currently supported
+for user content on GitHub.com and GitHub Enterprise. Markdown is reasonably
+powerful and convenient but has limitations. A principle of Markdown is that
+[HTML can be used](https://www.markdownguide.org/basic-syntax/#html)
+in-line in a Markdown document where Markdown's formatting
+capabilities are insufficient.
 
 GitHub offers many useful features to support our process,
 including rich version control features, issue capture and
@@ -469,13 +477,6 @@ Requesting a template / starter document creates *no* obligation
 for the TC or the editor(s) that the work product will be
 completed.
 
-> NOTE: OASIS changed their document formats in late 2020; an
-> overview of the new structure for a specification is provided
-> for reference in [Document Template
-> 2020](./Document-Template-2020.md). The starter document
-> provided by OASIS contains much more complete guidance than the
-> overview.
-
 Both the template / starter document and a GitHub repo are
 requested using forms on the [TC Admin
 Requests](https://www.oasis-open.org/resources/tc-admin-requests)
@@ -483,12 +484,12 @@ page. Any TC member may place the requests, but typically this
 will be handled by some one of: the document editor(s), the TC
 co-chairs, or the TC Secretary. Editors who are uncertain how to
 proceed should request assistance from the Secretary. Submitting
-a TC Admin request requires login with the submitter's OASIS Kavi
+a TC Admin request requires login with the submitter's OASIS
 credentials. The relevant forms on the TC Admin Requests page
 are:
 
 * Request a template / starter document (use the notes section of
-  the request form to specificallyk request a Markdown-formatted
+  the request form to specifically request a Markdown-formatted
   starter document)
 
 * Request a TC GitHub version control instance be created (this
@@ -559,8 +560,8 @@ been created. A list of the TC's work product repos and the
 maintainers associated with each can be found on the OASIS
 [Teams](https://github.com/orgs/oasis-tcs/teams?utf8=%E2%9C%93&query=openc2)
 page on GitHub. Changes to a repository's write team can be
-intituted by emailing a request to the OASIS TC Administration
-team (i.e, Chet Ensign and Paul  Knight).
+instituted by emailing a request to the OASIS TC Administration
+team.
 
 
 ### 4.3.3 Configure Repository
@@ -574,10 +575,11 @@ the work as follows:
   product, material that is actively being developed, and subject
   to potentially frequent and significant change. Contributors to
   the work product should target their inputs to the Working
-  branch. Working Draft (WD) versions of the work product are
-  identified using the GitHub Release feature with the Working
-  branch content as the basis for the release, and the WD content
-  is them uploaded to the TC's document store at OASIS (see [Section 4.4.1](#441-creating--posting-a-working-draft) for details).
+  branch. Specific draft versions of the work product are
+  identified using the GitHub [Release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+  feature with the Working branch content as the _target_ for the release, and the
+  draft content is then uploaded to the TC's document store at OASIS (see [Section
+  4.4.1](#441-creating--posting-a-working-draft) for details).
 
 * The *Published* (default) branch contains TC-/OASIS-approved
   Committee Specification (CS) and OASIS Standard (OS) versions
@@ -608,7 +610,7 @@ populated with three files:
   README.txt in the starter template).
 
 The first two files must remain when other contents are added to
-the repository. 
+the repository.
 
 The OpenC2 TC has developed a [model README.md
 file](MODEL-README.md), a copy of which is contained in the [TC
@@ -646,23 +648,24 @@ There may be other folders or files as appropriate to the work product under dev
 Work-in-progress is always handled in the `working` branch,
 using the standard GitHub mechanisms of forking the work
 product repository and creating pull requests (PRs) with
-contributions. When Working Drafts (WDs) are declared, the
-GitHub Release feature is used to create the WD package for
-upload to OASIS.  If a WD is approved as a Committee
+contributions. When a new Drafts version is declared, the
+GitHub Release feature is used to create the a document package for
+upload to OASIS.  If the draft is approved as a Committee
 Specification Draft (CSD) the editors should edit the
-Release description to (i) record that the WD was approved
+Release description to (i) record that the draft was approved
 and the CSD version, and (ii) add a link to the published
-CDS at OASIS. A link to the approval ballot can also be
+CSD at OASIS. A link to the approval ballot can also be
 added to the release description.
 
 ## 4.4 Incremental Development
 
 > **NOTE:  In September 2024 OASIS published
-> [Document Life Cycle Best Practices](https://issues.oasis-open.org/projects/TCADMIN/issues/TCADMIN-4469?filter=allopenissues)
+> [Document Life Cycle Best Practices](https://www.oasis-open.org/policies-guidelines/document-life-cycle-best-practices/)
 > and in November 2024 the OpenC2 TC adopted the standing rules suggested in that document as
 > [Standing Rules 7, 8 and 9](https://groups.oasis-open.org/communities/tc-community-home2?CommunityKey=a34c9baf-48b2-44c5-a567-018dc7d32296#other).
 > Those changes significantly affect the work product development process and the description below _has not_
-> been updated to align. Work Product editors should consult the Best Practices document for guidance and request assistance from the TC Secretary if needed.**
+> been updated to align. Work Product editors should consult the Best Practices document for guidance and request assistance from the TC Secretary if needed. In particular, under the new best practices the term "Working Draft" only applies 
+> [prior to a TC accepting a proposal to become a work item](https://www.oasis-open.org/policies-guidelines/document-life-cycle-best-practices/#DocRevertBP).**
 
 Developing a document on GitHub requires the editor to develop a level of comfort with two distinct skills:
 
@@ -673,10 +676,10 @@ Document creation using GitHub is inherently text-based. It is
 possible for an editor to do all of their work entirely within
 GitHub, but for many it may be more comfortable and/or convenient
 to create a local copy of the repository to enable use of
-preferred text editors, working offline, etc. [Annex
-A](#annex-a-links-to-useful-software) provides suggestions for
-useful software. [Annex
-B](#annex-b-getting-comfortable-with-github) provides an overview
+preferred text editors, working offline, etc. 
+[Appendix A](#appendix-a-links-to-useful-software) provides suggestions for useful software.
+[Appendix B: Getting Comfortable with GitHub](#appendix-b-getting-comfortable-with-github)
+provides an overview
 of establishing an environment with a related set of repositories
 to enable working in this manner and a link to an excellent
 explainer; other resources can readily be found by searching
@@ -684,13 +687,13 @@ on-line. TC members are also happy to share their GitHub
 knowledge, and GitHub provides an extensive
 [help](https://help.github.com/en) library.
 
-Figure 3 illlustrates the flow of information between GitHub and
+Figure 3 illustrates the flow of information between GitHub and
 OASIS as working drafts are posted and CSDs are approved. It also
 illustrates the use of GitHub release tags to enable precisely
 locating specific versions of the work product in the repository.
 Figure 3 also shows updating the working version from a published
 CSD. It is common for OASIS TC Administration to find and fix
-issues in work products during publiction (e.g., correcting
+issues in work products during publication (e.g., correcting
 broken links). The incorporation of such changes into the working
 version aids in the publication of future versions. The details
 of such changes are commonly included in the message sent to the
@@ -733,7 +736,7 @@ extension is very helpful, and can create and update TOCs within
 the editor.
 
 Another alternative is
-[pandoc](#annex-a-links-to-useful-software). a flexible document
+[pandoc](#appendix-a-links-to-useful-software). a flexible document
 conversion tool that can created the TOC in a local file, as
 follows:
 
@@ -784,7 +787,7 @@ styles/markdown-styles-v1.7.css -s -o <filename>.html --metadata
 title="Title of Specification Version X.Y"`
 
 > NOTE: if creating an HTML file, the editor can also point to
-> the CSS file maintaind at OASIS:
+> the CSS file maintained at OASIS:
 > `https://docs.oasis-open.org/templates/css/markdown-styles-v1.7.3a.css`;
 > this URL can be referenced directly in the `pandoc` command
 > after the `-c` option.
@@ -958,7 +961,7 @@ article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beg
 from someone who isn’t primarily a programmer. A web search for
 "github writer" will yield other similar articles. Note that many
 of these these articles tend to focus on the use of command line
-`git`, which may be only minimially necessary if you're using a
+`git`, which may be only minimally necessary if you're using a
 GitHub-aware editor. Also, some were published long enough ago
 that some details of the GitHub user interface have changed, so
 the screenshots may be a bit out-of-date.
@@ -1024,7 +1027,7 @@ for definitions of key terminology.
    "[push](https://help.github.com/en/github/getting-started-with-github/github-glossary#push)"
    command (on the local command line) to replicate their content
    to their fork repo. This updates the fork repo to match the
-   local repo. Pushes can be done frequently to propogate local
+   local repo. Pushes can be done frequently to propagate local
    changes to the GitHub fork as a backup mechanism, until the
    Contributor determines it is time to contribute their changes
    onward. Note that `git`-aware editing tools, such as the
@@ -1236,7 +1239,12 @@ A Google Docs add-on called Paragraph Styles+ (PS+) is very useful to manage dec
 
 ## E.1 Section Numbering
 
-OASIS documents use [decimal outline numbering](https://en.wikipedia.org/wiki/Outline_(list)#Decimal_outline). The use of Paragraph Styles+ makes this much easier. The TC uses "Annex" for supplement section to documents (e.g., examples, acronym lists, acknowledgements). Annex titles get Heading 1 formatting, which means Paragraph Styles+ will number them; we edit out those numbers during the publishing process.
+OASIS documents use [decimal outline numbering](https://en.wikipedia.org/wiki/Outline_(list)#Decimal_outline). The
+use of Paragraph Styles+ makes this much easier. The TC uses "Annex" for
+supplement section to documents (e.g., examples, acronym lists,
+acknowledgements). Annex titles get Heading 1 formatting, which means Paragraph
+Styles+ will number them; we edit out those numbers during the publishing
+process.
 
 ## E.2 Figure & Table Numbering
 
