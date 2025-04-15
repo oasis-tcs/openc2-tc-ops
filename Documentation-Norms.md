@@ -185,11 +185,9 @@ The OpenC2 TC has been using a development process inspired by
 agile software development concepts. Under this process, editors
 work with the members of the TC to incrementally develop and gain
 consensus regarding the content of a work product. This process
-includes moderately frequent publication of [Working
-Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dWorkingDraft)
-(WDs) that are then presented to the OpenC2 TC for approval as
-[Committee Specification
-Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeDraft)
+includes moderately frequent publication of updated work product drafts
+that are then presented to the OpenC2 TC for approval as
+[Committee Specification Drafts](https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22#dCommitteeDraft)
 (CSDs). *Approval of a CSD formalizes and documents TC consensus
 on the material from that increment of development.*
 
