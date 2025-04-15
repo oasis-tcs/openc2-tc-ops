@@ -33,21 +33,24 @@ This repository includes the following information:
   those work products. Also includes information about choosing
   work products names and shorthands, branch management strategy
   for work product GitHub repos, and other helpful info.
-* [Work-Product-List.md](Work-Product-List.md) -- a list of the TC's on-going work products with status, editor names, links to repositories and recent versions
-* [Working-Meeting-Process.md](Working-Meeting-Process.md) -- a description of the new (as of March 2021) process for planning and conducting working meetings to advance the development of work products in the OpenC2 TC
+* [From-MD-2-Doc-Package.md](From-MD-2-Doc-Package.md) -- a step-by-step process
+  for creating a document package starting from a Github-flavor Markdown source
+  document
+* [Work-Product-List.md](Work-Product-List.md) -- a list of the TC's on-going
+  work products with status, editor names, links to repositories and recent
+  versions
+* [Working-Meeting-Process.md](Working-Meeting-Process.md) -- a description of
+  the new (as of March 2021) process for planning and conducting working
+  meetings to advance the development of work products in the OpenC2 TC
 * [Meeting-Scheduling.md](Meeting-Scheduling.md)
   -- notes about the meeting scheduling process, for reference by
   co-chairs and the TC secretary
-* [Document-Template-2020.md](Document-Template-2020.md) -- a highly condensed version of the new work product outline adopted in late 2020 by OASIS. New work items should use this format (it will be reflected in the starter document provided by OASIS). Existing work items can be reformatted to use this outline; the TC's work product editors consider it an improvement.
 * [Other-OpenC2-Work.md](Other-OpenC2-Work.md)
   -- a listing of OpenC2 implementation efforts known to the TC
   outside of those maintained in [open repositories sponsored by
-  the
-  TC](https://github.com/oasis-open?utf8=%E2%9C%93&q=openc2-&type=&language=)
-* [ITU Process For OpenC2
-  Adoption](https://github.com/oasis-tcs/openc2-tc-ops/wiki/ItuProcessForOpenC2Adoption)
-  -- a [wiki
-  page](https://github.com/oasis-tcs/openc2-tc-ops/wiki) with
+  the TC](https://github.com/oasis-open?utf8=%E2%9C%93&q=openc2-&type=&language=)
+* [ITU Process For OpenC2 Adoption](https://github.com/oasis-tcs/openc2-tc-ops/wiki/ItuProcessForOpenC2Adoption)
+  -- a [wiki page](https://github.com/oasis-tcs/openc2-tc-ops/wiki) with
   information about the International Telecommunications Union
   (ITU) and efforts to encourage its adoption of OpenC2 as an ITU
   Recommendation.
