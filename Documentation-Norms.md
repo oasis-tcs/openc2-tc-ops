@@ -244,15 +244,16 @@ provides an introduction and links to other helpful information sources.
 >the document. All TC member should have access to the TC's
 >Google Drive space.)
 
-Markdown is a text-based language that uses a simple formatting
-syntax to make editing easy, the Markdown source very readable,
-and the processed output nicely formatted. Since OASIS uses
-GitHub repositories for version control, the OpenC2 TC is
-specifically using 
+Markdown is a text-based language that uses a simple formatting syntax to make
+editing easy, the Markdown source very readable, and the processed output nicely
+formatted. Since OASIS uses GitHub repositories for version control, the OpenC2
+TC is specifically using 
 [GitHub-Flavored Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-)
-(often shortened as GFM), the dialect of Markdown that is
-currently supported for user content on GitHub.com and GitHub
-Enterprise.
+(often shortened as GFM), the dialect of Markdown that is currently supported
+for user content on GitHub.com and GitHub Enterprise. Markdown is reasonably
+powerful and convenient but has limitations. A principle of Markdown is that
+HTML can be used in-line in a Markdown document where Markdown's formatting
+capabilities are insufficient.
 
 GitHub offers many useful features to support our process,
 including rich version control features, issue capture and
