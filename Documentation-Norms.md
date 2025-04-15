@@ -260,7 +260,8 @@ TC is specifically using
 (often shortened as GFM), the dialect of Markdown that is currently supported
 for user content on GitHub.com and GitHub Enterprise. Markdown is reasonably
 powerful and convenient but has limitations. A principle of Markdown is that
-HTML can be used in-line in a Markdown document where Markdown's formatting
+[HTML can be used](https://www.markdownguide.org/basic-syntax/#html)
+in-line in a Markdown document where Markdown's formatting
 capabilities are insufficient.
 
 GitHub offers many useful features to support our process,
