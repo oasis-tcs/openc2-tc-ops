@@ -1,0 +1,72 @@
+# From Markdown to a Document Package
+
+This brief note explains current (as of April 2025) procedures for creating a
+document package starting from a Markdown document and associated files in a
+GitHub repository. The output is a compressed document package with Markdown,
+HTML, and PDF versions for upload to OASIS
+
+
+
+## Starting Point
+
+This process assumes the availability of
+
+- the focus document in Github-Flavored Markdown (GFM) format
+- any graphics needed for the document, typically in PNG or JPEG format
+- a CSS file that defines OASIS-aligned formatting
+- [`pandoc`](https://pandoc.org/), a FOSS document format conversion tool
+- Google Chrome or another Chromium-based browser (note that this process has only been tested with Chrome)
+
+## Process Overview
+
+The process has the following step
+
+1. Declare a Github Release corresponding to the desired version of the focus document
+2. Download the compressed file for the release and extract to a working folder
+3. Create an HTML version from the Markdown file to HTML using `pandoc` and a suitable CSS file
+4. Review the HTML file for correctness and make any needed adjustments
+5. Use Chrome's `Save as PDF` feature to produce a PDF version
+6. Delete extraneous files
+7. Create a compressed file containing the three versions plus a folder of image
+   files and, as needed, other folders with associated file (e.g., schemas)
+
+## 1) Declare a Github Release
+
+The GitHub [Release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+feature is used to establish a precise checkpoint for the document version. It
+is assumed that the administrative information (date, TOC, tables of figures and
+tables, etc.) have been addressed in the editing process, formatting tweaks such
+as removal of unneeded page break lines have been applied, and that the desired
+document version and associated files are in the working branch of the OASIS
+repository for the document.
+
+Key items to address when creating the release:
+
+- Craft a suitable tag value to be applied; for example `v2-csd01-candidate`
+- Ensure that the **Target** for the release is the working branch
+- Provide a descriptive title; for example "v2.0 CSD01 Candidate (YYYY-MM-DD)"
+where the date is the TC meeting date where approval is expected or the date the
+editor is applying to a CSD release (per the relevant standing rule in the OASIS
+[_Document Life Cycle Best Practices_](https://www.oasis-open.org/policies-guidelines/document-life-cycle-best-practices/),
+if the TC has adopted that rule)
+- Provide an overview of changes in this version
+- Use the Generate Release Notes feature to capture a list of the specific PRs
+  that have been applied (this is most useful if the PRs have informative names)
+
+## 2) Download the compressed file
+
+Declaring a release on GitHub triggers the creation of **Assets** that include
+`zip` and `tar.gz` versions of the content of the target branch as of when the
+release is created. Download the appropriate format for your operating system of
+choice, and extract all of its contents to a working folder. Essential files from the download will be:
+
+```
+\images
+\styles
+doc_name.md
+```
+
+## 3) Create an HTML version
+
+Use a document conversion tool to create an HTML version from the `doc_name.md` version of the document. This process description assumes that the FOSS `pandoc` tool is being used.  The important parameters for the `pandoc` command line are:
+
