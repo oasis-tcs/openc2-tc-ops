@@ -58,15 +58,40 @@ if the TC has adopted that rule)
 Declaring a release on GitHub triggers the creation of **Assets** that include
 `zip` and `tar.gz` versions of the content of the target branch as of when the
 release is created. Download the appropriate format for your operating system of
-choice, and extract all of its contents to a working folder. Essential files from the download will be:
+choice, and extract all of its contents to a working folder. Files from the
+download will be, approximately:
 
 ```
 \images
 \styles
+\other-file-folders
 doc_name.md
+other-documents.md
 ```
 
 ## 3) Create an HTML version
 
 Use a document conversion tool to create an HTML version from the `doc_name.md` version of the document. This process description assumes that the FOSS `pandoc` tool is being used.  The important parameters for the `pandoc` command line are:
 
+```
+1) \pandoc\pandoc 
+2)  -f gfm -t html
+3)  --css=file://<path-to-working-folder>\styles\markdown-styles-2025-template-dk-page.css
+4)  --include-in-header=<path-to-working-folder>\styles\markdown-styles-2025-template-dk-page.css
+5)  -s
+6)  -o doc_name.html  
+7)  doc_name.md
+```
+
+Explanations:
+
+1. The program invocation with any needed path
+2. The source (`-f`) and destination (`-t`) file formats
+3. The CSS file to style the HTML output
+4. Directive to embed the CSS file in the HTML output header, per OASIS guidance to not require external CSS
+5. Directive to produce a standalone CSS file
+6. The output file name
+7. The input file name
+
+It is important that the CSS file contents have the `<style> ... </style>`
+wrapper in order for its contents to be properly embedded in the HTML output.
