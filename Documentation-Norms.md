@@ -137,6 +137,14 @@ Work product editors should become familiar with OASIS guidance on development o
 
     * **Part 4: [Work Product Preparation](https://docs.google.com/document/d/10lt8f2pn_ebZTsWJiGYiWYzyo6NbjuTskvDcS2tSyPw/edit#):** covers lessons learned, tips, etc for preparing documents without errors.
 
+> **NOTE:**  In September 2024 OASIS published [_Document Life Cycle Best
+> Practices_](https://www.oasis-open.org/policies-guidelines/document-life-cycle-best-practices/).
+> This document defines changes in the terminology and numbering applied to
+> in-development work products and should be consulted by work product editors
+> to remain consistent with OASIS guidelines. In particular, the _Document Life
+> Cycle Best Practices_ redefines the meaning of "working draft" to a limited
+> scope.
+
 * **Related guidance:** Other documents produced by the OASIS TAB address related topics: 
 
     * _[The OASIS Naming Directives](http://docs.oasis-open.org/specGuidelines/ndr/namingDirectives.html)_. To keep a vast collection of works like the content from OASIS TCs organized in a sensible manner requires some rules governing the organization and naming of work. This document lists the limitations and requirements that apply to filenames, directories in the OASIS libraries, structural organization of work, namespaces, titles and version numbering, etc.
