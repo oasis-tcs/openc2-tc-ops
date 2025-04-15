@@ -575,10 +575,11 @@ the work as follows:
   product, material that is actively being developed, and subject
   to potentially frequent and significant change. Contributors to
   the work product should target their inputs to the Working
-  branch. Working Draft (WD) versions of the work product are
-  identified using the GitHub Release feature with the Working
-  branch content as the basis for the release, and the WD content
-  is them uploaded to the TC's document store at OASIS (see [Section 4.4.1](#441-creating--posting-a-working-draft) for details).
+  branch. Specific draft versions of the work product are
+  identified using the GitHub [Release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+  feature with the Working branch content as the _target_ for the release, and the
+  draft content is then uploaded to the TC's document store at OASIS (see [Section
+  4.4.1](#441-creating--posting-a-working-draft) for details).
 
 * The *Published* (default) branch contains TC-/OASIS-approved
   Committee Specification (CS) and OASIS Standard (OS) versions
@@ -647,13 +648,13 @@ There may be other folders or files as appropriate to the work product under dev
 Work-in-progress is always handled in the `working` branch,
 using the standard GitHub mechanisms of forking the work
 product repository and creating pull requests (PRs) with
-contributions. When Working Drafts (WDs) are declared, the
-GitHub Release feature is used to create the WD package for
-upload to OASIS.  If a WD is approved as a Committee
+contributions. When a new Drafts version is declared, the
+GitHub Release feature is used to create the a document package for
+upload to OASIS.  If the draft is approved as a Committee
 Specification Draft (CSD) the editors should edit the
-Release description to (i) record that the WD was approved
+Release description to (i) record that the draft was approved
 and the CSD version, and (ii) add a link to the published
-CDS at OASIS. A link to the approval ballot can also be
+CSD at OASIS. A link to the approval ballot can also be
 added to the release description.
 
 ## 4.4 Incremental Development
