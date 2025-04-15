@@ -48,12 +48,9 @@ This repository includes the following information:
 * [Other-OpenC2-Work.md](Other-OpenC2-Work.md)
   -- a listing of OpenC2 implementation efforts known to the TC
   outside of those maintained in [open repositories sponsored by
-  the
-  TC](https://github.com/oasis-open?utf8=%E2%9C%93&q=openc2-&type=&language=)
-* [ITU Process For OpenC2
-  Adoption](https://github.com/oasis-tcs/openc2-tc-ops/wiki/ItuProcessForOpenC2Adoption)
-  -- a [wiki
-  page](https://github.com/oasis-tcs/openc2-tc-ops/wiki) with
+  the TC](https://github.com/oasis-open?utf8=%E2%9C%93&q=openc2-&type=&language=)
+* [ITU Process For OpenC2 Adoption](https://github.com/oasis-tcs/openc2-tc-ops/wiki/ItuProcessForOpenC2Adoption)
+  -- a [wiki page](https://github.com/oasis-tcs/openc2-tc-ops/wiki) with
   information about the International Telecommunications Union
   (ITU) and efforts to encourage its adoption of OpenC2 as an ITU
   Recommendation.
