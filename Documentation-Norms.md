@@ -168,7 +168,7 @@ supporting manner (e.g., for message transfer). This family
 includes a variety of document types:
 
 * Language Specification
-* Architecture Specification (pending)
+* Architecture Specification
 * Actuator Profiles (APs)
 * Transfer Specifications
 * Supplementary documents
