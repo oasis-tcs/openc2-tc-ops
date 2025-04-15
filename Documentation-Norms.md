@@ -484,12 +484,12 @@ page. Any TC member may place the requests, but typically this
 will be handled by some one of: the document editor(s), the TC
 co-chairs, or the TC Secretary. Editors who are uncertain how to
 proceed should request assistance from the Secretary. Submitting
-a TC Admin request requires login with the submitter's OASIS Kavi
+a TC Admin request requires login with the submitter's OASIS
 credentials. The relevant forms on the TC Admin Requests page
 are:
 
 * Request a template / starter document (use the notes section of
-  the request form to specificallyk request a Markdown-formatted
+  the request form to specifically request a Markdown-formatted
   starter document)
 
 * Request a TC GitHub version control instance be created (this
@@ -560,8 +560,8 @@ been created. A list of the TC's work product repos and the
 maintainers associated with each can be found on the OASIS
 [Teams](https://github.com/orgs/oasis-tcs/teams?utf8=%E2%9C%93&query=openc2)
 page on GitHub. Changes to a repository's write team can be
-intituted by emailing a request to the OASIS TC Administration
-team (i.e, Chet Ensign and Paul  Knight).
+instituted by emailing a request to the OASIS TC Administration
+team.
 
 
 ### 4.3.3 Configure Repository
@@ -610,7 +610,7 @@ populated with three files:
   README.txt in the starter template).
 
 The first two files must remain when other contents are added to
-the repository. 
+the repository.
 
 The OpenC2 TC has developed a [model README.md
 file](MODEL-README.md), a copy of which is contained in the [TC
@@ -677,9 +677,9 @@ possible for an editor to do all of their work entirely within
 GitHub, but for many it may be more comfortable and/or convenient
 to create a local copy of the repository to enable use of
 preferred text editors, working offline, etc. 
-[Appendix A](#appendix-a-links-to-useful-software) provides suggestions for
-useful software. [Annex
-B](#annex-b-getting-comfortable-with-github) provides an overview
+[Appendix A](#appendix-a-links-to-useful-software) provides suggestions for useful software.
+[Appendix B: Getting Comfortable with GitHub](#appendix-b-getting-comfortable-with-github)
+provides an overview
 of establishing an environment with a related set of repositories
 to enable working in this manner and a link to an excellent
 explainer; other resources can readily be found by searching
@@ -687,13 +687,13 @@ on-line. TC members are also happy to share their GitHub
 knowledge, and GitHub provides an extensive
 [help](https://help.github.com/en) library.
 
-Figure 3 illlustrates the flow of information between GitHub and
+Figure 3 illustrates the flow of information between GitHub and
 OASIS as working drafts are posted and CSDs are approved. It also
 illustrates the use of GitHub release tags to enable precisely
 locating specific versions of the work product in the repository.
 Figure 3 also shows updating the working version from a published
 CSD. It is common for OASIS TC Administration to find and fix
-issues in work products during publiction (e.g., correcting
+issues in work products during publication (e.g., correcting
 broken links). The incorporation of such changes into the working
 version aids in the publication of future versions. The details
 of such changes are commonly included in the message sent to the
@@ -787,7 +787,7 @@ styles/markdown-styles-v1.7.css -s -o <filename>.html --metadata
 title="Title of Specification Version X.Y"`
 
 > NOTE: if creating an HTML file, the editor can also point to
-> the CSS file maintaind at OASIS:
+> the CSS file maintained at OASIS:
 > `https://docs.oasis-open.org/templates/css/markdown-styles-v1.7.3a.css`;
 > this URL can be referenced directly in the `pandoc` command
 > after the `-c` option.
@@ -961,7 +961,7 @@ article](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beg
 from someone who isn’t primarily a programmer. A web search for
 "github writer" will yield other similar articles. Note that many
 of these these articles tend to focus on the use of command line
-`git`, which may be only minimially necessary if you're using a
+`git`, which may be only minimally necessary if you're using a
 GitHub-aware editor. Also, some were published long enough ago
 that some details of the GitHub user interface have changed, so
 the screenshots may be a bit out-of-date.
@@ -1027,7 +1027,7 @@ for definitions of key terminology.
    "[push](https://help.github.com/en/github/getting-started-with-github/github-glossary#push)"
    command (on the local command line) to replicate their content
    to their fork repo. This updates the fork repo to match the
-   local repo. Pushes can be done frequently to propogate local
+   local repo. Pushes can be done frequently to propagate local
    changes to the GitHub fork as a backup mechanism, until the
    Contributor determines it is time to contribute their changes
    onward. Note that `git`-aware editing tools, such as the
